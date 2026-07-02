@@ -22,6 +22,8 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     YouTubeEmbed,
     FAQ,
     FAQItem,
+    // Table 为内容里包裹 markdown 管道表格的容器组件，内层会渲染成已注册的小写 table（带样式），这里透传 children 即可
+    Table: ({ children }) => <>{children}</>,
 
     // 覆盖默认 HTML 元素
     h1: (props) => <h1 className="text-4xl font-bold text-white mb-3" {...props} />,
