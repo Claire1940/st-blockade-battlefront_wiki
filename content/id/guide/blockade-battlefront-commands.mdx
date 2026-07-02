@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Perintah Blockade Battlefront: Panduan Pengaturan & Kontrol Server",
+  description: "Kuasai semua perintah Blockade Battlefront untuk server privat Roblox. Pelajari cara mengaktifkan mode sandbox, memblokir/mengeluarkan pemain, dan mengoptimalkan wave Anda.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/d97706/fff?text=Server+Commands+Guide",
+  date: "2026-07-02",
+  author: "Tim Wiki blockade battlefront",
+  keywords: "blockade battlefront, perintah server, mode sandbox, perintah roblox, panduan server privat"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Perintah Utama**: Gunakan perintah chat untuk mengontrol pertandingan server privat kustom.
+- **Mode Sandbox**: Aktifkan **!sandbox** untuk menguji build karakter, skill, dan membuka konfigurasi kustom.
+- **Moderasi Server**: Keluarkan pemain yang bermasalah secara instan dengan perintah **!kick**.
+- **Status Overcharge**: Terapkan **!oc** ke Titan dalam Mode Sandbox untuk pengujian kemampuan pamungkas.
+- **Keamanan Voting**: Gunakan **/e vote** untuk memulai ulang server yang lag atau memperbaiki wave yang bug.
+</Callout>
+
+<Section icon={Map} title="Daftar Perintah Server Privat">
+
+Server privat di ST: Blockade Battlefront memungkinkan host untuk melewati batasan wave standar dan menyesuaikan pertandingan mereka. Dengan mengetik awalan tertentu langsung ke dalam chat dalam game, pemilik server dapat memoderasi pemain, mengaktifkan lingkungan pengujian, dan memodifikasi status karakter.
+
+**Sorotan Video:**
+- **Hak Istimewa Host**: Pelajari cara menggunakan kontrol administrator berbasis chat.
+- **Aktivasi Sandbox**: Demonstrasi langkah demi langkah dari arena pengujian kustom.
+- **Optimalisasi Titan**: Cara memaksa status overcharge pada unit besar.
+
+<YouTubeEmbed videoId="EqBu3HWUrC0" title="Showcase Gameplay ST: Blockade Battlefront" />
+
+Tabel di bawah ini merinci semua perintah host terverifikasi yang tersedia di dalam server privat kustom:
+
+| Perintah | Target / Cakupan | Fungsi & Efek |
+| :--- | :--- | :--- |
+| **!sandbox** | Seluruh Server | Mengaktifkan Mode Sandbox, membuka fitur pengujian tanpa batas. |
+| **!kick [username]** | Pemain Tertentu | Segera mengeluarkan pemain yang ditentukan dari server aktif. |
+| **!oc** | Titan Aktif | Menerapkan Status Overcharge ke Titan Anda (memerlukan Mode Sandbox). |
+| **/e vote** | Seluruh Server | Memulai pemungutan suara komunitas untuk memulai ulang server yang lag atau bug. |
+
+<Callout type="warning" title="Pemberitahuan Host">
+Perintah hanya berfungsi jika Anda adalah host yang ditunjuk dari server privat. Mencoba mengetik string ini di lobi matchmaking publik hanya akan menghasilkan pesan chat standar tanpa efek sistem.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fitur Mode Sandbox">
+
+Mengaktifkan Mode Sandbox melalui **!sandbox** sepenuhnya mengubah siklus wave-defense standar menjadi tempat pengujian terbuka. Mode ini sangat direkomendasikan bagi pemain yang ingin bereksperimen dengan kombo skill yang kompleks, memeriksa penskalaan kerusakan, atau mengatur pertandingan PvP kustom.
+
+<CardGrid cols={3}>
+  <Card title="Integrasi Pembangun Skill">
+    - **Set Gerakan Kustom**: Rancang urutan skill Anda sendiri menggunakan antarmuka Block Canvas.
+    - **Penyetelan Properti**: Edit parameter seperti cooldown, hitbox, dan kecepatan proyektil.
+    - **Kebebasan Pengujian**: Segera gunakan kemampuan kustom tanpa perlu grinding level mastery.
+  </Card>
+  <Card title="Pertandingan PvP Kustom">
+    - **Pengaturan Faksi**: Host server dapat mengatur faksi pemain secara manual untuk mengaktifkan pertempuran.
+    - **Tanpa Batas Keseimbangan**: Uji pertarungan karakter secara langsung dalam pertarungan mentah yang tidak dimoderasi.
+    - **Larangan Kustom**: Host dapat melarang karakter tertentu untuk menjaga pertandingan kasual tetap adil.
+  </Card>
+  <Card title="Pengujian Overcharge">
+    - **Peningkatan Titan**: Gunakan **!oc** untuk melewati cooldown overcharge standar.
+    - **Output Kerusakan Maksimal**: Evaluasi kemampuan sebenarnya dari Titan S-Tier di bawah kekuatan puncak.
+    - **Showcase Visual**: Ambil rekaman bersih dari kemampuan tingkat tinggi tanpa gangguan.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tips Pro">
+Mode Sandbox menonaktifkan progres standar, artinya Anda tidak dapat melakukan farming Cens, Poin, atau Mastery saat fitur sandbox aktif. Gunakan mode ini khusus untuk latihan dan pengujian!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cara Menyiapkan Pertandingan Privat">
+
+Menyiapkan pertandingan sandbox privat sangatlah mudah, tetapi memerlukan urutan langkah yang benar di dalam Roblox. Ikuti langkah-langkah ini untuk menjalankan server kustom Anda sendiri:
+
+<Steps>
+  <Step num="1" title="Buat Server">
+    Buka halaman pengalaman resmi Roblox untuk ST: Blockade Battlefront dan beli atau bergabunglah dengan server privat.
+  </Step>
+  <Step num="2" title="Masuk ke Peta">
+    Masuk ke server game aktif alih-alih tetap berada di menu lobi [00首页信息-1.md]. Tunggu hingga aset lingkungan dimuat sepenuhnya.
+  </Step>
+  <Step num="3" title="Buka Chat Dalam Game">
+    Tekan **/** pada keyboard Anda untuk membuka kotak chat default Roblox di pojok kiri atas layar Anda.
+  </Step>
+  <Step num="4" title="Jalankan Perintah Host">
+    Ketik **!sandbox** untuk mengaktifkan fitur pengujian, atau gunakan **!kick [username]** untuk mengelola daftar pemain Anda.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Pengingat Penukaran">
+Sebelum memulai pertandingan kustom, tukarkan kode promo aktif seperti **!redeem Return** atau **!redeem Verified** di lobi utama untuk mendapatkan Poin gratis bagi akun Anda [00首页信息-1.md]!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist Kontrol Server">
+
+Untuk menjaga lingkungan pengujian yang lancar dan bebas lag, host server privat harus melakukan pemeliharaan server dasar secara teratur. Gunakan checklist berikut untuk menjaga pertandingan kustom Anda tetap teratur:
+
+<Checklist
+  id="server-maintenance"
+  title="Praktik Terbaik Host:"
+  items={[
+    "Verifikasi hak istimewa host dengan mengetik perintah pengujian di chat",
+    "Gunakan !kick segera jika ada pemain yang melakukan eksploitasi atau menyebabkan lag",
+    "Mulai /e vote jika wave menjadi bug atau macet",
+    "Matikan Mode Sandbox jika pemain ingin kembali ke pertandingan progres standar",
+    "Laporkan bug yang merusak game langsung ke saluran Discord resmi"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Apakah perintah blockade battlefront berfungsi di server publik?",
+    answer: "Tidak. Perintah chat seperti !sandbox, !kick, dan !oc hanya berfungsi di dalam server privat di mana Anda adalah host yang ditunjuk."
+  },
+  {
+    question: "Bisakah saya mendapatkan Mastery atau Cens saat Mode Sandbox aktif?",
+    answer: "Tidak. Mode Sandbox khusus untuk pengujian dan pertandingan PvP kustom. Semua progres, farming mata uang, dan perolehan mastery dinonaktifkan saat mode ini berjalan."
+  },
+  {
+    question: "Apa yang harus saya lakukan jika wave macet atau server mulai lag?",
+    answer: "Anda dapat menggunakan perintah /e vote di chat untuk memulai pemungutan suara di seluruh server untuk memulai ulang pertandingan dan membersihkan entitas yang bug."
+  },
+  {
+    question: "Bagaimana cara menggunakan perintah Overcharge pada Titan saya?",
+    answer: "Pertama, aktifkan Mode Sandbox dengan mengetik !sandbox. Setelah Anda berada dalam status Titan, ketik !oc di chat untuk segera menerapkan status overcharge."
+  }
+]} />
+
+</Section>

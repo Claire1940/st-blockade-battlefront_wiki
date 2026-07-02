@@ -1,0 +1,162 @@
+import { Shield, Swords, Target, Map, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Blockade Battlefront Fechando Sozinho: Guia de Estabilidade e Otimização para PC",
+  description: "Corrija problemas de travamento, congelamento e quedas de FPS em Blockade Battlefront no Roblox com nossos passos de otimização, configurações gráficas e correções de memória comprovados.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/222437/ffbf00?text=Crash+Fix+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de Blockade Battlefront"
+}
+
+<Callout type="warning" title="Guia Rápido">
+- **Problema principal**: Elimine o **fechamento do Blockade Battlefront** resolvendo vazamentos de memória e conflitos de renderização.
+- **Configurações gráficas**: Altere os gráficos do jogo de automático para o **nível manual 1-3** durante ondas intensas de Titãs.
+- **Privilégio do sistema**: Sempre inicie o Roblox Player como **administrador** para evitar congelamentos baseados em permissões.
+- **Gerenciamento de cache**: Limpe os arquivos temporários corrompidos do Roblox para resolver travamentos que ocorrem diretamente na inicialização.
+- **Conflito de overlay**: Desative as sobreposições (overlays) do Discord, NVIDIA e Xbox Game Bar antes de entrar em um servidor ativo.
+</Callout>
+
+<Section icon={Shield} title="Identificar Causas do Fechamento do Blockade Battlefront">
+
+Blockade Battlefront é um jogo de tiro de sobrevivência e defesa de ondas em ritmo acelerado no Roblox, onde os jogadores posicionam unidades massivas e Titãs para defender sua base [00基础信息]. Devido ao alto número de projéteis ativos, animações complexas de unidades e modelos detalhados de Titãs, os jogadores frequentemente enfrentam gargalos de desempenho. Entender por que seu cliente congela ou fecha para a área de trabalho é o primeiro passo para obter uma experiência de jogo estável.
+
+A maioria dos travamentos no jogo decorre de três áreas principais: sobrecarga de memória durante ondas de alta intensidade, arquivos de cache local corrompidos ou conflitos com softwares em segundo plano.
+
+| Tipo de Travamento | Gatilho Comum | Principal Culpado | Gravidade |
+| :--- | :--- | :--- | :--- |
+| **Fechar para a Área de Trabalho (Sem Erro)** | Posicionar múltiplos Titãs simultaneamente | Vazamento de memória (Out of Memory - OOM) | Alta |
+| **Travado na Tela de Carregamento** | Entrar em um servidor ativo a partir do lobby | Cache de versão do Roblox corrompido | Média |
+| **Tela Congelada (Áudio em Loop)** | Efeitos de partículas intensos ou surgimento de chefes | Tempo limite do driver de GPU ou conflito de overlay | Alta |
+| **Desconexão de Rede (Erro 277)** | Alta densidade de ondas e congestionamento de rede | Perda de pacotes ou consumo de banda em segundo plano | Média |
+
+<Callout type="info" title="Requisitos de Hardware">
+Como os Titãs e as unidades de chefes especiais apresentam designs de alta contagem de polígonos e animações de habilidades complexas, o Blockade Battlefront exige significativamente mais RAM e poder de processamento de CPU do que as experiências padrão e de baixo polígono do Roblox.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Otimizar Gráficos e Configurações do Jogo">
+
+Configurações gráficas altas são um grande catalisador para a instabilidade do cliente, especialmente ao avançar para as ondas finais do jogo ou ao farmar no Boss Rush [00首页信息]. Reduzir a carga de renderização evita que o sistema fique sem memória virtual.
+
+### Ajustando os Parâmetros do Motor do Roblox
+
+Para manter sua taxa de quadros estável e evitar travamentos repentinos durante combates caóticos, ajuste suas configurações usando os parâmetros descritos abaixo:
+
+| Categoria de Configuração | Valor Recomendado | Impacto Esperado |
+| :--- | :--- | :--- |
+| **Modo de Gráficos** | Manual | Libera o controle do controle deslizante manual |
+| **Qualidade Gráfica** | 1 a 3 Barras | Reduz drasticamente o consumo de memória |
+| **Modo Tela Cheia** | Desativado (Modo Janela) | Evita travamentos ao alternar entre janelas (Alt+Tab) |
+| **Modo de Câmera** | Clássico | Reduz a sobrecarga de renderização |
+
+<Callout type="tip" title="Benefício do Modo Janela">
+Executar o jogo em Modo Janela em vez de Tela Cheia evita que o motor do Roblox perca o foco e trave quando você alterna rapidamente de janela para verificar recursos oficiais como o Trello ou o Discord [00基础信息].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Correções de Estabilidade Passo a Passo">
+
+Se o ajuste das configurações do jogo não interromper os travamentos, o problema provavelmente está nas configurações do seu sistema local ou em arquivos temporários. Siga estes passos para realizar uma otimização completa.
+
+<Steps>
+  <Step num="1" title="Executar o Roblox como Administrador">
+    Clique com o botão direito no atalho do seu **Roblox Player** na área de trabalho, selecione **Propriedades**, navegue até a aba **Compatibilidade**, marque **Executar este programa como administrador** e clique em aplicar. Isso garante que o Roblox tenha as permissões necessárias para alocar memória do sistema e gravar dados temporários de sombreamento (shaders).
+  </Step>
+  <Step num="2" title="Limpar o Cache Corrompido do Roblox">
+    Pressione `Windows + R` para abrir a caixa de diálogo Executar, digite `%localappdata%\Roblox` e pressione Enter. Abra as pastas **Downloads** e **Versions**, depois exclua seus conteúdos para forçar o Roblox a recriar arquivos temporários limpos na próxima inicialização.
+  </Step>
+  <Step num="3" title="Desativar Overlays Pesados">
+    Abra o Discord, vá em **Configurações do Usuário**, selecione **Overlay de Jogo** e desative a sobreposição no jogo. Faça o mesmo para o NVIDIA GeForce Experience e a Xbox Game Bar, pois ganchos de overlay ativos frequentemente causam fechamentos instantâneos durante ondas com muitos elementos visuais.
+  </Step>
+  <Step num="4" title="Atualizar os Drivers da Placa de Vídeo">
+    Abra o aplicativo da NVIDIA, AMD Adrenalin ou o Utilitário de Driver da Intel para verificar a versão estável mais recente. Drivers de vídeo corrompidos ou desatualizados são a principal causa de congelamento de tela quando efeitos de partículas complexos são renderizados.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Instalação Limpa">
+Se você continuar enfrentando travamentos ao iniciar, realize uma reinstalação limpa do Roblox Player. Desinstale o aplicativo através do Painel de Controle do Windows, exclua todos os arquivos restantes em `%localappdata%\Roblox` e baixe um novo instalador diretamente do site oficial do Roblox.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ajustes de Hardware e do Sistema">
+
+Para jogadores que utilizam computadores básicos ou intermediários, a alocação de recursos de hardware pode definir o sucesso ou fracasso de suas partidas de defesa de ondas. Use estes ajustes a nível de sistema para priorizar a execução do Roblox.
+
+<CardGrid cols={3}>
+  <Card title="Prioridade no Gerenciador de Tarefas">
+    - Abra o **Gerenciador de Tarefas** (`Ctrl + Shift + Esc`)
+    - Localize o processo do Roblox em execução
+    - Clique com o botão direito, vá em detalhes e defina a prioridade como **Alta**
+    - Evita que tarefas em segundo plano limitem a execução da CPU
+  </Card>
+  <Card title="Otimização do Plano de Energia">
+    - Abra as **Opções de Energia** do Windows
+    - Selecione o plano de energia de **Alto Desempenho**
+    - Garante que sua CPU e GPU não diminuam o desempenho durante as ondas
+    - Estabiliza a entrega de quadros durante ações intensas com Titãs
+  </Card>
+  <Card title="Limpeza em Segundo Plano">
+    - Feche abas desnecessárias do navegador de internet
+    - Encerre aplicativos pesados em segundo plano, como ferramentas de edição
+    - Libera memória RAM do sistema para o carregamento de recursos
+    - Reduz a temperatura geral do sistema sob carga
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Expansão de Memória Virtual">
+Aumentar a memória virtual do seu sistema (tamanho do arquivo de paginação) no seu SSD é uma excelente maneira de interromper travamentos por falta de memória se você tiver apenas 8 GB de RAM física.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Pré-Jogo">
+
+Antes de iniciar uma partida de alto risco no Modo Zumbi ou Boss Rush, passe por esta lista rápida de pré-jogo para garantir que seu sistema esteja pronto para a máxima estabilidade [00首页信息].
+
+<Checklist
+  id="stability-checklist"
+  title="Verificação de Sistema Pré-Jogo:"
+  items={[
+    "Certifique-se de que todos os navegadores de internet e players de mídia pesados em segundo plano estejam totalmente fechados.",
+    "Verifique se o driver da sua placa de vídeo está atualizado para a versão estável mais recente.",
+    "Confirme se o Roblox está sendo executado com privilégios de administrador.",
+    "Verifique novamente se as sobreposições do Discord e da NVIDIA estão totalmente desativadas.",
+    "Defina o controle deslizante de qualidade gráfica do Roblox no jogo para o nível manual 1-3."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que o Blockade Battlefront continua fechando especificamente quando os Titãs surgem?",
+    answer: "Os Titãs usam modelos altamente detalhados, texturas exclusivas e efeitos de partículas massivos. Quando vários Titãs são posicionados de uma só vez, isso cria um pico acentuado no uso de memória que pode desencadear um fechamento por falta de memória em sistemas com pouca RAM ou gráficos integrados."
+  },
+  {
+    question: "Limpar o cache do meu Roblox apagará meu progresso de jogo, unidades ou skins?",
+    answer: "Não. Todo o seu progresso no Blockade Battlefront, incluindo suas unidades, Titãs, níveis de maestria e skins desbloqueadas, é armazenado com segurança nos servidores em nuvem do Roblox. Limpar o cache local apenas exclui arquivos visuais temporários e configurações."
+  },
+  {
+    question: "Jogar no modo janela realmente ajuda a evitar fechamentos inesperados?",
+    answer: "Sim. Jogar no Modo Janela reduz o esforço de renderização ao alternar entre janelas para procurar códigos ou estratégias. O modo Tela Cheia frequentemente causa tempos limite do driver de vídeo ao alternar as janelas ativas."
+  },
+  {
+    question: "O que devo fazer se o jogo congelar na tela de carregamento?",
+    answer: "Isso geralmente é causado por um arquivo de versão local corrompido. Feche o Roblox usando o Gerenciador de Tarefas, limpe a pasta de cache do Roblox e reinicie o computador antes de entrar em um servidor ativo novamente."
+  }
+]} />
+
+</Section>

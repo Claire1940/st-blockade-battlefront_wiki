@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Blockade Battlefront Astro Holdout: Strategi Pertahanan & Loadout Unit",
+  description: "Kuasai Blockade Battlefront Astro Holdout. Pelajari loadout unit terbaik, strategi gelombang Astro Invasion, dan taktik pertahanan pangkalan untuk tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Holdout+Guide",
+  date: "2026-07-02",
+  author: "Tim Wiki blockade battlefront"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Tujuan utama**: Pertahankan pangkalan dari musuh Astro yang cepat, memiliki pelindung (shielded), dan berat dalam mode invasi khusus.
+- **Mekanik utama**: Kuasai keybind gerakan aktif dan koordinasikan pengerahan Titan untuk menghadapi gelombang bertekanan tinggi.
+- **Strategi terbaik**: Tempatkan unit crowd-control murah di awal, tingkatkan ke DPS bergerak (mobile), dan simpan Titan untuk fase bos.
+- **Tips penting**: Hindari terlalu mengandalkan kerusakan target tunggal (single-target damage); gelombang suara area-of-effect (AoE) dan stun sangat penting untuk bertahan hidup.
+- **Pilihan teratas**: Gunakan Villain Arc Brown Cameraman untuk burst DPS dan Upgraded Titan Cameraman untuk menahan serangan bos (tanking) di akhir permainan.
+</Callout>
+
+<Section icon={Map} title="Ikhtisar Mode Astro Invasion">
+
+Bertahan dari gelombang kejam di **blockade battlefront astro holdout** membutuhkan lebih dari sekadar mengerahkan unit secara acak; ini menuntut rencana pertahanan yang sangat terkoordinasi, waktu keterampilan yang tepat, dan manajemen Titan yang dioptimalkan. Mode Astro Invasion merupakan salah satu tantangan paling signifikan dalam permainan, mempertemukan pemain dengan musuh Astro yang sangat gesit, memiliki pelindung, dan memukul dengan keras yang dapat dengan mudah melewati garis pertahanan standar jika dibiarkan tanpa pengawasan.
+
+Berbeda dengan gelombang pertahanan standar, perkembangan bertema Astro memperkenalkan musuh dengan mekanik unik, seperti pelindung energi yang mengurangi kerusakan fisik yang masuk dan manuver dash cepat yang memperpendek jarak ke pangkalan Anda dalam hitungan detik. Untuk bertahan secara konsisten dari ancaman ini, pemain harus memahami jenis musuh spesifik yang muncul selama permainan dan mempersiapkan strategi kontra yang terarah.
+
+| Nama Musuh | Jenis Serangan | Tingkat Ancaman | Strategi Kontra |
+| :--- | :--- | :--- | :--- |
+| Astro Scout | Melee Cepat | Rendah | Stun gelombang suara kelompok |
+| Astro Cruiser | Laser Jarak Jauh | Sedang | Tank dengan kesehatan tinggi |
+| Astro Striker | Dash Cepat | Tinggi | Efek lambat (slow) yang berat |
+| Astro Dreadnought | AoE Berat | Kritis | Kerusakan burst Titan |
+
+<Callout type="warning" title="Peringatan Invasi">
+Astro Striker dapat melewati unit garis depan Anda sepenuhnya menggunakan dash cepat mereka. Selalu pertahankan garis pertahanan kedua yang terdiri dari unit berkemampuan stun yang lebih dekat ke pangkalan Anda untuk menangkap kebocoran ini sebelum mereka menimbulkan kerusakan besar.
+</Callout>
+
+Memahami tata letak peta dan titik penyempitan (choke point) tempat musuh Astro berkumpul adalah langkah pertama untuk mengamankan kemenangan. Pemain harus fokus pada area bottleneck tempat kerusakan splash dan serangan gelombang suara dapat mengenai beberapa target secara bersamaan, memaksimalkan efisiensi setiap unit yang dikerahkan.
+
+</Section>
+
+<Section icon={Swords} title="Loadout Unit Terbaik untuk Astro Holdout">
+
+Memilih roster yang tepat sangat penting untuk bertahan dari gelombang akhir permainan di Astro Invasion. Tim yang seimbang harus menampilkan kombinasi andal antara pertahanan awal permainan yang murah, carry DPS bergerak di pertengahan permainan, unit utilitas pendukung, dan setidaknya satu Titan Spesial berdampak tinggi untuk memperkuat pertahanan selama fase bos.
+
+Tabel di bawah ini menguraikan unit-unit dengan kinerja terbaik yang dievaluasi secara khusus untuk efektivitasnya melawan jenis musuh Astro, dengan fokus pada kemampuan crowd-control, potensi burst, dan utilitas keseluruhan mereka.
+
+| Nama Unit | Peran | Tier | Kemampuan Utama |
+| :--- | :--- | :--- | :--- |
+| Villain Arc Brown Cameraman | Burst DPS | S | Orbital Strike |
+| Glitch Double-Plunger | DPS Bergerak | S | Rantai multi-keterampilan |
+| Upgraded Titan Cameraman | Tank Titan | S | Pelindung berat |
+| Amplifier Woman | Crowd Control | A | Stun gelombang suara |
+| Engineer Camcorder Man | Pendukung | A | Panggil & Hidupkan Kembali |
+| Secret Agent | Utilitas Bos | A | Stun Mode Kursi |
+
+<CardGrid cols={3}>
+  <Card title="Carry DPS">
+    - **Pilihan utama**: Villain Arc Brown Cameraman
+    - **Peran**: Kerusakan burst bertekanan tinggi
+    - **Tombol Terbaik**: Orbital Strike untuk membersihkan kelompok padat
+  </Card>
+  <Card title="Pengendali Massa (Crowd Controller)">
+    - **Pilihan utama**: Amplifier Woman
+    - **Peran**: Stun gelombang suara dan mobilitas tinggi
+    - **Tombol Terbaik**: Leap dan Dash untuk memposisikan ulang dengan cepat
+  </Card>
+  <Card title="Jangkar Pertahanan">
+    - **Pilihan utama**: Upgraded Titan Cameraman
+    - **Peran**: Melindungi dan menyerap serangan bos yang berat
+    - **Tombol Terbaik**: Perfect Block untuk meniadakan kerusakan yang masuk
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sinergi Unit">
+Memadukan Amplifier Woman dengan Villain Arc Brown Cameraman memungkinkan Anda untuk mengumpulkan musuh Astro yang bergerak cepat dengan stun gelombang suara sebelum memusnahkan seluruh kelompok dengan Orbital Strike yang waktunya tepat.
+</Callout>
+
+Meskipun Titan Normal dapat menangani gelombang tingkat menengah, menabung sumber daya untuk Titan Spesial seperti Upgraded Titan Cameraman atau Titan Clockman sangat direkomendasikan untuk gelombang akhir. Unit-unit ini memiliki kesehatan mentah dan output kerusakan yang diperlukan untuk bertahan dari serangan area-of-effect yang menghancurkan yang diluncurkan oleh Astro Dreadnought.
+
+</Section>
+
+<Section icon={Target} title="Rencana Pertahanan Langkah-demi-Langkah Blockade Battlefront Astro Holdout">
+
+Menjalankan rencana pertahanan terstruktur di berbagai fase gelombang mencegah kebocoran di awal permainan dan memastikan Anda memiliki cukup mata uang untuk mengerahkan unit terkuat Anda saat kesulitan melonjak. Ikuti perkembangan langkah-demi-langkah ini untuk mengamankan pangkalan Anda.
+
+<Steps>
+  <Step num="1" title="Pengaturan Ekonomi Awal Gelombang">
+    Mulailah dengan mengerahkan unit crowd control berbiaya rendah seperti Amplifier Woman di dekat titik spawn utama. Fokus pada menunda Astro Scout awal sambil mengumpulkan Cens untuk mendanai dealer kerusakan pertengahan permainan Anda. Jangan menghabiskan uang untuk peningkatan mahal terlebih dahulu.
+  </Step>
+  <Step num="2" title="Konsolidasi Lapangan Tengah Pertengahan Gelombang">
+    Tempatkan unit jarak jauh dengan DPS tinggi seperti Glitch Double-Plunger Cameraman di persimpangan utama. Tingkatkan kecepatan serangan dan jangkauan mereka untuk melelehkan Astro Cruiser yang terlindungi sebelum mereka dapat menargetkan pertahanan garis depan Anda.
+  </Step>
+  <Step num="3" title="Pengerahan Titan & Rotasi Keterampilan">
+    Panggil unit Titan utama Anda segera setelah bos Astro Dreadnought pertama muncul. Rotasikan tombol keterampilan aktif Anda (Q, E, R, T) untuk memaksimalkan output kerusakan dan mempertahankan tekanan konstan pada bos sementara unit Anda yang lebih kecil menangani kawanan pendukung.
+  </Step>
+  <Step num="4" title="Buff Pendukung Akhir Gelombang">
+    Spam unit Engineer Camcorder Man dan Scientist di zona aman di belakang garis utama Anda. Gunakan kemampuan pemanggilan dan penyembuhan mereka untuk mempertahankan Titan Anda, memperbaiki kerusakan pangkalan kecil, dan menghidupkan kembali sekutu yang gugur selama gelombang bertekanan tinggi.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Pos Pemeriksaan Gelombang 30">
+Mencapai Gelombang 30 dengan kesehatan pangkalan yang utuh membutuhkan setidaknya dua unit DPS yang ditingkatkan sepenuhnya dan satu Titan aktif. Pastikan tim Anda telah membagi peran dengan efektif, dengan satu pemain fokus sepenuhnya pada dukungan dan pemeliharaan pangkalan.
+</Callout>
+
+| Rentang Gelombang | Ancaman Utama | Kesulitan | Strategi yang Direkomendasikan |
+| :--- | :--- | :--- | :--- |
+| Gelombang 1-10 | Scout Cepat | Mudah | Kerahkan unit stun murah |
+| Gelombang 11-20 | Cruiser Terlindungi | Sedang | Tingkatkan DPS jarak jauh |
+| Gelombang 21-30 | Bos Dreadnought | Sulit | Panggil Titan utama |
+| Gelombang 31+ | Kawanan Astro Tak Terbatas | Sangat Sulit | Maksimalkan buff pendukung |
+
+</Section>
+
+<Section icon={Trophy} title="Farming Progresi & Hadiah Astro">
+
+Berhasil mempertahankan Astro Holdout memberi hadiah kepada pemain berupa sumber daya kemajuan yang berharga, termasuk Cens, Kartu Penguasaan (Mastery Cards), dan bahan pembuatan langka yang digunakan untuk membuka kunci Titan akhir permainan. Untuk mengoptimalkan efisiensi farming Anda, fokuslah pada menyelesaikan pencapaian tertentu dan memanfaatkan peningkatan (boost) aktif selama permainan Anda.
+
+Untuk mempercepat kemajuan Anda, selalu periksa kode developer aktif yang memberikan Poin, Cens, atau Mastery Boost sementara secara gratis. Menerapkan 2x Mastery Boost sebelum memasuki permainan Astro dengan kesulitan tinggi dapat secara signifikan mengurangi waktu grind yang diperlukan untuk memaksimalkan karakter favorit Anda.
+
+| Jenis Sumber Daya | Mode Sumber | Tingkat Drop | Penggunaan Utama |
+| :--- | :--- | :--- | :--- |
+| Cens | Pembersihan Gelombang | Tinggi | Pembelian toko |
+| Mastery Cards | Drop Bos | Sedang | Progresi unit |
+| Astro Cores | Pembersihan Sulit | Rendah | Peningkatan Titan Spesial |
+| 2x Mastery Boost | Kode Promo | Dijamin | Mempercepat grinding |
+
+<Checklist
+  id="astro-holdout-milestones"
+  title="Pencapaian Pertahanan Astro:"
+  items={[
+    "Bertahan melewati Gelombang 30 pada kesulitan Sulit",
+    "Buka kunci setidaknya satu unit Titan Spesial",
+    "Maksimalkan Penguasaan (Mastery) untuk unit DPS utama Anda",
+    "Dapatkan 10 Astro Core untuk pembuatan akhir permainan",
+    "Selesaikan permainan tanpa cacat dengan nol kerusakan pangkalan"
+  ]}
+/>
+
+<Callout type="info" title="Efisiensi Farming">
+Farming pada kesulitan Sulit dengan tim empat pemain yang terkoordinasi menghasilkan hingga 50% more Cens per jam dibandingkan dengan bermain solo pada kesulitan Normal. Selalu manfaatkan saluran komunitas resmi untuk menemukan mitra lobi yang berpengalaman.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ Astro Holdout">
+
+Tinjau pertanyaan yang sering diajukan ini untuk menyelesaikan masalah umum dan mengoptimalkan strategi Anda untuk mode Astro Invasion.
+
+<FAQ items={[
+  {
+    question: "Apa loadout unit terbaik untuk blockade battlefront astro holdout?",
+    answer: "Loadout yang ideal menampilkan campuran DPS burst tinggi (Villain Arc Brown Cameraman), crowd control yang kuat (Amplifier Woman), and setidaknya satu Titan Spesial (Upgraded Titan Cameraman) untuk menangani gelombang bos akhir permainan."
+  },
+  {
+    question: "Bagaimana cara saya melawan Astro Scout yang cepat di gelombang awal?",
+    answer: "Kerahkan unit Speakerman atau Camcorder berbiaya rendah dengan kemampuan gelombang suara atau stun di dekat zona spawn. Ini memperlambat musuh yang bergerak cepat, memungkinkan pertahanan pangkalan Anda untuk membersihkan mereka."
+  },
+  {
+    question: "Apakah saya bisa bermain solo di mode Astro Invasion?",
+    answer: "Meskipun memungkinkan dengan Mastery yang maksimal dan Titan Spesial, permainan kooperatif sangat direkomendasikan. Permainan tim memungkinkan pemain untuk membagi peran antara dukungan pangkalan, crowd control, dan kerusakan bos."
+  },
+  {
+    question: "Di mana saya bisa menemukan kode aktif untuk Cens gratis dan peningkatan Mastery?",
+    answer: "Kode aktif diposting secara teratur di server Discord resmi Loading Studi dan papan Trello game. Hindari menggunakan situs pihak ketiga yang mencantumkan entri kedaluwarsa untuk menghemat waktu."
+  }
+]} />
+
+<Callout type="tip" title="Sumber Daya Komunitas">
+Untuk pembaruan terbaru, perubahan keseimbangan, dan lobi perjodohan (matchmaking), bergabunglah dengan saluran komunitas resmi melalui halaman pengalaman Roblox. Terhubung dengan pemain veteran adalah cara tercepat untuk menguasai strategi tingkat tinggi.
+</Callout>
+
+</Section>

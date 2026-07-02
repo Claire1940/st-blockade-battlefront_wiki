@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Resistencia Astro en Blockade Battlefront: Estrategia de Defensa y Equipamiento de Unidades",
+  description: "Domina la Resistencia Astro en Blockade Battlefront. Conoce los mejores equipamientos de unidades, estrategias para las oleadas de la Invasión Astro y tácticas de defensa de base para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Holdout+Guide",
+  date: "2026-07-02",
+  author: "Equipo de la Wiki de Blockade Battlefront",
+  keywords: "blockade battlefront, resistencia astro, defensa de base, equipamiento, titanes, invasión astro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Defender la base contra enemigos Astro rápidos, blindados y pesados en el modo de invasión especializado.
+- **Mecánica clave**: Dominar los atajos de teclado para habilidades activas y coordinar el despliegue de Titanes para manejar oleadas de alta presión.
+- **Mejor estrategia**: Colocar unidades baratas de control de masas al principio, escalar hacia unidades de daño por segundo (DPS) móviles y guardar los Titanes para las fases de jefes.
+- **Consejo crítico**: Evita depender demasiado del daño a un solo objetivo; las ondas sonoras de área de efecto (AoE) y los aturdimientos son esenciales para sobrevivir.
+- **La mejor opción**: Usa al Villain Arc Brown Cameraman para daño explosivo (burst DPS) y al Upgraded Titan Cameraman para resistir el daño de los jefes en el juego tardío.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Modo Invasión Astro">
+
+Sobrevivir a las brutales oleadas de la **resistencia astro en blockade battlefront** requiere más que solo desplegar unidades al azar; demanda un plan de defensa altamente coordinado, una sincronización precisa de habilidades y una gestión optimizada de los Titanes. El modo Invasión Astro representa uno de los desafíos más significativos del juego, enfrentando a los jugadores contra enemigos Astro muy móviles, protegidos con escudos y de golpe duro que pueden sobrepasar fácilmente las líneas defensivas estándar si se les ignora.
+
+A diferencia de las oleadas de defensa estándar, la progresión temática Astro introduce enemigos con mecánicas únicas, como escudos de energía que reducen el daño físico entrante y maniobras de embestida rápida que cierran la distancia hacia tu base en segundos. Para resistir consistentemente ante estas amenazas, los jugadores deben comprender los tipos de enemigos específicos que aparecen a lo largo de la partida y preparar contratácticas enfocadas.
+
+| Nombre del Enemigo | Tipo de Ataque | Nivel de Amenaza | Estrategia de Contraataque |
+| :--- | :--- | :--- | :--- |
+| Astro Scout | Cuerpo a cuerpo rápido | Bajo | Aturdimiento por onda sonora grupal |
+| Astro Cruiser | Láser a distancia | Medio | Tanques con mucha vida |
+| Astro Striker | Embestida rápida | Alto | Efectos de ralentización pesada |
+| Astro Dreadnought | Daño de área pesado | Crítico | Daño explosivo de Titán |
+
+<Callout type="warning" title="Advertencia de Invasión">
+Los Astro Strikers pueden esquivar por completo a tus unidades de primera línea usando su embestida rápida. Mantén siempre una línea secundaria de unidades capaces de aturdir más cerca de tu base para atrapar estas filtraciones antes de que inflijan un daño masivo.
+</Callout>
+
+Comprender el diseño del mapa y los puntos de estrangulamiento donde se agrupan los enemigos Astro es el primer paso para asegurar la victoria. Los jugadores deben enfocarse en las áreas de cuello de botella donde el daño por salpicadura y los ataques de ondas sonoras puedan golpear a múltiples objetivos simultáneamente, maximizando la eficiencia de cada unidad desplegada.
+
+</Section>
+
+<Section icon={Swords} title="Mejores Equipamientos de Unidades para la Resistencia Astro">
+
+Seleccionar el equipo adecuado es crítico para sobrevivir a las oleadas tardías de la Invasión Astro. Una alineación equilibrada debe contar con una mezcla confiable de defensores baratos para el juego temprano, acarreadores de DPS muy móviles para el juego medio, unidades de utilidad de apoyo y al menos un Titán Especial de gran impacto para asegurar la defensa durante las fases de jefes.
+
+La siguiente tabla detalla las unidades con mejor rendimiento evaluadas específicamente por su efectividad contra los tipos de enemigos Astro, enfocándose en sus capacidades de control de masas, potencial de daño explosivo y utilidad general.
+
+| Nombre de la Unidad | Rol | Rango | Habilidad Clave |
+| :--- | :--- | :--- | :--- |
+| Villain Arc Brown Cameraman | DPS Explosivo | S | Ataque Orbital |
+| Glitch Double-Plunger | DPS Móvil | S | Cadena de habilidades múltiples |
+| Upgraded Titan Cameraman | Titán Tanque | S | Escudo pesado |
+| Amplifier Woman | Control de Masas | A | Aturdimiento por onda sonora |
+| Engineer Camcorder Man | Soporte | A | Invocación y Resurrección |
+| Secret Agent | Utilidad de Jefe | A | Aturdimiento en Modo Silla |
+
+<CardGrid cols={3}>
+  <Card title="El Acarreador de DPS">
+    - **Opción principal**: Villain Arc Brown Cameraman
+    - **Rol**: Daño explosivo de alta presión
+    - **Mejor Tecla**: Ataque Orbital para limpiar grupos densos
+  </Card>
+  <Card title="El Controlador de Masas">
+    - **Opción principal**: Amplifier Woman
+    - **Rol**: Aturdimiento por onda sonora y alta movilidad
+    - **Mejor Tecla**: Salto y Embestida para reposicionarse rápidamente
+  </Card>
+  <Card title="El Ancla Defensiva">
+    - **Opción principal**: Upgraded Titan Cameraman
+    - **Rol**: Escudar y absorber golpes pesados de jefes
+    - **Mejor Tecla**: Bloqueo Perfecto para negar el daño entrante
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sinergia de Unidades">
+Combinar a Amplifier Woman con Villain Arc Brown Cameraman te permite agrupar a los rápidos enemigos Astro con aturdimientos de ondas sonoras antes de aniquilar a todo el grupo con un Ataque Orbital perfectamente sincronizado.
+</Callout>
+
+Aunque los Titanes Normales pueden encargarse de las oleadas de nivel medio, se recomienda encarecidamente ahorrar recursos para Titanes Especiales como el Upgraded Titan Cameraman o el Titan Clockman para las oleadas finales. Estas unidades poseen la vida bruta y la producción de daño requeridas para sobrevivir a los devastadores ataques de área de efecto lanzados por los Astro Dreadnoughts.
+
+</Section>
+
+<Section icon={Target} title="Plan de Defensa Paso a Paso para la Resistencia Astro en Blockade Battlefront">
+
+Ejecutar un plan de defensa estructurado a través de las diferentes fases de oleadas evita filtraciones en el juego temprano y asegura que tengas suficiente dinero para desplegar tus unidades más fuertes cuando la dificultad aumente. Sigue esta progresión paso a paso para asegurar tu base.
+
+<Steps>
+  <Step num="1" title="Configuración de Economía en Oleadas Tempranas">
+    Comienza desplegando unidades de control de masas de bajo costo como Amplifier Woman cerca del punto de aparición principal. Enfócate en retrasar a los primeros Astro Scouts mientras acumulas Cens para financiar a tus distribuidores de daño del juego medio. No gastes dinero en mejoras costosas todavía.
+  </Step>
+  <Step num="2" title="Consolidación del Campo Medio en Oleadas Medias">
+    Coloca unidades de daño a distancia con alto DPS, como Glitch Double-Plunger Cameraman, en intersecciones clave. Mejora su velocidad de ataque y rango para derretir a los Astro Cruisers blindados antes de que puedan apuntar a tus defensores de primera línea.
+  </Step>
+  <Step num="3" title="Despliegue de Titanes y Rotación de Habilidades">
+    Invoca a tu unidad Titán principal tan pronto como aparezca el primer jefe Astro Dreadnought. Rota tus teclas de habilidades activas (Q, E, R, T) para maximizar la producción de daño y mantener una presión constante sobre el jefe mientras tus unidades más pequeñas se encargan de la horda de apoyo.
+  </Step>
+  <Step num="4" title="Potenciación de Soporte en Oleadas Tardías">
+    Despliega masivamente unidades de Engineer Camcorder Man y Scientist en zonas seguras detrás de tu línea principal. Usa sus habilidades de invocación y curación para sostener a tus Titanes, reparar daños menores a la base y revivir aliados caídos durante las oleadas de alta presión.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Punto de Control de la Oleada 30">
+Llegar a la Oleada 30 con la salud de tu base intacta requiere al menos dos unidades de DPS completamente mejoradas y un Titán activo. Asegúrate de que tu equipo haya dividido los roles de manera efectiva, con un jugador enfocado completamente en el soporte y mantenimiento de la base.
+</Callout>
+
+| Rango de Oleadas | Amenaza Principal | Dificultad | Estrategia Recomendada |
+| :--- | :--- | :--- | :--- |
+| Oleadas 1-10 | Scouts rápidos | Fácil | Desplegar unidades de aturdimiento baratas |
+| Oleadas 11-20 | Cruisers blindados | Media | Mejorar el DPS a distancia |
+| Oleadas 21-30 | Jefes Dreadnought | Difícil | Invocar al Titán principal |
+| Oleadas 31+ | Horda Astro Infinita | Insana | Maximizar las mejoras de soporte |
+
+</Section>
+
+<Section icon={Trophy} title="Farming de Progresión Astro y Recompensas">
+
+Defender con éxito la Resistencia Astro recompensa a los jugadores con valiosos recursos de progresión, incluyendo Cens, Cartas de Maestría y materiales de fabricación raros utilizados para desbloquear Titanes del juego tardío. Para optimizar la eficiencia de tu farming, enfócate en completar hitos específicos y utilizar potenciadores activos durante tus partidas.
+
+To acelerar tu progresión, siempre revisa si hay códigos activos de los desarrolladores que otorguen Puntos gratis, Cens o Potenciadores de Maestría temporales. Aplicar un Potenciador de Maestría 2x antes de entrar a una partida Astro de alta dificultad puede reducir significativamente el esfuerzo requerido para maximizar tus personajes favoritos.
+
+| Tipo de Recurso | Modo de Obtención | Tasa de Caída | Uso Principal |
+| :--- | :--- | :--- | :--- |
+| Cens | Limpieza de oleadas | Alta | Compras en la tienda |
+| Cartas de Maestría | Botín de jefes | Media | Progresión de unidades |
+| Núcleos Astro | Victoria en Difícil | Baja | Mejoras de Titanes Especiales |
+| Potenciador de Maestría 2x | Códigos promocionales | Garantizado | Progreso acelerado |
+
+<Checklist
+  id="astro-holdout-milestones"
+  title="Hitos de la Defensa Astro:"
+  items={[
+    "Sobrevivir más allá de la Oleada 30 en dificultad Difícil",
+    "Desbloquear al menos una unidad de Titán Especial",
+    "Maximizar la Maestría de tu unidad de DPS principal",
+    "Adquirir 10 Núcleos Astro para la fabricación del juego tardío",
+    "Completar una partida impecable con cero daños a la base"
+  ]}
+/>
+
+<Callout type="info" title="Eficiencia de Farming">
+Hacer farming en dificultad Difícil con un equipo coordinado de cuatro jugadores rinde hasta un 50% más de Cens por hora en comparación con las partidas en solitario en dificultad Normal. Utiliza siempre los canales oficiales de la comunidad para encontrar compañeros de sala experimentados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes sobre la Resistencia Astro">
+
+Revisa estas preguntas frecuentes para resolver dudas comunes y optimizar tu estrategia en el modo Invasión Astro.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor equipamiento de unidades para la resistencia astro en blockade battlefront?",
+    answer: "El equipamiento ideal presenta una mezcla de alto daño explosivo (Villain Arc Brown Cameraman), un fuerte control de masas (Amplifier Woman) y al menos un Titán Especial (Upgraded Titan Cameraman) para manejar las oleadas de jefes en el juego tardío."
+  },
+  {
+    question: "¿Cómo contrarresto a los rápidos Astro Scouts en las oleadas tempranas?",
+    answer: "Despliega Speakermen o unidades Camcorder de bajo costo con habilidades de ondas sonoras o aturdimiento cerca de la zona de aparición. Esto ralentiza a los enemigos rápidos, permitiendo que las defensas de tu base los eliminen."
+  },
+  {
+    question: "¿Puedo jugar el modo Invasión Astro en solitario?",
+    answer: "Aunque es posible con Maestría al máximo y Titanes Especiales, se recomienda encarecidamente el juego cooperativo. El juego en equipo permite a los jugadores dividirse los roles entre soporte de base, control de masas y daño a jefes."
+  },
+  {
+    question: "¿Dónde puedo encontrar códigos activos para Cens gratis y potenciadores de Maestría?",
+    answer: "Los códigos activos se publican regularmente en el servidor oficial de Discord de Loading Studi y en el tablero de Trello del juego. Evita usar sitios de terceros que listan entradas expiradas para ahorrar tiempo."
+  }
+]} />
+
+<Callout type="tip" title="Recursos de la Comunidad">
+Para obtener las últimas actualizaciones, cambios de balance y salas de emparejamiento, únete a los canales oficiales de la comunidad a través de la página de la experiencia en Roblox. Conectarse con jugadores veteranos es la forma más rápida de dominar las estrategias de alto nivel.
+</Callout>
+
+</Section>

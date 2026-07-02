@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Comandos de Blockade Battlefront: Guia de Configuração e Controles do Servidor",
+  description: "Domine todos os comandos de Blockade Battlefront para servidores privados do Roblox. Aprenda como ativar o modo sandbox, banir/chutar jogadores e otimizar suas ondas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/d97706/fff?text=Server+Commands+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Comandos Principais**: Use comandos de chat para controlar partidas em servidores privados personalizados.
+- **Modo Sandbox**: Alterne **!sandbox** para testar builds de personagens, habilidades e desbloquear configurações personalizadas.
+- **Moderação do Servidor**: Expulse jogadores problemáticos instantaneamente com o comando **!kick**.
+- **Estado de Sobrecarga**: Aplique **!oc** aos Titãs no Modo Sandbox para testes de habilidades supremas.
+- **Segurança de Votação**: Utilize **/e vote** para reiniciar servidores com lag ou resolver ondas bugadas.
+</Callout>
+
+<Section icon={Map} title="Lista de Comandos de Servidor Privado">
+
+Servidores privados em ST: Linha de Frente de Bloqueio permitem que os hosts ignorem as restrições padrão de ondas e personalizem suas partidas. Ao digitar prefixos específicos diretamente no chat do jogo, os proprietários do servidor podem moderar jogadores, alternar ambientes de teste e modificar estados de personagens.
+
+**Destaques do Vídeo:**
+- **Privilégios de Host**: Saiba como utilizar controles de administrador baseados em chat.
+- **Ativação do Sandbox**: Demonstração passo a passo da arena de testes personalizada.
+- **Otimização de Titãs**: Como forçar estados de sobrecarga em unidades massivas.
+
+<YouTubeEmbed videoId="EqBu3HWUrC0" title="Demonstração de Gameplay de ST: Blockade Battlefront" />
+
+A tabela abaixo descreve todos os comandos de host verificados disponíveis em servidores privados personalizados:
+
+| Comando | Alvo / Escopo | Função e Efeito |
+| :--- | :--- | :--- |
+| **!sandbox** | Todo o servidor | Ativa o Modo Sandbox, desbloqueando recursos de teste ilimitados. |
+| **!kick [nome_de_usuario]** | Jogador Específico | Remove o jogador especificado do servidor ativo imediatamente. |
+| **!oc** | Titã Ativo | Aplica o Estado de Sobrecarga (Overcharge) ao seu Titã (requer Modo Sandbox). |
+| **/e vote** | Todo o servidor | Inicia uma votação da comunidade para reiniciar um servidor com lag ou bugado. |
+
+<Callout type="warning" title="Aviso ao Host">
+Os comandos só funcionam se você for o host designado de um servidor privado. Tentar digitar essas strings em lobbies de matchmaking públicos resultará em mensagens de chat padrão sem efeitos no sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recursos do Modo Sandbox">
+
+Ativar o Modo Sandbox via **!sandbox** transforma completamente o ciclo padrão de defesa de ondas em um campo de testes aberto. Este modo é altamente recomendado para jogadores que desejam experimentar combos de habilidades complexos, verificar o escalonamento de dano ou configurar partidas PvP personalizadas.
+
+<CardGrid cols={3}>
+  <Card title="Integração com o Skill Builder">
+    - **Movesets Personalizados**: Projete suas próprias sequências de habilidades usando a interface Block Canvas.
+    - **Ajuste de Propriedades**: Edite parâmetros como cooldowns, hitboxes e velocidade de projéteis.
+    - **Liberdade de Teste**: Implante habilidades personalizadas instantaneamente sem precisar grindar níveis de maestria.
+  </Card>
+  <Card title="Partidas PvP Personalizadas">
+    - **Configuração de Facção**: Os hosts do servidor podem definir manualmente as facções dos jogadores para permitir o combate.
+    - **Sem Limites de Equilíbrio**: Teste confrontos de personagens diretamente em lutas brutas e sem moderação.
+    - **Banimentos Personalizados**: Os hosts podem banir personagens específicos para manter as partidas casuais justas.
+  </Card>
+  <Card title="Teste de Sobrecarga">
+    - **Melhoria de Titã**: Use **!oc** para ignorar os cooldowns padrão de sobrecarga.
+    - **Saída de Dano Máxima**: Avalie a verdadeira capacidade dos Titãs de Rank S sob poder máximo.
+    - **Demonstrações Visuais**: Capture imagens limpas de habilidades de alto nível sem interrupções.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional">
+O Modo Sandbox desativa a progressão padrão, o que significa que você não pode farmar Cens, Pontos ou Maestria enquanto os recursos do sandbox estiverem ativos. Use-o estritamente para prática e testes!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Configurar uma Partida Privada">
+
+Configurar uma partida sandbox privada é simples, mas requer seguir a sequência correta dentro do Roblox. Siga estes passos para iniciar seu próprio servidor personalizado:
+
+<Steps>
+  <Step num="1" title="Criar um Servidor">
+    Navegue até a página oficial da experiência Roblox para ST: Blockade Battlefront e compre ou entre em um servidor privado.
+  </Step>
+  <Step num="2" title="Carregar o Mapa">
+    Entre em um servidor de jogo ativo em vez de ficar no menu do lobby [00首页信息-1.md]. Aguarde o carregamento completo dos ativos do ambiente.
+  </Step>
+  <Step num="3" title="Abrir o Chat do Jogo">
+    Pressione **/** no seu teclado para abrir a caixa de chat padrão do Roblox no canto superior esquerdo da tela.
+  </Step>
+  <Step num="4" title="Executar Comandos de Host">
+    Digite **!sandbox** para ativar os recursos de teste, ou use **!kick [nome_de_usuario]** para gerenciar sua lista de jogadores.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Lembrete de Resgate">
+Antes de iniciar uma partida personalizada, resgate códigos promocionais ativos como **!redeem Return** ou **!redeem Verified** no lobby principal para garantir Pontos grátis para sua conta [00首页信息-1.md]!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklists de Controle do Servidor">
+
+Para manter um ambiente de teste suave e sem lag, os hosts de servidores privados devem realizar manutenções básicas regularmente. Use o seguinte checklist para manter suas partidas personalizadas organizadas:
+
+<Checklist
+  id="server-maintenance"
+  title="Melhores Práticas para o Host:"
+  items={[
+    "Verifique os privilégios de host digitando um comando de teste no chat",
+    "Use !kick imediatamente se um jogador estiver usando exploits ou causando lag",
+    "Inicie /e vote se uma onda ficar bugada ou travada",
+    "Desative o Modo Sandbox se os jogadores quiserem retornar às partidas de progressão padrão",
+    "Relate bugs que quebram o jogo diretamente no canal oficial do Discord"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Os comandos de blockade battlefront funcionam em servidores públicos?",
+    answer: "Não. Comandos de chat como !sandbox, !kick e !oc só funcionam dentro de servidores privados onde você é o host designado."
+  },
+  {
+    question: "Posso ganhar Maestria ou Cens enquanto o Modo Sandbox estiver ativo?",
+    answer: "Não. O Modo Sandbox é estritamente para testes e partidas PvP personalizadas. Toda a progressão, farm de moeda e ganhos de maestria são desativados enquanto ele estiver em execução."
+  },
+  {
+    question: "O que devo fazer se uma onda travar ou o servidor começar a lagar?",
+    answer: "Você pode usar o comando /e vote no chat para iniciar uma votação em todo o servidor para reiniciar a partida e limpar quaisquer entidades bugadas."
+  },
+  {
+    question: "Como uso o comando de Sobrecarga (Overcharge) no meu Titã?",
+    answer: "Primeiro, ative o Modo Sandbox digitando !sandbox. Quando estiver no estado de Titã, digite !oc no chat para aplicar o status de sobrecarga imediatamente."
+  }
+]} />
+
+</Section>

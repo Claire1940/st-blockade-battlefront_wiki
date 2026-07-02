@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Blockade Battlefront Boss Rush: Guia de Farming Solo e Mecânicas de Chefes",
+  description: "Domine o modo Boss Rush de Blockade Battlefront com o nosso guia de 2026. Aprenda as mecânicas dos chefes, os melhores loadouts de unidades e estratégias de farming solo para obter recompensas rápidas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Rush+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de Blockade Battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Boss Rush de Blockade Battlefront** é um modo de jogo especializado focado em confrontos sequenciais contra chefes, em vez da defesa de ondas padrão.
+- O **Farming Solo** é altamente viável neste modo para jogadores que desejam acumular Cens e pontos de Maestria de forma eficiente sem uma equipe completa.
+- **Unidades Titãs** são obrigatórias para os chefes das fases finais, pois as unidades comuns geralmente não têm vida suficiente para sobreviver a ataques massivos em área (AoE).
+- Os **Atalhos de Teclado Ativos** (Q, E, R, T, etc.) devem ser dominados para desviar dos golpes dos chefes e maximizar seu dano por segundo (DPS).
+- **Cartas de Maestria** devem ser aplicadas às suas unidades principais de eliminação de chefes para desbloquear variantes de habilidades de alto nível antes de entrar na arena.
+</Callout>
+
+<Section icon={Map} title="Introdução ao Desafio Boss Rush">
+
+O modo **Boss Rush de Blockade Battlefront** representa o teste definitivo de habilidade e gerenciamento de unidades dentro da experiência do Roblox. Ao contrário do modo padrão de jogo de tiro de sobrevivência baseado em ondas, onde você defende uma base contra centenas de inimigos comuns, o Boss Rush elimina as distrações e coloca você diretamente contra as ameaças mais perigosas do jogo. Este modo foi projetado para jogadores que já estabeleceram uma equipe sólida de unidades e buscam otimizar a obtenção de recursos.
+
+**Destaques do Vídeo:**
+- Visão geral do meta atual do Boss Rush de 2026 e requisitos de unidades.
+- Demonstração de técnicas de movimentação de alto nível para desviar de lasers de chefes.
+- Comparação de recompensas solo vs. em grupo para um farming eficiente de Cens.
+- Análise do desempenho da unidade "Villain Arc" contra chefes do final do jogo.
+
+<YouTubeEmbed videoId="mTRgKQB59tk" title="ST: Blockade Battlefront Official Trailer & Gameplay" />
+
+No Boss Rush, o ritmo é significativamente mais rápido. Você não tem o luxo de construir uma economia lentamente. Cada posicionamento de unidade e cada implantação de Titã deve ser calculada para combater mecânicas específicas de chefes. Entender a diferença entre esses modos é o primeiro passo para a maestria.
+
+<CardGrid cols={2}>
+  <Card title="Defesa de Ondas Padrão">
+    - **Foco**: Proteção da base e progressão de recursos.
+    - **Tipo de Inimigo**: Grandes grupos de inimigos com pouca vida.
+    - **Estratégia**: Dano em Área (AoE) e controle de grupo.
+    - **Recompensa**: Progressão constante e moedas básicas.
+  </Card>
+  <Card title="Modo Boss Rush">
+    - **Foco**: Dano explosivo e mecânicas de sobrevivência.
+    - **Tipo de Inimigo**: Confrontos sequenciais contra chefes com muita vida.
+    - **Estratégia**: Alto DPS em alvo único e esquiva ativa.
+    - **Recompensa**: Ganho massivo de Maestria e materiais raros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Requisito de Entrada">
+Antes de tentar o Boss Rush solo, certifique-se de que sua unidade Titã principal esteja pelo menos no Nível de Maestria 20. O aumento de dano dos chefes posteriores sobrecarregará qualquer unidade que não tenha desbloqueado suas variantes de habilidades especializadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas dos Chefes e Padrões de Ataque">
+
+Cada chefe na rotação do **Boss Rush de Blockade Battlefront** apresenta padrões de ataque únicos que exigem contra-ataques específicos. Em 2026, o meta mudou para chefes que utilizam perigos ambientais e transformações de várias fases. Para sobreviver, você deve reconhecer os sinais visuais de seus movimentos "Supremos", que muitas vezes podem derrotar com um único golpe até mesmo os Striders mais resistentes.
+
+Os principais chefes que você encontrará incluem as variantes do G-Toilet, os Astro Elites e os massivos Infected Titans. Cada um deles exige uma abordagem diferente de posicionamento e posicionamento de unidades. Por exemplo, enquanto o G-Toilet depende de fortes feixes de laser que podem ser bloqueados pelo terreno, o Astro Elite usa investidas de alta velocidade que exigem unidades baseadas em atordoamento, como os TV Men, para interrompê-lo.
+
+| Nome do Chefe | Ameaça Principal | Tipo de Dano | Estratégia de Contra-ataque |
+| :--- | :--- | :--- | :--- |
+| **G-Toilet X-18** | Laser Orbital | Energia/AoE | Use cobertura/Escudo do Titã |
+| **Astro Elite** | Investida de Teleporte | Físico/Explosivo | Atordoe com unidades TV Man |
+| **Infected Titan** | Impacto Tóxico | Veneno/DoT | Mantenha distância/Longo alcance |
+| **Stellar Guardian** | Poço de Gravidade | Controle/Puxão | Esquive usando as teclas Q/E |
+| **The DJ** | Pulso de Onda Sonora | Empurrão | Use unidades pesadas/Striders |
+
+<Callout type="warning" title="Fases de Fúria dos Chefes">
+A maioria dos chefes entra em uma fase de "Fúria" quando sua vida cai abaixo de 30%. Durante esse tempo, a velocidade de ataque deles aumenta em 50%. Economize a habilidade suprema do seu Titã especificamente para essa janela para encerrar a luta rapidamente.
+</Callout>
+
+O uso eficaz das teclas de movimento ativo não é negociável. O jogo utiliza uma ampla gama de atalhos de teclado (Q, E, R, T, Y, F, G, H, Z, X, C, V, B) para ativar as habilidades das unidades. No Boss Rush, a "Barra de Espaço Dupla" para variantes aéreas é particularmente útil para evitar ondas de choque terrestres do Infected Titan.
+
+</Section>
+
+<Section icon={Shield} title="Melhores Loadouts para o Sucesso no Boss Rush">
+
+Escolher as unidades certas é a diferença entre uma conclusão bem-sucedida de 10 minutos e uma tentativa fracassada no terceiro chefe. O meta do **Boss Rush de Blockade Battlefront** favorece unidades que fornecem dano explosivo massivo ou utilidades essenciais, como atordoamentos e curas. Nas classificações atuais de 2026, o "Villain Arc Brown Cameraman" e o "Upgraded Titan Cameraman" permanecem no topo da Tier S por sua versatilidade absoluta.
+
+Embora os Titãs sejam os atacantes pesados, suas unidades de suporte fornecem a base. O "Chief Watch Man" é inestimável por suas habilidades de distorção temporal, que podem redefinir os tempos de recarga do seu Titã em momentos críticos. Enquanto isso, unidades como o "Engineer Camcorder Man" fornecem reparos essenciais para sua base e outras unidades implantadas, garantindo que você não perca progresso devido a danos graduais.
+
+| Classe da Unidade | Unidade Recomendada | Tier | Função Principal no Boss Rush |
+| :--- | :--- | :--- | :--- |
+| **Titã** | **Upgraded Titan Cam** | **S** | Tanque principal e matador de chefes |
+| **DPS** | **Villain Arc Brown** | **S** | Alto dano explosivo e buffs orbitais |
+| **Suporte** | **Chief Watch Man** | **A** | Redução de recarga/Distorção temporal |
+| **Controle** | **Energized TV Man** | **A** | Atordoamentos e interrupção de chefes |
+| **Utilidade** | **Engineer Camcorder** | **B** | Reparo de unidades e invocações |
+
+<Callout type="success" title="Bônus de Sinergia">
+Combinar uma unidade Speakerman com uma unidade Cameraman frequentemente ativa buffs ocultos de ondas sonoras nas atualizações de 2026. Use o "Elite Speakerman" ao lado do seu Titã para aumentar a velocidade de ataque geral em 15% durante os confrontos com chefes.
+</Callout>
+
+Para jogadores focados em **farming solo**, o "Glitch Double-Plunger Cameraman" é uma alternativa fantástica aos Titãs. Sua alta mobilidade permite que você controle a distância (kite) dos chefes indefinidamente, embora exija uma habilidade mecânica muito maior para ser executada perfeitamente sem sofrer danos.
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Farming Solo Passo a Passo">
+
+Fazer o farming do **Boss Rush de Blockade Battlefront** solo exige uma abordagem disciplinada no gerenciamento de recursos. Você não pode se dar ao luxo de desperdiçar Cens em unidades de nível baixo que serão destruídas nos primeiros três minutos. Siga esta progressão para maximizar sua eficiência e taxa de sobrevivência.
+
+<Steps>
+  <Step num="1" title="Preparação Pré-Jogo">
+    Equipe suas melhores Cartas de Maestria e ative um Impulso de Maestria 2x, se disponível. Certifique-se de que seus atalhos de teclado estejam configurados de forma confortável, pois você usará as teclas Q, E e R constantemente.
+  </Step>
+  <Step num="2" title="Economia da Fase Inicial">
+    Implante 2 a 3 unidades de DPS de alta eficiência, como a "Amplifier Woman", para lidar com as primeiras ondas de chefes. Foque em economizar Cens para a sua primeira implantação de Titã, em vez de subir excessivamente o nível de unidades básicas.
+  </Step>
+  <Step num="3" title="Implantação de Titã">
+    À medida que o quarto chefe se aproxima, implante seu Titã principal (por exemplo, Upgraded Titan Speakerman). Posicione-o no centro para permitir a cobertura máxima da arena.
+  </Step>
+  <Step num="4" title="Domínio da Rotação de Habilidades">
+    Alterne entre suas habilidades ativas. Use seu atordoamento (teclas F/G) para interromper as animações de "carregamento" do chefe. Siga com suas habilidades de dano pesado (teclas Z/X) enquanto o chefe estiver incapacitado.
+  </Step>
+  <Step num="5" title="O Impulso Final">
+    Durante o confronto final com o chefe, use todos os Cens restantes para implantar Striders de suporte. Foque inteiramente na barra de vida do chefe e ignore os inimigos menores, a menos que estejam ameaçando diretamente sua base.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Farming de Maestria">
+Se o seu objetivo for puramente o farming de Maestria, geralmente é mais eficiente reiniciar após o 5º chefe. A dificuldade aumenta significativamente no Chefe 6, e o tempo para eliminação (TTK) aumenta, diminuindo sua proporção geral de Maestria por minuto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas e Gerenciamento de Recursos">
+
+Concluir uma partida do **Boss Rush de Blockade Battlefront** fornece uma variedade de moedas e materiais essenciais para a progressão no final do jogo. As principais recompensas são Cens e Maestria, mas as partidas de alto nível também oferecem uma chance de obter skins raras e materiais de Núcleo Zumbi (Zombie Core) usados no caminho de atualização do G-Toilet X-18.
+
+Entender como gastar esses recursos é tão importante quanto ganhá-los. Novos jogadores costumam cometer o erro de gastar Cens em cada unidade nova que aparece na loja. Em vez disso, foque seus recursos em uma equipe de "Cinco Principais" que possa lidar com qualquer confronto de chefe.
+
+| Tipo de Recurso | Fonte Principal | Melhor Uso | Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Cens** | Conclusões de Boss Rush | Atualizações de unidades e itens da Loja | **Alta** |
+| **Maestria** | Uso de Unidades/Cartas | Desbloqueio de variantes de habilidades | **Alta** |
+| **Núcleos Zumbis** | Modo Zumbi/Chefes | Progressão do G-Toilet X-18 | **Média** |
+| **Pontos** | Resgate de Códigos | Impulsos de progressão no início do jogo | **Baixa** |
+| **Skins** | Chefes de Evento | Apenas personalização visual | **Baixa** |
+
+<Callout type="info" title="Eficiência do Impulso de Maestria">
+Os Impulsos de Maestria têm tempo limitado. Para obter o máximo de um impulso de 30 minutos, deixe seu lobby de Boss Rush pronto para começar no momento em que ativar o código. Uma equipe bem otimizada pode encaixar três partidas completas de Boss Rush em uma única janela de 30 minutos.
+</Callout>
+
+Em 2026, a desenvolvedora "Loading Studi" introduziu as "Cartas de Maestria" como um drop raro no Boss Rush. Essas cartas fornecem experiência instantânea para uma unidade específica. Sempre equipe a unidade que deseja subir de nível antes de consumir essas cartas, pois a experiência não é transferível depois de aplicada.
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificação Final e FAQ">
+
+Antes de mergulhar na sua próxima sessão de **Boss Rush de Blockade Battlefront**, use esta lista de verificação para garantir que está totalmente preparado para os desafios que virão. O sucesso neste modo é 50% preparação e 50% execução.
+
+<Checklist
+  id="boss-rush-prep"
+  title="Lista de Preparação Pré-Rush:"
+  items={[
+    "Verifique se todas as unidades principais estão equipadas com Cartas de Maestria",
+    "Verifique o Discord para ver se há códigos !redeem ativos para obter Pontos grátis",
+    "Confirme se os seus atalhos de teclado (Q, E, R, T, Y) estão respondendo bem",
+    "Garanta que sua unidade Titã esteja pelo menos no Nível de Maestria 20",
+    "Defina seus gráficos para 'Baixo' se tiver lag durante as fases de AoE"
+  ]}
+/>
+
+<Callout type="success" title="Sabedoria da Comunidade">
+Junte-se ao Discord oficial de Blockade Battlefront para encontrar jogadores de alto nível para partidas em grupo. Equipes coordenadas podem frequentemente concluir o Boss Rush 40% mais rápido do que jogadores solo, aumentando significativamente seu rendimento de Cens por hora.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor unidade para completar o Boss Rush de Blockade Battlefront solo?",
+    answer: "O Upgraded Titan Cameraman é atualmente o melhor para solo devido à sua grande quantidade de vida e poderosos ataques em área (AoE) que podem limpar os inimigos secundários do chefe enquanto foca no alvo principal."
+  },
+  {
+    question: "Como faço para desviar do feixe de laser do G-Toilet no Boss Rush?",
+    answer: "Fique atento aos olhos vermelhos brilhantes do G-Toilet. Quando vir esse sinal, use sua esquiva (teclas Q ou E) ou proteja-se atrás de uma unidade Strider para evitar o tique de dano alto."
+  },
+  {
+    question: "As recompensas são melhores jogando em grupo ou solo?",
+    answer: "Embora as recompensas básicas sejam semelhantes, jogar em grupo permite conclusões muito mais rápidas. Se você conseguir concluir o modo duas vezes mais rápido com uma equipe, suas recompensas por hora serão muito maiores."
+  },
+  {
+    question: "Posso usar códigos para obter vantagem no Boss Rush?",
+    answer: "Sim, use códigos como !redeem Return ou !redeem Verified para obter Pontos grátis, que você pode usar para comprar unidades melhores ou Cartas de Maestria antes de iniciar sua partida."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,162 @@
+import { Shield, Swords, Target, Map, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Blockade Battlefront Crashing: PC Stability & Optimization Guide",
+  description: "Fix Blockade Battlefront crashing, freezing, and lag spikes on Roblox with our proven optimization steps, graphics settings, and memory fixes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/222437/ffbf00?text=Crash+Fix+Guide",
+  date: "2026-07-02",
+  author: "blockade battlefront Wiki Team"
+}
+
+<Callout type="warning" title="Quick Guide">
+- **Primary issue**: Eliminate **blockade battlefront crashing** by resolving memory leaks and rendering conflicts.
+- **Graphic settings**: Switch your in-game graphics from auto to **manual level 1-3** during intense Titan waves.
+- **System privilege**: Always launch your Roblox Player as an **administrator** to prevent permission-based freezes.
+- **Cache management**: Clear out corrupted Roblox temp files to resolve crashes that happen directly on launch.
+- **Overlay conflict**: Disable Discord, NVIDIA, and Xbox Game Bar overlays before joining a live server.
+</Callout>
+
+<Section icon={Shield} title="Identify Causes of Blockade Battlefront Crashing">
+
+Blockade Battlefront is a fast-paced wave defense and survival shooter on Roblox where players deploy massive units and Titans to defend their base [00基础信息]. Due to the high number of active projectiles, complex unit animations, and detailed Titan models, players frequently experience performance bottlenecks. Understanding why your client freezes or crashes to the desktop is the first step toward achieving a stable gameplay experience.
+
+Most crashes in the game stem from three primary areas: memory overload during high-intensity waves, corrupted local cache files, or background software conflicts. 
+
+| Crash Type | Common Trigger | Primary Culprit | Severity |
+| :--- | :--- | :--- | :--- |
+| **Crash to Desktop (No Error)** | Deploying multiple Titans simultaneously | Out of memory (OOM) leak | High |
+| **Stuck on Loading Screen** | Joining a live server from the lobby | Corrupted Roblox version cache | Medium |
+| **Screen Freezing (Audio Looping)** | Intense particle effects or boss spawns | GPU driver timeout or overlay conflict | High |
+| **Connection Disconnect (Error 277)** | High wave density and network congestion | Packet loss or background bandwidth hogging | Medium |
+
+<Callout type="info" title="Hardware Demands">
+Because Titans and special boss units feature high-poly designs and complex skill animations, Blockade Battlefront demands significantly more RAM and CPU processing power than standard, low-poly Roblox experiences.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimize Graphics and In-Game Settings">
+
+High graphical settings are a major catalyst for client instability, especially when pushing deep into late-game waves or grinding Boss Rush [00首页信息]. Lowering your rendering load prevents your system from running out of virtual memory.
+
+### Adjusting Roblox Engine Parameters
+
+To keep your frame rates smooth and prevent sudden crashes during chaotic fights, adjust your settings using the parameters outlined below:
+
+| Setting Category | Recommended Value | Expected Impact |
+| :--- | :--- | :--- |
+| **Graphics Mode** | Manual | Unlocks manual slider control |
+| **Graphics Quality** | 1 to 3 Bars | Drastically reduces memory consumption |
+| **Fullscreen Mode** | Off (Windowed Mode) | Prevents crashes when tabbing out of the game |
+| **Camera Mode** | Classic | Reduces rendering overhead |
+
+<Callout type="tip" title="Windowed Mode Benefit">
+Running the game in Windowed Mode instead of Fullscreen prevents the Roblox engine from losing focus and crashing when you quickly tab out to check official resources like the Trello or Discord [00基础信息].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Stability Fixes">
+
+If adjusting your in-game settings does not stop the crashes, the issue likely lies within your local system configurations or temporary files. Follow these steps to perform a complete optimization sweep.
+
+<Steps>
+  <Step num="1" title="Run Roblox as an Administrator">
+    Right-click your **Roblox Player** shortcut on your desktop, select **Properties**, navigate to the **Compatibility** tab, check **Run this program as an administrator**, and click apply. This ensures Roblox has the permissions required to allocate system memory and write temporary shader data.
+  </Step>
+  <Step num="2" title="Clear Corrupted Roblox Cache">
+    Press `Windows Key + R` to open the Run dialog box, type `%localappdata%\Roblox` and hit enter. Open the **Downloads** and **Versions** folders, then delete their contents to force Roblox to rebuild clean temporary assets upon your next launch.
+  </Step>
+  <Step num="3" title="Disable Performance-Heavy Overlays">
+    Open Discord, go to **User Settings**, select **Game Overlay**, and turn off the in-game overlay. Do the same for NVIDIA GeForce Experience and Xbox Game Bar, as active overlay hooks frequently trigger instant desktop crashes during asset-heavy waves.
+  </Step>
+  <Step num="4" title="Update Graphics Card Drivers">
+    Open your NVIDIA App, AMD Adrenalin, or Intel Driver Utility to check for the latest stable release. Corrupted or outdated display drivers are a leading cause of screen freezes when complex particle effects render on screen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Clean Installation">
+If you continue to crash on startup, perform a clean reinstall of the Roblox Player. Uninstall the application via the Windows Control Panel, delete any leftover files in `%localappdata%\Roblox`, and download a fresh installer directly from the official Roblox website.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Hardware and System Adjustments">
+
+For players using budget or mid-range gaming setups, hardware resource allocation can make or break your wave-defense runs. Use these system-level adjustments to prioritize Roblox execution.
+
+<CardGrid cols={3}>
+  <Card title="Task Manager Priority">
+    - Open **Task Manager** (`Ctrl + Shift + Esc`)
+    - Locate the running Roblox process
+    - Right-click, go to details, and set priority to **High**
+    - Prevents background tasks from choking CPU execution
+  </Card>
+  <Card title="Power Plan Optimization">
+    - Open Windows **Power Options**
+    - Select the **High Performance** power plan
+    - Ensures your CPU and GPU do not throttle down during waves
+    - Stabilizes frame delivery during heavy Titan action
+  </Card>
+  <Card title="Background Clean-Up">
+    - Close unnecessary web browser tabs
+    - Shut down heavy background apps like editing tools
+    - Frees up system RAM for asset streaming
+    - Lowers overall system temperature under load
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Virtual Memory Expansion">
+Increasing your system's virtual memory (Pagefile size) on your SSD is an excellent way to stop out-of-memory crashes if you only have 8GB of physical RAM.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pre-Game Optimization Checklist">
+
+Before launching into a high-stakes Zombie Mode or Boss Rush match, run through this quick pre-game checklist to ensure your system is primed for maximum stability [00首页信息].
+
+<Checklist
+  id="stability-checklist"
+  title="Pre-Flight System Check:"
+  items={[
+    "Ensure all background web browsers and heavy media players are fully closed.",
+    "Verify that your graphics driver is updated to the latest stable version.",
+    "Confirm Roblox is running with administrator privileges.",
+    "Double-check that Discord and NVIDIA overlays are completely disabled.",
+    "Set your in-game Roblox graphics quality slider to manual level 1-3."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why does Blockade Battlefront keep crashing specifically when Titans are spawned?",
+    answer: "Titans use highly detailed models, unique textures, and massive particle effects. When multiple Titans are deployed at once, it creates a sharp spike in memory usage that can trigger an out-of-memory crash on systems with low RAM or integrated graphics."
+  },
+  {
+    question: "Will clearing my Roblox cache delete my game progress, units, or skins?",
+    answer: "No. All of your Blockade Battlefront progress, including your units, Titans, mastery levels, and unlocked skins, is safely stored on Roblox's cloud servers. Clearing your local cache only deletes temporary visual files and settings."
+  },
+  {
+    question: "Does playing in windowed mode actually help stop crashes?",
+    answer: "Yes. Playing in Windowed Mode reduces the rendering strain when tabbing out of the game to look up codes or strategies. Fullscreen mode often causes display driver timeouts when switching active windows."
+  },
+  {
+    question: "What should I do if the game freezes on the loading screen?",
+    answer: "This is usually caused by a corrupted local version file. Close Roblox using Task Manager, clear your Roblox cache folder, and restart your computer before joining a live server again."
+  }
+]} />
+
+</Section>

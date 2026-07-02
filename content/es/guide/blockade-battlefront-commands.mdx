@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Comandos de Blockade Battlefront: Guía de Configuración y Controles del Servidor",
+  description: "Domina todos los comandos de Blockade Battlefront para servidores privados de Roblox. Aprende a activar el modo sandbox, expulsar jugadores y optimizar tus oleadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/d97706/fff?text=Server+Commands+Guide",
+  date: "2026-07-02",
+  author: "Equipo de Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Comandos Principales**: Usa comandos de chat para controlar partidas personalizadas en servidores privados.
+- **Modo Sandbox**: Activa **!sandbox** para probar builds de personajes, habilidades y desbloquear configuraciones personalizadas.
+- **Moderación del Servidor**: Expulsa a jugadores problemáticos al instante con el comando **!kick**.
+- **Estado de Sobrecarga**: Aplica **!oc** a los Titanes en el Modo Sandbox para probar sus habilidades definitivas.
+- **Votación de Seguridad**: Utiliza **/e vote** para reiniciar servidores con lag o resolver oleadas bugeadas.
+</Callout>
+
+<Section icon={Map} title="Lista de Comandos de Servidor Privado">
+
+Los servidores privados en ST: Frente de Batalla de Bloqueo permiten a los anfitriones eludir las restricciones estándar de oleadas y personalizar sus partidas. Al escribir prefijos específicos directamente en el chat del juego, los propietarios del servidor pueden moderar jugadores, activar entornos de prueba y modificar los estados de los personajes.
+
+**Puntos Destacados del Video:**
+- **Privilegios de Anfitrión**: Aprende a utilizar los controles de administrador basados en el chat.
+- **Activación del Sandbox**: Demostración paso a paso de la arena de pruebas personalizada.
+- **Optimización de Titanes**: Cómo forzar estados de sobrecarga en unidades gigantescas.
+
+<YouTubeEmbed videoId="EqBu3HWUrC0" title="Muestra de Jugabilidad de ST: Frente de Batalla de Bloqueo" />
+
+La siguiente tabla detalla todos los comandos de anfitrión verificados disponibles en servidores privados personalizados:
+
+| Comando | Objetivo / Alcance | Función y Efecto |
+| :--- | :--- | :--- |
+| **!sandbox** | Todo el servidor | Activa el Modo Sandbox, desbloqueando funciones de prueba ilimitadas. |
+| **!kick [nombre_usuario]** | Jugador específico | Elimina al jugador especificado del servidor activo de inmediato. |
+| **!oc** | Titán activo | Aplica el Estado de Sobrecarga a tu Titán (requiere Modo Sandbox). |
+| **/e vote** | Todo el servidor | Inicia una votación comunitaria para reiniciar un servidor con lag o bugeado. |
+
+<Callout type="warning" title="Aviso para el Anfitrión">
+Los comandos solo funcionan si eres el anfitrión designado de un servidor privado. Intentar escribir estas cadenas en salas de emparejamiento público resultará en mensajes de chat estándar sin efectos en el sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Características del Modo Sandbox">
+
+Activar el Modo Sandbox mediante **!sandbox** transforma por completo el ciclo estándar de defensa de oleadas en un campo de pruebas abierto. Este modo es muy recomendable para los jugadores que desean experimentar con combos de habilidades complejos, comprobar el escalado de daño o configurar partidas PvP personalizadas.
+
+<CardGrid cols={3}>
+  <Card title="Integración del Creador de Habilidades">
+    - **Conjuntos de Movimientos Personalizados**: Diseña tus propias secuencias de habilidades usando la interfaz Block Canvas.
+    - **Ajuste de Propiedades**: Edita parámetros como tiempos de recarga, hitboxes y velocidad de proyectiles.
+    - **Libertad de Prueba**: Despliega habilidades personalizadas al instante sin necesidad de farmear niveles de maestría.
+  </Card>
+  <Card title="Partidas PvP Personalizadas">
+    - **Configuración de Facciones**: Los anfitriones del servidor pueden establecer manualmente las facciones de los jugadores para habilitar el combate.
+    - **Sin Límites de Equilibrio**: Prueba enfrentamientos de personajes directamente en combates puros y sin moderación.
+    - **Baneos Personalizados**: Los anfitriones pueden banear personajes específicos para mantener justas las partidas casuales.
+  </Card>
+  <Card title="Pruebas de Sobrecarga">
+    - **Mejora de Titán**: Usa **!oc** para omitir los tiempos de recarga de sobrecarga estándar.
+    - **Máximo Daño**: Evalúa la verdadera capacidad de los Titanes de Nivel S bajo su máxima potencia.
+    - **Muestras Visuales**: Captura metraje limpio de habilidades de alto nivel sin interrupciones.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Pro">
+El Modo Sandbox desactiva el progreso estándar, lo que significa que no puedes farmear Cens, Puntos o Maestría mientras las funciones de sandbox estén activas. ¡Úsalo estrictamente para practicar y realizar pruebas!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Configurar una Partida Privada">
+
+Configurar una partida privada de sandbox es sencillo, pero requiere seguir la secuencia correcta dentro de Roblox. Sigue estos pasos para poner en marcha tu propio servidor personalizado:
+
+<Steps>
+  <Step num="1" title="Crear un Servidor">
+    Navega a la página oficial de la experiencia de Roblox para ST: Frente de Batalla de Bloqueo y compra o únete a un servidor privado.
+  </Step>
+  <Step num="2" title="Cargar el Mapa">
+    Entra en un servidor de juego activo en lugar de quedarte en el menú del lobby [00首页信息-1.md]. Espera a que los elementos del entorno se carguen por completo.
+  </Step>
+  <Step num="3" title="Abrir el Chat del Juego">
+    Presiona **/** en tu teclado para abrir el cuadro de chat predeterminado de Roblox en la esquina superior izquierda de tu pantalla.
+  </Step>
+  <Step num="4" title="Ejecutar Comandos de Anfitrión">
+    Escribe **!sandbox** para activar las funciones de prueba, o usa **!kick [nombre_usuario]** para administrar tu lista de jugadores.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recordatorio de Canje">
+¡Antes de comenzar una partida personalizada, canjea los códigos promocionales activos como **!redeem Return** o **!redeem Verified** en el lobby principal para asegurar Puntos gratis para tu cuenta [00首页信息-1.md]!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Listas de Control del Servidor">
+
+Para mantener un entorno de pruebas fluido y sin lag, los anfitriones de servidores privados deben realizar un mantenimiento básico del servidor con regularidad. Utiliza la siguiente lista de control para mantener organizadas tus partidas personalizadas:
+
+<Checklist
+  id="server-maintenance"
+  title="Buenas Prácticas para el Anfitrión:"
+  items={[
+    "Verificar los privilegios de anfitrión escribiendo un comando de prueba en el chat",
+    "Usar !kick de inmediato si un jugador está usando exploits o causando lag",
+    "Iniciar /e vote si una oleada se bugea o se queda atascada",
+    "Desactivar el Modo Sandbox si los jugadores quieren volver a las partidas de progresión estándar",
+    "Reportar errores graves del juego directamente en el canal oficial de Discord"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Funcionan los comandos de blockade battlefront en servidores públicos?",
+    answer: "No. Los comandos de chat como !sandbox, !kick y !oc solo funcionan dentro de servidores privados donde eres el anfitrión designado."
+  },
+  {
+    question: "¿Puedo ganar Maestría o Cens mientras el Modo Sandbox está activo?",
+    answer: "No. El Modo Sandbox es estrictamente para pruebas y partidas PvP personalizadas. Toda la progresión, el farmeo de monedas y las ganancias de maestría están desactivados mientras está en ejecución."
+  },
+  {
+    question: "¿Qué debo hacer si una oleada se queda atascada o el servidor comienza a tener lag?",
+    answer: "Puedes usar el comando /e vote en el chat para iniciar una votación en todo el servidor para reiniciar la partida y limpiar cualquier entidad bugeada."
+  },
+  {
+    question: "¿Cómo uso el comando de Sobrecarga en mi Titán?",
+    answer: "Primero, activa el Modo Sandbox escribiendo !sandbox. Una vez que estés en estado de Titán, escribe !oc en el chat para aplicar el estado de sobrecarga de inmediato."
+  }
+]} />
+
+</Section>

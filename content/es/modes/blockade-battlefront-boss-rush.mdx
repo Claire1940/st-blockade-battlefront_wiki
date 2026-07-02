@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Boss Rush de Frente de Batalla de Bloqueo: Guía de Farmeo en Solitario y Mecánicas de Jefes",
+  description: "Domina el modo Boss Rush de Frente de Batalla de Bloqueo con nuestra guía de 2026. Aprende las mecánicas de los jefes, las mejores equipaciones de unidades y estrategias de farmeo en solitario para obtener recompensas rápidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Rush+Guide",
+  date: "2026-07-02",
+  author: "Equipo de la Wiki de Frente de Batalla de Bloqueo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Boss Rush de Frente de Batalla de Bloqueo** es un modo de juego especializado centrado en enfrentamientos secuenciales contra jefes en lugar de la defensa de oleadas estándar.
+- El **Farmeo en Solitario** es muy viable en este modo para los jugadores que buscan acumular Cens y puntos de Maestría de manera eficiente sin un equipo completo.
+- Las **Unidades Titán** son obligatorias para los jefes de las fases finales, ya que las unidades normales suelen carecer de la salud necesaria para sobrevivir a los ataques masivos de área de efecto (AoE).
+- Se deben dominar las **Teclas de Acción Rápida** (Q, E, R, T, etc.) para esquivar los golpes de los jefes y maximizar tu daño por segundo (DPS).
+- Las **Tarjetas de Maestría** deben aplicarse a tus unidades principales de eliminación de jefes para desbloquear variantes de habilidades de alto nivel antes de entrar a la arena.
+</Callout>
+
+<Section icon={Map} title="Introducción al Desafío Boss Rush">
+
+El modo **boss rush de Frente de Batalla de Bloqueo** representa la prueba definitiva de habilidad y gestión de unidades dentro de la experiencia de Roblox. A diferencia del modo estándar de disparos de supervivencia basado en oleadas, donde defiendes una base contra cientos de enemigos comunes, Boss Rush elimina el relleno y te enfrenta directamente a las amenazas más peligrosas del juego. Este modo está diseñado para jugadores que ya han establecido una alineación sólida de unidades y buscan optimizar su obtención de recursos.
+
+**Puntos Destacados del Video:**
+- Resumen del meta actual de Boss Rush en 2026 y los requisitos de unidades.
+- Demostración de técnicas de movimiento de alto nivel para esquivar los láseres de los jefes.
+- Comparación de recompensas en solitario frente a grupales para un farmeo eficiente de Cens.
+- Análisis del rendimiento de la unidad "Villain Arc" contra jefes del final del juego.
+
+<YouTubeEmbed videoId="mTRgKQB59tk" title="ST: Blockade Battlefront Official Trailer & Gameplay" />
+
+En Boss Rush, el ritmo es significativamente más rápido. No tienes el lujo de construir una economía lentamente. Cada colocación de unidad y cada despliegue de Titán debe ser calculado para contrarrestar mecánicas específicas de los jefes. Comprender la diferencia entre estos modos es el primer paso hacia la maestría.
+
+<CardGrid cols={2}>
+  <Card title="Defensa de Oleadas Estándar">
+    - **Enfoque**: Protección de la base y escalado de recursos.
+    - **Tipo de Enemigo**: Grandes grupos de enemigos con poca salud.
+    - **Estrategia**: Daño de área de efecto (AoE) y control de masas.
+    - **Recompensa**: Progresión constante y moneda básica.
+  </Card>
+  <Card title="Modo Boss Rush">
+    - **Enfoque**: Daño de ráfaga y mecánicas de supervivencia.
+    - **Tipo de Enemigo**: Encuentros secuenciales con jefes de mucha salud.
+    - **Estrategia**: Alto DPS a un solo objetivo y esquivar activamente.
+    - **Recompensa**: Ganancias masivas de Maestría y materiales de botín raros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Requisito de Entrada">
+Antes de intentar Boss Rush en solitario, asegúrate de que tu unidad Titán principal tenga al menos el Nivel de Maestría 20. El escalado de daño de los jefes posteriores abrumará a cualquier unidad que no haya desbloqueado sus variantes de habilidades especializadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Jefes y Patrones de Ataque">
+
+Cada jefe en la rotación del **boss rush de Frente de Batalla de Bloqueo** presenta patrones de ataque únicos que requieren tácticas de contraataque específicas. En 2026, el meta se ha desplazado hacia jefes que utilizan peligros ambientales y transformaciones de múltiples etapas. Para sobrevivir, debes reconocer las señales visuales de sus movimientos "Definitivos", que a menudo pueden eliminar de un solo golpe incluso a los Striders más resistentes.
+
+Los jefes principales que encontrarás incluyen las variantes de G-Toilet, los Astro Elites y los enormes Titanes Infectados. Cada uno de ellos requiere un enfoque diferente para el posicionamiento y el despliegue de unidades. Por ejemplo, mientras que el G-Toilet depende de potentes rayos láser que pueden ser bloqueados por el terreno, el Astro Elite utiliza embestidas de alta velocidad que requieren unidades de aturdimiento como los TV Men para ser interrumpidas.
+
+| Nombre del Jefe | Amenaza Principal | Tipo de Daño | Estrategia de Contraataque |
+| :--- | :--- | :--- | :--- |
+| **G-Toilet X-18** | Láser Orbital | Energía/AoE | Usar cobertura/Escudo de Titán |
+| **Astro Elite** | Embestida Distorsionada | Físico/Ráfaga | Aturdir con unidades TV Man |
+| **Titán Infectado** | Golpe Tóxico | Veneno/DoT | Mantener distancia/A distancia |
+| **Guardián Estelar** | Pozo de Gravedad | Control/Atracción | Deslizarse con teclas Q/E |
+| **El DJ** | Pulso de Onda Sonora | Retroceso | Usar unidades pesadas/Striders |
+
+<Callout type="warning" title="Fases de Ira de Jefes">
+La mayoría de los jefes entran en una fase de "Ira" cuando su salud cae por debajo del 30%. Durante este tiempo, su velocidad de ataque aumenta en un 50%. Guarda la habilidad definitiva de tu Titán específicamente para este momento para terminar la pelea rápidamente.
+</Callout>
+
+El uso efectivo de las teclas de habilidades activas no es negociable. El juego utiliza una amplia gama de combinaciones de teclas (Q, E, R, T, Y, F, G, H, Z, X, C, V, B) para activar las habilidades de las unidades. En Boss Rush, la "Doble Barra Espaciadora" para las variantes aéreas es particularmente útil para evitar las ondas de choque terrestres del Titán Infectado.
+
+</Section>
+
+<Section icon={Shield} title="Las Mejores Equipaciones para Triunfar en Boss Rush">
+
+Elegir las unidades adecuadas marca la diferencia entre una victoria exitosa de 10 minutos y un intento fallido en el tercer jefe. El meta de **boss rush de Frente de Batalla de Bloqueo** favorece a las unidades que proporcionan un daño de ráfaga masivo o una utilidad esencial como aturdimientos y curaciones. En las clasificaciones actuales de 2026, el "Villain Arc Brown Cameraman" y el "Upgraded Titan Cameraman" se mantienen en la cima del Nivel S por su pura versatilidad.
+
+Aunque los Titanes son los atacantes principales, tus unidades de apoyo proporcionan la base. El "Chief Watch Man" es invaluable por sus habilidades de distorsión temporal, que pueden restablecer los tiempos de reutilización de tu Titán durante momentos críticos. Mientras tanto, unidades como el "Engineer Camcorder Man" proporcionan reparaciones esenciales a tu base y a otras unidades desplegadas, asegurando que no pierdas progreso por daño acumulado.
+
+| Clase de Unidad | Unidad Recomendada | Nivel | Rol Clave en Boss Rush |
+| :--- | :--- | :--- | :--- |
+| **Titán** | **Upgraded Titan Cam** | **S** | Tanque principal y cazador de jefes |
+| **DPS** | **Villain Arc Brown** | **S** | Alto daño de ráfaga y mejoras orbitales |
+| **Soporte** | **Chief Watch Man** | **A** | Reducción de enfriamiento/Distorsión temporal |
+| **Control** | **Energized TV Man** | **A** | Aturdimientos e interrupción de jefes |
+| **Utilidad** | **Engineer Camcorder** | **B** | Reparaciones de unidades e invocaciones |
+
+<Callout type="success" title="Bonificación de Sinergia">
+Combinar una unidad Speakerman con una unidad Cameraman a menudo activa mejoras ocultas de ondas sonoras en las actualizaciones de 2026. Utiliza al "Elite Speakerman" junto a tu Titán para aumentar la velocidad de ataque general en un 15% durante los encuentros con jefes.
+</Callout>
+
+Para los jugadores enfocados en el **farmeo en solitario**, el "Glitch Double-Plunger Cameraman" es una alternativa fantástica a los Titanes. Su alta movilidad te permite esquivar y atraer a los jefes indefinidamente, aunque requiere una habilidad mecánica mucho mayor para ejecutarse perfectamente sin recibir daño.
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Farmeo en Solitario Paso a Paso">
+
+Farmear el **boss rush de Frente de Batalla de Bloqueo** en solitario requiere un enfoque disciplinado para la gestión de recursos. No puedes permitirte gastar Cens en unidades de bajo nivel que serán destruidas en los primeros tres minutos. Sigue esta progresión para maximizar tu eficiencia y tasa de supervivencia.
+
+<Steps>
+  <Step num="1" title="Preparación Previa al Juego">
+    Equipa tus mejores Tarjetas de Maestría y activa un potenciador de Maestría de 2x si está disponible. Asegúrate de que tus combinaciones de teclas estén configuradas para tu comodidad, ya que usarás las teclas Q, E y R constantemente.
+  </Step>
+  <Step num="2" title="Economía de la Fase Temprana">
+    Despliega 2 o 3 unidades de DPS de alta eficiencia como "Amplifier Woman" para encargarte de las oleadas iniciales de jefes. Concéntrate en ahorrar Cens para tu primer despliegue de Titán en lugar de subir demasiado de nivel a las unidades básicas.
+  </Step>
+  <Step num="3" title="Despliegue del Titán">
+    A medida que se acerca el cuarto jefe, despliega tu Titán principal (por ejemplo, Upgraded Titan Speakerman). Colócalo en el centro para permitir la máxima cobertura de la arena.
+  </Step>
+  <Step num="4" title="Dominio de la Rotación de Habilidades">
+    Alterna entre tus habilidades activas. Usa tu aturdimiento (teclas F/G) para interrumpir las animaciones de "carga" de los jefes. Continúa con tus habilidades de daño pesado (teclas Z/X) mientras el jefe esté incapacitado.
+  </Step>
+  <Step num="5" title="El Empuje Final">
+    Durante el encuentro con el jefe final, usa todos los Cens restantes para desplegar Striders de apoyo. Concéntrate por completo en la barra de salud del jefe e ignora a los secuaces menores a menos que amenacen directamente tu base.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Farmeo de Maestría">
+Si tu objetivo es puramente farmear Maestría, a menudo es más eficiente reiniciar después del quinto jefe. La dificultad aumenta significativamente en el Jefe 6 y el tiempo para derrotarlo (TTK) se incrementa, lo que reduce tu tasa general de Maestría por minuto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Gestión de Recursos">
+
+Completar una partida de **boss rush de Frente de Batalla de Bloqueo** proporciona una variedad de monedas y materiales esenciales para el progreso en el juego avanzado. Las recompensas principales son Cens y Maestría, pero las partidas de alto nivel también ofrecen la oportunidad de obtener aspectos raros y materiales de Núcleo Zombi (Zombie Core) utilizados para la ruta de mejora del G-Toilet X-18.
+
+Entender cómo gastar estos recursos es tan importante como ganarlos. Los nuevos jugadores a menudo cometen el error de gastar Cens en cada unidad nueva que aparece en la tienda. En su lugar, concentra tus recursos en un equipo "Cinco Base" que pueda manejar cualquier encuentro con jefes.
+
+| Tipo de Recurso | Fuente Principal | Mejor Uso | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Cens** | Victorias en Boss Rush | Mejoras de unidades y artículos de la tienda | **Alta** |
+| **Maestría** | Uso de Unidades/Tarjetas | Desbloquear variantes de habilidades | **Alta** |
+| **Núcleos Zombi** | Modo Zombi/Jefes | Progresión de G-Toilet X-18 | **Media** |
+| **Puntos** | Canjeo de Códigos | Mejoras de progresión en el juego temprano | **Baja** |
+| **Aspectos** | Jefes de Evento | Solo personalización visual | **Baja** |
+
+<Callout type="info" title="Eficiencia de Potenciadores de Maestría">
+Los potenciadores de Maestría tienen límite de tiempo. Para aprovechar al máximo un potenciador de 30 minutos, ten tu sala de Boss Rush lista para comenzar en el momento en que actives el código. Un equipo bien optimizado puede completar tres partidas completas de Boss Rush en una sola ventana de 30 minutos.
+</Callout>
+
+En 2026, el desarrollador "Loading Studi" introdujo las "Tarjetas de Maestría" como un botín raro en Boss Rush. Estas tarjetas otorgan experiencia instantánea a una unidad específica. Siempre equipa la unidad que deseas subir de nivel antes de consumir estas tarjetas, ya que la experiencia no es transferible una vez aplicada.
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificación Final y Preguntas Frecuentes">
+
+Antes de sumergirte en tu próxima sesión de **boss rush de Frente de Batalla de Bloqueo**, utiliza esta lista de verificación para asegurarte de estar completamente preparado para los desafíos que se avecinan. El éxito en este modo es 50% preparación y 50% ejecución.
+
+<Checklist
+  id="boss-rush-prep"
+  title="Lista de Verificación de Preparación Previa al Rush:"
+  items={[
+    "Verifica que todas las unidades principales estén equipadas con Tarjetas de Maestría",
+    "Revisa Discord para ver si hay códigos !redeem activos para obtener Puntos gratis",
+    "Confirma que tus combinaciones de teclas (Q, E, R, T, Y) respondan correctamente",
+    "Asegúrate de que tu unidad Titán tenga al menos el Nivel de Maestría 20",
+    "Configura tus gráficos en 'Bajo' si experimentas lag durante las fases de daño de área (AoE)"
+  ]}
+/>
+
+<Callout type="success" title="Sabiduría de la Comunidad">
+Únete al Discord oficial de Frente de Batalla de Bloqueo para encontrar jugadores de alto nivel para partidas grupales. Los equipos coordinados a menudo pueden completar Boss Rush un 40% más rápido que los jugadores en solitario, lo que aumenta significativamente tu rendimiento de Cens por hora.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor unidad para completar en solitario el Boss Rush de Frente de Batalla de Bloqueo?",
+    answer: "El Upgraded Titan Cameraman es actualmente el mejor para jugar en solitario debido a su gran cantidad de salud y sus potentes ataques de área (AoE) que pueden eliminar a los secuaces del jefe mientras se concentra en el objetivo principal."
+  },
+  {
+    question: "¿Cómo esquivo el rayo láser de G-Toilet en Boss Rush?",
+    answer: "Presta atención a los ojos rojos brillantes de G-Toilet. Cuando veas esta señal, usa tu deslizamiento (teclas Q o E) o cúbrete detrás de una unidad Strider para evitar el daño continuo de alta intensidad."
+  },
+  {
+    question: "¿Son mejores las recompensas en juego grupal o en solitario?",
+    answer: "Aunque las recompensas base son similares, el juego en grupo permite completar las partidas mucho más rápido. Si puedes superar el modo el doble de rápido con un equipo, tus recompensas por hora serán mucho mayores."
+  },
+  {
+    question: "¿Puedo usar códigos para obtener ventaja en Boss Rush?",
+    answer: "Sí, usa códigos como !redeem Return o !redeem Verified para obtener Puntos gratis, que puedes usar para comprar mejores unidades o Tarjetas de Maestría antes de comenzar tu partida."
+  }
+]} />
+
+</Section>

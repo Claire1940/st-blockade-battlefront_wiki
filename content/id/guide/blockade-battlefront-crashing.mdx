@@ -1,0 +1,162 @@
+import { Shield, Swords, Target, Map, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Blockade Battlefront Crash: Panduan Stabilitas & Optimisasi PC",
+  description: "Atasi crash, freeze, dan lonjakan lag Blockade Battlefront di Roblox dengan langkah optimisasi, pengaturan grafis, dan perbaikan memori yang terbukti.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/222437/ffbf00?text=Crash+Fix+Guide",
+  date: "2026-07-02",
+  author: "Tim Wiki Blockade Battlefront"
+}
+
+<Callout type="warning" title="Panduan Cepat">
+- **Masalah utama**: Atasi **crash Blockade Battlefront** dengan menyelesaikan kebocoran memori dan konflik perenderan.
+- **Pengaturan grafis**: Ubah grafis dalam game Anda dari otomatis ke **manual level 1-3** selama gelombang Titan yang intens.
+- **Hak istimewa sistem**: Selalu jalankan Roblox Player Anda sebagai **administrator** untuk mencegah freeze berbasis izin.
+- **Manajemen cache**: Hapus file sementara Roblox yang rusak untuk mengatasi crash yang terjadi langsung saat peluncuran.
+- **Konflik overlay**: Nonaktifkan overlay Discord, NVIDIA, dan Xbox Game Bar sebelum bergabung ke server langsung.
+</Callout>
+
+<Section icon={Shield} title="Identifikasi Penyebab Crash Blockade Battlefront">
+
+Blockade Battlefront adalah game wave defense dan survival shooter bertempo cepat di Roblox tempat pemain mengerahkan unit besar dan Titan untuk mempertahankan basis mereka [00基础信息]. Karena banyaknya proyektil aktif, animasi unit yang kompleks, dan model Titan yang mendetail, pemain sering kali mengalami hambatan performa. Memahami mengapa klien Anda membeku (freeze) atau crash ke desktop adalah langkah pertama untuk mencapai pengalaman bermain game yang stabil.
+
+Sebagian besar crash dalam game berasal dari tiga area utama: kelebihan beban memori selama gelombang berintensitas tinggi, file cache lokal yang rusak, atau konflik perangkat lunak latar belakang.
+
+| Tipe Crash | Pemicu Umum | Penyebab Utama | Tingkat Keparahan |
+| :--- | :--- | :--- | :--- |
+| **Crash ke Desktop (Tanpa Error)** | Mengerahkan beberapa Titan secara bersamaan | Kebocoran kehabisan memori (OOM) | Tinggi |
+| **Tertahan di Layar Pemuatan** | Bergabung ke server langsung dari lobi | Cache versi Roblox yang rusak | Sedang |
+| **Layar Membeku (Audio Berulang)** | Efek partikel yang intens atau pemunculan bos | Timeout driver GPU atau konflik overlay | Tinggi |
+| **Koneksi Terputus (Error 277)** | Kepadatan gelombang tinggi dan kemacetan jaringan | Kehilangan paket (packet loss) atau penggunaan bandwidth latar belakang | Sedang |
+
+<Callout type="info" title="Kebutuhan Perangkat Keras">
+Karena Titan dan unit bos khusus menampilkan desain high-poly dan animasi keterampilan yang kompleks, Blockade Battlefront membutuhkan RAM dan daya pemrosesan CPU yang jauh lebih besar daripada pengalaman Roblox standar yang berdesain low-poly.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimalkan Grafis dan Pengaturan Dalam Game">
+
+Pengaturan grafis yang tinggi adalah katalis utama ketidakstabilan klien, terutama saat mencapai gelombang akhir game atau melakukan grinding Boss Rush [00首页信息]. Menurunkan beban perenderan mencegah sistem Anda kehabisan memori virtual.
+
+### Menyesuaikan Parameter Mesin Roblox
+
+Untuk menjaga agar frame rate Anda tetap mulus dan mencegah crash mendadak selama pertempuran yang kacau, sesuaikan pengaturan Anda menggunakan parameter yang diuraikan di bawah ini:
+
+| Kategori Pengaturan | Nilai yang Direkomendasikan | Dampak yang Diharapkan |
+| :--- | :--- | :--- |
+| **Mode Grafis** | Manual | Membuka kontrol slider manual |
+| **Kualitas Grafis** | 1 hingga 3 Batang | Secara drastis mengurangi konsumsi memori |
+| **Mode Layar Penuh** | Off (Mode Jendela) | Mencegah crash saat beralih tab keluar dari game |
+| **Mode Kamera** | Klasik | Mengurangi beban perenderan |
+
+<Callout type="tip" title="Manfaat Mode Jendela">
+Menjalankan game dalam Mode Jendela (Windowed) alih-alih Layar Penuh (Fullscreen) mencegah mesin Roblox kehilangan fokus dan crash saat Anda beralih tab dengan cepat untuk memeriksa sumber daya resmi seperti Trello atau Discord [00基础信息].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perbaikan Stabilitas Langkah demi Langkah">
+
+Jika menyesuaikan pengaturan dalam game tidak menghentikan crash, masalahnya kemungkinan terletak pada konfigurasi sistem lokal atau file sementara Anda. Ikuti langkah-langkah ini untuk melakukan pembersihan optimisasi secara menyeluruh.
+
+<Steps>
+  <Step num="1" title="Jalankan Roblox sebagai Administrator">
+    Klik kanan pintasan **Roblox Player** di desktop Anda, pilih **Properti** (Properties), buka tab **Kompatibilitas** (Compatibility), centang **Jalankan program ini sebagai administrator** (Run this program as an administrator), lalu klik terapkan (apply). Ini memastikan Roblox memiliki izin yang diperlukan untuk mengalokasikan memori sistem dan menulis data shader sementara.
+  </Step>
+  <Step num="2" title="Hapus Cache Roblox yang Rusak">
+    Tekan `Tombol Windows + R` untuk membuka kotak dialog Run, ketik `%localappdata%\Roblox` dan tekan enter. Buka folder **Downloads** dan **Versions**, lalu hapus isinya untuk memaksa Roblox membangun kembali aset sementara yang bersih pada peluncuran berikutnya.
+  </Step>
+  <Step num="3" title="Nonaktifkan Overlay yang Berat">
+    Buka Discord, buka **Pengaturan Pengguna** (User Settings), pilih **Overlay Game** (Game Overlay), dan matikan overlay dalam game. Lakukan hal yang sama untuk NVIDIA GeForce Experience dan Xbox Game Bar, karena kait overlay yang aktif sering kali memicu crash desktop instan selama gelombang padat aset.
+  </Step>
+  <Step num="4" title="Perbarui Driver Kartu Grafis">
+    Buka Aplikasi NVIDIA, AMD Adrenalin, atau Utilitas Driver Intel Anda untuk memeriksa rilis stabil terbaru. Driver tampilan yang rusak atau usang adalah penyebab utama layar membeku saat efek partikel kompleks dirender di layar.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Instalasi Bersih">
+Jika Anda terus mengalami crash saat memulai, lakukan penginstalan ulang bersih untuk Roblox Player. Hapus instalan aplikasi melalui Control Panel Windows, hapus semua file yang tersisa di `%localappdata%\Roblox`, dan unduh penginstal baru langsung dari situs web resmi Roblox.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Penyesuaian Perangkat Keras dan Sistem">
+
+Untuk pemain yang menggunakan setup gaming anggaran rendah atau menengah, alokasi sumber daya perangkat keras dapat menentukan keberhasilan permainan wave-defense Anda. Gunakan penyesuaian tingkat sistem ini untuk memprioritaskan eksekusi Roblox.
+
+<CardGrid cols={3}>
+  <Card title="Prioritas Task Manager">
+    - Buka **Task Manager** (`Ctrl + Shift + Esc`)
+    - Temukan proses Roblox yang sedang berjalan
+    - Klik kanan, buka detail (details), dan atur prioritas ke **Tinggi** (High)
+    - Mencegah tugas latar belakang menghambat eksekusi CPU
+  </Card>
+  <Card title="Optimisasi Rencana Daya">
+    - Buka **Opsi Daya** (Power Options) Windows
+    - Pilih rencana daya **Kinerja Tinggi** (High Performance)
+    - Memastikan CPU dan GPU Anda tidak mengalami throttling selama gelombang permainan
+    - Menstabilkan pengiriman frame selama aksi Titan yang intens
+  </Card>
+  <Card title="Pembersihan Latar Belakang">
+    - Tutup tab browser web yang tidak diperlukan
+    - Matikan aplikasi latar belakang yang berat seperti alat pengeditan
+    - Membebaskan RAM sistem untuk streaming aset
+    - Menurunkan suhu sistem secara keseluruhan di bawah beban kerja
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ekspansi Memori Virtual">
+Meningkatkan memori virtual sistem Anda (ukuran Pagefile) pada SSD Anda adalah cara terbaik untuk menghentikan crash akibat kehabisan memori jika Anda hanya memiliki RAM fisik 8GB.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa Optimisasi Sebelum Game">
+
+Sebelum memulai pertandingan Mode Zombie atau Boss Rush yang berisiko tinggi, lakukan daftar periksa cepat sebelum game ini untuk memastikan sistem Anda siap untuk stabilitas maksimum [00首页信息].
+
+<Checklist
+  id="stability-checklist"
+  title="Pemeriksaan Sistem Sebelum Bermain:"
+  items={[
+    "Pastikan semua browser web latar belakang dan pemutar media yang berat ditutup sepenuhnya.",
+    "Verifikasi bahwa driver grafis Anda telah diperbarui ke versi stabil terbaru.",
+    "Konfirmasikan bahwa Roblox berjalan dengan hak istimewa administrator.",
+    "Periksa kembali apakah overlay Discord dan NVIDIA dinonaktifkan sepenuhnya.",
+    "Atur slider kualitas grafis Roblox dalam game Anda ke tingkat manual 1-3."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Mengapa Blockade Battlefront terus crash khususnya saat Titan dimunculkan?",
+    answer: "Titan menggunakan model yang sangat detail, tekstur unik, dan efek partikel yang masif. Ketika beberapa Titan dikerahkan sekaligus, hal ini menciptakan lonjakan tajam dalam penggunaan memori yang dapat memicu crash akibat kehabisan memori pada sistem dengan RAM rendah atau grafis terintegrasi."
+  },
+  {
+    question: "Apakah menghapus cache Roblox saya akan menghapus progres game, unit, atau skin saya?",
+    answer: "Tidak. Semua progres Blockade Battlefront Anda, termasuk unit, Titan, tingkat penguasaan (mastery), dan skin yang terbuka, disimpan dengan aman di server cloud Roblox. Menghapus cache lokal Anda hanya menghapus file visual dan pengaturan sementara."
+  },
+  {
+    question: "Apakah bermain dalam mode jendela benar-benar membantu menghentikan crash?",
+    answer: "Ya. Bermain dalam Mode Jendela mengurangi beban perenderan saat beralih tab keluar dari game untuk mencari kode atau strategi. Mode layar penuh sering kali menyebabkan timeout driver tampilan saat beralih jendela aktif."
+  },
+  {
+    question: "Apa yang harus saya lakukan jika game membeku di layar pemuatan?",
+    answer: "Ini biasanya disebabkan oleh file versi lokal yang rusak. Tutup Roblox menggunakan Task Manager, hapus folder cache Roblox Anda, dan nyalakan ulang komputer Anda sebelum bergabung kembali ke server langsung."
+  }
+]} />
+
+</Section>

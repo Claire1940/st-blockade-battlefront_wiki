@@ -1,1 +1,698 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "blockade-battlefront-codes",
+        "file": "blockade-battlefront-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "blockade-battlefront-beginner-guide",
+        "file": "blockade-battlefront-beginner-guide"
+      },
+      {
+        "slug": "blockade-battlefront-commands",
+        "file": "blockade-battlefront-commands"
+      },
+      {
+        "slug": "blockade-battlefront-crashing",
+        "file": "blockade-battlefront-crashing"
+      },
+      {
+        "slug": "blockade-battlefront-guide",
+        "file": "blockade-battlefront-guide"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-become-a-titan",
+        "file": "blockade-battlefront-how-to-become-a-titan"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-points",
+        "file": "blockade-battlefront-how-to-get-points"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-toilet-token",
+        "file": "blockade-battlefront-how-to-get-toilet-token"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-progress-iib",
+        "file": "blockade-battlefront-how-to-progress-iib"
+      },
+      {
+        "slug": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares",
+        "file": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares"
+      }
+    ],
+    "items": [
+      {
+        "slug": "blockade-battlefront-flash-drive",
+        "file": "blockade-battlefront-flash-drive"
+      },
+      {
+        "slug": "blockade-battlefront-keycard",
+        "file": "blockade-battlefront-keycard"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "blockade-battlefront-astro-holdout",
+        "file": "blockade-battlefront-astro-holdout"
+      },
+      {
+        "slug": "blockade-battlefront-boss-rush",
+        "file": "blockade-battlefront-boss-rush"
+      },
+      {
+        "slug": "blockade-battlefront-endless-mode",
+        "file": "blockade-battlefront-endless-mode"
+      },
+      {
+        "slug": "blockade-battlefront-hard-mode",
+        "file": "blockade-battlefront-hard-mode"
+      },
+      {
+        "slug": "blockade-battlefront-insane-mode",
+        "file": "blockade-battlefront-insane-mode"
+      },
+      {
+        "slug": "blockade-battlefront-nightmare-mode",
+        "file": "blockade-battlefront-nightmare-mode"
+      },
+      {
+        "slug": "blockade-battlefront-normal-mode",
+        "file": "blockade-battlefront-normal-mode"
+      },
+      {
+        "slug": "blockade-battlefront-zombie-mode",
+        "file": "blockade-battlefront-zombie-mode"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "blockade-battlefront-dark-amplifier-quest",
+        "file": "blockade-battlefront-dark-amplifier-quest"
+      },
+      {
+        "slug": "blockade-battlefront-energized-tv-quest",
+        "file": "blockade-battlefront-energized-tv-quest"
+      },
+      {
+        "slug": "blockade-battlefront-engineer-quest",
+        "file": "blockade-battlefront-engineer-quest"
+      },
+      {
+        "slug": "blockade-battlefront-head-captain-quest",
+        "file": "blockade-battlefront-head-captain-quest"
+      },
+      {
+        "slug": "blockade-battlefront-plunger-quest",
+        "file": "blockade-battlefront-plunger-quest"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-tv-man-quest",
+        "file": "blockade-battlefront-scientist-tv-man-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utc-quest",
+        "file": "blockade-battlefront-utc-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utcm-quest",
+        "file": "blockade-battlefront-utcm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utsm-quest",
+        "file": "blockade-battlefront-utsm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-uttvm-quest",
+        "file": "blockade-battlefront-uttvm-quest"
+      }
+    ],
+    "units": [
+      {
+        "slug": "blockade-battlefront-gman-4-0",
+        "file": "blockade-battlefront-gman-4.0"
+      },
+      {
+        "slug": "blockade-battlefront-prometheus",
+        "file": "blockade-battlefront-prometheus"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-cameraman",
+        "file": "blockade-battlefront-scientist-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-siren-titan",
+        "file": "blockade-battlefront-siren-titan"
+      },
+      {
+        "slug": "blockade-battlefront-titan-cameraman",
+        "file": "blockade-battlefront-titan-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-speakerman",
+        "file": "blockade-battlefront-titan-speakerman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-tv-man",
+        "file": "blockade-battlefront-titan-tv-man"
+      },
+      {
+        "slug": "blockade-battlefront-tv-woman",
+        "file": "blockade-battlefront-tv-woman"
+      },
+      {
+        "slug": "blockade-battlefront-upgraded-camera-strider",
+        "file": "blockade-battlefront-upgraded-camera-strider"
+      },
+      {
+        "slug": "blockade-battlefront-x18",
+        "file": "blockade-battlefront-x18"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "blockade-battlefront-codes",
+        "file": "blockade-battlefront-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "blockade-battlefront-beginner-guide",
+        "file": "blockade-battlefront-beginner-guide"
+      },
+      {
+        "slug": "blockade-battlefront-commands",
+        "file": "blockade-battlefront-commands"
+      },
+      {
+        "slug": "blockade-battlefront-crashing",
+        "file": "blockade-battlefront-crashing"
+      },
+      {
+        "slug": "blockade-battlefront-guide",
+        "file": "blockade-battlefront-guide"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-become-a-titan",
+        "file": "blockade-battlefront-how-to-become-a-titan"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-points",
+        "file": "blockade-battlefront-how-to-get-points"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-toilet-token",
+        "file": "blockade-battlefront-how-to-get-toilet-token"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-progress-iib",
+        "file": "blockade-battlefront-how-to-progress-iib"
+      },
+      {
+        "slug": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares",
+        "file": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares"
+      }
+    ],
+    "items": [
+      {
+        "slug": "blockade-battlefront-flash-drive",
+        "file": "blockade-battlefront-flash-drive"
+      },
+      {
+        "slug": "blockade-battlefront-keycard",
+        "file": "blockade-battlefront-keycard"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "blockade-battlefront-astro-holdout",
+        "file": "blockade-battlefront-astro-holdout"
+      },
+      {
+        "slug": "blockade-battlefront-boss-rush",
+        "file": "blockade-battlefront-boss-rush"
+      },
+      {
+        "slug": "blockade-battlefront-endless-mode",
+        "file": "blockade-battlefront-endless-mode"
+      },
+      {
+        "slug": "blockade-battlefront-hard-mode",
+        "file": "blockade-battlefront-hard-mode"
+      },
+      {
+        "slug": "blockade-battlefront-insane-mode",
+        "file": "blockade-battlefront-insane-mode"
+      },
+      {
+        "slug": "blockade-battlefront-nightmare-mode",
+        "file": "blockade-battlefront-nightmare-mode"
+      },
+      {
+        "slug": "blockade-battlefront-normal-mode",
+        "file": "blockade-battlefront-normal-mode"
+      },
+      {
+        "slug": "blockade-battlefront-zombie-mode",
+        "file": "blockade-battlefront-zombie-mode"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "blockade-battlefront-dark-amplifier-quest",
+        "file": "blockade-battlefront-dark-amplifier-quest"
+      },
+      {
+        "slug": "blockade-battlefront-energized-tv-quest",
+        "file": "blockade-battlefront-energized-tv-quest"
+      },
+      {
+        "slug": "blockade-battlefront-engineer-quest",
+        "file": "blockade-battlefront-engineer-quest"
+      },
+      {
+        "slug": "blockade-battlefront-head-captain-quest",
+        "file": "blockade-battlefront-head-captain-quest"
+      },
+      {
+        "slug": "blockade-battlefront-plunger-quest",
+        "file": "blockade-battlefront-plunger-quest"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-tv-man-quest",
+        "file": "blockade-battlefront-scientist-tv-man-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utc-quest",
+        "file": "blockade-battlefront-utc-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utcm-quest",
+        "file": "blockade-battlefront-utcm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utsm-quest",
+        "file": "blockade-battlefront-utsm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-uttvm-quest",
+        "file": "blockade-battlefront-uttvm-quest"
+      }
+    ],
+    "units": [
+      {
+        "slug": "blockade-battlefront-gman-4-0",
+        "file": "blockade-battlefront-gman-4.0"
+      },
+      {
+        "slug": "blockade-battlefront-prometheus",
+        "file": "blockade-battlefront-prometheus"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-cameraman",
+        "file": "blockade-battlefront-scientist-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-siren-titan",
+        "file": "blockade-battlefront-siren-titan"
+      },
+      {
+        "slug": "blockade-battlefront-titan-cameraman",
+        "file": "blockade-battlefront-titan-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-speakerman",
+        "file": "blockade-battlefront-titan-speakerman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-tv-man",
+        "file": "blockade-battlefront-titan-tv-man"
+      },
+      {
+        "slug": "blockade-battlefront-tv-woman",
+        "file": "blockade-battlefront-tv-woman"
+      },
+      {
+        "slug": "blockade-battlefront-upgraded-camera-strider",
+        "file": "blockade-battlefront-upgraded-camera-strider"
+      },
+      {
+        "slug": "blockade-battlefront-x18",
+        "file": "blockade-battlefront-x18"
+      }
+    ]
+  },
+  "id": {
+    "codes": [
+      {
+        "slug": "blockade-battlefront-codes",
+        "file": "blockade-battlefront-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "blockade-battlefront-beginner-guide",
+        "file": "blockade-battlefront-beginner-guide"
+      },
+      {
+        "slug": "blockade-battlefront-commands",
+        "file": "blockade-battlefront-commands"
+      },
+      {
+        "slug": "blockade-battlefront-crashing",
+        "file": "blockade-battlefront-crashing"
+      },
+      {
+        "slug": "blockade-battlefront-guide",
+        "file": "blockade-battlefront-guide"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-become-a-titan",
+        "file": "blockade-battlefront-how-to-become-a-titan"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-points",
+        "file": "blockade-battlefront-how-to-get-points"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-toilet-token",
+        "file": "blockade-battlefront-how-to-get-toilet-token"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-progress-iib",
+        "file": "blockade-battlefront-how-to-progress-iib"
+      },
+      {
+        "slug": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares",
+        "file": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares"
+      }
+    ],
+    "items": [
+      {
+        "slug": "blockade-battlefront-flash-drive",
+        "file": "blockade-battlefront-flash-drive"
+      },
+      {
+        "slug": "blockade-battlefront-keycard",
+        "file": "blockade-battlefront-keycard"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "blockade-battlefront-astro-holdout",
+        "file": "blockade-battlefront-astro-holdout"
+      },
+      {
+        "slug": "blockade-battlefront-boss-rush",
+        "file": "blockade-battlefront-boss-rush"
+      },
+      {
+        "slug": "blockade-battlefront-endless-mode",
+        "file": "blockade-battlefront-endless-mode"
+      },
+      {
+        "slug": "blockade-battlefront-hard-mode",
+        "file": "blockade-battlefront-hard-mode"
+      },
+      {
+        "slug": "blockade-battlefront-insane-mode",
+        "file": "blockade-battlefront-insane-mode"
+      },
+      {
+        "slug": "blockade-battlefront-nightmare-mode",
+        "file": "blockade-battlefront-nightmare-mode"
+      },
+      {
+        "slug": "blockade-battlefront-normal-mode",
+        "file": "blockade-battlefront-normal-mode"
+      },
+      {
+        "slug": "blockade-battlefront-zombie-mode",
+        "file": "blockade-battlefront-zombie-mode"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "blockade-battlefront-dark-amplifier-quest",
+        "file": "blockade-battlefront-dark-amplifier-quest"
+      },
+      {
+        "slug": "blockade-battlefront-energized-tv-quest",
+        "file": "blockade-battlefront-energized-tv-quest"
+      },
+      {
+        "slug": "blockade-battlefront-engineer-quest",
+        "file": "blockade-battlefront-engineer-quest"
+      },
+      {
+        "slug": "blockade-battlefront-head-captain-quest",
+        "file": "blockade-battlefront-head-captain-quest"
+      },
+      {
+        "slug": "blockade-battlefront-plunger-quest",
+        "file": "blockade-battlefront-plunger-quest"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-tv-man-quest",
+        "file": "blockade-battlefront-scientist-tv-man-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utc-quest",
+        "file": "blockade-battlefront-utc-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utcm-quest",
+        "file": "blockade-battlefront-utcm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utsm-quest",
+        "file": "blockade-battlefront-utsm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-uttvm-quest",
+        "file": "blockade-battlefront-uttvm-quest"
+      }
+    ],
+    "units": [
+      {
+        "slug": "blockade-battlefront-gman-4-0",
+        "file": "blockade-battlefront-gman-4.0"
+      },
+      {
+        "slug": "blockade-battlefront-prometheus",
+        "file": "blockade-battlefront-prometheus"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-cameraman",
+        "file": "blockade-battlefront-scientist-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-siren-titan",
+        "file": "blockade-battlefront-siren-titan"
+      },
+      {
+        "slug": "blockade-battlefront-titan-cameraman",
+        "file": "blockade-battlefront-titan-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-speakerman",
+        "file": "blockade-battlefront-titan-speakerman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-tv-man",
+        "file": "blockade-battlefront-titan-tv-man"
+      },
+      {
+        "slug": "blockade-battlefront-tv-woman",
+        "file": "blockade-battlefront-tv-woman"
+      },
+      {
+        "slug": "blockade-battlefront-upgraded-camera-strider",
+        "file": "blockade-battlefront-upgraded-camera-strider"
+      },
+      {
+        "slug": "blockade-battlefront-x18",
+        "file": "blockade-battlefront-x18"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "blockade-battlefront-codes",
+        "file": "blockade-battlefront-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "blockade-battlefront-beginner-guide",
+        "file": "blockade-battlefront-beginner-guide"
+      },
+      {
+        "slug": "blockade-battlefront-commands",
+        "file": "blockade-battlefront-commands"
+      },
+      {
+        "slug": "blockade-battlefront-crashing",
+        "file": "blockade-battlefront-crashing"
+      },
+      {
+        "slug": "blockade-battlefront-guide",
+        "file": "blockade-battlefront-guide"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-become-a-titan",
+        "file": "blockade-battlefront-how-to-become-a-titan"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-points",
+        "file": "blockade-battlefront-how-to-get-points"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-get-toilet-token",
+        "file": "blockade-battlefront-how-to-get-toilet-token"
+      },
+      {
+        "slug": "blockade-battlefront-how-to-progress-iib",
+        "file": "blockade-battlefront-how-to-progress-iib"
+      },
+      {
+        "slug": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares",
+        "file": "blockade-battlefront-tips-to-beat-wave-1-and-2-on-nightmares"
+      }
+    ],
+    "items": [
+      {
+        "slug": "blockade-battlefront-flash-drive",
+        "file": "blockade-battlefront-flash-drive"
+      },
+      {
+        "slug": "blockade-battlefront-keycard",
+        "file": "blockade-battlefront-keycard"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "blockade-battlefront-astro-holdout",
+        "file": "blockade-battlefront-astro-holdout"
+      },
+      {
+        "slug": "blockade-battlefront-boss-rush",
+        "file": "blockade-battlefront-boss-rush"
+      },
+      {
+        "slug": "blockade-battlefront-endless-mode",
+        "file": "blockade-battlefront-endless-mode"
+      },
+      {
+        "slug": "blockade-battlefront-hard-mode",
+        "file": "blockade-battlefront-hard-mode"
+      },
+      {
+        "slug": "blockade-battlefront-insane-mode",
+        "file": "blockade-battlefront-insane-mode"
+      },
+      {
+        "slug": "blockade-battlefront-nightmare-mode",
+        "file": "blockade-battlefront-nightmare-mode"
+      },
+      {
+        "slug": "blockade-battlefront-normal-mode",
+        "file": "blockade-battlefront-normal-mode"
+      },
+      {
+        "slug": "blockade-battlefront-zombie-mode",
+        "file": "blockade-battlefront-zombie-mode"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "blockade-battlefront-dark-amplifier-quest",
+        "file": "blockade-battlefront-dark-amplifier-quest"
+      },
+      {
+        "slug": "blockade-battlefront-energized-tv-quest",
+        "file": "blockade-battlefront-energized-tv-quest"
+      },
+      {
+        "slug": "blockade-battlefront-engineer-quest",
+        "file": "blockade-battlefront-engineer-quest"
+      },
+      {
+        "slug": "blockade-battlefront-head-captain-quest",
+        "file": "blockade-battlefront-head-captain-quest"
+      },
+      {
+        "slug": "blockade-battlefront-plunger-quest",
+        "file": "blockade-battlefront-plunger-quest"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-tv-man-quest",
+        "file": "blockade-battlefront-scientist-tv-man-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utc-quest",
+        "file": "blockade-battlefront-utc-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utcm-quest",
+        "file": "blockade-battlefront-utcm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-utsm-quest",
+        "file": "blockade-battlefront-utsm-quest"
+      },
+      {
+        "slug": "blockade-battlefront-uttvm-quest",
+        "file": "blockade-battlefront-uttvm-quest"
+      }
+    ],
+    "units": [
+      {
+        "slug": "blockade-battlefront-gman-4-0",
+        "file": "blockade-battlefront-gman-4.0"
+      },
+      {
+        "slug": "blockade-battlefront-prometheus",
+        "file": "blockade-battlefront-prometheus"
+      },
+      {
+        "slug": "blockade-battlefront-scientist-cameraman",
+        "file": "blockade-battlefront-scientist-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-siren-titan",
+        "file": "blockade-battlefront-siren-titan"
+      },
+      {
+        "slug": "blockade-battlefront-titan-cameraman",
+        "file": "blockade-battlefront-titan-cameraman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-speakerman",
+        "file": "blockade-battlefront-titan-speakerman"
+      },
+      {
+        "slug": "blockade-battlefront-titan-tv-man",
+        "file": "blockade-battlefront-titan-tv-man"
+      },
+      {
+        "slug": "blockade-battlefront-tv-woman",
+        "file": "blockade-battlefront-tv-woman"
+      },
+      {
+        "slug": "blockade-battlefront-upgraded-camera-strider",
+        "file": "blockade-battlefront-upgraded-camera-strider"
+      },
+      {
+        "slug": "blockade-battlefront-x18",
+        "file": "blockade-battlefront-x18"
+      }
+    ]
+  }
+}

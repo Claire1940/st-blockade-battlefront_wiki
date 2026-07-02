@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Blockade Battlefront Commands: Setup Guide & Server Controls",
+  description: "Master all Blockade Battlefront commands for Roblox private servers. Learn how to toggle sandbox mode, ban/kick players, and optimize your waves.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/d97706/fff?text=Server+Commands+Guide",
+  date: "2026-07-02",
+  author: "blockade battlefront Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Commands**: Use chat commands to control custom private server matches.
+- **Sandbox Mode**: Toggle **!sandbox** to test character builds, skills, and unlock custom configurations.
+- **Server Moderation**: Kick problematic players instantly with the **!kick** command.
+- **Overcharge State**: Apply **!oc** to Titans in Sandbox Mode for ultimate ability testing.
+- **Voting Safety**: Utilize **/e vote** to restart lagging servers or resolve bugged waves.
+</Callout>
+
+<Section icon={Map} title="Private Server Command List">
+
+Private servers in ST: Blockade Battlefront allow hosts to bypass standard wave restrictions and customize their matches. By typing specific prefixes directly into the in-game chat, server owners can moderate players, toggle test environments, and modify character states.
+
+**Video Highlights:**
+- **Host Privileges**: Learn how to utilize chat-based administrator controls.
+- **Sandbox Activation**: Step-by-step demonstration of the custom testing arena.
+- **Titan Optimization**: How to force overcharge states on massive units.
+
+<YouTubeEmbed videoId="EqBu3HWUrC0" title="ST: Blockade Battlefront Gameplay Showcase" />
+
+The table below outlines all verified host commands available within custom private servers:
+
+| Command | Target / Scope | Function & Effect |
+| :--- | :--- | :--- |
+| **!sandbox** | Server-wide | Activates Sandbox Mode, unlocking unlimited testing features. |
+| **!kick [username]** | Specific Player | Removes the specified player from the active server immediately. |
+| **!oc** | Active Titan | Applies the Overcharge State to your Titan (requires Sandbox Mode). |
+| **/e vote** | Server-wide | Initiates a community vote to restart a lagging or bugged server. |
+
+<Callout type="warning" title="Host Notice">
+Commands only function if you are the designated host of a private server. Attempting to type these strings in public matchmaking lobbies will result in standard chat messages with no system effects.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sandbox Mode Features">
+
+Activating Sandbox Mode via **!sandbox** completely transforms the standard wave-defense loop into an open testing ground. This mode is highly recommended for players wanting to experiment with complex skill combos, check damage scaling, or set up custom PvP matches.
+
+<CardGrid cols={3}>
+  <Card title="Skill Builder Integration">
+    - **Custom Movesets**: Design your own skill sequences using the Block Canvas interface.
+    - **Property Tuning**: Edit parameters like cooldowns, hitboxes, and projectile speed.
+    - **Testing Freedom**: Instantly deploy custom abilities without grinding mastery levels.
+  </Card>
+  <Card title="Custom PvP Matches">
+    - **Faction Setup**: Server hosts can manually set player factions to enable combat.
+    - **No Balance Limits**: Test character matchups directly in raw, unmoderated fights.
+    - **Custom Bans**: Hosts can ban specific characters to keep casual matches fair.
+  </Card>
+  <Card title="Overcharge Testing">
+    - **Titan Enhancement**: Use **!oc** to bypass standard overcharge cooldowns.
+    - **Max Damage Output**: Evaluate the true capability of S-Tier Titans under peak power.
+    - **Visual Showcases**: Capture clean footage of high-tier abilities without interruption.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip">
+Sandbox Mode disables standard progression, meaning you cannot farm Cens, Points, or Mastery while sandbox features are active. Use it strictly for practice and testing!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Setup a Private Match">
+
+Setting up a private sandbox match is straightforward, but requires following the correct sequence within Roblox. Follow these steps to spin up your own custom server:
+
+<Steps>
+  <Step num="1" title="Create a Server">
+    Navigate to the official Roblox experience page for ST: Blockade Battlefront and purchase or join a private server.
+  </Step>
+  <Step num="2" title="Load into the Map">
+    Enter a live game server instead of staying on the lobby menu [00首页信息-1.md]. Wait for the environment assets to load completely.
+  </Step>
+  <Step num="3" title="Open In-Game Chat">
+    Press **/** on your keyboard to open the default Roblox chat box in the top-left corner of your screen.
+  </Step>
+  <Step num="4" title="Execute Host Commands">
+    Type **!sandbox** to activate testing features, or use **!kick [username]** to manage your player list.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Redemption Reminder">
+Before starting a custom match, redeem active promo codes like **!redeem Return** or **!redeem Verified** in the main lobby to secure free Points for your account [00首页信息-1.md]!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Server Control Checklists">
+
+To maintain a smooth, lag-free testing environment, private server hosts should regularly perform basic server maintenance. Use the following checklist to keep your custom matches organized:
+
+<Checklist
+  id="server-maintenance"
+  title="Host Best Practices:"
+  items={[
+    "Verify host privileges by typing a test command in chat",
+    "Use !kick immediately if a player is exploiting or causing lag",
+    "Initiate /e vote if a wave becomes bugged or stuck",
+    "Toggle Sandbox Mode off if players want to return to standard progression matches",
+    "Report game-breaking bugs directly to the official Discord channel"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Do blockade battlefront commands work in public servers?",
+    answer: "No. Chat commands like !sandbox, !kick, and !oc only function within private servers where you are the designated host."
+  },
+  {
+    question: "Can I earn Mastery or Cens while Sandbox Mode is active?",
+    answer: "No. Sandbox Mode is strictly for testing and custom PvP matches. All progression, currency farming, and mastery gains are disabled while it is running."
+  },
+  {
+    question: "What should I do if a wave gets stuck or the server starts lagging?",
+    answer: "You can use the /e vote command in the chat to initiate a server-wide vote to restart the match and clear any bugged entities."
+  },
+  {
+    question: "How do I use the Overcharge command on my Titan?",
+    answer: "First, activate Sandbox Mode by typing !sandbox. Once you are in a Titan state, type !oc in the chat to apply the overcharge status immediately."
+  }
+]} />
+
+</Section>

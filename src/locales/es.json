@@ -1,1 +1,132 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "units": "Unidades",
+    "modes": "Modos",
+    "quests": "Misiones",
+    "items": "Objetos"
+  },
+  "pages": {
+    "codes": {
+      "title": "ST Blockade Battlefront Codes",
+      "description": "Active redeem codes for free Cens, Points, rerolls, and milestone rewards. Updated with the latest working codes and redemption steps.",
+      "metaTitle": "ST Blockade Battlefront Codes - Free Cens, Points & Rewards",
+      "metaDescription": "Redeem the latest ST Blockade Battlefront codes for free Cens, Points, trait rerolls, and milestone rewards. Updated with verified working codes and redemption steps.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are promotional keys released by the developers of ST Blockade Battlefront that grant free Cens, Points, rerolls, and milestone rewards. They drop during updates, visits milestones, and special events.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Claim Free Resources",
+        "step1Description": "Instantly earn Cens, Points, and rerolls without spending Robux",
+        "step2Title": "Speed Up Progress",
+        "step2Description": "Use free rewards to unlock units, mechs, and upgrades faster",
+        "step3Title": "Stay Current",
+        "step3Description": "Keep up with active players by redeeming every working code"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "ST Blockade Battlefront Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced wave defense, unit deployment, and Titan timing strategies.",
+      "metaTitle": "ST Blockade Battlefront Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete ST Blockade Battlefront guides covering beginner tips, base defense, units, Titans, and expert tactics for mastering the Roblox wave defense shooter.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, base defense strategies, and unit deployment. Learn everything from first steps to advanced Titan tactics.",
+      "why": "Why read guides?",
+      "whySteps": {
+        "step1Title": "Learn Core Mechanics",
+        "step1Description": "Understand wave defense, unit placement, and avoid common beginner mistakes",
+        "step2Title": "Fast Progression",
+        "step2Description": "Follow proven paths to defend your base and farm efficiently",
+        "step3Title": "Master Strategies",
+        "step3Description": "Develop advanced tactics for bosses, modes, and late-wave survival"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "units": {
+      "title": "ST Blockade Battlefront Units",
+      "description": "Detailed unit guides covering Cameramen, Speakermen, TV Men, roles, unlock paths, and deployment strategies.",
+      "metaTitle": "ST Blockade Battlefront Units - Roles, Unlocks & Deployment",
+      "metaDescription": "Complete ST Blockade Battlefront unit database covering Cameramen, Speakermen, TV Men, roles, unlock paths, and how to deploy each unit effectively.",
+      "categoryLabel": "UNITS & EQUIPMENT",
+      "whatIs": "What are Units?",
+      "whatIsDescription": "Comprehensive guides for every unit faction. Learn roles, unlock paths, deployment strategies, and the best units for each wave and mode.",
+      "why": "Why check unit guides?",
+      "whySteps": {
+        "step1Title": "Learn Unit Roles",
+        "step1Description": "Understand what each faction and unit is built for",
+        "step2Title": "Plan Unlocks",
+        "step2Description": "Choose the right units and unlock order for your progression stage",
+        "step3Title": "Deploy Smarter",
+        "step3Description": "Position units to handle waves, bosses, and crowded fights"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Units"
+    },
+    "modes": {
+      "title": "ST Blockade Battlefront Modes",
+      "description": "Explore game modes, wave structures, Boss Rush, Hard Mode, Nightmare, Astro Holdout, and the rewards each mode offers.",
+      "metaTitle": "ST Blockade Battlefront Modes - Waves, Boss Rush & Difficulty",
+      "metaDescription": "Explore ST Blockade Battlefront modes including Normal, Boss Rush, Hard Mode, Nightmare, Insane, Endless, Zombie, and Astro Holdout. Find rewards and choose the right mode for your goals.",
+      "categoryLabel": "GAME MODES",
+      "whatIs": "What are Modes?",
+      "whatIsDescription": "Guides to each game mode, wave structure, difficulty scaling, and reward direction. Learn what to expect and how to prepare for every mode.",
+      "why": "Why learn modes?",
+      "whySteps": {
+        "step1Title": "Pick the Right Mode",
+        "step1Description": "Match modes to your farming, boss practice, or endgame goals",
+        "step2Title": "Prepare for Waves",
+        "step2Description": "Understand wave scaling and enemy pressure per mode",
+        "step3Title": "Maximize Rewards",
+        "step3Description": "Target the Cens, Mastery, and skins each mode drops"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Mode Guides"
+    },
+    "quests": {
+      "title": "ST Blockade Battlefront Quests",
+      "description": "Step-by-step quest guides for Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, and Energized TV quests.",
+      "metaTitle": "ST Blockade Battlefront Quests - Full Quest Walkthroughs",
+      "metaDescription": "Complete ST Blockade Battlefront quest walkthroughs covering Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, and Energized TV quests.",
+      "categoryLabel": "QUEST GUIDES",
+      "whatIs": "What are Quests?",
+      "whatIsDescription": "Quests are progression challenges in ST Blockade Battlefront that unlock units, upgrades, and exclusive rewards. Each quest has specific steps, requirements, and target outcomes.",
+      "why": "Why complete quests?",
+      "whySteps": {
+        "step1Title": "Unlock Exclusive Units",
+        "step1Description": "Earn units and upgrades that are gated behind quest completion",
+        "step2Title": "Follow Clear Steps",
+        "step2Description": "Use proven walkthroughs to finish each quest without guesswork",
+        "step3Title": "Earn Rare Rewards",
+        "step3Description": "Pick up Cens, Mastery, and limited items tied to quests"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Quest Guides"
+    },
+    "items": {
+      "title": "ST Blockade Battlefront Items",
+      "description": "Item guides for Flash Drive, Keycard, and other key items, covering where to find them, how to use them, and what they unlock.",
+      "metaTitle": "ST Blockade Battlefront Items - Flash Drive, Keycard & Key Items",
+      "metaDescription": "Complete ST Blockade Battlefront item guides covering Flash Drive, Keycard, and other key items. Learn where to find each item, how to use it, and what it unlocks.",
+      "categoryLabel": "KEY ITEMS",
+      "whatIs": "What are Items?",
+      "whatIsDescription": "Items are collectible objects in ST Blockade Battlefront like the Flash Drive and Keycard that unlock quests, units, or restricted areas. Knowing where to find and use them unlocks hidden progression.",
+      "why": "Why learn items?",
+      "whySteps": {
+        "step1Title": "Find Key Items",
+        "step1Description": "Learn exact locations and drops for items like Flash Drive and Keycard",
+        "step2Title": "Unlock Progression",
+        "step2Description": "Use items to open quests, units, and locked content",
+        "step3Title": "Avoid Backtracking",
+        "step3Description": "Collect items in the right order to save time and effort"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Item Guides"
+    }
+  }
+}

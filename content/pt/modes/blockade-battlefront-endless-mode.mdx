@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modo Infinito de ST: Linha de Frente de Bloqueio: Melhores Unidades e Estratégia de Sobrevivência",
+  description: "Domine o modo infinito de ST: Linha de Frente de Bloqueio com o nosso guia de 2026. Aprenda sobre as melhores tiers de unidades, posicionamento de Titãs e táticas de defesa de ondas para sobreviver por mais tempo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Endless+Mode+Strategy",
+  date: "2026-07-02",
+  author: "Equipe do Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Modo Infinito de ST: Linha de Frente de Bloqueio**: Foque em unidades de alta maestria e na sinergia de Titãs para sobreviver a ondas cada vez mais difíceis.
+- **Unidades de Elite**: Priorize o **Villain Arc Brown Cameraman** e o **Glitch Double-Plunger** para causar dano explosivo (burst).
+- **Gerenciamento de Recursos**: Economize **Cens** para upgrades de unidades de alto impacto, em vez de espalhar unidades fracas no início do jogo.
+- **Mecânica Chave**: Dominar as teclas de atalho de habilidades ativas (Q, E, R, T...) é essencial para limpar grupos densos de inimigos.
+- **Estratégia de Titãs**: Implante Titãs apenas durante as ondas de chefes ou quando a vida da base estiver abaixo de 40%.
+</Callout>
+
+<Section icon={Map} title="Dominando o Ciclo do Modo Infinito de ST: Linha de Frente de Bloqueio">
+
+A experiência central do **modo infinito de ST: Linha de Frente de Bloqueio** gira em torno de um híbrido de defesa de torres em ondas de alto risco e jogo de tiro de sobrevivência. Neste modo, os jogadores devem defender sua base contra uma progressão infinita de inimigos que escalam em vida, velocidade e dano. O sucesso não se resume apenas a posicionar unidades; trata-se de combate ativo, timing preciso de habilidades e alocação estratégica de recursos. Em 2026, o meta mudou para unidades de alta mobilidade e Titãs de dano pesado que conseguem lidar com os picos de dificuldade "Insano" (Insane) e "Pesadelo" (Nightmare).
+
+**Destaques do Vídeo:**
+- **Ciclo de Gameplay Central**: Entender o ritmo de limpeza de ondas e posicionamento de unidades.
+- **Demonstrações de Titãs**: Como usar o Upgraded Titan Cameraman e o Titan Speakerman de forma eficaz.
+- **Timing de Habilidades**: Demonstrando a importância das teclas de atalho de movimento em situações de alta pressão.
+
+<YouTubeEmbed videoId="mTRgKQB59tk" title="TRAILER OFICIAL DE ST: BLOCKADE BATTLEFRONT" />
+
+<Callout type="tip" title="Dica de Sobrevivência">
+Fique sempre de olho na vida da base. No modo infinito, o escalonamento se torna agressivo após a onda 50. Use o comando `/e vote` se encontrar lag no servidor ou bugs que possam comprometer sua partida.
+</Callout>
+
+### Escalonamento de Dificuldade do Modo Infinito
+No ciclo de atualizações atual de 2026, o escalonamento de dificuldade é categorizado por limites de ondas. Compreender esses limites permite que você prepare sua economia antes do próximo pico de dificuldade.
+
+| Limite de Ondas | Nível de Dificuldade | Ameaça Principal | Estratégia Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Ondas 1-20** | Iniciante | Variantes básicas de Skibidi | Foque em farmar Cens e no posicionamento inicial de unidades |
+| **Ondas 21-50** | Intermediário | Inimigos elites e Striders | Desbloqueie o primeiro Titã e melhore a Maestria |
+| **Ondas 51-100** | Avançado | Boss Rush e Invasão Astro | Use Boosts de Maestria 2x e unidades pesadas de área (AoE) |
+| **Ondas 100+** | Pesadelo | Titãs Infectados e Chefes | Rotações perfeitas de habilidades e Titãs Especiais |
+
+</Section>
+
+<Section icon={Swords} title="Melhores Unidades e Tier List de Titãs para 2026">
+
+Selecionar a equipe certa é a diferença entre ser derrotado na onda 30 ou alcançar a vitória na onda 100+. O meta do **modo infinito de ST: Linha de Frente de Bloqueio** favorece unidades que oferecem uma mistura de controle de grupo (CC), dano explosivo (burst) e sobrevivência.
+
+<CardGrid cols={3}>
+  <Card title="Villain Arc Brown Cameraman">
+    - **Tier**: Tier S
+    - **Função**: DPS Explosivo/Buffs
+    - **Melhor para**: Limpar ondas de chefes de alta pressão com Ataques Orbitais.
+  </Card>
+  <Card title="Glitch Double-Plunger">
+    - **Tier**: Tier S
+    - **Função**: DPS de Alta Mobilidade
+    - **Melhor para**: Reposicionar-se rapidamente para cobrir várias entradas da base.
+  </Card>
+  <Card title="Amplifier Woman">
+    - **Tier**: Tier A
+    - **Função**: Controle de Grupo (CC)
+    - **Melhor para**: Usar pressão de ondas sonoras para desacelerar inimigos rápidos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Seleção de Unidades">
+Não dependa demais de unidades básicas como Borer Men ou Alarm Watch Men após a onda 20. Essas unidades não possuem o escalonamento necessário para sobreviver aos valores de armadura de meio de jogo dos inimigos do modo infinito.
+</Callout>
+
+### Tabela de Comparação de Funções das Unidades
+Cada família de unidades serve a um propósito específico em sua linha de defesa. Equilibrar essas facções é a chave para a sobrevivência a longo prazo.
+
+| Facção | Função Principal | Unidades-Chave | Vantagem Estratégica |
+| :--- | :--- | :--- | :--- |
+| **Cameramen** | Tanque e DPS Equilibrado | Engineer, Plungerman | Progressão confiável e linha de frente robusta |
+| **Speakermen** | AoE e Suporte | Dark Speakerman, Elite | Alto dano de onda sonora contra grupos |
+| **TV Men** | Controle e Atordoamento | Polycephaly, TV Woman | Teletransporte e controle de grupo baseado em tela |
+| **Titans** | Exterminadores de Chefes | Titan Clockman, G-Toilet | Vida massiva e ultimates que mudam o rumo do jogo |
+
+</Section>
+
+<Section icon={Target} title="Guia de Sobrevivência Passo a Passo">
+
+Sobreviver ao **modo infinito de ST: Linha de Frente de Bloqueio** exige uma abordagem disciplinada a cada onda. Siga estes passos para maximizar a eficiência da defesa da sua base.
+
+<Steps>
+  <Step num="1" title="Configuração Inicial e Economia">
+    Entre em um servidor ativo e foque em posicionar unidades de baixo custo e alta eficiência, como o Plunger Cameraman. Seu objetivo é acumular Cens sem sofrer danos na base.
+  </Step>
+  <Step num="2" title="Farming de Maestria">
+    Aplique Cartões de Maestria (Mastery Cards) nas suas unidades principais desde cedo. Unidades como o Scientist CCTV Man desbloqueiam acesso crítico a mechas no Nível de Maestria 25, o que é vital para o escalonamento no meio do jogo.
+  </Step>
+  <Step num="3" title="Integração de Titãs">
+    Até a onda 40, você deve ter recursos suficientes para implantar seu primeiro Titã. Use the Titan Cameraman para uma defesa equilibrada ou o Titan Speakerman para uma limpeza rápida de ondas.
+  </Step>
+  <Step num="4" title="Domínio de Teclas de Habilidade">
+    Pratique seus atalhos de teclado. O uso eficaz de Q, E, R e da barra de espaço dupla para movimentos aéreos pode anular mecânicas de chefes que, de outra forma, destruiriam suas unidades.
+  </Step>
+  <Step num="5" title="Otimização de Fim de Jogo">
+    Nas ondas finais, faça a transição das suas unidades para Titãs Especiais, como o Upgraded Titan TV Man ou o Stellar Titan. Essas unidades são construídas especificamente para a dificuldade do estilo Pesadelo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia Pro">
+Use o **Boost de Maestria 2x** durante as ondas 40-60. Esse é o "ponto ideal" onde a densidade de inimigos é alta o suficiente para farmar XP rapidamente, mas não tão alta a ponto de arriscar um game over imediato.
+</Callout>
+
+### Teclas de Atalho de Movimentos Essenciais
+Memorizar essas teclas é obrigatório para jogar em alto nível no meta de 2026.
+
+| Tecla | Tipo de Ação | Caso de Uso Comum |
+| :--- | :--- | :--- |
+| **Q / E / R** | Habilidades Primárias | Dano direto e controle de grupo básico |
+| **T / Y / F** | Habilidades Secundárias | Buffs e posicionamento de utilitários |
+| **Z / X / C** | Habilidades Ultimate | Exterminadores de chefes com longo tempo de recarga |
+| **Double Space** | Variante Aérea | Evitar ataques em área (AoE) terrestres |
+
+</Section>
+
+<Section icon={Sparkles} title="Gerenciamento de Recursos: Cens, Pontos e Maestria">
+
+No **modo infinito de ST: Linha de Frente de Bloqueio**, a forma como você gasta seus recursos é tão importante quanto a forma como você luta. A progressão está ligada a três recursos principais: Cens, Pontos e Maestria.
+
+| Recurso | Fonte Principal | Melhor Caso de Uso | Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Cens** | Limpeza de Ondas / Missões | Compras na loja e upgrades de unidades | **Alta** |
+| **Points** | Códigos Promocionais | Impulsos rápidos no início do jogo | **Média** |
+| **Mastery** | Uso em Gameplay | Desbloquear conjuntos de movimentos avançados | **Alta** |
+| **Zombie Cores** | Modo Zumbi V2 | Progressão do G-Toilet X-18 | **Fim de Jogo** |
+
+<Callout type="info" title="Dica de Maestria">
+Os Cartões de Maestria (Mastery Cards) são frequentemente distribuídos por meio de anúncios oficiais no Discord ou marcos de atualização. Sempre verifique o Trello oficial para ver quais unidades se beneficiam mais de subidas de nível instantâneas.
+</Callout>
+
+### Checklist de Progressão
+Certifique-se de ter concluído estes marcos antes de tentar uma corrida séria no modo infinito:
+
+<Checklist
+  id="endless-readiness"
+  title="Preparação para o Modo Infinito:"
+  items={[
+    "Alcance o Nível de Maestria 25 em pelo menos 3 unidades principais",
+    "Desbloqueie pelo menos um Titã Especial (ex: Upgraded Titan Cameraman)",
+    "Resgate todos os códigos !redeem ativos para ganhar Pontos de bônus",
+    "Configure os atalhos de teclado para rotações de habilidades confortáveis",
+    "Junte-se ao Discord oficial para logs de atualização em tempo real"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Modos de Jogo Avançados e Táticas de Onda">
+
+Embora a defesa de ondas padrão seja a base, o ST: Linha de Frente de Bloqueio oferece modos especializados que fornecem recompensas e desafios únicos. Para aqueles focados no **modo infinito de ST: Linha de Frente de Bloqueio**, praticar nesses submodos é a melhor maneira de testar sua build.
+
+### Tabela de Comparação de Modos
+| Modo | Foco | Recompensa Única | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Boss Rush** | Chefes Sequenciais | Skins específicas de chefes | Moderada |
+| **Zombie V2** | Ondas de Infectados | Materiais de Núcleo Zumbi | Alta |
+| **Astro Invasion** | Inimigos Astro Especiais | Progressão temática Astro | Alta |
+| **Hard Mode** | Defesa Mais Apertada | Aumento de drops de Cens | Muito Alta |
+
+<Callout type="warning" title="Modo Zumbi">
+O Modo Zumbi V2 pune os jogadores que negligenciam o controle de grupo. Se você estiver farmando para a progressão do X-18, certifique-se de que sua equipe tenha pelo menos dois Speakermen para manter a pressão em área (AoE).
+</Callout>
+
+### Links Oficiais da Comunidade (Verificados em 2026)
+Manter-se atualizado é crucial, pois os desenvolvedores frequentemente ajustam o equilíbrio das unidades e a dificuldade das ondas.
+- **Experiência Roblox**: [ST: Blockade Battlefront](https://www.roblox.com/games/18816315817/ST-Blockade-Battlefront)
+- **Trello Oficial**: [Wiki & Informações do Jogo](https://trello.com/b/APrD3TTL/official-skibidi-toilet-blockade-battlefront)
+- **Discord Oficial**: [Comunidade & Códigos](https://discord.com/invite/blockade)
+- **YouTube do Desenvolvedor**: [Canal Loading Studi](https://www.youtube.com/@Azu_1Siri/videos)
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes (FAQ) de ST: Linha de Frente de Bloqueio">
+
+<FAQ items={[
+  {
+    question: "Como faço para sobreviver após a onda 100 no modo infinito de ST: Linha de Frente de Bloqueio?",
+    answer: "Para alcançar a onda 100, você deve usar Titãs Especiais como o Upgraded Titan TV Man e manter alta Maestria em suas unidades de suporte. O uso ativo de habilidades e o gerenciamento da vida da base são críticos nesta fase."
+  },
+  {
+    question: "Qual é a maneira mais rápida de farmar Cens?",
+    answer: "A maneira mais eficiente de farmar Cens é completando missões no Modo Difícil (Hard Mode) ou participando do Modo Zumbi V2, que oferece maiores quedas de moedas por onda em comparação com a Defesa Padrão."
+  },
+  {
+    question: "Como faço para usar os códigos !redeem?",
+    answer: "Inicie o jogo no Roblox, entre em um servidor ativo e localize a caixa de resgate de códigos. Digite o código exatamente como mostrado (ex: !redeem Return) e pressione enter para resgatar seus Pontos ou Cens."
+  },
+  {
+    question: "Qual Titã é o melhor para iniciantes?",
+    answer: "O Titan Cameraman é o mais amigável para iniciantes devido à sua vida e dano equilibrados. À medida que avança, você deve procurar fazer o upgrade para as variantes de Titãs Especiais para obter um melhor desempenho no fim de jogo."
+  }
+]} />
+
+</Section>
