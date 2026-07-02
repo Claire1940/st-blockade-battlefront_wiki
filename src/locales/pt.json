@@ -1,132 +1,769 @@
 {
+  "seo": {
+    "home": {
+      "title": "Blockade Battlefront Wiki - Códigos, Units & Titans",
+      "description": "Blockade Battlefront Wiki cobre códigos Roblox, units, Titans, skins, mastery, Boss Rush, Zombie mode e guias para iniciantes para uma defesa de base rápida.",
+      "keywords": "Blockade Battlefront, Roblox, códigos, units, Titans, skins, mastery, Boss Rush",
+      "ogTitle": "Blockade Battlefront Wiki - Códigos, Units & Titans",
+      "ogDescription": "Blockade Battlefront Wiki cobre códigos Roblox, units, Titans, skins, mastery, Boss Rush, Zombie mode e guias para iniciantes para uma defesa de base rápida.",
+      "twitterTitle": "Blockade Battlefront Wiki - Códigos, Units & Titans",
+      "twitterDescription": "Blockade Battlefront Wiki cobre códigos Roblox, units, Titans, skins, mastery e guias de defesa de base para o shooter de defesa de ondas do Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
-    "units": "Unidades",
+    "units": "Units",
     "modes": "Modos",
     "quests": "Missões",
     "items": "Itens"
   },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Shooter de Defesa de Ondas do Roblox",
+    "title": "Blockade Battlefront Wiki",
+    "description": "Defenda sua base no Roblox posicionando units e Titans poderosos, limpando ondas de inimigos, farmando mastery, coletando skins e acompanhando códigos e atualizações.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "125.6M+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "1.9K+",
+        "label": "Jogadores Online"
+      },
+      "stat3": {
+        "value": "85.7K+",
+        "label": "Favoritos"
+      },
+      "stat4": {
+        "value": "Ação",
+        "label": "Gênero"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de ST Blockade Battlefront",
+    "description": "Posicione unidades e Titans, defenda sua base contra ondas crescentes de inimigos, farme mastery e colecione skins neste jogo de tower defense de ondas e tiro de sobrevivência do Roblox."
+  },
+  "tools": {
+    "title": "ST Blockade Battlefront",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para o ST Blockade Battlefront — códigos, unidades, Titans, modos, mastery e defesa de base.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos",
+        "description": "Códigos de resgate ativos, recompensas e como resgatá-los"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Como jogar, defender sua base e sobreviver a ondas"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List",
+        "description": "Classificações de personagens de S a D para chefes e ondas"
+      },
+      {
+        "icon": "Users",
+        "title": "Unidades e Titans",
+        "description": "Cameramen, Speakermen, TV Men e listas de Titans"
+      },
+      {
+        "icon": "Skull",
+        "title": "Zombie Mode",
+        "description": "Entrada do Zombie V2, ondas, recompensas e counters"
+      },
+      {
+        "icon": "Swords",
+        "title": "Modos de Jogo",
+        "description": "Ondas normais, Boss Rush, Difícil e Astro Invasion"
+      },
+      {
+        "icon": "Coins",
+        "title": "Cens e Mastery",
+        "description": "Cens, Pontos, cartas de Mastery e rotas de farm"
+      },
+      {
+        "icon": "Globe",
+        "title": "Links Oficiais",
+        "description": "Roblox, Discord, Trello e canais de atualização"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Códigos do ST Blockade Battlefront",
+      "intro": "O ST Blockade Battlefront lança códigos de tempo limitado vinculados a atualizações, marcos e anúncios da comunidade. Os códigos ativos abaixo podem ser resgatados por Pontos, enquanto os códigos de eventos antigos são listados como expirados para que você não perca tempo com entradas inativas.",
+      "activeLabel": "Códigos Ativos",
+      "redeemLabel": "Como Resgatar",
+      "expiredLabel": "Códigos Expirados",
+      "rewardLabel": "Tipos de Recompensa",
+      "activeCodes": [
+        {
+          "code": "!redeem Return",
+          "reward": "2.500 Pontos",
+          "status": "Funcionando"
+        },
+        {
+          "code": "!redeem Verified",
+          "reward": "1.500 Pontos",
+          "status": "Funcionando"
+        },
+        {
+          "code": "!redeem Digi",
+          "reward": "1.000 Pontos",
+          "status": "Funcionando"
+        },
+        {
+          "code": "!redeem Sandbox",
+          "reward": "500 Pontos",
+          "status": "Funcionando"
+        },
+        {
+          "code": "!redeem Scientist",
+          "reward": "400 Pontos",
+          "status": "Funcionando"
+        }
+      ],
+      "redeemSteps": [
+        "Inicie o ST Blockade Battlefront a partir da página de experiência do Roblox.",
+        "Entre em um servidor de jogo ativo em vez de permanecer na listagem do Roblox.",
+        "Abra a área de resgate de códigos no jogo ou use o formato de comando !redeem mostrado em cada cartão de código.",
+        "Cole o código exatamente, incluindo o prefixo !redeem e o espaçamento.",
+        "Reivindique a recompensa durante o ciclo de atualização ativo."
+      ],
+      "expiredCodes": [
+        "!redeem UTSM",
+        "!redeem 18kLikesW",
+        "!redeem 5MVisits",
+        "!redeem 15kLikes",
+        "!redeem DelayUTCM",
+        "!redeem 12kLikes!",
+        "!redeem ForgorLoop",
+        "!redeem 10kLikes!",
+        "!redeem 8.2kLikes!",
+        "!redeem 9kLikes!",
+        "!redeem Reinforcement",
+        "!redeem DelayedUpdateFinallyHere",
+        "!redeem ParasiteIncident",
+        "!redeem StoryBugFixingGrrr",
+        "!redeem SORRYFORSHUTDOWN",
+        "!redeem 1Mvisit",
+        "!redeem SORRYFORSHUTDOWN2",
+        "!redeem 3KLikeTHX"
+      ],
+      "rewardTypes": [
+        "Pontos para progressão e compra de unidades",
+        "Cens de códigos de marcos antigos e recompensas de ondas no jogo",
+        "Skins, cartas de mastery e boosters de recompensas de estilo de evento"
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guia para Iniciantes de ST Blockade Battlefront",
+      "intro": "ST Blockade Battlefront é um jogo de tower defense e tiro de sobrevivência no Roblox onde você defende uma base contra ondas crescentes de inimigos. Novos jogadores devem focar no ritmo das ondas, teclas de habilidade, compra de unidades e o timing dos Titans antes de buscar builds de final de jogo.",
+      "steps": [
+        {
+          "title": "Junte-se à Experiência Roblox",
+          "description": "Abra a página do ST Blockade Battlefront no Roblox por Loading Studi e entre em um servidor ativo para iniciar uma rodada de defesa."
+        },
+        {
+          "title": "Entenda o Objetivo",
+          "description": "Defenda a base enquanto os inimigos chegam em ondas. O jogo mistura tower defense com ação de shooter de sobrevivência, então lutar, posicionamento de unidades e manter-se vivo são todos importantes."
+        },
+        {
+          "title": "Posicione Unidades e Use Titans",
+          "description": "Use unidades regulares para pressão inicial e economize opções de Titans mais fortes para ondas mais difíceis, chefes e combates lotados."
+        },
+        {
+          "title": "Pratique as Teclas de Habilidade",
+          "description": "Os movimentos usam Q, E, R, T, Y, F, G, H, Z, X, C, V, B e barra de espaço dupla. Alguns movimentos também dependem de acúmulo de teclas, variantes aéreas ou condições especiais."
+        },
+        {
+          "title": "Gaste Entre as Ondas",
+          "description": "Use a moeda ganha e as oportunidades da loja para melhorar suas armas, unidades e o acesso aos Titans conforme as ondas aumentam."
+        },
+        {
+          "title": "Acompanhe os Canais Oficiais de Atualização",
+          "description": "Siga o Discord oficial, o Trello e os vídeos dos desenvolvedores para alterações de códigos, notas de atualização e problemas no servidor. Use /e vote quando um servidor precisar ser reiniciado."
+        }
+      ],
+      "quickTips": [
+        "Aprenda o tempo de habilidade de cada personagem antes de tentar modos mais difíceis.",
+        "Economize o posicionamento de Titans para ondas onde a vida e o AoE deles realmente mudem a luta.",
+        "Gaste moedas em melhorias de combate práticas em vez de compras não essenciais.",
+        "Reporte bugs no Discord oficial para que os desenvolvedores possam corrigi-los mais rápido."
+      ]
+    },
+    "characterTierList": {
+      "title": "Tier List de Personagens de ST Blockade Battlefront",
+      "intro": "A força dos personagens em ST Blockade Battlefront depende da onda, do tipo de inimigo e se você precisa de burst damage, suporte, mobilidade ou tanking. Esta grade de S a D mantém a classificação clara enquanto adiciona contexto de função para chefes, farming e sobrevivência em ondas avançadas.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Essenciais para Chefes e Endgame",
+          "characters": [
+            {
+              "name": "Villain Arc Brown Cameraman",
+              "role": "Burst DPS e buffs",
+              "bestUse": "Use para lutas de alta pressão onde Orbital Strike, voo e buffs podem mudar o rumo de uma onda."
+            },
+            {
+              "name": "Glitch Double-Plunger Cameraman",
+              "role": "DPS móvel com múltiplas habilidades",
+              "bestUse": "Escolha quando precisar de um personagem de tamanho normal com múltiplas ferramentas de dano e forte potencial de carry."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Escolhas Confiáveis de Alto Valor",
+          "characters": [
+            {
+              "name": "Amplifier Woman",
+              "role": "DPS de Mobilidade",
+              "bestUse": "Forte opção sem melhorias com pressão de Soundwave, além de movimentos de Leap e Dash."
+            },
+            {
+              "name": "Engineer Camcorder Man",
+              "role": "Especialista em suporte",
+              "bestUse": "Melhor usado pelo valor de suporte através de reviver, invocações e sinergia de armas."
+            },
+            {
+              "name": "Secret Agent",
+              "role": "Utilidade contra chefes",
+              "bestUse": "As habilidades do Chair Mode o tornam útil contra inimigos mais fortes e em momentos decisivos."
+            },
+            {
+              "name": "Upgraded Camcorder Strider",
+              "role": "Tanque defensivo",
+              "bestUse": "Um defensor robusto de ataque à distância que absorve a pressão e luta de posições mais seguras."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Boas Escolhas Situacionais",
+          "characters": [
+            {
+              "name": "Upgraded Plunger Cameraman",
+              "role": "DPS de Combo",
+              "bestUse": "Conjunto sólido de habilidades com ferramentas de combo após sua missão de personagem dedicada."
+            },
+            {
+              "name": "Elite Amplifier",
+              "role": "Dano de som resistente",
+              "bestUse": "Bom para builds defensivas usando Sound Blast, Perfect Block e Sound Wave."
+            },
+            {
+              "name": "Scientist CCTV Man",
+              "role": "Suporte e acesso a mecha",
+              "bestUse": "Opção de suporte que pode desbloquear um mecha no Mastery 25."
+            },
+            {
+              "name": "Tri Fighter Artemis",
+              "role": "DPS à distância",
+              "bestUse": "Opção puramente à distância com Focus Blast e High Pitch Noise."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Aprendizado e Progressão Inicial",
+          "characters": [
+            {
+              "name": "Camcorder Woman",
+              "role": "Movimentação básica à distância",
+              "bestUse": "Útil no início para Dash e jogabilidade simples à distância."
+            },
+            {
+              "name": "CCTV Helicopter",
+              "role": "Unidade voadora à distância",
+              "bestUse": "Pode voar e disparar foguetes, mas falta pressão corpo a corpo."
+            },
+            {
+              "name": "Screen Man",
+              "role": "Controle para iniciantes",
+              "bestUse": "Útil no início devido ao teletransporte, Purple Screen e controle de Hypnosis."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Escolhas Básicas de Reserva",
+          "characters": [
+            {
+              "name": "Borer Man",
+              "role": "Corpo a corpo de baixo valor",
+              "bestUse": "Use apenas enquanto estiver aprendendo ou antes que desbloqueios mais fortes o substituam."
+            },
+            {
+              "name": "Camcorder Man",
+              "role": "Iniciante padrão",
+              "bestUse": "Um personagem inicial que ensina o básico antes que os jogadores passem para kits mais fortes."
+            },
+            {
+              "name": "Amplifier Man",
+              "role": "Prática inicial de AoE",
+              "bestUse": "Bom para aprender AoE baseado em som, mas fraco sob ondas mais pesadas."
+            }
+          ]
+        }
+      ]
+    },
+    "unitsAndTitans": {
+      "title": "Unidades e Titans de ST Blockade Battlefront",
+      "intro": "ST Blockade Battlefront é construído em torno de unidades regulares, personagens maiores, striders e Titans. A maneira mais fácil de entender o elenco é por facção: Cameramen para dano equilibrado e resistência, Speakermen para pressão baseada em som, TV Men para controle e Titans para lutas contra ondas e chefes de alto impacto.",
+      "factions": [
+        {
+          "category": "Cameramen",
+          "role": "Dano equilibrado, resistência e utilidade amigável para progressão.",
+          "examples": [
+            "Normal Cameraman",
+            "Engineer Cameraman",
+            "Plungerman",
+            "Camerawoman",
+            "Camera Strider",
+            "Titan Cameraman",
+            "Upgraded Titan Cameraman"
+          ],
+          "bestFor": [
+            "Progressão para iniciantes",
+            "Preparação para chefes",
+            "Jogabilidade híbrida de tanque e dano"
+          ]
+        },
+        {
+          "category": "Speakermen",
+          "role": "Pressão baseada em som, buffs, AoE e controle de grupo.",
+          "examples": [
+            "Normal Speakerman",
+            "Dark Speakerman",
+            "Speakerwoman",
+            "Elite Speakerman",
+            "Speaker Strider",
+            "Titan Speakerman",
+            "Upgraded Titan Speakerman"
+          ],
+          "bestFor": [
+            "Controle de grupo",
+            "Limpeza de ondas",
+            "Suporte de equipe"
+          ]
+        },
+        {
+          "category": "TV Men",
+          "role": "Efeitos de tela, ferramentas de teletransporte, pressão de atordoamento e controle defensivo.",
+          "examples": [
+            "Normal TV Man",
+            "TV Woman",
+            "Scientist TV Man",
+            "Energized TV Man",
+            "Titan TV Man",
+            "Upgraded Titan TV Man"
+          ],
+          "bestFor": [
+            "Jogabilidade com foco em controle",
+            "Reposicionamento mais seguro",
+            "Utilidade contra chefes e inimigos elites"
+          ]
+        },
+        {
+          "category": "Titans normais",
+          "role": "Unidades de poder em grande escala para ondas difíceis, chefes e defesa de alta pressão.",
+          "examples": [
+            "Titan Cameraman",
+            "Titan Speakerman",
+            "Titan TV Man",
+            "Titan Drillman",
+            "Titan Projectorman",
+            "Stellar Titan"
+          ],
+          "bestFor": [
+            "Ondas de chefes",
+            "Grandes grupos de inimigos",
+            "Sobrevivência em ondas tardias"
+          ]
+        },
+        {
+          "category": "Titans especiais",
+          "role": "Upgrades de Titans de late-game feitos para os modos mais difíceis e as ondas de inimigos mais fortes.",
+          "examples": [
+            "Upgraded Titan Cameraman",
+            "Upgraded Titan Speakerman",
+            "Upgraded Titan TV Man",
+            "Titan Clockman",
+            "G-Toilet X-18"
+          ],
+          "bestFor": [
+            "Dificuldade estilo Insane e Nightmare",
+            "Pressão de chefes de endgame",
+            "Partidas em equipe coordenadas"
+          ]
+        }
+      ]
+    },
+    "zombieMode": {
+      "eyebrow": "Zombie V2",
+      "title": "Guia do Zombie Mode de ST Blockade Battlefront",
+      "subtitle": "Aprenda como o Zombie V2 funciona, no que focar durante as ondas de zombies e quais recompensas importam mais para a progressão a longo prazo.",
+      "intro": "O Zombie Mode é focado em sobreviver a ondas de inimigos infectados enquanto protege a base, usando unidades posicionadas, Titans e teclas de habilidades ativas. O modo se conecta diretamente às buscas da atualização Zombie V2, gameplay do Act 2, progressão de X-18 e rotas de sobrevivência em ondas tardias.",
+      "cards": [
+        {
+          "name": "Entrada do Modo",
+          "type": "Acesso",
+          "description": "Abra o ST: Blockade Battlefront no Roblox, entre na experiência e use a interface de modo ou missão para iniciar o conteúdo do Zombie V2. Os jogadores podem jogar solo ou em grupo, dependendo da configuração do lobby.",
+          "playerTip": "Comece com uma configuração de equipe estável antes de avançar para ondas mais profundas, pois o Zombie Mode pune defesas iniciais fracas e pouco controle de multidão."
+        },
+        {
+          "name": "Objetivo Principal",
+          "type": "Meta",
+          "description": "Defenda a base através das ondas de zombies enquanto elimina inimigos infectados e ameaças do tipo chefe. O ciclo principal é a mesma base de ST Blockade Battlefront: posicionar unidades, usar Titans e sobreviver à pressão crescente dos inimigos.",
+          "playerTip": "Não guarde todas as habilidades ativas para os chefes; as ondas tardias de zombies podem sobrecarregar a base antes que a fase do chefe se torne o problema real."
+        },
+        {
+          "name": "Funções de Unidades Recomendadas",
+          "type": "Configuração de Equipe",
+          "description": "Traga dano em área forte, controle de linha de frente durável, dano contra chefes e pelo menos uma opção confiável de Titan. As ondas de zombies recompensam equipes que conseguem eliminar muitos inimigos rapidamente em vez de apenas acumular dano de alvo único.",
+          "playerTip": "Uma equipe equilibrada é mais segura do que uma equipe focada apenas em matar chefes, pois o Zombie Mode mistura ondas densas com checkpoints de inimigos mais pesados."
+        },
+        {
+          "name": "Progressão X-18",
+          "type": "Trilha de Recompensas",
+          "description": "O Zombie Mode está ligado à progressão do G-Toilet X-18 através de drops de core relacionados a zombies e rotas de gameplay do Act 2. Jogadores que farmam este modo geralmente focam em vitórias repetidas, materiais de core e partidas estáveis em ondas tardias.",
+          "playerTip": "Farme com consistência primeiro. Partidas rápidas que falham são piores do que vitórias mais lentas quando o objetivo é material de progressão raro."
+        },
+        {
+          "name": "Ponto de Falha Comum",
+          "type": "Solução de Problemas",
+          "description": "A maioria das partidas que falham ocorre quando as ondas iniciais são ignoradas, grupos de inimigos alcançam a base ou jogadores usam excessivamente habilidades de movimento e dano sem guardar pressão suficiente para as grandes ameaças.",
+          "playerTip": "Use as teclas de habilidades ativas do jogo com intenção: Q, E, R, T, Y, F, G, H, Z, X, C, V, B e barra de espaço dupla são listadas pela página do Roblox como teclas de movimento."
+        }
+      ]
+    },
+    "gameModes": {
+      "eyebrow": "Modos",
+      "title": "Modos de Jogo e Ondas de ST Blockade Battlefront",
+      "subtitle": "Compare o ciclo principal de defesa de ondas, missões mais difíceis, Boss Rush, Zombie Mode e conteúdo focado em Astro antes de escolher onde grindar.",
+      "intro": "ST Blockade Battlefront é um tower defense de ondas e shooter de sobrevivência onde os jogadores posicionam unidades e Titans para defender a base de inimigos crescentes. Cada modo muda o padrão de pressão: alguns são melhores para aprender as ondas, alguns para praticar chefes e outros para farmar recursos.",
+      "modes": [
+        {
+          "name": "Ondas de Defesa Padrão",
+          "modeType": "Modo Principal",
+          "focus": "Defesa de base, posicionamento de unidades, eliminação de ondas e aprendizado sobre a pressão inimiga.",
+          "bestFor": "Novos jogadores aprendendo o ciclo básico de tower defense e shooter de sobrevivência.",
+          "waveNote": "Os inimigos escalam ao longo das ondas, então a economia inicial e o posicionamento estável de unidades importam mais do que priorizar dano chamativo."
+        },
+        {
+          "name": "Dificuldade Difícil e Superior",
+          "modeType": "Avanço de Dificuldade",
+          "focus": "Ondas de inimigos mais fortes, janelas de defesa mais curtas e melhores testes para equipes aprimoradas.",
+          "bestFor": "Jogadores que já entendem de posicionamento, timing de Titans e uso de movimentos ativos.",
+          "waveNote": "Dificuldades mais altas são onde um planejamento fraco nas ondas iniciais custa caro, pois a base tem menos margem para erros."
+        },
+        {
+          "name": "Boss Rush",
+          "modeType": "Modo Chefe",
+          "focus": "Lutas sequenciais contra chefes com menos ênfase no ritmo normal das ondas.",
+          "bestFor": "Praticar dano contra chefes, controle de Titans e rotas de farm solo.",
+          "waveNote": "O Boss Rush é útil quando o jogador quer pressão repetida de chefes em vez de uma partida completa de ondas normais."
+        },
+        {
+          "name": "Zombie Mode",
+          "modeType": "Modo de Evento",
+          "focus": "Ondas de Zombie, inimigos infectados, conteúdo do Ato 2 e progressão relacionada ao X-18.",
+          "bestFor": "Jogadores farmando conteúdo de Zombie V2 ou praticando sobrevivência contra hordas densas de inimigos.",
+          "waveNote": "O Zombie Mode recompensa controle de grupo e dano sustentado, pois os grupos de inimigos podem se acumular rapidamente."
+        },
+        {
+          "name": "Invasão Astro",
+          "modeType": "Conteúdo Especial",
+          "focus": "Encontros com inimigos Astro, progressão temática de Astro e testes de unidades especializadas.",
+          "bestFor": "Jogadores montando equipes para inimigos Astro e desafios específicos de atualizações.",
+          "waveNote": "Use este modo para testar se o seu elenco consegue lidar com inimigos especiais mais rápidos ou pesados."
+        }
+      ]
+    },
+    "censMastery": {
+      "eyebrow": "Recursos",
+      "title": "Guia de Cens, Points e Mastery de ST Blockade Battlefront",
+      "subtitle": "Entenda o que os principais recursos de progressão fazem e como gastá-los sem desperdiçar o progresso no início do jogo.",
+      "intro": "A progressão de ST Blockade Battlefront gira em torno de recompensas de moedas, recompensas de códigos, farm de missões e Mastery de unidades. Novos jogadores devem focar em conclusões de ondas constantes, melhorias úteis de unidades e progresso de Mastery antes de irem atrás de todos os itens raros de uma só vez.",
+      "resources": [
+        {
+          "resource": "Cens",
+          "usedFor": "Gastos principais de progressão, compras no estilo de loja e objetivos relacionados a melhorias.",
+          "howToGet": "Ganhe através de conclusões de partidas, farm de missões, recompensas de atualizações e códigos de desenvolvedores quando disponíveis.",
+          "priority": "Alto",
+          "playerTip": "Economize Cens para obter ganhos significativos de unidades ou progressão, em vez de gastar tudo imediatamente em itens de baixo impacto."
+        },
+        {
+          "resource": "Points",
+          "usedFor": "Textos de guias e códigos mais antigos costumam usar Points para resgates de recompensas gratuitas e explicações de recompensas iniciais.",
+          "howToGet": "Resgate códigos válidos através do sistema de resgate do jogo quando o desenvolvedor os lançar.",
+          "priority": "Médio",
+          "playerTip": "Quando uma página de recompensa disser Points, verifique o texto de recompensa do jogo e a redação da caixa de código atual antes de assumir que se trata de uma moeda moderna separada."
+        },
+        {
+          "resource": "Mastery",
+          "usedFor": "Melhorar unidades e desbloquear um desempenho de movimento mais forte ou valor de unidade no fim do jogo.",
+          "howToGet": "Progrida usando unidades na jogabilidade e aplicando recompensas relacionadas a Mastery quando disponíveis.",
+          "priority": "Alta",
+          "playerTip": "Aplique progresso de Mastery em unidades que você realmente usa. Alimentar Mastery aleatoriamente em unidades não utilizadas atrasa sua equipe principal."
+        },
+        {
+          "resource": "Mastery Cards",
+          "usedFor": "Concedendo progresso de Mastery ou níveis de Mastery instantâneos para a unidade alvo equipada.",
+          "howToGet": "Aparecem através de códigos, rotação do tipo loja e rotas de recompensa de progressão.",
+          "priority": "Alta",
+          "playerTip": "Equipe a unidade correta antes de usar um Mastery Card. O valor está vinculado à unidade que recebe a recompensa de Mastery."
+        },
+        {
+          "resource": "2x Mastery Boost",
+          "usedFor": "Acelerando o farm de Mastery durante sessões de jogo ativas.",
+          "howToGet": "Disponível através de recompensas selecionadas, códigos e fontes de recompensa baseadas em rotação.",
+          "priority": "Média",
+          "playerTip": "Use boosts apenas quando estiver pronto para o farm. Ativar um boost temporário e sair do jogo desperdiça a melhor parte dele."
+        },
+        {
+          "resource": "Zombie Core Materials",
+          "usedFor": "Progressão relacionada ao Zombie Mode e G-Toilet X-18.",
+          "howToGet": "Farme o Zombie Mode e o conteúdo Zombie V2 repetidamente.",
+          "priority": "Late Game",
+          "playerTip": "Não comece o farm sério de cores até que sua equipe consiga sobreviver às ondas de Zombies de forma consistente."
+        }
+      ]
+    },
+    "officialLinks": {
+      "eyebrow": "Links Oficiais",
+      "title": "ST Blockade Battlefront Trello, Discord e Links de Atualização",
+      "subtitle": "Use os links oficiais para jogar o jogo, conferir atualizações, seguir o desenvolvedor, relatar bugs e evitar páginas de códigos falsas.",
+      "intro": "As atualizações, códigos, relatórios de bugs e informações de modo do ST Blockade Battlefront são melhor verificados através da página da experiência no Roblox, da comunidade Loading Studi, do Discord oficial, do quadro oficial no Trello e do canal do YouTube da Loading Studi.",
+      "links": [
+        {
+          "name": "Experiência Roblox",
+          "url": "https://www.roblox.com/games/18816315817/ST-Blockade-Battlefront",
+          "useFor": "Jogue ST Blockade Battlefront, confira o título da atualização atual, leia a descrição do jogo e inicie servidores.",
+          "note": "A página do Roblox lista o jogo como um wave tower defense e survival shooter onde os jogadores posicionam unidades e Titans para defender a base."
+        },
+        {
+          "name": "Comunidade Loading Studi no Roblox",
+          "url": "https://www.roblox.com/communities/6022628/Loading-Studi",
+          "useFor": "Encontre a comunidade de desenvolvedores conectada à experiência Roblox.",
+          "note": "Use este link em vez de grupos aleatórios do Roblox que usam nomes semelhantes."
+        },
+        {
+          "name": "Discord Oficial",
+          "url": "https://discord.com/invite/blockade",
+          "useFor": "Confira anúncios, drops de códigos, notas de atualização, lobbies, relatórios de bugs e discussões da comunidade.",
+          "note": "A página do Roblox pede aos jogadores que relatem bugs no Discord, tornando este o link de comunidade mais importante."
+        },
+        {
+          "name": "Trello Oficial",
+          "url": "https://trello.com/b/APrD3TTL/official-skibidi-toilet-blockade-battlefront",
+          "useFor": "Navegue por informações organizadas do jogo, como unidades, modos, referências de atualização e notas de progressão.",
+          "note": "Use o quadro do Trello para referência estruturada em vez de postagens espalhadas."
+        },
+        {
+          "name": "YouTube Blockade Sirin",
+          "url": "https://www.youtube.com/@Azu_1Siri/videos",
+          "useFor": "Assista aos vídeos oficiais, showcases, músicas, vazamentos e envios relacionados ao desenvolvimento da Loading Studi.",
+          "note": "Este canal está associado aos envios oficiais da Loading Studi e é mais seguro do que clipes repostados."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre ST Blockade Battlefront",
+    "questions": [
+      {
+        "question": "O que é ST Blockade Battlefront?",
+        "answer": "ST Blockade Battlefront é um shooter de sobrevivência e tower defense de ondas no Roblox onde você posiciona unidades e Titans para defender uma base contra ondas crescentes de inimigos."
+      },
+      {
+        "question": "Onde posso jogar ST Blockade Battlefront?",
+        "answer": "Você pode jogar ST Blockade Battlefront de graça no Roblox através da página oficial da experiência criada pela Loading Studi."
+      },
+      {
+        "question": "Como resgatar códigos no ST Blockade Battlefront?",
+        "answer": "Entre em um servidor ativo, abra a área de resgate de códigos no jogo ou use o formato de comando !redeem, cole o código exatamente com o prefixo !redeem e reivindique a recompensa durante o ciclo de atualização ativo."
+      },
+      {
+        "question": "O que são Titans no ST Blockade Battlefront?",
+        "answer": "Titans são unidades de poder de grande escala no ST Blockade Battlefront usadas para ondas difíceis, chefes e defesa sob alta pressão. Titans normais cobrem a lista principal, enquanto Titans especiais são melhorias de fim de jogo."
+      },
+      {
+        "question": "Qual é o melhor modo para farmar no ST Blockade Battlefront?",
+        "answer": "As Normal Waves são melhores para o farm inicial e aprendizado, enquanto o Hard Mode e o Zombie Mode dão melhores retornos de Cens e Mastery assim que suas unidades conseguirem aguentar a pressão."
+      },
+      {
+        "question": "O ST Blockade Battlefront é gratuito?",
+        "answer": "Sim. ST Blockade Battlefront é uma experiência gratuita no Roblox, com compras opcionais no jogo para unidades, skins e boosters de progressão."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para defender o Battlefront?",
+    "description": "Junte-se à comunidade do Blockade Battlefront no Discord para obter códigos, atualizações, guias de unidades e discussões!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "ST Blockade Battlefront Wiki",
+    "description": "Seu hub completo de recursos para códigos, unidades, Titans, skins, mastery, modos e guias de defesa de base do ST Blockade Battlefront.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "roblox": "Jogo no Roblox",
+    "trello": "Trello",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos autorais",
+    "copyright": "© 2026 ST Blockade Battlefront Wiki. Não afiliado aos desenvolvedores do ST Blockade Battlefront.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
   "pages": {
     "codes": {
-      "title": "ST Blockade Battlefront Codes",
-      "description": "Active redeem codes for free Cens, Points, rerolls, and milestone rewards. Updated with the latest working codes and redemption steps.",
-      "metaTitle": "ST Blockade Battlefront Codes - Free Cens, Points & Rewards",
-      "metaDescription": "Redeem the latest ST Blockade Battlefront codes for free Cens, Points, trait rerolls, and milestone rewards. Updated with verified working codes and redemption steps.",
-      "categoryLabel": "REDEEM CODES",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Codes are promotional keys released by the developers of ST Blockade Battlefront that grant free Cens, Points, rerolls, and milestone rewards. They drop during updates, visits milestones, and special events.",
-      "why": "Why redeem codes?",
+      "title": "Códigos do ST Blockade Battlefront",
+      "description": "Códigos de resgate ativos para Cens, Points, rerolls e recompensas de marcos grátis. Atualizado com os códigos funcionais mais recentes e etapas de resgate.",
+      "metaTitle": "Códigos do ST Blockade Battlefront - Cens, Points e Recompensas Grátis",
+      "metaDescription": "Resgate os códigos mais recentes do ST Blockade Battlefront para obter Cens, Points, trait rerolls e recompensas de marcos grátis. Atualizado com códigos funcionais verificados e etapas de resgate.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são Codes?",
+      "whatIsDescription": "Codes são chaves promocionais lançadas pelos desenvolvedores de ST Blockade Battlefront que concedem Cens, Points, rerolls e recompensas de marcos gratuitos. Eles são liberados durante atualizações, marcos de visitas e eventos especiais.",
+      "why": "Por que resgatar codes?",
       "whySteps": {
-        "step1Title": "Claim Free Resources",
-        "step1Description": "Instantly earn Cens, Points, and rerolls without spending Robux",
-        "step2Title": "Speed Up Progress",
-        "step2Description": "Use free rewards to unlock units, mechs, and upgrades faster",
-        "step3Title": "Stay Current",
-        "step3Description": "Keep up with active players by redeeming every working code"
+        "step1Title": "Resgate Recursos Gratuitos",
+        "step1Description": "Ganhe Cens, Points e rerolls instantaneamente sem gastar Robux",
+        "step2Title": "Acelere seu Progresso",
+        "step2Description": "Use recompensas gratuitas para desbloquear units, mechs e upgrades mais rápido",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Acompanhe os jogadores ativos resgatando todos os codes funcionais"
       },
-      "featured": "Featured & Essential",
-      "all": "All Codes"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Codes"
     },
     "guide": {
-      "title": "ST Blockade Battlefront Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced wave defense, unit deployment, and Titan timing strategies.",
-      "metaTitle": "ST Blockade Battlefront Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete ST Blockade Battlefront guides covering beginner tips, base defense, units, Titans, and expert tactics for mastering the Roblox wave defense shooter.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, base defense strategies, and unit deployment. Learn everything from first steps to advanced Titan tactics.",
-      "why": "Why read guides?",
+      "title": "Guias de ST Blockade Battlefront",
+      "description": "Guias de gameplay completos, desde o básico para iniciantes até defesa de ondas avançada, posicionamento de units e estratégias de tempo de Titans.",
+      "metaTitle": "Guias de ST Blockade Battlefront - Estratégias de Iniciante a Avançado",
+      "metaDescription": "Guias completos de ST Blockade Battlefront cobrindo dicas para iniciantes, defesa de base, units, Titans e táticas de especialistas para dominar o shooter de defesa de ondas do Roblox.",
+      "categoryLabel": "GUIAS DO JOGO",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Guias abrangentes cobrindo mecânicas de jogo, estratégias de defesa de base e posicionamento de units. Aprenda tudo, desde os primeiros passos até táticas avançadas de Titans.",
+      "why": "Por que ler guias?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand wave defense, unit placement, and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to defend your base and farm efficiently",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for bosses, modes, and late-wave survival"
+        "step1Title": "Aprenda as Mecânicas Principais",
+        "step1Description": "Entenda a defesa de ondas, o posicionamento de units e evite erros comuns de iniciantes",
+        "step2Title": "Progressão Rápida",
+        "step2Description": "Siga caminhos comprovados para defender sua base e farmar com eficiência",
+        "step3Title": "Estratégias de Mestre",
+        "step3Description": "Desenvolva táticas avançadas para bosses, modos e sobrevivência em ondas tardias"
       },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
     },
     "units": {
-      "title": "ST Blockade Battlefront Units",
-      "description": "Detailed unit guides covering Cameramen, Speakermen, TV Men, roles, unlock paths, and deployment strategies.",
-      "metaTitle": "ST Blockade Battlefront Units - Roles, Unlocks & Deployment",
-      "metaDescription": "Complete ST Blockade Battlefront unit database covering Cameramen, Speakermen, TV Men, roles, unlock paths, and how to deploy each unit effectively.",
-      "categoryLabel": "UNITS & EQUIPMENT",
-      "whatIs": "What are Units?",
-      "whatIsDescription": "Comprehensive guides for every unit faction. Learn roles, unlock paths, deployment strategies, and the best units for each wave and mode.",
-      "why": "Why check unit guides?",
+      "title": "Units de ST Blockade Battlefront",
+      "description": "Guias detalhados de units cobrindo Cameramen, Speakermen, TV Men, funções, caminhos de desbloqueio e estratégias de posicionamento.",
+      "metaTitle": "Units de ST Blockade Battlefront - Funções, Desbloqueios e Posicionamento",
+      "metaDescription": "Banco de dados completo de units de ST Blockade Battlefront cobrindo Cameramen, Speakermen, TV Men, funções, caminhos de desbloqueio e como posicionar cada unit de forma eficaz.",
+      "categoryLabel": "UNITS E EQUIPAMENTOS",
+      "whatIs": "O que são Units?",
+      "whatIsDescription": "Guias abrangentes para cada facção de units. Aprenda funções, caminhos de desbloqueio, estratégias de posicionamento e as melhores units para cada onda e modo.",
+      "why": "Por que conferir guias de units?",
       "whySteps": {
-        "step1Title": "Learn Unit Roles",
-        "step1Description": "Understand what each faction and unit is built for",
-        "step2Title": "Plan Unlocks",
-        "step2Description": "Choose the right units and unlock order for your progression stage",
-        "step3Title": "Deploy Smarter",
-        "step3Description": "Position units to handle waves, bosses, and crowded fights"
+        "step1Title": "Aprenda as Funções das Units",
+        "step1Description": "Entenda para que cada facção e unit foi feita",
+        "step2Title": "Planeje os Desbloqueios",
+        "step2Description": "Escolha as units certas e a ordem de desbloqueio para o seu estágio de progressão",
+        "step3Title": "Posicione com Inteligência",
+        "step3Description": "Posicione unidades para lidar com ondas, chefes e combates lotados"
       },
-      "featured": "Featured & Essential",
-      "all": "All Units"
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Unidades"
     },
     "modes": {
-      "title": "ST Blockade Battlefront Modes",
-      "description": "Explore game modes, wave structures, Boss Rush, Hard Mode, Nightmare, Astro Holdout, and the rewards each mode offers.",
-      "metaTitle": "ST Blockade Battlefront Modes - Waves, Boss Rush & Difficulty",
-      "metaDescription": "Explore ST Blockade Battlefront modes including Normal, Boss Rush, Hard Mode, Nightmare, Insane, Endless, Zombie, and Astro Holdout. Find rewards and choose the right mode for your goals.",
-      "categoryLabel": "GAME MODES",
-      "whatIs": "What are Modes?",
-      "whatIsDescription": "Guides to each game mode, wave structure, difficulty scaling, and reward direction. Learn what to expect and how to prepare for every mode.",
-      "why": "Why learn modes?",
+      "title": "Modos de ST Blockade Battlefront",
+      "description": "Explore os modos de jogo, estruturas de ondas, Boss Rush, Hard Mode, Nightmare, Astro Holdout e as recompensas que cada modo oferece.",
+      "metaTitle": "Modos de ST Blockade Battlefront - Ondas, Boss Rush e Dificuldade",
+      "metaDescription": "Explore os modos de ST Blockade Battlefront, incluindo Normal, Boss Rush, Hard Mode, Nightmare, Insane, Endless, Zombie e Astro Holdout. Encontre recompensas e escolha o modo certo para os seus objetivos.",
+      "categoryLabel": "MODOS DE JOGO",
+      "whatIs": "O que são Modos?",
+      "whatIsDescription": "Guias para cada modo de jogo, estrutura de ondas, escalonamento de dificuldade e direcionamento de recompensas. Saiba o que esperar e como se preparar para cada modo.",
+      "why": "Por que aprender os modos?",
       "whySteps": {
-        "step1Title": "Pick the Right Mode",
-        "step1Description": "Match modes to your farming, boss practice, or endgame goals",
-        "step2Title": "Prepare for Waves",
-        "step2Description": "Understand wave scaling and enemy pressure per mode",
-        "step3Title": "Maximize Rewards",
-        "step3Description": "Target the Cens, Mastery, and skins each mode drops"
+        "step1Title": "Escolha o Modo Certo",
+        "step1Description": "Combine os modos com seus objetivos de farming, treino de chefes ou endgame",
+        "step2Title": "Prepare-se para as Ondas",
+        "step2Description": "Entenda o escalonamento de ondas e a pressão dos inimigos por modo",
+        "step3Title": "Maximize as Recompensas",
+        "step3Description": "Foque nos Cens, Mastery e skins que cada modo dropa"
       },
-      "featured": "Featured & Essential",
-      "all": "All Mode Guides"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Modos"
     },
     "quests": {
-      "title": "ST Blockade Battlefront Quests",
-      "description": "Step-by-step quest guides for Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, and Energized TV quests.",
-      "metaTitle": "ST Blockade Battlefront Quests - Full Quest Walkthroughs",
-      "metaDescription": "Complete ST Blockade Battlefront quest walkthroughs covering Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, and Energized TV quests.",
-      "categoryLabel": "QUEST GUIDES",
-      "whatIs": "What are Quests?",
-      "whatIsDescription": "Quests are progression challenges in ST Blockade Battlefront that unlock units, upgrades, and exclusive rewards. Each quest has specific steps, requirements, and target outcomes.",
-      "why": "Why complete quests?",
+      "title": "Missões de ST Blockade Battlefront",
+      "description": "Guias passo a passo para as missões de Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger e Energized TV.",
+      "metaTitle": "Missões de ST Blockade Battlefront - Guias de Missões Completos",
+      "metaDescription": "Guias completos de missões de ST Blockade Battlefront cobrindo as missões de Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger e Energized TV.",
+      "categoryLabel": "GUIAS DE MISSÕES",
+      "whatIs": "O que são Missões?",
+      "whatIsDescription": "As Missões são desafios de progressão em ST Blockade Battlefront que desbloqueiam unidades, melhorias e recompensas exclusivas. Cada missão tem etapas, requisitos e resultados específicos.",
+      "why": "Por que concluir as missões?",
       "whySteps": {
-        "step1Title": "Unlock Exclusive Units",
-        "step1Description": "Earn units and upgrades that are gated behind quest completion",
-        "step2Title": "Follow Clear Steps",
-        "step2Description": "Use proven walkthroughs to finish each quest without guesswork",
-        "step3Title": "Earn Rare Rewards",
-        "step3Description": "Pick up Cens, Mastery, and limited items tied to quests"
+        "step1Title": "Desbloqueie Unidades Exclusivas",
+        "step1Description": "Ganhe unidades e melhorias que estão bloqueadas pela conclusão de missões",
+        "step2Title": "Siga Passos Claros",
+        "step2Description": "Use guias passo a passo comprovados para terminar cada missão sem adivinhações",
+        "step3Title": "Ganhe Recompensas Raras",
+        "step3Description": "Colete Cens, Mastery e itens limitados vinculados a missões"
       },
-      "featured": "Featured & Essential",
-      "all": "All Quest Guides"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Missões"
     },
     "items": {
-      "title": "ST Blockade Battlefront Items",
-      "description": "Item guides for Flash Drive, Keycard, and other key items, covering where to find them, how to use them, and what they unlock.",
-      "metaTitle": "ST Blockade Battlefront Items - Flash Drive, Keycard & Key Items",
-      "metaDescription": "Complete ST Blockade Battlefront item guides covering Flash Drive, Keycard, and other key items. Learn where to find each item, how to use it, and what it unlocks.",
-      "categoryLabel": "KEY ITEMS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Items are collectible objects in ST Blockade Battlefront like the Flash Drive and Keycard that unlock quests, units, or restricted areas. Knowing where to find and use them unlocks hidden progression.",
-      "why": "Why learn items?",
+      "title": "Itens de ST Blockade Battlefront",
+      "description": "Guias de itens para Flash Drive, Keycard e outros itens importantes, cobrindo onde encontrá-los, como usá-los e o que eles desbloqueiam.",
+      "metaTitle": "Itens de ST Blockade Battlefront - Flash Drive, Keycard e Itens Importantes",
+      "metaDescription": "Guias completos de itens de ST Blockade Battlefront cobrindo Flash Drive, Keycard e outros itens importantes. Saiba onde encontrar cada item, como usá-lo e o que ele desbloqueia.",
+      "categoryLabel": "ITENS-CHAVE",
+      "whatIs": "O que são itens?",
+      "whatIsDescription": "Itens são objetos colecionáveis no ST Blockade Battlefront, como o Flash Drive e o Keycard, que desbloqueiam quests, unidades ou áreas restritas. Saber onde encontrá-los e usá-los desbloqueia a progressão oculta.",
+      "why": "Por que aprender sobre os itens?",
       "whySteps": {
-        "step1Title": "Find Key Items",
-        "step1Description": "Learn exact locations and drops for items like Flash Drive and Keycard",
-        "step2Title": "Unlock Progression",
-        "step2Description": "Use items to open quests, units, and locked content",
-        "step3Title": "Avoid Backtracking",
-        "step3Description": "Collect items in the right order to save time and effort"
+        "step1Title": "Encontre Itens-Chave",
+        "step1Description": "Saiba as localizações exatas e drops de itens como Flash Drive e Keycard",
+        "step2Title": "Desbloqueie a Progressão",
+        "step2Description": "Use itens para desbloquear quests, unidades e conteúdo bloqueado",
+        "step3Title": "Evite Backtracking",
+        "step3Description": "Colete itens na ordem certa para economizar tempo e esforço"
       },
-      "featured": "Featured & Essential",
-      "all": "All Item Guides"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Itens"
     }
   }
 }

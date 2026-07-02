@@ -1,132 +1,769 @@
 {
+  "seo": {
+    "home": {
+      "title": "Blockade Battlefront Wiki - Kode, Units & Titans",
+      "description": "Blockade Battlefront Wiki mencakup codes Roblox, units, Titans, skins, mastery, Boss Rush, Zombie mode, dan panduan pemula untuk pertahanan basis yang cepat.",
+      "keywords": "Blockade Battlefront, Roblox, kode, units, Titans, skins, mastery, Boss Rush",
+      "ogTitle": "Blockade Battlefront Wiki - Kode, Units & Titans",
+      "ogDescription": "Blockade Battlefront Wiki mencakup codes Roblox, units, Titans, skins, mastery, Boss Rush, Zombie mode, dan panduan pemula untuk pertahanan basis yang cepat.",
+      "twitterTitle": "Blockade Battlefront Wiki - Kode, Units & Titans",
+      "twitterDescription": "Blockade Battlefront Wiki mencakup codes Roblox, units, Titans, skins, mastery, dan panduan pertahanan basis untuk penembak pertahanan gelombang Roblox."
+    }
+  },
   "nav": {
-    "codes": "Kode",
+    "codes": "Codes",
     "guide": "Panduan",
-    "units": "Unit",
+    "units": "Units",
     "modes": "Mode",
-    "quests": "Quest",
+    "quests": "Misi",
     "items": "Item"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Main di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Penembak Pertahanan Gelombang Roblox",
+    "title": "Blockade Battlefront Wiki",
+    "description": "Pertahankan basis Anda di Roblox dengan mengerahkan units dan Titans yang kuat, membersihkan gelombang musuh, farming mastery, mengumpulkan skins, serta melacak codes dan pembaruan.",
+    "getFreeCodesCTA": "Dapatkan Codes Gratis",
+    "playOnRobloxCTA": "Main di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "125.6M+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "1.9K+",
+        "label": "Pemain Online"
+      },
+      "stat3": {
+        "value": "85.7K+",
+        "label": "Favorit"
+      },
+      "stat4": {
+        "value": "Aksi",
+        "label": "Jenis"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay ST Blockade Battlefront",
+    "description": "Kerahkan unit dan Titan, pertahankan markasmu melawan gelombang musuh yang meningkat, farm mastery, dan kumpulkan skin dalam game Roblox wave tower defense dan survival shooter ini."
+  },
+  "tools": {
+    "title": "ST Blockade Battlefront",
+    "titleHighlight": "Sumber Daya",
+    "subtitle": "Semua yang kamu butuhkan untuk ST Blockade Battlefront — kode, unit, Titan, mode, mastery, dan pertahanan markas.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Kode",
+        "description": "Kode redeem aktif, hadiah, dan cara menukarkannya"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula",
+        "description": "Cara bermain, pertahankan markasmu, dan bertahan dari gelombang"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List",
+        "description": "Peringkat karakter S hingga D untuk bos dan gelombang"
+      },
+      {
+        "icon": "Users",
+        "title": "Unit dan Titan",
+        "description": "Daftar Cameramen, Speakermen, TV Men, dan Titan"
+      },
+      {
+        "icon": "Skull",
+        "title": "Zombie Mode",
+        "description": "Entri Zombie V2, gelombang, hadiah, dan counter"
+      },
+      {
+        "icon": "Swords",
+        "title": "Mode Game",
+        "description": "Gelombang normal, Boss Rush, Hard, dan Astro Invasion"
+      },
+      {
+        "icon": "Coins",
+        "title": "Cens dan Mastery",
+        "description": "Cens, Points, kartu Mastery, dan rute farming"
+      },
+      {
+        "icon": "Globe",
+        "title": "Tautan Resmi",
+        "description": "Roblox, Discord, Trello, dan saluran pembaruan"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Kode ST Blockade Battlefront",
+      "intro": "ST Blockade Battlefront merilis kode berbatas waktu yang terkait dengan pembaruan, pencapaian, dan pengumuman komunitas. Kode aktif di bawah ini dapat ditukarkan dengan Points, sementara kode event lama terdaftar sebagai kedaluwarsa agar kamu tidak membuang waktu pada entri yang sudah tidak aktif.",
+      "activeLabel": "Kode Aktif",
+      "redeemLabel": "Cara Menukarkan",
+      "expiredLabel": "Kode Kedaluwarsa",
+      "rewardLabel": "Jenis Hadiah",
+      "activeCodes": [
+        {
+          "code": "!redeem Return",
+          "reward": "2.500 Points",
+          "status": "Aktif"
+        },
+        {
+          "code": "!redeem Verified",
+          "reward": "1.500 Points",
+          "status": "Aktif"
+        },
+        {
+          "code": "!redeem Digi",
+          "reward": "1.000 Poin",
+          "status": "Berfungsi"
+        },
+        {
+          "code": "!redeem Sandbox",
+          "reward": "500 Poin",
+          "status": "Berfungsi"
+        },
+        {
+          "code": "!redeem Scientist",
+          "reward": "400 Poin",
+          "status": "Berfungsi"
+        }
+      ],
+      "redeemSteps": [
+        "Luncurkan ST Blockade Battlefront dari halaman pengalaman Roblox.",
+        "Masuk ke server game aktif alih-alih tetap berada di daftar Roblox.",
+        "Buka area penukaran kode di dalam game atau gunakan format perintah !redeem yang ditampilkan pada setiap kartu kode.",
+        "Tempel kode dengan tepat, termasuk awalan !redeem dan spasi.",
+        "Klaim hadiah selama siklus pembaruan yang aktif."
+      ],
+      "expiredCodes": [
+        "!redeem UTSM",
+        "!redeem 18kLikesW",
+        "!redeem 5MVisits",
+        "!redeem 15kLikes",
+        "!redeem DelayUTCM",
+        "!redeem 12kLikes!",
+        "!redeem ForgorLoop",
+        "!redeem 10kLikes!",
+        "!redeem 8.2kLikes!",
+        "!redeem 9kLikes!",
+        "!redeem Reinforcement",
+        "!redeem DelayedUpdateFinallyHere",
+        "!redeem ParasiteIncident",
+        "!redeem StoryBugFixingGrrr",
+        "!redeem SORRYFORSHUTDOWN",
+        "!redeem 1Mvisit",
+        "!redeem SORRYFORSHUTDOWN2",
+        "!redeem 3KLikeTHX"
+      ],
+      "rewardTypes": [
+        "Poin untuk progres dan pembelian unit",
+        "Cens dari kode pencapaian lama dan hadiah wave di dalam game",
+        "Skins, mastery cards, dan booster dari hadiah bergaya event"
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Panduan Pemula ST Blockade Battlefront",
+      "intro": "ST Blockade Battlefront adalah game Roblox bergenre wave tower defense dan survival shooter di mana kamu mempertahankan basis dari gelombang musuh yang terus meningkat. Pemain baru harus fokus pada ritme wave, tombol skill, pembelian unit, dan timing Titan sebelum mengejar build late-game.",
+      "steps": [
+        {
+          "title": "Bergabunglah dengan Pengalaman Roblox",
+          "description": "Buka halaman Roblox ST Blockade Battlefront oleh Loading Studi dan masuk ke server aktif untuk memulai sesi pertahanan."
+        },
+        {
+          "title": "Pahami Objektifnya",
+          "description": "Pertahankan base saat musuh datang dalam gelombang. Game ini memadukan tower defense dengan aksi survival shooter, jadi bertarung, penempatan unit, dan bertahan hidup semuanya penting."
+        },
+        {
+          "title": "Kerahkan Unit dan Gunakan Titan",
+          "description": "Gunakan unit biasa untuk tekanan awal dan simpan opsi Titan yang lebih kuat untuk gelombang yang lebih sulit, bos, dan pertempuran yang ramai."
+        },
+        {
+          "title": "Latih Tombol Kemampuan",
+          "description": "Gerakan menggunakan Q, E, R, T, Y, F, G, H, Z, X, C, V, B, dan spasi ganda. Beberapa gerakan juga bergantung pada tumpukan tombol, varian udara, atau kondisi khusus."
+        },
+        {
+          "title": "Belanja di Antara Gelombang",
+          "description": "Gunakan mata uang yang diperoleh dan kesempatan toko untuk meningkatkan senjata, unit, dan akses Titan Anda seiring meningkatnya gelombang."
+        },
+        {
+          "title": "Pantau Saluran Pembaruan Resmi",
+          "description": "Ikuti Discord resmi, Trello, dan video developer untuk perubahan kode, catatan pembaruan, dan masalah server. Gunakan /e vote saat server perlu dimulai ulang."
+        }
+      ],
+      "quickTips": [
+        "Pelajari timing skill setiap karakter sebelum mencoba mode yang lebih sulit.",
+        "Simpan pengerahan Titan untuk gelombang di mana HP dan AoE mereka benar-benar mengubah pertempuran.",
+        "Gunakan mata uang untuk peningkatan pertempuran yang praktis daripada pembelian yang tidak penting.",
+        "Laporkan bug di Discord resmi agar developer dapat memperbaikinya lebih cepat."
+      ]
+    },
+    "characterTierList": {
+      "title": "Tier List Karakter ST Blockade Battlefront",
+      "intro": "Kekuatan karakter di ST Blockade Battlefront bergantung pada gelombang, jenis musuh, dan apakah Anda membutuhkan burst damage, support, mobilitas, atau tanking. Kisi S ke D ini menjaga peringkat tetap jelas sambil menambahkan konteks peran untuk bos, farming, dan kelangsungan hidup di gelombang akhir.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Pilihan Utama untuk Bos dan Endgame",
+          "characters": [
+            {
+              "name": "Villain Arc Brown Cameraman",
+              "role": "Burst DPS dan buff",
+              "bestUse": "Gunakan untuk pertempuran bertekanan tinggi di mana Orbital Strike, terbang, dan buff dapat mengubah arah gelombang."
+            },
+            {
+              "name": "Glitch Double-Plunger Cameraman",
+              "role": "DPS multi-skill yang lincah",
+              "bestUse": "Pilih saat Anda membutuhkan karakter ukuran normal dengan berbagai alat pemberi damage dan potensi carry yang kuat."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Pilihan Bernilai Tinggi yang Andal",
+          "characters": [
+            {
+              "name": "Amplifier Woman",
+              "role": "DPS Mobilitas",
+              "bestUse": "Opsi non-upgrade yang kuat dengan tekanan Soundwave ditambah gerakan Leap dan Dash."
+            },
+            {
+              "name": "Engineer Camcorder Man",
+              "role": "Spesialis Support",
+              "bestUse": "Paling baik digunakan untuk nilai support melalui revive, summon, dan sinergi senjata."
+            },
+            {
+              "name": "Secret Agent",
+              "role": "Utilitas bos",
+              "bestUse": "Kemampuan Chair Mode membuatnya berguna melawan musuh yang lebih kuat dan di momen-momen kritis."
+            },
+            {
+              "name": "Upgraded Camcorder Strider",
+              "role": "Tank defensif",
+              "bestUse": "Pelindung jarak jauh yang kokoh yang menyerap tekanan dan bertarung dari posisi yang lebih aman."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Pilihan Situasional yang Baik",
+          "characters": [
+            {
+              "name": "Upgraded Plunger Cameraman",
+              "role": "DPS Kombo",
+              "bestUse": "Rangkaian kemampuan yang solid dengan alat kombo setelah misi karakter khususnya."
+            },
+            {
+              "name": "Elite Amplifier",
+              "role": "Damage suara yang tanky",
+              "bestUse": "Bagus untuk build pertahanan menggunakan Sound Blast, Perfect Block, dan Sound Wave."
+            },
+            {
+              "name": "Scientist CCTV Man",
+              "role": "Dukungan dan akses mech",
+              "bestUse": "Opsi dukungan yang dapat membuka mech pada Mastery 25."
+            },
+            {
+              "name": "Tri Fighter Artemis",
+              "role": "DPS Jarak Jauh",
+              "bestUse": "Opsi jarak jauh murni dengan Focus Blast dan High Pitch Noise."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Pembelajaran dan Progresi Awal",
+          "characters": [
+            {
+              "name": "Camcorder Woman",
+              "role": "Pergerakan jarak jauh dasar",
+              "bestUse": "Berguna di awal untuk Dash dan permainan jarak jauh sederhana."
+            },
+            {
+              "name": "CCTV Helicopter",
+              "role": "Unit jarak jauh terbang",
+              "bestUse": "Bisa terbang dan menembakkan roket, tapi kurang dalam tekanan melee."
+            },
+            {
+              "name": "Screen Man",
+              "role": "Kontrol pemula",
+              "bestUse": "Berguna di awal karena teleportasi, Purple Screen, dan kontrol Hypnosis."
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Pilihan Cadangan Dasar",
+          "characters": [
+            {
+              "name": "Borer Man",
+              "role": "Melee bernilai rendah",
+              "bestUse": "Gunakan hanya saat belajar atau sebelum pengganti yang lebih kuat terbuka."
+            },
+            {
+              "name": "Camcorder Man",
+              "role": "Pemula default",
+              "bestUse": "Karakter awal yang mengajarkan dasar-dasar sebelum pemain beralih ke kit yang lebih kuat."
+            },
+            {
+              "name": "Amplifier Man",
+              "role": "Latihan AoE awal",
+              "bestUse": "Bagus untuk mempelajari AoE berbasis suara, tetapi lemah di bawah wave yang lebih berat."
+            }
+          ]
+        }
+      ]
+    },
+    "unitsAndTitans": {
+      "title": "Unit dan Titans ST Blockade Battlefront",
+      "intro": "ST Blockade Battlefront dibangun di sekitar unit reguler, karakter yang lebih besar, striders, dan Titans. Cara termudah untuk memahami roster adalah melalui faksi: Cameramen untuk damage yang seimbang dan tanking, Speakermen untuk tekanan berbasis suara, TV Men untuk kontrol, dan Titans untuk pertempuran wave dan boss berdampak tinggi.",
+      "factions": [
+        {
+          "category": "Cameramen",
+          "role": "Damage yang seimbang, tanking, dan utilitas yang ramah progresi.",
+          "examples": [
+            "Normal Cameraman",
+            "Engineer Cameraman",
+            "Plungerman",
+            "Camerawoman",
+            "Camera Strider",
+            "Titan Cameraman",
+            "Upgraded Titan Cameraman"
+          ],
+          "bestFor": [
+            "Progresi pemula",
+            "Persiapan boss",
+            "Gaya bermain hybrid tank dan damage"
+          ]
+        },
+        {
+          "category": "Speakermen",
+          "role": "Tekanan berbasis suara, buff, AoE, dan crowd control.",
+          "examples": [
+            "Normal Speakerman",
+            "Dark Speakerman",
+            "Speakerwoman",
+            "Elite Speakerman",
+            "Speaker Strider",
+            "Titan Speakerman",
+            "Upgraded Titan Speakerman"
+          ],
+          "bestFor": [
+            "Kontrol Kerumunan",
+            "Pembersihan wave",
+            "Dukungan tim"
+          ]
+        },
+        {
+          "category": "TV Men",
+          "role": "Efek layar, alat teleportasi, tekanan stun, dan kontrol pertahanan.",
+          "examples": [
+            "Normal TV Man",
+            "TV Woman",
+            "Scientist TV Man",
+            "Energized TV Man",
+            "Titan TV Man",
+            "Upgraded Titan TV Man"
+          ],
+          "bestFor": [
+            "Gaya bermain fokus kontrol",
+            "Reposisi yang lebih aman",
+            "Utilitas musuh elite dan boss"
+          ]
+        },
+        {
+          "category": "Normal Titans",
+          "role": "Unit kekuatan skala besar untuk wave sulit, boss, dan pertahanan tekanan tinggi.",
+          "examples": [
+            "Titan Cameraman",
+            "Titan Speakerman",
+            "Titan TV Man",
+            "Titan Drillman",
+            "Titan Projectorman",
+            "Stellar Titan"
+          ],
+          "bestFor": [
+            "Wave boss",
+            "Grup musuh besar",
+            "Kelangsungan hidup wave akhir"
+          ]
+        },
+        {
+          "category": "Titan Spesial",
+          "role": "Upgrade Titan late-game yang dibuat untuk mode tersulit dan wave musuh terkuat.",
+          "examples": [
+            "Upgraded Titan Cameraman",
+            "Upgraded Titan Speakerman",
+            "Upgraded Titan TV Man",
+            "Titan Clockman",
+            "G-Toilet X-18"
+          ],
+          "bestFor": [
+            "Kesulitan tipe Insane dan Nightmare",
+            "Tekanan boss endgame",
+            "Run tim yang terkoordinasi"
+          ]
+        }
+      ]
+    },
+    "zombieMode": {
+      "eyebrow": "Zombie V2",
+      "title": "Panduan Zombie Mode ST Blockade Battlefront",
+      "subtitle": "Pelajari cara kerja Zombie V2, apa yang harus difokuskan selama wave zombie, dan hadiah mana yang paling penting untuk progres jangka panjang.",
+      "intro": "Zombie Mode dibuat untuk bertahan hidup dari wave musuh yang terinfeksi sambil melindungi base, menggunakan unit yang dideploy, Titan, dan keybind gerakan aktif. Mode ini terhubung langsung ke pencarian update Zombie V2, gameplay Act 2, progres X-18, dan rute kelangsungan hidup wave akhir.",
+      "cards": [
+        {
+          "name": "Masuk Mode",
+          "type": "Akses",
+          "description": "Buka ST: Blockade Battlefront dari Roblox, masuk ke dalam game, lalu gunakan antarmuka mode atau misi untuk memulai konten Zombie V2. Pemain dapat bermain solo atau bermain grup tergantung pada pengaturan lobi.",
+          "playerTip": "Mulailah dengan setup tim yang stabil sebelum menembus wave yang lebih dalam, karena Zombie Mode menghukum pertahanan awal yang lemah dan crowd control yang buruk."
+        },
+        {
+          "name": "Objektif Utama",
+          "type": "Tujuan",
+          "description": "Pertahankan base melalui wave zombie sambil membersihkan musuh yang terinfeksi dan ancaman tipe boss. Loop utamanya memiliki fondasi yang sama dengan ST Blockade Battlefront: deploy unit, gunakan Titan, dan bertahan dari tekanan musuh yang meningkat.",
+          "playerTip": "Jangan simpan setiap gerakan aktif untuk boss; wave zombie akhir dapat membanjiri base sebelum fase boss menjadi masalah yang sebenarnya."
+        },
+        {
+          "name": "Peran Unit yang Direkomendasikan",
+          "type": "Setup Tim",
+          "description": "Bawa damage area yang kuat, kontrol garis depan yang tangguh, damage boss, dan setidaknya satu opsi Titan yang andal. Wave zombie menguntungkan tim yang dapat membersihkan banyak musuh dengan cepat alih-alih hanya menumpuk damage target tunggal.",
+          "playerTip": "Tim yang seimbang lebih aman daripada tim pembunuh boss penuh, karena Zombie Mode mencampur wave yang padat dengan checkpoint musuh yang lebih kuat."
+        },
+        {
+          "name": "Progres X-18",
+          "type": "Jalur Hadiah",
+          "description": "Zombie Mode terikat dengan progres G-Toilet X-18 melalui drop core terkait zombie dan rute gameplay Act 2. Pemain yang melakukan farming di mode ini biasanya fokus pada penyelesaian berulang, material core, dan run wave akhir yang stabil.",
+          "playerTip": "Lakukan farm dengan konsistensi terlebih dahulu. Run gagal yang cepat lebih buruk daripada penyelesaian yang lebih lambat jika targetnya adalah material progres yang langka."
+        },
+        {
+          "name": "Titik Kegagalan Umum",
+          "type": "Pemecahan Masalah",
+          "description": "Sebagian besar run yang gagal terjadi ketika wave awal diabaikan, kelompok musuh mencapai base, atau pemain terlalu sering menggunakan skill gerakan dan damage tanpa menyisakan cukup kekuatan untuk ancaman besar.",
+          "playerTip": "Gunakan tombol gerakan aktif game dengan sengaja: Q, E, R, T, Y, F, G, H, Z, X, C, V, B, dan spasi ganda terdaftar di halaman Roblox sebagai keybind terkait gerakan."
+        }
+      ]
+    },
+    "gameModes": {
+      "eyebrow": "Mode",
+      "title": "Mode Game dan Wave ST Blockade Battlefront",
+      "subtitle": "Bandingkan loop pertahanan wave utama, misi yang lebih sulit, Boss Rush, Zombie Mode, dan konten yang berfokus pada Astro sebelum memilih tempat untuk grinding.",
+      "intro": "ST Blockade Battlefront adalah game wave tower defense dan survival shooter tempat pemain men-deploy unit dan Titan untuk mempertahankan base dari musuh yang terus meningkat. Setiap mode mengubah pola tekanan: beberapa lebih baik untuk mempelajari wave, beberapa untuk latihan boss, dan beberapa untuk farming sumber daya.",
+      "modes": [
+        {
+          "name": "Wave Pertahanan Standar",
+          "modeType": "Mode Inti",
+          "focus": "Pertahanan basis, penempatan unit, pembersihan wave, dan mempelajari tekanan musuh.",
+          "bestFor": "Pemain baru yang mempelajari loop dasar tower defense dan survival shooter.",
+          "waveNote": "Musuh berskala di setiap wave, jadi ekonomi awal dan penempatan unit yang stabil lebih penting daripada memburu damage tinggi di awal."
+        },
+        {
+          "name": "Kesulitan Hard dan Lebih Tinggi",
+          "modeType": "Peningkatan Kesulitan",
+          "focus": "Wave musuh yang lebih kuat, jendela pertahanan yang lebih sempit, dan pengujian yang lebih baik untuk tim yang telah di-upgrade.",
+          "bestFor": "Pemain yang sudah memahami penempatan, timing Titan, dan penggunaan skill aktif.",
+          "waveNote": "Kesulitan yang lebih tinggi adalah tempat di mana perencanaan wave awal yang lemah menjadi berisiko tinggi, karena basis memiliki sedikit ruang untuk kesalahan."
+        },
+        {
+          "name": "Boss Rush",
+          "modeType": "Mode Boss",
+          "focus": "Pertarungan boss berurutan dengan penekanan yang lebih sedikit pada ritme wave biasa.",
+          "bestFor": "Melatih damage boss, kontrol Titan, dan rute farming solo.",
+          "waveNote": "Boss Rush berguna saat pemain menginginkan tekanan boss berulang daripada menjalankan wave normal secara penuh."
+        },
+        {
+          "name": "Zombie Mode",
+          "modeType": "Mode Event",
+          "focus": "Wave Zombie, musuh yang terinfeksi, konten Act 2, dan progres terkait X-18.",
+          "bestFor": "Pemain yang melakukan farming konten Zombie V2 atau melatih pertahanan terhadap kerumunan musuh yang padat.",
+          "waveNote": "Zombie Mode mengutamakan crowd control dan damage berkelanjutan karena kelompok musuh dapat menumpuk dengan cepat."
+        },
+        {
+          "name": "Invasi Astro",
+          "modeType": "Konten Spesial",
+          "focus": "Pertemuan musuh Astro, progres bertema Astro, dan pengujian unit khusus.",
+          "bestFor": "Pemain yang membangun tim untuk musuh Astro dan tantangan spesifik pembaruan.",
+          "waveNote": "Gunakan mode ini untuk menguji apakah roster Anda dapat menangani musuh spesial yang lebih cepat atau lebih berat."
+        }
+      ]
+    },
+    "censMastery": {
+      "eyebrow": "Sumber Daya",
+      "title": "Panduan Cens, Points, dan Mastery ST Blockade Battlefront",
+      "subtitle": "Pahami fungsi sumber daya progres utama dan cara membelanjakannya tanpa membuang-buang progres di awal permainan.",
+      "intro": "Progres ST Blockade Battlefront berpusat pada hadiah mata uang, hadiah kode, farming misi, dan Mastery unit. Pemain baru harus fokus pada pembersihan wave yang stabil, upgrade unit yang berguna, dan progres Mastery sebelum mengejar setiap item langka sekaligus.",
+      "resources": [
+        {
+          "resource": "Cens",
+          "usedFor": "Pengeluaran progres utama, pembelian gaya toko, dan target terkait upgrade.",
+          "howToGet": "Dapatkan melalui penyelesaian gameplay, farming misi, hadiah pembaruan, dan kode developer jika tersedia.",
+          "priority": "Tinggi",
+          "playerTip": "Simpan Cens untuk perolehan unit atau progres yang berarti daripada menghabiskan semuanya segera untuk item yang berdampak rendah."
+        },
+        {
+          "resource": "Points",
+          "usedFor": "Kata-kata kode dan panduan lama sering menggunakan Points untuk klaim hadiah gratis dan penjelasan hadiah awal.",
+          "howToGet": "Tukarkan kode yang valid melalui sistem penukaran dalam game saat developer merilisnya.",
+          "priority": "Sedang",
+          "playerTip": "Ketika halaman hadiah menyebutkan Points, periksa teks hadiah dalam game dan kata-kata kotak kode saat ini sebelum berasumsi bahwa itu adalah mata uang modern yang terpisah."
+        },
+        {
+          "resource": "Mastery",
+          "usedFor": "Meningkatkan unit dan membuka performa skill yang lebih kuat atau nilai unit di akhir permainan.",
+          "howToGet": "Tingkatkan progres dengan menggunakan unit dalam gameplay dan menerapkan hadiah terkait Mastery saat tersedia.",
+          "priority": "Tinggi",
+          "playerTip": "Terapkan progres Mastery pada unit yang benar-benar Anda gunakan. Memberikan Mastery secara acak ke unit yang tidak digunakan akan memperlambat tim utama Anda."
+        },
+        {
+          "resource": "Kartu Mastery",
+          "usedFor": "Memberikan progres Mastery atau level Mastery instan ke unit target yang dilengkapi.",
+          "howToGet": "Muncul melalui kode, rotasi toko, dan jalur hadiah progres.",
+          "priority": "Tinggi",
+          "playerTip": "Lengkapi unit yang benar sebelum menggunakan Kartu Mastery. Nilainya terikat pada unit yang menerima hadiah Mastery."
+        },
+        {
+          "resource": "Boost Mastery 2x",
+          "usedFor": "Mempercepat grinding Mastery selama sesi farming yang aktif.",
+          "howToGet": "Tersedia melalui hadiah pilihan, kode, dan sumber hadiah berbasis rotasi.",
+          "priority": "Sedang",
+          "playerTip": "Gunakan boost hanya saat Anda siap untuk melakukan grinding. Mengaktifkan boost berdurasi lalu keluar dari game akan menyia-nyiakan bagian terbaik dari boost tersebut."
+        },
+        {
+          "resource": "Material Zombie Core",
+          "usedFor": "Progres terkait Zombie Mode dan G-Toilet X-18.",
+          "howToGet": "Lakukan farm konten Zombie Mode dan Zombie V2 secara berulang.",
+          "priority": "Late Game",
+          "playerTip": "Jangan mulai farming core secara serius sebelum tim Anda dapat bertahan dari wave Zombie secara konsisten."
+        }
+      ]
+    },
+    "officialLinks": {
+      "eyebrow": "Link Resmi",
+      "title": "Trello, Discord, dan Link Update ST Blockade Battlefront",
+      "subtitle": "Gunakan link resmi untuk memainkan game, melihat update, mengikuti developer, melaporkan bug, dan menghindari halaman kode palsu.",
+      "intro": "Update, kode, laporan bug, dan informasi mode ST Blockade Battlefront paling baik dilihat melalui halaman game Roblox, komunitas Loading Studi, Discord resmi, board Trello resmi, dan channel YouTube Loading Studi.",
+      "links": [
+        {
+          "name": "Game Roblox",
+          "url": "https://www.roblox.com/games/18816315817/ST-Blockade-Battlefront",
+          "useFor": "Mainkan ST Blockade Battlefront, lihat judul update saat ini, baca deskripsi game, dan jalankan server.",
+          "note": "Halaman Roblox mencantumkan game ini sebagai wave tower defense dan survival shooter tempat pemain menempatkan unit dan Titan untuk mempertahankan base."
+        },
+        {
+          "name": "Komunitas Roblox Loading Studi",
+          "url": "https://www.roblox.com/communities/6022628/Loading-Studi",
+          "useFor": "Temukan komunitas developer yang terhubung dengan game Roblox ini.",
+          "note": "Gunakan link ini alih-alih grup Roblox acak yang menggunakan nama serupa."
+        },
+        {
+          "name": "Discord Resmi",
+          "url": "https://discord.com/invite/blockade",
+          "useFor": "Lihat pengumuman, pembagian kode, catatan update, lobi, laporan bug, dan diskusi komunitas.",
+          "note": "Halaman Roblox meminta pemain untuk melaporkan bug di Discord, menjadikannya link komunitas yang paling penting."
+        },
+        {
+          "name": "Trello Resmi",
+          "url": "https://trello.com/b/APrD3TTL/official-skibidi-toilet-blockade-battlefront",
+          "useFor": "Jelajahi informasi game yang terorganisir seperti unit, mode, referensi update, dan catatan progres.",
+          "note": "Gunakan board Trello untuk referensi terstruktur alih-alih postingan ulang yang tersebar."
+        },
+        {
+          "name": "YouTube Blockade Sirin",
+          "url": "https://www.youtube.com/@Azu_1Siri/videos",
+          "useFor": "Tonton video resmi Loading Studi, showcase, musik, bocoran, dan unggahan terkait pengembangan.",
+          "note": "Saluran ini terhubung dengan unggahan resmi Loading Studi dan lebih aman daripada klip yang diunggah ulang."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering",
+    "titleHighlight": "Diajukan",
+    "subtitle": "Semua yang perlu Anda ketahui tentang ST Blockade Battlefront",
+    "questions": [
+      {
+        "question": "Apa itu ST Blockade Battlefront?",
+        "answer": "ST Blockade Battlefront adalah game Roblox wave tower defense dan survival shooter di mana Anda mengerahkan unit dan Titans untuk mempertahankan markas melawan gelombang musuh yang semakin meningkat."
+      },
+      {
+        "question": "Di mana saya bisa memainkan ST Blockade Battlefront?",
+        "answer": "Anda dapat memainkan ST Blockade Battlefront secara gratis di Roblox melalui halaman pengalaman resmi oleh Loading Studi."
+      },
+      {
+        "question": "Bagaimana cara menukarkan kode di ST Blockade Battlefront?",
+        "answer": "Bergabunglah ke server aktif, buka area penukaran kode di dalam game atau gunakan format perintah !redeem, tempel kode persis dengan awalan !redeem, dan klaim hadiah selama siklus pembaruan aktif."
+      },
+      {
+        "question": "Apa itu Titans di ST Blockade Battlefront?",
+        "answer": "Titans adalah unit kekuatan skala besar di ST Blockade Battlefront yang digunakan untuk gelombang sulit, boss, dan pertahanan bertekanan tinggi. Normal Titans mencakup roster inti, sementara Special Titans adalah upgrade akhir permainan."
+      },
+      {
+        "question": "Apa mode terbaik untuk farming di ST Blockade Battlefront?",
+        "answer": "Normal Waves adalah yang terbaik untuk farming awal dan belajar, sementara Hard Mode dan Zombie mode memberikan hasil Cens dan Mastery yang lebih baik setelah unit Anda dapat menangani tekanan."
+      },
+      {
+        "question": "Apakah ST Blockade Battlefront gratis?",
+        "answer": "Ya. ST Blockade Battlefront adalah pengalaman Roblox gratis, dengan pembelian opsional di dalam game untuk unit, skins, dan pendorong progres."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Mempertahankan Battlefront?",
+    "description": "Bergabunglah dengan komunitas Blockade Battlefront di Discord untuk kode, pembaruan, panduan unit, dan diskusi!",
+    "joinCommunity": "Gabung Discord",
+    "joinGame": "Main di Roblox"
+  },
+  "footer": {
+    "title": "ST Blockade Battlefront Wiki",
+    "description": "Pusat sumber daya lengkap Anda untuk kode, unit, Titans, skins, mastery, mode, dan panduan pertahanan markas ST Blockade Battlefront.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "discord": "Discord",
+    "roblox": "Game Roblox",
+    "trello": "Trello",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 ST Blockade Battlefront Wiki. Tidak berafiliasi dengan pengembang ST Blockade Battlefront.",
+    "disclaimer": "Situs web sumber daya buatan penggemar yang tidak resmi."
   },
   "pages": {
     "codes": {
-      "title": "ST Blockade Battlefront Codes",
-      "description": "Active redeem codes for free Cens, Points, rerolls, and milestone rewards. Updated with the latest working codes and redemption steps.",
-      "metaTitle": "ST Blockade Battlefront Codes - Free Cens, Points & Rewards",
-      "metaDescription": "Redeem the latest ST Blockade Battlefront codes for free Cens, Points, trait rerolls, and milestone rewards. Updated with verified working codes and redemption steps.",
-      "categoryLabel": "REDEEM CODES",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Codes are promotional keys released by the developers of ST Blockade Battlefront that grant free Cens, Points, rerolls, and milestone rewards. They drop during updates, visits milestones, and special events.",
-      "why": "Why redeem codes?",
+      "title": "Kode ST Blockade Battlefront",
+      "description": "Kode penukaran aktif untuk Cens, Points, rerolls, dan hadiah milestone gratis. Diperbarui dengan kode terbaru yang berfungsi dan langkah-langkah penukaran.",
+      "metaTitle": "Kode ST Blockade Battlefront - Cens, Points & Hadiah Gratis",
+      "metaDescription": "Tukarkan kode ST Blockade Battlefront terbaru untuk Cens, Points, trait rerolls, dan hadiah milestone gratis. Diperbarui dengan kode yang terverifikasi berfungsi dan langkah-langkah penukaran.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode?",
+      "whatIsDescription": "Kode adalah kunci promosi yang dirilis oleh developer ST Blockade Battlefront yang memberikan Cens, Points, reroll, dan hadiah milestone gratis. Kode ini dirilis selama update, milestone kunjungan, dan event khusus.",
+      "why": "Mengapa menukarkan kode?",
       "whySteps": {
-        "step1Title": "Claim Free Resources",
-        "step1Description": "Instantly earn Cens, Points, and rerolls without spending Robux",
-        "step2Title": "Speed Up Progress",
-        "step2Description": "Use free rewards to unlock units, mechs, and upgrades faster",
-        "step3Title": "Stay Current",
-        "step3Description": "Keep up with active players by redeeming every working code"
+        "step1Title": "Klaim Sumber Daya Gratis",
+        "step1Description": "Dapatkan Cens, Points, dan reroll secara instan tanpa menghabiskan Robux",
+        "step2Title": "Percepat Progres",
+        "step2Description": "Gunakan hadiah gratis untuk membuka unit, mech, dan upgrade lebih cepat",
+        "step3Title": "Tetap Terkini",
+        "step3Description": "Ikuti perkembangan pemain aktif dengan menukarkan setiap kode yang aktif"
       },
-      "featured": "Featured & Essential",
-      "all": "All Codes"
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
     },
     "guide": {
-      "title": "ST Blockade Battlefront Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced wave defense, unit deployment, and Titan timing strategies.",
-      "metaTitle": "ST Blockade Battlefront Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete ST Blockade Battlefront guides covering beginner tips, base defense, units, Titans, and expert tactics for mastering the Roblox wave defense shooter.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, base defense strategies, and unit deployment. Learn everything from first steps to advanced Titan tactics.",
-      "why": "Why read guides?",
+      "title": "Panduan ST Blockade Battlefront",
+      "description": "Panduan gameplay lengkap dari dasar-dasar pemula hingga wave defense tingkat lanjut, penempatan unit, dan strategi timing Titan.",
+      "metaTitle": "Panduan ST Blockade Battlefront - Strategi Pemula hingga Tingkat Lanjut",
+      "metaDescription": "Panduan lengkap ST Blockade Battlefront yang mencakup tips pemula, base defense, unit, Titan, dan taktik ahli untuk menguasai shooter wave defense Roblox.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu Panduan?",
+      "whatIsDescription": "Panduan komprehensif yang mencakup mekanik gameplay, strategi base defense, dan penempatan unit. Pelajari segalanya mulai dari langkah pertama hingga taktik Titan tingkat lanjut.",
+      "why": "Mengapa membaca panduan?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand wave defense, unit placement, and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to defend your base and farm efficiently",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for bosses, modes, and late-wave survival"
+        "step1Title": "Pelajari Mekanik Utama",
+        "step1Description": "Pahami wave defense, penempatan unit, dan hindari kesalahan umum pemula",
+        "step2Title": "Progres Cepat",
+        "step2Description": "Ikuti jalur yang terbukti untuk mempertahankan base Anda dan farming secara efisien",
+        "step3Title": "Kuasai Strategi",
+        "step3Description": "Kembangkan taktik tingkat lanjut untuk boss, mode, dan bertahan hidup di late-wave"
       },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
     },
     "units": {
-      "title": "ST Blockade Battlefront Units",
-      "description": "Detailed unit guides covering Cameramen, Speakermen, TV Men, roles, unlock paths, and deployment strategies.",
-      "metaTitle": "ST Blockade Battlefront Units - Roles, Unlocks & Deployment",
-      "metaDescription": "Complete ST Blockade Battlefront unit database covering Cameramen, Speakermen, TV Men, roles, unlock paths, and how to deploy each unit effectively.",
-      "categoryLabel": "UNITS & EQUIPMENT",
-      "whatIs": "What are Units?",
-      "whatIsDescription": "Comprehensive guides for every unit faction. Learn roles, unlock paths, deployment strategies, and the best units for each wave and mode.",
-      "why": "Why check unit guides?",
+      "title": "Unit ST Blockade Battlefront",
+      "description": "Panduan unit mendetail yang mencakup Cameramen, Speakermen, TV Men, role, jalur unlock, dan strategi penempatan.",
+      "metaTitle": "Unit ST Blockade Battlefront - Role, Unlock & Penempatan",
+      "metaDescription": "Database unit ST Blockade Battlefront lengkap yang mencakup Cameramen, Speakermen, TV Men, role, jalur unlock, dan cara menempatkan setiap unit secara efektif.",
+      "categoryLabel": "UNIT & PERALATAN",
+      "whatIs": "Apa itu Unit?",
+      "whatIsDescription": "Panduan komprehensif untuk setiap faksi unit. Pelajari role, jalur unlock, strategi penempatan, dan unit terbaik untuk setiap wave dan mode.",
+      "why": "Mengapa melihat panduan unit?",
       "whySteps": {
-        "step1Title": "Learn Unit Roles",
-        "step1Description": "Understand what each faction and unit is built for",
-        "step2Title": "Plan Unlocks",
-        "step2Description": "Choose the right units and unlock order for your progression stage",
-        "step3Title": "Deploy Smarter",
-        "step3Description": "Position units to handle waves, bosses, and crowded fights"
+        "step1Title": "Pelajari Role Unit",
+        "step1Description": "Pahami untuk apa setiap faksi dan unit dibuat",
+        "step2Title": "Rencanakan Unlock",
+        "step2Description": "Pilih unit yang tepat dan urutan unlock untuk tahap progres Anda",
+        "step3Title": "Tempatkan Lebih Cerdas",
+        "step3Description": "Posisikan unit untuk menangani wave, boss, dan pertarungan yang ramai"
       },
-      "featured": "Featured & Essential",
-      "all": "All Units"
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Unit"
     },
     "modes": {
-      "title": "ST Blockade Battlefront Modes",
-      "description": "Explore game modes, wave structures, Boss Rush, Hard Mode, Nightmare, Astro Holdout, and the rewards each mode offers.",
-      "metaTitle": "ST Blockade Battlefront Modes - Waves, Boss Rush & Difficulty",
-      "metaDescription": "Explore ST Blockade Battlefront modes including Normal, Boss Rush, Hard Mode, Nightmare, Insane, Endless, Zombie, and Astro Holdout. Find rewards and choose the right mode for your goals.",
-      "categoryLabel": "GAME MODES",
-      "whatIs": "What are Modes?",
-      "whatIsDescription": "Guides to each game mode, wave structure, difficulty scaling, and reward direction. Learn what to expect and how to prepare for every mode.",
-      "why": "Why learn modes?",
+      "title": "Mode ST Blockade Battlefront",
+      "description": "Jelajahi mode game, struktur wave, Boss Rush, Hard Mode, Nightmare, Astro Holdout, dan hadiah yang ditawarkan setiap mode.",
+      "metaTitle": "Mode ST Blockade Battlefront - Waves, Boss Rush & Kesulitan",
+      "metaDescription": "Jelajahi mode ST Blockade Battlefront termasuk Normal, Boss Rush, Hard Mode, Nightmare, Insane, Endless, Zombie, dan Astro Holdout. Temukan hadiah dan pilih mode yang tepat untuk tujuan Anda.",
+      "categoryLabel": "MODE GAME",
+      "whatIs": "Apa itu Mode?",
+      "whatIsDescription": "Panduan untuk setiap mode game, struktur wave, penskalaan kesulitan, dan arahan hadiah. Pelajari apa yang diharapkan dan cara bersiap untuk setiap mode.",
+      "why": "Mengapa mempelajari mode?",
       "whySteps": {
-        "step1Title": "Pick the Right Mode",
-        "step1Description": "Match modes to your farming, boss practice, or endgame goals",
-        "step2Title": "Prepare for Waves",
-        "step2Description": "Understand wave scaling and enemy pressure per mode",
-        "step3Title": "Maximize Rewards",
-        "step3Description": "Target the Cens, Mastery, and skins each mode drops"
+        "step1Title": "Pilih Mode yang Tepat",
+        "step1Description": "Sesuaikan mode dengan farming, latihan boss, atau tujuan endgame Anda",
+        "step2Title": "Bersiap untuk Waves",
+        "step2Description": "Pahami penskalaan wave dan tekanan musuh per mode",
+        "step3Title": "Maksimalkan Hadiah",
+        "step3Description": "Targetkan Cens, Mastery, dan skins yang dijatuhkan setiap mode"
       },
-      "featured": "Featured & Essential",
-      "all": "All Mode Guides"
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Panduan Mode"
     },
     "quests": {
-      "title": "ST Blockade Battlefront Quests",
-      "description": "Step-by-step quest guides for Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, and Energized TV quests.",
-      "metaTitle": "ST Blockade Battlefront Quests - Full Quest Walkthroughs",
-      "metaDescription": "Complete ST Blockade Battlefront quest walkthroughs covering Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, and Energized TV quests.",
-      "categoryLabel": "QUEST GUIDES",
-      "whatIs": "What are Quests?",
-      "whatIsDescription": "Quests are progression challenges in ST Blockade Battlefront that unlock units, upgrades, and exclusive rewards. Each quest has specific steps, requirements, and target outcomes.",
-      "why": "Why complete quests?",
+      "title": "Quest ST Blockade Battlefront",
+      "description": "Panduan quest langkah demi langkah untuk quest Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, dan Energized TV.",
+      "metaTitle": "Quest ST Blockade Battlefront - Walkthrough Quest Lengkap",
+      "metaDescription": "Walkthrough quest ST Blockade Battlefront lengkap yang mencakup quest Engineer, UTC, UTSM, UTTVM, Scientist TV Man, Dark Amplifier, Head Captain, Plunger, dan Energized TV.",
+      "categoryLabel": "PANDUAN QUEST",
+      "whatIs": "Apa itu Quest?",
+      "whatIsDescription": "Quest adalah tantangan progres di ST Blockade Battlefront yang membuka unit, peningkatan, dan hadiah eksklusif. Setiap quest memiliki langkah, persyaratan, dan hasil target tertentu.",
+      "why": "Mengapa menyelesaikan quest?",
       "whySteps": {
-        "step1Title": "Unlock Exclusive Units",
-        "step1Description": "Earn units and upgrades that are gated behind quest completion",
-        "step2Title": "Follow Clear Steps",
-        "step2Description": "Use proven walkthroughs to finish each quest without guesswork",
-        "step3Title": "Earn Rare Rewards",
-        "step3Description": "Pick up Cens, Mastery, and limited items tied to quests"
+        "step1Title": "Buka Unit Eksklusif",
+        "step1Description": "Dapatkan unit dan peningkatan yang terkunci di balik penyelesaian quest",
+        "step2Title": "Ikuti Langkah-langkah Jelas",
+        "step2Description": "Gunakan walkthrough yang terbukti untuk menyelesaikan setiap quest tanpa menebak-nebak",
+        "step3Title": "Dapatkan Hadiah Langka",
+        "step3Description": "Dapatkan Cens, Mastery, dan item terbatas yang terikat dengan quest"
       },
-      "featured": "Featured & Essential",
-      "all": "All Quest Guides"
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Panduan Quest"
     },
     "items": {
-      "title": "ST Blockade Battlefront Items",
-      "description": "Item guides for Flash Drive, Keycard, and other key items, covering where to find them, how to use them, and what they unlock.",
-      "metaTitle": "ST Blockade Battlefront Items - Flash Drive, Keycard & Key Items",
-      "metaDescription": "Complete ST Blockade Battlefront item guides covering Flash Drive, Keycard, and other key items. Learn where to find each item, how to use it, and what it unlocks.",
-      "categoryLabel": "KEY ITEMS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Items are collectible objects in ST Blockade Battlefront like the Flash Drive and Keycard that unlock quests, units, or restricted areas. Knowing where to find and use them unlocks hidden progression.",
-      "why": "Why learn items?",
+      "title": "Item ST Blockade Battlefront",
+      "description": "Panduan item untuk Flash Drive, Keycard, dan item kunci lainnya, mencakup tempat menemukannya, cara menggunakannya, dan apa yang mereka buka.",
+      "metaTitle": "Item ST Blockade Battlefront - Flash Drive, Keycard & Item Kunci",
+      "metaDescription": "Panduan item ST Blockade Battlefront lengkap yang mencakup Flash Drive, Keycard, dan item kunci lainnya. Pelajari tempat menemukan setiap item, cara menggunakannya, dan apa yang dibukanya.",
+      "categoryLabel": "ITEM KUNCI",
+      "whatIs": "Apa itu Item?",
+      "whatIsDescription": "Item adalah objek yang dapat dikoleksi di ST Blockade Battlefront seperti Flash Drive dan Keycard yang membuka quest, unit, atau area terlarang. Mengetahui tempat menemukan dan menggunakannya akan membuka progres tersembunyi.",
+      "why": "Mengapa mempelajari item?",
       "whySteps": {
-        "step1Title": "Find Key Items",
-        "step1Description": "Learn exact locations and drops for items like Flash Drive and Keycard",
-        "step2Title": "Unlock Progression",
-        "step2Description": "Use items to open quests, units, and locked content",
-        "step3Title": "Avoid Backtracking",
-        "step3Description": "Collect items in the right order to save time and effort"
+        "step1Title": "Temukan Item Kunci",
+        "step1Description": "Pelajari lokasi tepat dan drop untuk item seperti Flash Drive dan Keycard",
+        "step2Title": "Buka Progres",
+        "step2Description": "Gunakan item untuk membuka quest, unit, dan konten terkunci",
+        "step3Title": "Hindari Backtracking",
+        "step3Description": "Koleksi item dalam urutan yang benar untuk menghemat waktu dan tenaga"
       },
-      "featured": "Featured & Essential",
-      "all": "All Item Guides"
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Item"
     }
   }
 }
