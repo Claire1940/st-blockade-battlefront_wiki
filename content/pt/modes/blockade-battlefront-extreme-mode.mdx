@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modo Extremo do Blockade Battlefront: Melhores Unidades e Estratégias de Ondas",
+  description: "Domine o Modo Extremo do Blockade Battlefront com o nosso guia de 2026. Aprenda o posicionamento de unidades, gerenciamento de ondas e as melhores recompensas para jogadores de alto nível.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Extreme+Mode+Guide",
+  date: "2026-07-02",
+  author: "Equipe Wiki do Blockade Battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **modo extremo do Blockade Battlefront** exige um nível mínimo de jogador de 50 e uma equipe completa de unidades de alto nível para sobreviver além da onda 30.
+- O **gerenciamento de economia** é o fator decisivo para a vitória; falhar em maximizar suas unidades geradoras de dinheiro até a onda 15 geralmente leva à derrota.
+- As **mecânicas de Atordoamento (Stun) e Lentidão (Slow)** são obrigatórias para lidar com a enorme quantidade de vida dos Boss Toilets no final do jogo.
+- A **sinergia de unidades** entre Titãs de alto dano e unidades de suporte fornece o DPS necessário para limpar a onda final.
+- A **seleção de mapa** afeta significativamente a dificuldade, sendo "A Cidade" (The City) a escolha preferida para iniciantes devido aos seus caminhos longos.
+</Callout>
+
+<Section icon={Shield} title="Visão Geral do Modo Extremo do Blockade Battlefront">
+
+Entrar no **modo extremo do Blockade Battlefront** é o teste definitivo da profundidade estratégica e da coleção de unidades de um jogador. Ao contrário das dificuldades padrão, o Modo Extremo introduz um escalonamento agressivo de inimigos, dinheiro inicial reduzido e variantes de inimigos exclusivas que podem contornar as defesas padrão. O sucesso neste modo não se trata apenas de ter as unidades mais fortes, mas sim do tempo preciso de melhorias (upgrades) e do posicionamento das estruturas de suporte.
+
+<CardGrid cols={3}>
+  <Card title="Escalonamento de Inimigos">
+    - **Multiplicador de Vida**: Os inimigos têm 3,5x mais HP do que no modo Difícil.
+    - **Aumento de Velocidade**: A velocidade de movimento é aumentada em 20% em todas as ondas.
+    - **Resistência**: Os chefes (bosses) ganham imunidade a durações curtas de atordoamento.
+  </Card>
+  <Card title="Gerenciamento de Recursos">
+    - **Renda Menor**: A recompensa básica por eliminação é reduzida em 15%.
+    - **Custos de Posicionamento**: Certas unidades de alto nível têm custos iniciais aumentados.
+    - **Limites de Melhoria**: O planejamento estratégico é necessário para equilibrar poder versus custo.
+  </Card>
+  <Card title="Condições de Vitória">
+    - **Contagem de Ondas**: Sobrevivência através de 50 ondas cada vez mais difíceis.
+    - **Vida da Base**: Se um único Boss Toilet passar, resultará em falha imediata.
+    - **Trabalho em Equipe**: A coordenação multijogador é altamente recomendada para buffs.
+  </Card>
+</CardGrid>
+
+| Requisito | Padrão Mínimo | Recomendado para o Meta de 2026 |
+| :--- | :--- | :--- |
+| **Nível do Jogador** | Nível 50 | Nível 85+ |
+| **Raridade da Unidade** | Épico / Lendário | Mítico / Divino (Godly) |
+| **DPS Médio** | 15.000 por segundo | 45.000+ por segundo |
+| **Slots de Equipe** | 5 Slots | 6 Slots (Desbloqueados via Nível) |
+
+<Callout type="warning" title="Aviso Crítico">
+Não tente o Modo Extremo sozinho, a menos que tenha pelo menos duas unidades de nível Divino (Godly) equipadas. O escalonamento de vida na Onda 40+ foi projetado para o DPS de vários jogadores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Variantes de Inimigos e Análise de Ondas">
+
+Os inimigos no **modo extremo do Blockade Battlefront** são significativamente mais diversos do que os encontrados em níveis inferiores. Compreender as ameaças específicas apresentadas por diferentes variantes de "Toilets" permite que os jogadores ajustem sua prioridade de alvo (Primeiro, Último, Mais Forte, Mais Fraco) de forma eficaz.
+
+| Tipo de Inimigo | Ameaça Principal | Estratégia de Contra-ataque |
+| :--- | :--- | :--- |
+| **Glitch Toilet** | Velocidade extrema, ignora zonas de lentidão | Unidades de atordoamento de alta frequência |
+| **Giant Scientist** | Enorme quantidade de HP, gera unidades menores | Dano em área (AoE) / Titãs de Splash |
+| **Vacuum Toilet** | Pode desativar unidades próximas por 3 segundos | Atiradores de longo alcance / Imunidade de suporte |
+| **Astro Toilet** | Unidade voadora, ignora torres apenas terrestres | Unidades especializadas em antiaéreo |
+| **Titan Boss** | Exclusivo da Onda 50, milhões de HP | Sinergia em todo o mapa / Acúmulo de buffs |
+
+**Divisão da Progressão de Ondas:**
+- **Ondas 1-10**: Fase inicial de economia. Use defensores baratos e eficientes.
+- **Ondas 11-25**: Transição para o meio do jogo. Comece a posicionar suas unidades principais de DPS.
+- **Ondas 26-40**: Fase de suporte. Maximize os buffs e adicione torres de lentidão.
+- **Ondas 41-50**: O "Endgame" (Fim de jogo). Cada posicionamento deve contribuir para o DPS máximo.
+
+<Callout type="info" title="Estratégia de Onda">
+Na Onda 35, ocorre uma "Corrida de Chefes" (Boss Rush) onde três variantes Gigantes surgem simultaneamente. Certifique-se de que suas unidades de atordoamento estejam definidas para "Mais Forte" (Strongest) para evitar que elas se acumulem e dominem sua linha de frente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Unidades para o Sucesso no Modo Extremo">
+
+Selecionar o equipamento (loadout) certo é 90% da batalha. No meta atual de 2026, o equilíbrio entre dano bruto e utilidade está mais acirrado do que nunca. Abaixo estão as unidades de melhor desempenho categorizadas por sua função principal em uma partida bem-sucedida no **modo extremo do Blockade Battlefront**.
+
+| Nome da Unidade | Função | Nível (Tier) | Benefício Chave |
+| :--- | :--- | :--- | :--- |
+| **Hyper Titan Cameraman** | DPS Principal | Mítico | Dano em área massivo e alta cadência de tiro |
+| **Upgraded Titan Speakerman** | Controle de Grupo | Lendário | Efeito de recuo (knockback) em unidades pequenas |
+| **Scientist TV Man** | Economia | Épico | Maior geração de dinheiro por onda |
+| **DJ Speakerman** | Suporte | Raro | Buff de 15% de dano e alcance para vizinhos |
+| **Godly Chrono Unit** | Utilidade | Divino | Habilidade global de desaceleração do tempo (Ativa) |
+
+<CardGrid cols={2}>
+  <Card title="O Núcleo de DPS">
+    Concentre-se em unidades com longo alcance e capacidades de alvos múltiplos. O **Hyper Titan** continua sendo o padrão-ouro para limpar ondas densas de inimigos com muito HP. Sempre os posicione em curvas em "U" no mapa para maximizar seu tempo de atividade.
+  </Card>
+  <Card title="O Motor da Economia">
+    Sem um **Scientist TV Man** no nível máximo, você não terá fundos para as melhorias do final do jogo. Tente ter de 4 a 5 dessas unidades maximizadas até a Onda 20 para garantir um fluxo constante de dinheiro para o avanço final.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre posicione seu DJ Speakerman primeiro em um ponto central e, em seguida, cerque-o com suas unidades de DPS. O buff baseado em porcentagem escala exponencialmente com o dano base de suas torres mais fortes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estratégia de Posicionamento Passo a Passo">
+
+Uma partida bem-sucedida no **modo extremo do Blockade Battlefront** segue um cronograma rigoroso. Desviar desta ordem de posicionamento geralmente resulta em uma eliminação precoce durante as ondas de chefes no meio do jogo.
+
+<Steps>
+  <Step num="1" title="Configuração Inicial da Economia">
+    Posicione sua primeira unidade de Economia imediatamente. Use um defensor barato (como o Basic Cameraman) bem no início do caminho para lidar com as primeiras 5 ondas enquanto você direciona todo o dinheiro restante para melhorias de Economia.
+  </Step>
+  <Step num="2" title="Defesa no Meio do Caminho">
+    Até a Onda 12, posicione sua primeira unidade de DPS de nível médio em um canto estratégico. Esta unidade deve ser capaz de defender sozinha até a Onda 20 enquanto você termina de maximizar suas unidades de Economia.
+  </Step>
+  <Step num="3" title="Criação do Ponto de Suporte">
+    Por volta da Onda 25, estabeleça seu "Ponto de Buff" central. Posicione seu DJ Speakerman e quaisquer unidades de lentidão/atordoamento aqui. Esta área eventualmente abrigará seus Titãs.
+  </Step>
+  <Step num="4" title="Implantação de Titãs">
+    Entre as Ondas 30 e 40, comece a implantar suas unidades Míticas ou Divinas. Concentre-se em melhorar uma ao nível máximo antes de posicionar a próxima para se beneficiar dos enormes saltos de atributos nos níveis finais de melhoria.
+  </Step>
+  <Step num="5" title="Gerenciamento de Habilidades">
+    Durante as últimas 5 ondas, mantenha sua mão nas teclas de atalho de habilidades ativas. Use desacelerações de tempo ou ataques globais apenas quando o Boss Toilet atingir a metade do caminho no mapa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica para a Vitória">
+Se estiver jogando em equipe, designe um jogador como o líder de "Economia/Suporte" e os outros como "DPS Pesado". Essa especialização evita posicionamentos redundantes de unidades e maximiza o espaço do mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Recompensas e Progressão">
+
+Concluir o **modo extremo do Blockade Battlefront** oferece as recompensas mais lucrativas do jogo, incluindo visuais (skins) exclusivos, grandes quantidades de moedas e a chance de obter fragmentos de unidades de alto nível.
+
+| Categoria de Recompensa | Drop Potencial | Chance de Drop |
+| :--- | :--- | :--- |
+| **Moedas** | 5.000 - 10.000 Moedas | 100% (Garantido) |
+| **Experiência** | 25.000 XP | 100% (Garantido) |
+| **Fragmentos de Unidade** | Fragmento Mítico (x5) | 15% |
+| **Visual Exclusivo** | Titã "Extreme Conqueror" | 2% |
+| **Emblema** | "Extreme Survivor" | 100% (Primeira Vez) |
+
+<Checklist
+  id="extreme-prep"
+  title="Lista de Preparação Pré-Jogo:"
+  items={[
+    "Todas as unidades equipadas estão pelo menos no Nível 40",
+    "A unidade de Economia está no primeiro slot",
+    "Pelo menos uma unidade tem capacidade de 'Atordoamento' ou 'Lentidão'",
+    "Os membros da equipe coordenaram seus equipamentos",
+    "As prioridades de alvo estão definidas para 'Forte' (Strong) para o DPS principal"
+  ]}
+/>
+
+<Callout type="info" title="Eficiência de Farm">
+Embora o Modo Extremo ofereça as melhores recompensas, se a sua taxa de vitória for inferior a 50%, es mais eficiente farmar no modo "Difícil" para obter moedas consistentes até que suas unidades fiquem mais fortes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor mapa para o modo extremo do Blockade Battlefront?",
+    answer: "A Cidade (The City) ou Fábrica Abandonada (Abandoned Factory) são os melhores mapas. Eles possuem múltiplos loops e longas retas, dando às suas unidades de longo alcance mais tempo para causar dano aos toilets velozes."
+  },
+  {
+    question: "Consigo vencer o Modo Extremo sem unidades Divinas (Godly)?",
+    answer: "Sim, mas isso requer uma equipe completa de 4 jogadores usando unidades Míticas perfeitamente sincronizadas e buffs de suporte maximizados, como o DJ Speakerman e o Medic."
+  },
+  {
+    question: "Por que continuo perdendo na Onda 46?",
+    answer: "A Onda 46 introduz os rápidos Flying Astro Toilets. Se você não tiver unidades antiaéreas ou unidades com capacidades de focar em todos os alvos ('All-Targeting'), eles voarão direto pelas suas defesas terrestres."
+  },
+  {
+    question: "A dificuldade escala com o número de jogadores?",
+    answer: "Sim, a vida dos inimigos aumenta ligeiramente para cada jogador adicional no lobby, mas o DPS combinado de uma equipe completa geralmente compensa esse aumento de vida."
+  }
+]} />
+
+</Section>

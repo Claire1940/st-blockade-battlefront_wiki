@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Scientist TV Man Garis Depan Blokade: Statistik Unit & Panduan Meta",
+  description: "Kuasai Scientist TV Man di Garis Depan Blokade dengan panduan komprehensif kami tentang statistik, kemampuan, dan loadout strategis 2026 untuk performa puncak.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Scientist+TV+Man+Guide",
+  date: "2026-07-02",
+  author: "Tim Wiki Garis Depan Blokade",
+  keywords: "Scientist TV Man, Garis Depan Blokade, statistik unit, panduan strategi, meta 2026"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Scientist TV Man** adalah unit dukungan dan kontrol massa (crowd-control) tingkat tinggi yang penting untuk gelombang akhir permainan di Garis Depan Blokade.
+- **Mekanik Inti**: Menggunakan emisi cahaya berbasis layar untuk men-stun kelompok besar musuh sambil memberikan buff teknis kepada sekutu terdekat.
+- **Strategi Terbaik**: Tempatkan di belakang tank utama untuk memaksimalkan jangkauan stun AOE dan aura perlindungannya.
+- **Tip Kritis**: Prioritaskan peningkatan atribut \"Signal Range\" sejak dini untuk memastikan stun mengenai varian toilet yang bergerak lebih cepat.
+- **Pilihan Utama**: Saat ini berada di peringkat unit dukungan S-Tier dalam meta kompetitif 2026 karena kemampuannya yang unik untuk melumpuhkan mekanik tingkat bos.
+</Callout>
+
+<Section icon={Swords} title="Ikhtisar dan Peran Scientist TV Man">
+
+Dalam lanskap **Garis Depan Blokade** yang terus berkembang, Scientist TV Man menonjol sebagai pembangkit tenaga listrik yang serbaguna. Berbeda dengan TV Man standar yang hanya fokus pada kerusakan, varian Scientist mengintegrasikan peperangan teknologi canggih ke dalam perlengkapannya. Unit ini dirancang untuk pemain yang perlu mengendalikan alur pertempuran daripada sekadar memberikan DPS mentah. Dalam meta 2026 saat ini, kemampuan untuk menghentikan progres musuh seringkali lebih berharga daripada angka kerusakan yang tinggi, terutama saat menghadapi varian Toilet baru yang lebih cepat yang dapat melewati pertahanan standar.
+
+Scientist TV Man berfungsi sebagai pengganda kekuatan. Jika ditempatkan dengan benar, ia memastikan unit dengan kerusakan tinggi Anda, seperti Titan Cameraman, memiliki lebih banyak waktu untuk mengeliminasi target. Kehadirannya di lapangan mengubah dinamika pertandingan dari pertahanan yang putus asa menjadi pembantaian yang terkendali. Memahami statistik dasarnya adalah langkah pertama menuju penguasaan penggunaannya di lingkungan berisiko tinggi.
+
+| Atribut | Nilai Dasar | Nilai Level 50 | Tipe Penskalaan |
+| :--- | :--- | :--- | :--- |
+| **Kesehatan** | 1.200 | 8.500 | Pertumbuhan Linear |
+| **Durasi Stun** | 2,5 detik | 5,0 detik | Berbasis Milestone |
+| **Jangkauan Serangan** | 25 Unit | 45 Unit | Bonus Persentase |
+| **Biaya Penempatan** | $1.500 | N/A | Statis |
+| **Kecepatan Serangan** | 3,0 detik | 1,8 detik | Pengurangan Cooldown |
+
+<Callout type="tip" title="Penempatan Strategis">
+Selalu posisikan Scientist TV Man Anda di sudut atau persimpangan. Ini memungkinkan kilatan layar AOE-nya mencakup beberapa jalur, secara efektif menggandakan efisiensi kontrol massanya tanpa meningkatkan biayanya.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kemampuan dan Mekanik Teknis">
+
+Kekuatan sebenarnya dari **Scientist TV Man di Garis Depan Blokade** terletak pada kemampuan aktif dan pasifnya. Ini bukan sekadar alat pemberi kerusakan tetapi mekanik kompleks yang berinteraksi dengan fisika permainan dan AI musuh. Pada tahun 2026, pengembang memperkenalkan mekanik \"Overload\", yang memungkinkan Scientist TV Man untuk sementara meningkatkan outputnya dengan biaya periode shutdown singkat.
+
+<CardGrid cols={3}>
+  <Card title="Kilatan Layar (Aktif)">
+    - **Efek**: Men-stun semua musuh dalam kerucut lebar.
+    - **Cooldown**: 12 detik.
+    - **Penggunaan Terbaik**: Menghentikan serangan pengisian daya bos.
+  </Card>
+  <Card title="Aura Teknis (Pasif)">
+    - **Efek**: Meningkatkan laju tembakan unit terdekat.
+    - **Radius**: 15 unit di sekitar pangkalan.
+    - **Penggunaan Terbaik**: Memberi buff pada turret stasioner atau sniper.
+  </Card>
+  <Card title="Pelanggaran Data (Ultimate)">
+    - **Efek**: Mengurangi pertahanan musuh sebesar 30%.
+    - **Durasi**: 8 detik.
+    - **Penggunaan Terbaik**: Menghancurkan toilet tank dengan armor tinggi.
+  </Card>
+</CardGrid>
+
+Selain keterampilan utama ini, unit ini memiliki sinergi tersembunyi dengan unit kelas TV lainnya. Ketika beberapa unit TV berada berdekatan, efek layar mereka dapat tumpang tindih, menciptakan \"Zona Kebutaan\" yang secara signifikan mengurangi akurasi musuh. Hal ini menjadikan Scientist TV Man sebagai landasan dari setiap tantangan \"Hanya TV\" atau peta bertahan hidup tingkat kesulitan tinggi.
+
+| Nama Kemampuan | Tipe Kerusakan | Properti Khusus | Biaya Energi |
+| :--- | :--- | :--- | :--- |
+| **Berkas Cahaya** | Energi | Menembus beberapa target | 20 |
+| **Pulsa EMP** | Elektronik | Melumpuhkan perisai musuh | 45 |
+| **Drone Perbaikan** | Utilitas | Menyembuhkan unit mekanis terdekat | 30 |
+| **Penjam Sinyal** | Debuff | Memperlambat kecepatan gerak musuh | 15 |
+
+<Callout type="info" title="Sinergi Mekanis">
+Kemampuan Drone Perbaikan sangat efektif bila dipasangkan dengan Shield Cameraman, karena memungkinkan garis depan yang hampir tidak bisa dihancurkan yang meregenerasi kesehatan lebih cepat daripada kerusakan yang diberikan sebagian besar musuh tingkat menengah.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cara Mendapatkan Scientist TV Man">
+
+Mendapatkan **Scientist TV Man di Garis Depan Blokade** membutuhkan kombinasi manajemen sumber daya dan keberuntungan. Sebagai unit tingkat Mythic, ia tidak tersedia dalam paket pemula dasar. Pemain harus terlibat dengan \"Acara Laboratorium\" 2026 atau menggunakan sistem pemanggilan tingkat lanjut. Tingkat drop-nya terkenal rendah, menjadikannya salah satu unit paling bergengsi untuk dimiliki di musim saat ini.
+
+**Sorotan Video:**
+- Rincian mendalam tentang tingkat pemanggilan untuk musim 2026.
+- Pameran bentuk \"Awakened\" level 100 dari Scientist TV Man.
+- Perbandingan antara Scientist dan TV Man standar.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Blockade Battlefront Scientist TV Man Showcase" />
+
+Mengikuti langkah-langkah spesifik ini akan memaksimalkan peluang Anda untuk menambahkan unit ini ke daftar Anda tanpa membuang permata atau mata uang dalam game yang berharga.
+
+<Steps>
+  <Step num="1" title="Akumulasi Mata Uang">
+    Farm peta 'Techno Wasteland' pada tingkat kesulitan Hard untuk mengumpulkan Laboratory Token. Anda akan membutuhkan sekitar 5.000 token untuk jaminan penarikan kasihan (pity pull).
+  </Step>
+  <Step num="2" title="Ritual Pemanggilan">
+    Tunggu banner 'TV-Man Focus'. Acara musiman ini meningkatkan tingkat drop varian Scientist sebesar 2,5%, jauh lebih baik daripada tingkat standar 0,1%.
+  </Step>
+  <Step num="3" title="Pengumpulan Komponen">
+    Kumpulkan 3 'Circuit Board' dan 1 'Focus Lens' dari Weekly Boss Raid. Ini diperlukan untuk merakit unit setelah Anda memiliki cetak biru dasarnya.
+  </Step>
+  <Step num="4" title="Perakitan Akhir">
+    Navigasikan ke Laboratorium Riset di hub utama dan gabungkan token serta komponen Anda untuk menyelesaikan unit Scientist TV Man.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Ketersediaan Terbatas">
+Laboratory Token akan kedaluwarsa pada akhir setiap musim kompetitif. Pastikan Anda membelanjakannya sebelum reset Musim 4 tahun 2026 untuk menghindari kehilangan progres Anda menuju unit ini.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergi Strategis dan Membangun Tim">
+
+Tidak ada unit di **Garis Depan Blokade** yang berdiri sendiri. **Scientist TV Man** bekerja paling baik bila didukung oleh unit yang menutupi kelemahannya—terutama kecepatan serangannya yang lambat dan biaya penempatan yang tinggi. Membangun tim di sekitar unit ini membutuhkan keseimbangan ekonomi awal permainan dan utilitas akhir permainan.
+
+| Mitra Sinergi | Peran | Efek Sinergi | Efektivitas |
+| :--- | :--- | :--- | :--- |
+| **Titan Cameraman** | DPS | Scientist men-stun, Titan memusnahkan | ★★★★★ |
+| **Speaker Helicopter** | Mobilitas | Mentransportasi Scientist ke lokasi kunci | ★★★★☆ |
+| **Engineer Cameraman** | Dukungan | Memperbaiki Scientist selama pertarungan bos | ★★★★☆ |
+| **Ninja Cameraman** | Assassin | Membersihkan musuh darah rendah yang ter-stun | ★★★☆☆ |
+
+Strategi tingkat tinggi yang umum melibatkan perulangan \"Stun Lock\". Dengan merotasi kemampuan aktif dari dua Scientist TV Man, pemain dapat membuat bos ter-stun secara permanen hingga 10 detik. Ini sangat penting untuk peta seperti \"The Void\", di mana bos memiliki kumpulan kesehatan yang melebihi 1 juta. Namun, ini membutuhkan waktu yang tepat dan tingkat koordinasi yang tinggi jika bermain dalam skuad.
+
+<Callout type="success" title="Rekomendasi Meta">
+'Science Duo' (Scientist TV Man + Scientist Cameraman) saat ini merupakan inti dukungan paling efisien di tahun 2026. Pasangan ini memberikan kontrol massa dan bonus perolehan sumber daya yang besar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresi, Peningkatan, dan Penguasaan">
+
+Setelah Anda mengamankan **Scientist TV Man** Anda, perjalanan baru saja dimulai. Menaikkan level unit akan membuka peningkatan kosmetik dan peningkatan statistik yang substansial. Pada tahun 2026, sistem \"Mastery\" diperluas untuk mencakup pohon talenta khusus, yang memungkinkan Anda memfokuskan Scientist Anda pada Dukungan murni atau Kerusakan Hibrida.
+
+<Checklist
+  id="scientist-mastery"
+  title="Tujuan Penyelesaian Scientist TV Man:"
+  items={[
+    "Mencapai Level 100 untuk membuka efek aura 'Glitch'",
+    "Berhasil men-stun total 5.000 musuh",
+    "Melengkapi item legendaris 'Quantum Processor'",
+    "Menyelesaikan sesi Solo Hard hanya menggunakan unit kelas TV",
+    "Membuka skin retro 'Hitam-Putih'"
+  ]}
+/>
+
+Jalur peningkatan untuk Scientist TV Man cukup mahal. Anda harus memprioritaskan cabang \"Efficiency\" dari pohon talenta terlebih dahulu, karena ini mengurangi biaya penempatan, memungkinkan Anda untuk mengerahkan unit ke lapangan selama gelombang awal yang lebih berbahaya.
+
+| Level Peningkatan | Biaya (Koin) | Kunci Pembukaan | Dampak |
+| :--- | :--- | :--- | :--- |
+| **Level 10** | 2.500 | Berkas Multi-Target | Tinggi |
+| **Level 25** | 10.000 | Reduksi Cooldown (15%) | Moderat |
+| **Level 50** | 50.000 | Kemampuan Ultimate: Data Breach | Kritis |
+| **Level 75** | 150.000 | Perpanjangan Jangkauan Global | Tinggi |
+| **Level 100** | 500.000 | Bentuk Awakened | Masif |
+
+<Callout type="tip" title="Prioritas Peningkatan">
+Jangan abaikan pengurangan cooldown Level 25. Meskipun kerusakan pada Level 50 menggoda, kemampuan untuk men-stun lebih sering adalah hal yang akan menyelamatkan markas Anda selama Gelombang 40 dan seterusnya.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pertanyaan yang Sering Diajukan">
+
+**Scientist TV Man di Garis Depan Blokade** adalah unit kompleks dengan banyak nuansa. Di bawah ini adalah pertanyaan paling umum dari komunitas mengenai penggunaan dan optimalisasinya dalam status game 2026 saat ini.
+
+<FAQ items={[
+  {
+    question: "Apakah Scientist TV Man lebih baik daripada Titan TV Man?",
+    answer: "Mereka melayani peran yang berbeda. Titan adalah unit DPS utama, sedangkan Scientist TV Man adalah unit dukungan/kontrol massa. Dalam tim yang seimbang, Anda idealnya menjalankan keduanya untuk efisiensi maksimum."
+  },
+  {
+    question: "Bagaimana cara menangkal debuff 'Static' pada unit Scientist saya?",
+    answer: "Debuff Static terjadi saat unit terkena Electric Toilet. Anda dapat menangkal ini dengan menempatkan unit Engineer di dekatnya atau melengkapi aksesori 'Insulated Wiring'."
+  },
+  {
+    question: "Apa peta terbaik untuk farming XP unit ini?",
+    answer: "Peta 'High-Tech City' menawarkan bonus XP 1,5x untuk semua unit kelas TV, menjadikannya cara tercepat untuk mencapai Level 100."
+  },
+  {
+    question: "Apakah stun Scientist TV Man berfungsi pada bos?",
+    answer: "Ya, tetapi bos memiliki 'Resistansi Stun'. Durasi stun berkurang 50% pada bos, jadi pengaturan waktu kemampuan Anda jauh lebih kritis."
+  }
+]} />
+
+</Section>

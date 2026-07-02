@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Modo Infierno de Blockade Battlefront: Estrategias Pro y Recompensas",
+  description: "Domina el Modo Infierno de Blockade Battlefront con nuestra guía de 2026. Aprende la configuración de salas, estrategias de misión y las mejores composiciones de personajes para sobrevivir al desafío.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hell+Mode+Guide",
+  date: "2026-07-02",
+  author: "Equipo de la Wiki de Blockade Battlefront",
+  keywords: "blockade battlefront, modo infierno, guía, estrategias, misiones, recompensas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Modo Infierno de Blockade Battlefront** representa el desafío máximo para los jugadores, requiriendo builds de personajes optimizadas y una coordinación de equipo precisa.
+- El **Emparejamiento** permite salas privadas con protección por contraseña o colas públicas para encontrar compañeros experimentados.
+- La **Variedad de misiones** incluye Misiones de Dificultad, Misiones Especiales y la intensa Invasión Astro, cada una con modificadores únicos del Modo Infierno.
+- La **Composición de Equipo** es crítica; un equilibrio entre alto DPS, control de masas y unidades de soporte es obligatorio para la supervivencia.
+- La **Gestión de Recursos** se vuelve más ajustada en el Modo Infierno, con un aumento en la salud de los enemigos y una progresión de oleadas más rápida.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Modo Infierno de Blockade Battlefront">
+
+El **Modo Infierno de Blockade Battlefront** es la prueba definitiva de la profundidad estratégica y el dominio de personajes de un jugador. A diferencia del modo Casual (Dificultad), el Modo Infierno introduce un escalado de enemigos agresivo, una regeneración de salud reducida para el jugador y mecánicas únicas que pueden aniquilar a un escuadrón desprevenido en segundos. Para tener éxito aquí, debes ir más allá del simple clic y comenzar a gestionar enfriamientos, posicionamiento y sinergias de unidades con precisión quirúrgica.
+
+| Característica | Modo Casual | Modo Difícil | Modo Infierno |
+| :--- | :--- | :--- | :--- |
+| **PV de Enemigos** | 100% (Base) | 250% | 500%+ |
+| **Velocidad de Enemigos** | Normal | +15% | +30% |
+| **Recuento de Oleadas** | 15-20 Oleadas | 25 Oleadas | 30+ Oleadas |
+| **Mecánicas de Jefes** | Estándar | Mejoradas | Míticas / Enfurecidas |
+| **Recompensas** | XP/Monedas Básicas | Botín de Bonificación | Skins Exclusivas / Unidades Raras |
+
+<Callout type="warning" title="Pico de Dificultad">
+El Modo Infierno no se recomienda para jugadores en solitario hasta que hayan alcanzado al menos el Nivel 75 y posean al menos dos unidades de Nivel S. El salto de Difícil a Infierno es significativamente más pronunciado que de Casual a Difícil.
+</Callout>
+
+El núcleo de la experiencia gira en torno a la estructura de la "Misión de Dificultad". En este entorno de alto riesgo, cada oleada introduce nuevas amenazas, que van desde exploradores veloces hasta titanes con armadura pesada que requieren fuego concentrado para ser derribados.
+
+</Section>
+
+<Section icon={Settings} title="Configuración de Sala y Mecánicas de Emparejamiento">
+
+Acceder al **Modo Infierno de Blockade Battlefront** requiere una gestión adecuada de la sala. Aunque puedes intentar "Iniciar en Solitario", el juego está fundamentalmente equilibrado para el juego cooperativo. Usar el sistema de emparejamiento de manera efectiva asegura que no te quedes atrapado con jugadores de bajo nivel que podrían sabotear inadvertidamente una partida de alta dificultad.
+
+**Video Destacado:**
+- No hay contenido de video relevante disponible para este tema específico en este momento.
+
+<Steps>
+  <Step num="1" title="Seleccionar Dificultad">
+    Navega al menú principal y selecciona el portal de 'Modo de Dificultad'. Asegúrate de cambiar el deslizador de dificultad a 'Infierno' antes de proceder a la creación de la sala.
+  </Step>
+  <Step num="2" title="Crear o Unirse">
+    Elige 'Crear Sala' para ser el anfitrión de tu propia partida. Esto te permite establecer una contraseña si juegas con un escuadrón preestablecido o mantenerla pública para el emparejamiento aleatorio.
+  </Step>
+  <Step num="3" title="Protección por Contraseña">
+    Si vas a dirigir un grupo de 'Solo Pros', usa el campo de contraseña ubicado debajo del botón 'Crear Sala'. Esto evita que se unan jugadores con nivel insuficiente.
+  </Step>
+  <Step num="4" title="Verificación de Roles">
+    Una vez que los jugadores se unan, verifica sus personajes equipados. En el Modo Infierno, no puedes permitirte tener a tres jugadores usando la misma build de DPS tipo 'Cañón de Cristal'.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Indicadores de Sala">
+Las salas públicas se indican con un icono de **candado verde**, mientras que las salas privadas protegidas por contraseña muestran un **candado rojo**. Busca siempre salas con 'Hell' (Infierno) en el título para obtener la mejor experiencia.
+</Callout>
+
+| Tipo de Sala | Ideal Para | Pros | Contras |
+| :--- | :--- | :--- | :--- |
+| **Pública** | Grindeo Casual | Emparejamiento rápido | Alto riesgo de fracaso |
+| **Privada** | Partidas Competitivas | Coordinación total | Requiere amigos externos/Discord |
+| **Solo** | Probar Builds | Sin lag, control total | Extremadamente difícil de completar |
+
+</Section>
+
+<Section icon={Swords} title="Tipos de Misiones y Modificadores del Modo Infierno">
+
+En el **Modo Infierno de Blockade Battlefront**, las misiones se categorizan en cuatro tipos distintos. Cada tipo presenta un conjunto diferente de desafíos y requiere ajustes tácticos específicos. Mientras que la "Misión de Dificultad" es el estándar, la "Invasión Astro" es ampliamente considerada el contenido más difícil disponible actualmente en el meta de 2026.
+
+<CardGrid cols={2}>
+  <Card title="Misión de Dificultad">
+    El modo de progresión estándar. En el Modo Infierno, estas misiones presentan 'Mecánicas Únicas' como peligros ambientales o auras enemigas potenciadas.
+  </Card>
+  <Card title="Misión Especial">
+    Estas a menudo implican defender a un NPC u objeto específico. El Modo Infierno aumenta el daño que reciben estos objetivos en un 200%.
+  </Card>
+  <Card title="Invasión Astro">
+    Un modo de alta intensidad con enemigos de temática espacial. Espera unidades de alta movilidad que pueden esquivar tus defensas de primera línea.
+  </Card>
+  <Card title="Misión de Evento">
+    Desafíos por tiempo limitado. Las recompensas del Modo Infierno en estas misiones suelen incluir cosméticos estacionales exclusivos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Foco en Mecánicas">
+Algunas misiones del Modo Infierno incluyen la mecánica de 'Amortiguador de Curación', que reduce todas las curaciones recibidas por los jugadores en un 50%. Esto hace que las unidades generadoras de escudos sean mucho más valiosas que los sanadores puros.
+</Callout>
+
+| Tipo de Misión | Amenaza Clave | Estrategia Recomendada |
+| :--- | :--- | :--- |
+| **Invasión Astro** | Warp Striders | Usa unidades de Aturdimiento/Lentitud para evitar fugas |
+| **Misión Especial** | Boss Rush | Alto daño de ráfaga para terminar las fases rápidamente |
+| **Misión de Dificultad** | Enjambres de Oleadas | Spam de Daño en Área (AoE) |
+| **Misión de Evento** | Jefes con Trucos | Lee cuidadosamente las reglas específicas del evento |
+
+</Section>
+
+<Section icon={Shield} title="Mejores Composiciones de Equipo para el Modo Infierno">
+
+El éxito en el **Modo Infierno de Blockade Battlefront** es 70% preparación y 30% ejecución. Tu equipo necesita cubrir tres pilares principales: Control de Masas (CC), DPS Sostenido y Soporte/Utilidad. Sin estos, incluso los personajes de más alto nivel se verán abrumados por el gran volumen de enemigos en las oleadas finales.
+
+| Rol | Unidades Prioritarias | Responsabilidad Clave |
+| :--- | :--- | :--- |
+| **Tanque / Primera Línea** | Titan Camera, Unidad con Escudo | Absorber el aggro y bloquear proyectiles |
+| **DPS Principal** | Titán Mejorado, Speaker Mítico | Eliminar objetivos con muchos PV y jefes |
+| **Soporte** | Médico, Unidad de Buffs | Proporcionar mejoras, curas y reducción de CD |
+| **Control de Masas (CC)** | Unidades de Hielo/Aturdimiento | Ralentizar enemigos rápidos para evitar fugas |
+
+<Callout type="success" title="La Proporción Dorada">
+La composición de equipo de 4 jugadores más exitosa para el Modo Infierno es: 1 Tanque, 2 DPS y 1 Soporte Híbrido/CC. Esto asegura suficiente daño para limpiar oleadas mientras se mantiene una red de seguridad para errores.
+</Callout>
+
+Al seleccionar personajes, presta atención a su 'Costo de Colocación' frente a su 'Impacto'. En el Modo Infierno, el dinero es escaso en las primeras oleadas. Necesitas 'Unidades Iniciales' que puedan mantener la línea durante las primeras 5 oleadas mientras ahorras para tus costosos pesos pesados Míticos.
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategias de Supervivencia Avanzadas">
+
+Para conquistar el **Modo Infierno de Blockade Battlefront**, debes dominar el arte de la "Gestión de Fugas". A menudo es mejor dejar pasar a un enemigo pequeño si eso significa guardar tus habilidades de alto daño para el jefe masivo que viene detrás.
+
+### Economía al Inicio de la Partida
+En el Modo Infierno, tu dinero inicial es limitado. No lo gastes todo en una sola unidad costosa. En su lugar, distribuye tu defensa a lo largo del camino para maximizar el tiempo que los enemigos pasan bajo fuego.
+
+| Fase de Estrategia | Acción | Objetivo |
+| :--- | :--- | :--- |
+| **Oleadas 1-10** | Construcción de Economía | Coloca unidades de bajo costo y mejóralas una vez |
+| **Oleadas 11-20** | Pivote de Mitad de Juego | Vende iniciales por DPS de nivel medio; añade CC |
+| **Oleadas 21-30** | Configuración Final | Maximiza unidades Míticas; prioriza el DPS al Jefe |
+| **Oleada 30+** | Modo Supervivencia | Usa habilidades activas al terminar el enfriamiento; foco en el Jefe |
+
+<Callout type="tip" title="Sincronización de Habilidades Activas">
+No uses tus habilidades definitivas tan pronto como termine su enfriamiento. Espera al estado 'Enfurecido' del jefe o cuando aparezca un enjambre de enemigos de tipo 'Rápido'.
+</Callout>
+
+### Posicionamiento en el Mapa
+Posicionar unidades en "giros en U" o "bucles" en el mapa es esencial. Esto permite que tus unidades golpeen al mismo enemigo varias veces mientras recorre la curva. En el Modo Infierno, cada segundo de tiempo de fuego extra cuenta para una limpieza exitosa.
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Objetivos de Progresión">
+
+La razón principal para jugar el **Modo Infierno de Blockade Battlefront** es la tabla de botín exclusiva. Mientras que el modo Casual proporciona lo básico, el Modo Infierno es el único lugar donde encontrarás 'Materiales de Ascensión' y skins de 'Nivel Dios' que señalan tu estatus como jugador de élite.
+
+<Checklist
+  id="hell-mode-prep"
+  title="Lista de Verificación para el Modo Infierno:"
+  items={[
+    "Alcanzar el Nivel de Jugador 75+",
+    "Equipar al menos dos unidades Míticas de Nivel 10",
+    "Unirse a un Discord o Comunidad para la coordinación de equipos",
+    "Dominar la técnica de movimiento 'Stutter-Stepping'",
+    "Desbloquear la pasiva 'Escudo Mejorado' del árbol de habilidades"
+  ]}
+/>
+
+<Callout type="info" title="Nota Final sobre Recompensas">
+Los drops del Modo Infierno están sujetos al RNG (Generación de Números Aleatorios), pero completar una partida con una puntuación 'Perfecta' (sin fugas) aumenta tus posibilidades de un drop Raro en un 15%.
+</Callout>
+
+| Nivel de Recompensa | Probabilidad de Drop | Tipo de Objeto |
+| :--- | :--- | :--- |
+| **Común** | 60% | Oro / Pociones de XP Básicas |
+| **Raro** | 25% | Piedras de Mejora de nivel medio |
+| **Épico** | 10% | Fragmentos de Unidad Legendaria |
+| **Mítico** | 5% | Skins Exclusivas del Modo Infierno |
+
+</Section>
+
+<Section icon={Users} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Se puede completar el Modo Infierno de Blockade Battlefront en solitario?",
+    answer: "Técnicamente sí, pero requiere un equipamiento perfecto de unidades Míticas de nivel máximo y una ejecución impecable. Para el 99% de los jugadores, se requiere un equipo completo."
+  },
+  {
+    question: "¿Cuál es la mejor unidad para el Modo Infierno en 2026?",
+    answer: "El meta actual favorece a las unidades con alto daño en área (AoE) y efectos de ralentización. El 'Titán Ascendido' sigue siendo una de las mejores opciones por su daño masivo y capacidades de retroceso."
+  },
+  {
+    question: "¿Se obtiene más XP en el Modo Infierno?",
+    answer: "Sí, el Modo Infierno ofrece aproximadamente el triple de XP que el modo Casual, lo que lo convierte en la forma más eficiente de subir de nivel una vez que puedas completarlo consistentemente."
+  },
+  {
+    question: "¿Cómo lidio con el jefe de la Invasión Astro?",
+    answer: "El jefe Astro requiere unidades de 'Ruptura de Escudo'. Asegúrate de que al menos una persona en tu equipo use un personaje con alta penetración o habilidades de trituración de armadura."
+  }
+]} />
+
+</Section>

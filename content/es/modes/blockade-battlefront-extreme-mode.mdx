@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modo Extremo de Frente de Batalla de Bloqueo: Mejores Unidades y Estrategias de Oleadas",
+  description: "Domina el Modo Extremo de Frente de Batalla de Bloqueo con nuestra guía de 2026. Aprende la colocación de unidades, la gestión de oleadas y las mejores recompensas para el juego de alto nivel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Extreme+Mode+Guide",
+  date: "2026-07-02",
+  author: "Equipo de la Wiki de Frente de Batalla de Bloqueo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **modo extremo de Frente de Batalla de Bloqueo** requiere un nivel mínimo de jugador de 50 y un equipo completo de unidades de alto nivel para sobrevivir más allá de la oleada 30.
+- La **gestión de la economía** es el factor decisivo para la victoria; no mejorar al máximo tus unidades generadoras de dinero para la oleada 15 suele llevar a la derrota.
+- Las **mecánicas de aturdimiento y ralentización** son obligatorias para lidiar con la enorme cantidad de vida de los Boss Toilets en el juego tardío.
+- La **sinergia de unidades** entre Titanes de alto daño y unidades de soporte proporciona el DPS necesario para despejar la oleada final.
+- La **selección del mapa** afecta significativamente la dificultad, siendo \"La Ciudad\" la opción preferida para principiantes debido a sus caminos largos.
+</Callout>
+
+<Section icon={Shield} title="Resumen del Modo Extremo de Frente de Batalla de Bloqueo">
+
+Entrar al **modo extremo de Frente de Batalla de Bloqueo** es la prueba definitiva de la profundidad estratégica y la colección de unidades de un jugador. A diferencia de las dificultades estándar, el Modo Extremo introduce un escalado de enemigos agresivo, dinero inicial reducido y variantes de enemigos únicas que pueden esquivar las defensas estándar. El éxito en este modo no se trata solo de tener las unidades más fuertes, sino de la sincronización precisa de las mejoras y el posicionamiento de las estructuras de soporte.
+
+<CardGrid cols={3}>
+  <Card title="Escalado de Enemigos">
+    - **Multiplicador de Vida**: Los enemigos tienen 3.5 veces más HP que en el modo Difícil.
+    - **Aumento de Velocidad**: La velocidad de movimiento aumenta un 20% en todas las oleadas.
+    - **Resistencia**: Los jefes obtienen inmunidad a las duraciones cortas de aturdimiento.
+  </Card>
+  <Card title="Gestión de Recursos">
+    - **Menor Ingreso**: La recompensa base por eliminación se reduce en un 15%.
+    - **Costos de Colocación**: Ciertas unidades de alto nivel tienen costos iniciales aumentados.
+    - **Límites de Mejora**: Se requiere planificación estratégica para equilibrar el poder frente al costo.
+  </Card>
+  <Card title="Condiciones de Victoria">
+    - **Cantidad de Oleadas**: Sobrevivir a través de 50 oleadas cada vez más difíciles.
+    - **Vida de la Base**: Una sola filtración de un Boss Toilet resulta en un fracaso inmediato.
+    - **Trabajo en Equipo**: Se recomienda encarecidamente la coordinación multijugador para obtener potenciadores.
+  </Card>
+</CardGrid>
+
+| Requisito | Estándar Mínimo | Recomendado para el Meta de 2026 |
+| :--- | :--- | :--- |
+| **Nivel de Jugador** | Nivel 50 | Nivel 85+ |
+| **Rareza de Unidad** | Épica / Legendaria | Mítica / Divina |
+| **DPS Promedio** | 15,000 por segundo | 45,000+ por segundo |
+| **Ranuras de Equipo** | 5 Ranuras | 6 Ranuras (Desbloqueadas al subir de nivel) |
+
+<Callout type="warning" title="Advertencia Crítica">
+No intentes el Modo Extremo en solitario a menos que tengas al menos dos unidades de nivel Divino equipadas. El escalado de vida en la Oleada 40+ está diseñado para el rendimiento de DPS de múltiples jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Variantes de Enemigos y Análisis de Oleadas">
+
+Los enemigos en el **modo extremo de Frente de Batalla de Bloqueo** son significativamente más diversos que los que se encuentran en niveles inferiores. Comprender las amenazas específicas que plantean las diferentes variantes de \"Toilet\" permite a los jugadores ajustar su prioridad de objetivo (Primero, Último, Más Fuerte, Más Débil) de manera efectiva.
+
+| Tipo de Enemigo | Amenaza Principal | Estrategia de Contraataque |
+| :--- | :--- | :--- |
+| **Glitch Toilet** | Velocidad extrema, esquiva zonas de ralentización | Unidades de aturdimiento de alta frecuencia |
+| **Giant Scientist** | Enorme cantidad de HP, genera unidades más pequeñas | Daño en área / Titanes de área |
+| **Vacuum Toilet** | Puede deshabilitar unidades cercanas por 3 segundos | Francotiradores de largo alcance / Inmunidad de soporte |
+| **Astro Toilet** | Unidad voladora, ignora torres de solo tierra | Unidades especializadas antiaéreas |
+| **Titan Boss** | Exclusivo de la oleada 50, millones de HP | Sinergia en todo el mapa / Acumulación de potenciadores |
+
+**Desglose de la Progresión de Oleadas:**
+- **Oleadas 1-10**: Fase de economía temprana. Usa defensores baratos y eficientes.
+- **Oleadas 11-25**: Transición a mitad de partida. Comienza a colocar tus unidades de DPS principales.
+- **Oleadas 26-40**: Fase de soporte. Maximiza los potenciadores y añade torres de ralentización.
+- **Oleadas 41-50**: El \"Juego Tardío\". Cada colocación debe contribuir al DPS máximo.
+
+<Callout type="info" title="Estrategia de Oleada">
+En la Oleada 35, ocurre un \"Boss Rush\" (asalto de jefes) donde aparecen tres variantes Gigantes simultáneamente. Asegúrate de que tus unidades de aturdimiento estén configuradas en \"Más Fuerte\" para evitar que se acumulen y abrumen tu línea frontal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Unidades para el Éxito en el Modo Extremo">
+
+Seleccionar el equipamiento adecuado es el 90% de la batalla. En el meta actual de 2026, el equilibrio entre el daño bruto y la utilidad es más estrecho que nunca. A continuación se presentan las unidades de mejor rendimiento categorizadas por su rol principal en una partida exitosa del **modo extremo de Frente de Batalla de Bloqueo**.
+
+| Nombre de la Unidad | Rol | Rango (Tier) | Beneficio Clave |
+| :--- | :--- | :--- | :--- |
+| **Hyper Titan Cameraman** | DPS Principal | Mítico | Daño en área masivo y alta tasa de fuego |
+| **Upgraded Titan Speakerman** | Control de Masas | Legendario | Efecto de empuje en unidades pequeñas |
+| **Scientist TV Man** | Economía | Épico | Mayor generación de dinero por oleada |
+| **DJ Speakerman** | Soporte | Raro | Potenciador de daño y rango del 15% para los vecinos |
+| **Godly Chrono Unit** | Utilidad | Divino | Habilidad global de ralentización del tiempo (Activa) |
+
+<CardGrid cols={2}>
+  <Card title="El Núcleo de DPS">
+    Concéntrate en unidades con gran alcance y capacidades multi-objetivo. El **Hyper Titan** sigue siendo el estándar de oro para despejar oleadas densas de enemigos con mucha vida. Colócalos siempre en las curvas en \"U\" del mapa para maximizar su tiempo de actividad.
+  </Card>
+  <Card title="El Motor de la Economía">
+    Sin un **Scientist TV Man** al máximo, te faltarán fondos para las mejoras del juego tardío. Intenta tener 4 o 5 de estas unidades al máximo para la Oleada 20 para asegurar un flujo constante de dinero para el empuje final.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Profesional">
+Coloca siempre tu DJ Speakerman primero en un punto central, luego rodéalo con tus unidades de DPS. El potenciador basado en porcentaje escala exponencialmente con el daño base de tus torres más fuertes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategia de Colocación Paso a Paso">
+
+Una partida exitosa en el **modo extremo de Frente de Batalla de Bloqueo** sigue un cronograma estricto. Desviarse de este orden de colocación a menudo resulta en una salida temprana durante las oleadas de jefes de mitad de partida.
+
+<Steps>
+  <Step num="1" title="Configuración Económica Temprana">
+    Coloca tu primera unidad de Economía de inmediato. Usa un defensor barato (como el Basic Cameraman) al comienzo del camino para encargarte de las primeras 5 oleadas mientras canalizas todo el dinero restante en mejoras de Economía.
+  </Step>
+  <Step num="2" title="Defensa a Mitad del Camino">
+    Para la Oleada 12, coloca tu primera unidad de DPS de nivel medio en una esquina estratégica. Esta unidad debería poder defender sola hasta la Oleada 20 mientras terminas de mejorar al máximo tus unidades de Economía.
+  </Step>
+  <Step num="3" title="Creación del Punto de Soporte">
+    Alrededor de la Oleada 25, establece tu \"Punto de Potenciadores\" central. Coloca tu DJ Speakerman y cualquier unidad de ralentización/aturdimiento aquí. Esta área eventualmente albergará a tus Titanes.
+  </Step>
+  <Step num="4" title="Despliegue de Titanes">
+    Entre las Oleadas 30 y 40, comienza a desplegar tus unidades Míticas o Divinas. Concéntrate en mejorar una al nivel máximo antes de colocar la siguiente para beneficiarte de los enormes aumentos de estadísticas en los niveles finales de mejora.
+  </Step>
+  <Step num="5" title="Gestión de Habilidades">
+    Durante las últimas 5 oleadas, mantén la mano en las teclas de acceso rápido de habilidades activas. Usa las ralentizaciones de tiempo o los ataques globales solo cuando el Boss Toilet alcance la mitad del mapa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Victoria">
+Si juegas en equipo, designa a un jugador como el líder de \"Economía/Soporte\" y a los demás como \"DPS Pesado\". Esta especialización evita colocaciones de unidades redundantes y maximiza el espacio del mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Recompensas y Progresión">
+
+Completar el **modo extremo de Frente de Batalla de Bloqueo** ofrece las recompensas más lucrativas del juego, incluyendo aspectos exclusivos, grandes cantidades de monedas y la oportunidad de obtener fragmentos de unidades de alto nivel.
+
+| Categoría de Recompensa | Posible Recompensa | Probabilidad de Obtención |
+| :--- | :--- | :--- |
+| **Moneda** | 5,000 - 10,000 Monedas | 100% (Garantizado) |
+| **Experiencia** | 25,000 XP | 100% (Garantizado) |
+| **Fragmentos de Unidad** | Fragmento Mítico (x5) | 15% |
+| **Aspecto Exclusivo** | Titán "Extreme Conqueror" | 2% |
+| **Insignia** | "Extreme Survivor" | 100% (Primera vez) |
+
+<Checklist
+  id="extreme-prep"
+  title="Lista de Preparación Antes de la Partida:"
+  items={[
+    "Todas las unidades equipadas tienen al menos Nivel 40",
+    "La unidad de Economía está en la primera ranura",
+    "Al menos una unidad tiene capacidad de 'Aturdimiento' o 'Ralentización'",
+    "Los miembros del equipo han coordinado sus equipamientos",
+    "Las prioridades de objetivo están configuradas en 'Fuerte' para el DPS principal"
+  ]}
+/>
+
+<Callout type="info" title="Eficiencia de Cultivo">
+Aunque el Modo Extremo otorga las mejores recompensas, si tu tasa de victoria está por debajo del 50%, es más eficiente farmear el modo \"Difícil\" para obtener monedas de manera constante hasta que tus unidades sean más fuertes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor mapa para el modo extremo de Frente de Batalla de Bloqueo?",
+    answer: "La Ciudad o la Fábrica Abandonada son los mejores mapas. Cuentan con múltiples curvas y largas rectas, lo que les da a tus unidades de largo alcance más tiempo para infligir daño a los inodoros que se mueven rápido."
+  },
+  {
+    question: "¿Puedo superar el Modo Extremo sin unidades Divinas?",
+    answer: "Sí, pero requiere un equipo completo de 4 jugadores que utilicen unidades Míticas perfectamente sincronizadas y potenciadores de soporte al máximo como el DJ Speakerman y el Médico."
+  },
+  {
+    question: "¿Por qué sigo perdiendo en la Oleada 46?",
+    answer: "La Oleada 46 introduce a los Flying Astro Toilets de alta velocidad. Si no tienes unidades antiaéreas o unidades con capacidad de atacar a todo tipo de objetivos, volarán directamente pasando tus defensas terrestres."
+  },
+  {
+    question: "¿La dificultad escala con el número de jugadores?",
+    answer: "Sí, la vida de los enemigos aumenta ligeramente por cada jugador adicional en la sala, pero el DPS combinado de un equipo completo generalmente supera este aumento de vida."
+  }
+]} />
+
+</Section>
