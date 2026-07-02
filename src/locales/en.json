@@ -10,14 +10,7 @@
       "twitterDescription": "Blockade Battlefront Wiki covers Roblox codes, units, Titans, skins, mastery, and base defense guides for the Roblox wave defense shooter."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
