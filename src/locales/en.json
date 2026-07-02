@@ -415,132 +415,171 @@
       ]
     },
     "zombieMode": {
-      "title": "ST Blockade Battlefront Zombie Mode",
-      "intro": "The Zombie V2 update added a dedicated Zombie Mode with its own wave structure, rewards, and recommended units. This guide covers the mode entry, wave goals, reward direction, and the units that handle zombie pressure best.",
+      "eyebrow": "Zombie V2",
+      "title": "ST Blockade Battlefront Zombie Mode Guide",
+      "subtitle": "Learn how Zombie V2 works, what to focus on during zombie waves, and which rewards matter most for long-term progression.",
+      "intro": "Zombie Mode is built around surviving infected enemy waves while protecting the base, using deployed units, Titans, and active move keybinds. The mode connects directly to Zombie V2 update searches, Act 2 gameplay, X-18 progression, and late-wave survival routes.",
       "cards": [
         {
           "name": "Mode Entry",
-          "description": "Zombie Mode is accessed from the mode select screen after the V2 update. Pick it when you want a longer survival run with zombie-specific enemy types."
+          "type": "Access",
+          "description": "Open ST: Blockade Battlefront from Roblox, enter the experience, then use the mode or mission interface to start the Zombie V2 content. Players can use solo play or group play depending on the lobby setup.",
+          "playerTip": "Start with a stable team setup before pushing deeper waves, because Zombie Mode punishes weak early defense and poor crowd control."
         },
         {
-          "name": "Wave Goals",
-          "description": "Zombie waves escalate faster than normal defense waves. Expect denser crowds and periodic elite zombie spawns that test your AoE and positioning."
+          "name": "Core Objective",
+          "type": "Goal",
+          "description": "Defend the base through zombie waves while clearing infected enemies and boss-style threats. The main loop is the same foundation as ST Blockade Battlefront: deploy units, use Titans, and survive escalating enemy pressure.",
+          "playerTip": "Do not save every active move for bosses; late zombie waves can overwhelm the base before the boss phase becomes the real problem."
         },
         {
-          "name": "Rewards",
-          "description": "Zombie Mode drops Cens, Points, and event-style rewards that feed directly into mastery and unit upgrades."
+          "name": "Recommended Unit Roles",
+          "type": "Team Setup",
+          "description": "Bring strong area damage, durable frontline control, boss damage, and at least one reliable Titan option. Zombie waves reward teams that can clear many enemies quickly instead of only stacking single-target damage.",
+          "playerTip": "A balanced team is safer than a full boss-killer team, because Zombie Mode mixes dense waves with heavier enemy checkpoints."
         },
         {
-          "name": "Recommended Units",
-          "description": "Bring AoE-heavy units and at least one Titan for elite waves. Speakermen and Titan Cameraman handle crowded zombie pushes reliably."
+          "name": "X-18 Progression",
+          "type": "Reward Track",
+          "description": "Zombie Mode is tied to G-Toilet X-18 progression through zombie-related core drops and Act 2 gameplay routes. Players farming this mode usually focus on repeated clears, core materials, and stable late-wave runs.",
+          "playerTip": "Farm with consistency first. Fast failed runs are worse than slower clears when the target is rare progression material."
         },
         {
-          "name": "Common Stuck Points",
-          "description": "Players stall when they skip AoE upgrades or deploy Titans too early. Save Titan timing for the elite zombie waves that overwhelm standard units."
+          "name": "Common Fail Point",
+          "type": "Troubleshooting",
+          "description": "Most failed runs happen when early waves are ignored, enemy groups reach the base, or players overuse movement and damage skills without saving enough pressure for major threats.",
+          "playerTip": "Use the game's active move keys with intent: Q, E, R, T, Y, F, G, H, Z, X, C, V, B, and double spacebar are listed by the Roblox page as move-related keybinds."
         }
       ]
     },
     "gameModes": {
+      "eyebrow": "Modes",
       "title": "ST Blockade Battlefront Game Modes and Waves",
-      "intro": "ST Blockade Battlefront splits its content across normal defense waves and several harder modes. Each mode fits a different goal — farming, boss practice, or endgame pressure — so picking the right one speeds up your progression.",
+      "subtitle": "Compare the main wave-defense loop, harder missions, Boss Rush, Zombie Mode, and Astro-focused content before choosing where to grind.",
+      "intro": "ST Blockade Battlefront is a wave tower defense and survival shooter where players deploy units and Titans to defend the base from escalating enemies. Each mode changes the pressure pattern: some are better for learning waves, some for boss practice, and some for resource farming.",
       "modes": [
         {
-          "name": "Normal Waves",
-          "type": "Core Defense",
-          "description": "The standard wave-defense loop where you learn unit placement, skill keys, and Titan timing. Best for early farming and beginner practice.",
-          "bestFor": "Farming and learning the core loop"
+          "name": "Standard Defense Waves",
+          "modeType": "Core Mode",
+          "focus": "Base defense, unit placement, wave clearing, and learning enemy pressure.",
+          "bestFor": "New players learning the basic tower defense and survival shooter loop.",
+          "waveNote": "Enemies scale across waves, so early economy and stable unit placement matter more than rushing flashy damage."
+        },
+        {
+          "name": "Hard and Higher Difficulty",
+          "modeType": "Difficulty Push",
+          "focus": "Stronger enemy waves, tighter defense windows, and better testing for upgraded teams.",
+          "bestFor": "Players who already understand placement, Titan timing, and active move usage.",
+          "waveNote": "Higher difficulty is where weak early-wave planning becomes expensive, because the base has less room for mistakes."
         },
         {
           "name": "Boss Rush",
-          "type": "Boss Mode",
-          "description": "A condensed mode focused on boss fights. Use it to practice Titan timing and burst rotations against high-health targets.",
-          "bestFor": "Boss practice and Titan testing"
+          "modeType": "Boss Mode",
+          "focus": "Sequential boss fights with less emphasis on ordinary wave pacing.",
+          "bestFor": "Practicing boss damage, Titan control, and solo farming routes.",
+          "waveNote": "Boss Rush is useful when the player wants repeated boss pressure instead of a full normal-wave run."
         },
         {
-          "name": "Hard Mode",
-          "type": "Higher Difficulty",
-          "description": "Scales enemy health and spawn rate beyond normal waves. Bring upgraded units and save Titans for the late-wave pressure spikes.",
-          "bestFor": "Better rewards and mastery farming"
+          "name": "Zombie Mode",
+          "modeType": "Event Mode",
+          "focus": "Zombie waves, infected enemies, Act 2 content, and X-18-related progression.",
+          "bestFor": "Players farming Zombie V2 content or practicing dense enemy survival.",
+          "waveNote": "Zombie Mode rewards crowd control and sustained damage because enemy groups can stack quickly."
         },
         {
           "name": "Astro Invasion",
-          "type": "Event Mode",
-          "description": "A themed invasion mode with unique enemy types and event rewards. Watch for mode-specific units and limited-time drops.",
-          "bestFor": "Event rewards and limited skins"
-        },
-        {
-          "name": "Extreme",
-          "type": "Endgame Difficulty",
-          "description": "The hardest sustained pressure in the game. Reserved for coordinated runs with Special Titans and fully upgraded rosters.",
-          "bestFor": "Endgame challenge and high-tier drops"
+          "modeType": "Special Content",
+          "focus": "Astro enemy encounters, Astro-themed progression, and specialized unit testing.",
+          "bestFor": "Players building teams for Astro enemies and update-specific challenges.",
+          "waveNote": "Use this mode to test whether your roster can handle faster or heavier special enemies."
         }
       ]
     },
     "censMastery": {
-      "title": "ST Blockade Battlefront Cens and Mastery",
-      "intro": "Cens, Points, and Mastery are the core progression currencies in ST Blockade Battlefront. Understanding what each one does and where to farm it helps new players move from early units into Titan and Special Titan territory.",
+      "eyebrow": "Resources",
+      "title": "ST Blockade Battlefront Cens, Points, and Mastery Guide",
+      "subtitle": "Understand what the main progression resources do and how to spend them without wasting early-game progress.",
+      "intro": "ST Blockade Battlefront progression revolves around currency rewards, code rewards, mission farming, and unit Mastery. New players should focus on steady wave clears, useful unit upgrades, and Mastery progress before chasing every rare item at once.",
       "resources": [
         {
-          "name": "Points",
-          "use": "Primary currency for unit purchases and mid-run upgrades.",
-          "howToGet": "Wave rewards, redeem codes, and mode clears."
+          "resource": "Cens",
+          "usedFor": "Main progression spending, shop-style purchases, and upgrade-related goals.",
+          "howToGet": "Earn through gameplay clears, mission farming, update rewards, and developer codes when available.",
+          "priority": "High",
+          "playerTip": "Save Cens for meaningful unit or progression gains instead of spending everything immediately on low-impact items."
         },
         {
-          "name": "Cens",
-          "use": "Secondary currency tied to milestone rewards and older event codes.",
-          "howToGet": "Milestone codes, in-game wave rewards, and Zombie Mode drops."
+          "resource": "Points",
+          "usedFor": "Older code and guide wording often uses Points for free reward claims and early reward explanations.",
+          "howToGet": "Redeem valid codes through the in-game redemption system when the developer releases them.",
+          "priority": "Medium",
+          "playerTip": "When a reward page says Points, check the in-game reward text and current code box wording before assuming it is a separate modern currency."
         },
         {
-          "name": "Mastery",
-          "use": "Account-wide progression that unlocks upgrades, mechs, and stronger character kits.",
-          "howToGet": "Consistent play across modes; some characters unlock mechs at Mastery 25."
+          "resource": "Mastery",
+          "usedFor": "Improving units and unlocking stronger move performance or late-game unit value.",
+          "howToGet": "Progress by using units in gameplay and by applying Mastery-related rewards when available.",
+          "priority": "High",
+          "playerTip": "Apply Mastery progress to units you actually use. Randomly feeding Mastery into unused units slows down your main team."
         },
         {
-          "name": "Mastery Cards",
-          "use": "Boosters that accelerate mastery gain and progression.",
-          "howToGet": "Event rewards, milestone codes, and select mode drops."
+          "resource": "Mastery Cards",
+          "usedFor": "Granting Mastery progress or instant Mastery levels to the equipped target unit.",
+          "howToGet": "Appear through codes, shop-style rotation, and progression reward routes.",
+          "priority": "High",
+          "playerTip": "Equip the correct unit before using a Mastery Card. The value is tied to the unit receiving the Mastery reward."
+        },
+        {
+          "resource": "2x Mastery Boost",
+          "usedFor": "Speeding up Mastery grinding during active farming sessions.",
+          "howToGet": "Available through selected rewards, codes, and rotation-based reward sources.",
+          "priority": "Medium",
+          "playerTip": "Use boosts only when you are ready to grind. Activating a timed boost and leaving the game wastes the best part of it."
+        },
+        {
+          "resource": "Zombie Core Materials",
+          "usedFor": "Zombie Mode and G-Toilet X-18-related progression.",
+          "howToGet": "Farm Zombie Mode and Zombie V2 content repeatedly.",
+          "priority": "Late Game",
+          "playerTip": "Do not start serious core farming until your team can survive Zombie waves consistently."
         }
-      ],
-      "tips": [
-        "Redeem active codes early for a fast Points head start.",
-        "Focus on one or two characters to push Mastery faster instead of spreading thin.",
-        "Run Zombie Mode and Hard Mode when you need Cens and Mastery Cards together.",
-        "Save Special Titan requests for when your Mastery and unit base can support them."
       ]
     },
     "officialLinks": {
-      "title": "ST Blockade Battlefront Official Links and Updates",
-      "intro": "Use the official ST Blockade Battlefront channels to find new codes, update notes, bug reports, and upcoming content. Sticking to official links also keeps you away from fake code sites and scam servers.",
+      "eyebrow": "Official Links",
+      "title": "ST Blockade Battlefront Trello, Discord, and Update Links",
+      "subtitle": "Use the official links to play the game, check updates, follow the developer, report bugs, and avoid fake code pages.",
+      "intro": "ST Blockade Battlefront updates, codes, bug reports, and mode information are best checked through the Roblox experience page, the Loading Studi community, the official Discord, the official Trello board, and the Loading Studi YouTube channel.",
       "links": [
         {
-          "name": "Roblox Game Page",
-          "description": "The official ST Blockade Battlefront experience page by Loading Studi.",
+          "name": "Roblox Experience",
           "url": "https://www.roblox.com/games/18816315817/ST-Blockade-Battlefront",
-          "category": "Game"
+          "useFor": "Play ST Blockade Battlefront, check the current update title, read the game description, and launch servers.",
+          "note": "The Roblox page lists the game as a wave tower defense and survival shooter where players deploy units and Titans to defend the base."
         },
         {
-          "name": "Loading Studi Community",
-          "description": "The official Roblox community page for the developer behind ST Blockade Battlefront.",
+          "name": "Loading Studi Roblox Community",
           "url": "https://www.roblox.com/communities/6022628/Loading-Studi",
-          "category": "Community"
+          "useFor": "Find the developer community connected to the Roblox experience.",
+          "note": "Use this link instead of random Roblox groups using similar names."
         },
         {
           "name": "Official Discord",
-          "description": "The official ST Blockade Battlefront community server for codes, updates, and bug reports.",
           "url": "https://discord.com/invite/blockade",
-          "category": "Community"
+          "useFor": "Check announcements, code drops, update notes, lobbies, bug reports, and community discussion.",
+          "note": "The Roblox page asks players to report bugs in Discord, making this the most important community link."
         },
         {
           "name": "Official Trello",
-          "description": "The official Trello board for upcoming ST Blockade Battlefront content and the update roadmap.",
           "url": "https://trello.com/b/APrD3TTL/official-skibidi-toilet-blockade-battlefront",
-          "category": "Updates"
+          "useFor": "Browse organized game information such as units, modes, update references, and progression notes.",
+          "note": "Use the Trello board for structured reference instead of scattered reposts."
         },
         {
-          "name": "Developer YouTube",
-          "description": "Developer and community YouTube channel for ST Blockade Battlefront trailers and update showcases.",
+          "name": "Blockade Sirin YouTube",
           "url": "https://www.youtube.com/@Azu_1Siri/videos",
-          "category": "Updates"
+          "useFor": "Watch official Loading Studi videos, showcases, music, leaks, and development-related uploads.",
+          "note": "This channel is tied to Loading Studi official uploads and is safer than reuploaded clips."
         }
       ]
     }

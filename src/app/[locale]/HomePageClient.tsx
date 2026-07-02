@@ -32,6 +32,11 @@ import {
   Users,
   AlertTriangle,
   ClipboardList,
+  LogIn,
+  Flame,
+  Rocket,
+  Package,
+  Building2,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -239,13 +244,16 @@ export default function HomePageClient({
   const factionIcons: any[] = [Camera, Speaker, Tv, Bot, Zap];
 
   // zombie mode 指南卡片图标（每卡不同）
-  const zombieIcons: any[] = [Skull, Target, Coins, Users, AlertTriangle];
+  const zombieIcons: any[] = [LogIn, Target, Users, TrendingUp, AlertTriangle];
 
   // game modes 模式卡片图标（每卡不同）
-  const modeIcons: any[] = [Gamepad2, Swords, Shield, Zap, Crown];
+  const modeIcons: any[] = [Shield, Flame, Swords, Skull, Bot];
+
+  // cens & mastery 资源图标（每资源不同）
+  const censIcons: any[] = [Coins, Star, Crown, Tag, Rocket, Package];
 
   // official links 卡片图标（每卡不同）
-  const linkIcons: any[] = [Globe, Users, MessageCircle, ClipboardList, Play];
+  const linkIcons: any[] = [Gamepad2, Building2, MessageCircle, ClipboardList, Play];
 
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
@@ -708,13 +716,16 @@ export default function HomePageClient({
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
               <Skull className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium uppercase tracking-wider">
-                Zombie V2
+                {t.modules.zombieMode.eyebrow}
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
               {t.modules.zombieMode.title}
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-2">
+              {t.modules.zombieMode.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
               {t.modules.zombieMode.intro}
             </p>
           </div>
@@ -725,13 +736,22 @@ export default function HomePageClient({
               return (
                 <div
                   key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <div className="flex items-center gap-2.5 mb-3">
-                    <ZombieIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <h3 className="font-bold">{c.name}</h3>
+                  <div className="flex items-center justify-between gap-3 mb-3">
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <ZombieIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                      <h3 className="font-bold">{c.name}</h3>
+                    </div>
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                      {c.type}
+                    </span>
                   </div>
-                  <p className="text-sm text-muted-foreground">{c.description}</p>
+                  <p className="text-sm text-muted-foreground mb-4">{c.description}</p>
+                  <div className="mt-auto flex items-start gap-2 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] p-3">
+                    <Target className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span className="text-xs text-muted-foreground">{c.playerTip}</span>
+                  </div>
                 </div>
               );
             })}
@@ -746,39 +766,45 @@ export default function HomePageClient({
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
               <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium uppercase tracking-wider">
-                Modes & Waves
+                {t.modules.gameModes.eyebrow}
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
               {t.modules.gameModes.title}
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-2">
+              {t.modules.gameModes.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
               {t.modules.gameModes.intro}
             </p>
           </div>
 
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.modules.gameModes.modes.map((m: any, index: number) => {
               const ModeIcon = modeIcons[index] || Gamepad2;
               return (
                 <div
                   key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
                   <div className="flex items-center justify-between gap-3 mb-3">
-                    <div className="flex items-center gap-2.5">
-                      <ModeIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <ModeIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
                       <h3 className="font-bold text-base md:text-lg">{m.name}</h3>
                     </div>
                     <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
-                      {m.type}
+                      {m.modeType}
                     </span>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-3">{m.description}</p>
-                  <div className="inline-flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.25)] text-[hsl(var(--nav-theme-light))]">
+                  <p className="text-sm text-muted-foreground mb-3">{m.focus}</p>
+                  <div className="inline-flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.25)] text-[hsl(var(--nav-theme-light))] mb-3 self-start">
                     <Target className="w-3.5 h-3.5" />
                     {m.bestFor}
                   </div>
+                  <p className="mt-auto text-xs text-muted-foreground/80 italic border-l-2 border-[hsl(var(--nav-theme)/0.3)] pl-3">
+                    {m.waveNote}
+                  </p>
                 </div>
               );
             })}
@@ -793,61 +819,63 @@ export default function HomePageClient({
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
               <Coins className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium uppercase tracking-wider">
-                Progression
+                {t.modules.censMastery.eyebrow}
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
               {t.modules.censMastery.title}
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-2">
+              {t.modules.censMastery.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
               {t.modules.censMastery.intro}
             </p>
           </div>
 
           {/* Resource table */}
-          <div className="scroll-reveal overflow-hidden rounded-xl border border-border mb-8">
+          <div className="scroll-reveal overflow-hidden rounded-xl border border-border">
             <div className="hidden md:grid grid-cols-12 gap-4 px-5 py-3 bg-white/5 border-b border-border text-xs font-semibold uppercase tracking-wider text-muted-foreground">
               <div className="col-span-3">Resource</div>
-              <div className="col-span-4">Use</div>
-              <div className="col-span-5">How to Get</div>
+              <div className="col-span-3">Used For</div>
+              <div className="col-span-4">How to Get</div>
+              <div className="col-span-2">Priority</div>
             </div>
-            {t.modules.censMastery.resources.map((r: any, index: number) => (
-              <div
-                key={index}
-                className={`grid grid-cols-1 md:grid-cols-12 gap-2 md:gap-4 px-5 py-4 ${
-                  index !== t.modules.censMastery.resources.length - 1
-                    ? "border-b border-border"
-                    : ""
-                } bg-white/[0.02]`}
-              >
-                <div className="col-span-3 flex items-center gap-2">
-                  <Coins className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
-                  <span className="font-semibold text-sm md:text-base">{r.name}</span>
+            {t.modules.censMastery.resources.map((r: any, index: number) => {
+              const CensIcon = censIcons[index] || Coins;
+              return (
+                <div
+                  key={index}
+                  className={`px-5 py-4 ${
+                    index !== t.modules.censMastery.resources.length - 1
+                      ? "border-b border-border"
+                      : ""
+                  } bg-white/[0.02]`}
+                >
+                  <div className="grid grid-cols-1 md:grid-cols-12 gap-2 md:gap-4">
+                    <div className="col-span-3 flex items-center gap-2">
+                      <CensIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                      <span className="font-semibold text-sm md:text-base">{r.resource}</span>
+                    </div>
+                    <div className="col-span-3 text-sm text-muted-foreground md:pl-0 pl-6">
+                      {r.usedFor}
+                    </div>
+                    <div className="col-span-4 text-sm text-muted-foreground md:pl-0 pl-6">
+                      {r.howToGet}
+                    </div>
+                    <div className="col-span-2 md:pl-0 pl-6">
+                      <span className="inline-flex items-center text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        {r.priority}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="mt-3 flex items-start gap-2 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] p-2.5">
+                    <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span className="text-xs text-muted-foreground">{r.playerTip}</span>
+                  </div>
                 </div>
-                <div className="col-span-4 text-sm text-muted-foreground md:pl-0 pl-6">
-                  {r.use}
-                </div>
-                <div className="col-span-5 text-sm text-muted-foreground md:pl-0 pl-6">
-                  {r.howToGet}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Tips */}
-          <div className="scroll-reveal p-4 md:p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
-            <div className="flex items-center gap-2 mb-3 md:mb-4">
-              <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-              <h3 className="font-bold text-base md:text-lg">Farming Tips</h3>
-            </div>
-            <ul className="space-y-2">
-              {t.modules.censMastery.tips.map((tip: string, index: number) => (
-                <li key={index} className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
-                  <span className="text-muted-foreground text-sm">{tip}</span>
-                </li>
-              ))}
-            </ul>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -859,13 +887,16 @@ export default function HomePageClient({
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
               <Globe className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium uppercase tracking-wider">
-                Official Channels
+                {t.modules.officialLinks.eyebrow}
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
               {t.modules.officialLinks.title}
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-2">
+              {t.modules.officialLinks.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
               {t.modules.officialLinks.intro}
             </p>
           </div>
@@ -879,7 +910,7 @@ export default function HomePageClient({
                   href={l.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="group flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
                   <div className="flex items-start justify-between gap-3 mb-2">
                     <div className="flex items-center gap-2.5 min-w-0">
@@ -890,10 +921,10 @@ export default function HomePageClient({
                     </div>
                     <ExternalLink className="w-4 h-4 text-muted-foreground flex-shrink-0 group-hover:text-[hsl(var(--nav-theme-light))] transition-colors" />
                   </div>
-                  <p className="text-sm text-muted-foreground mb-3">{l.description}</p>
-                  <span className="inline-flex items-center text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
-                    {l.category}
-                  </span>
+                  <p className="text-sm text-muted-foreground mb-3">{l.useFor}</p>
+                  <p className="mt-auto text-xs text-muted-foreground/80 italic border-l-2 border-[hsl(var(--nav-theme)/0.3)] pl-3">
+                    {l.note}
+                  </p>
                 </a>
               );
             })}
