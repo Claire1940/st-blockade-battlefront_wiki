@@ -28,6 +28,26 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // 首页模块导航图标（ST Blockade Battlefront）
+  Ticket: LucideIcons.Ticket,
+  Trophy: LucideIcons.Trophy,
+  Skull: LucideIcons.Skull,
+  Swords: LucideIcons.Swords,
+  Coins: LucideIcons.Coins,
+  Globe: LucideIcons.Globe,
+  Crown: LucideIcons.Crown,
+  Camera: LucideIcons.Camera,
+  Speaker: LucideIcons.Speaker,
+  Tv: LucideIcons.Tv,
+  Bot: LucideIcons.Bot,
+  Target: LucideIcons.Target,
+  Zap: LucideIcons.Zap,
+  Heart: LucideIcons.Heart,
+  Play: LucideIcons.Play,
+  ClipboardList: LucideIcons.ClipboardList,
+  Tag: LucideIcons.Tag,
+  Gift: LucideIcons.Gift,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
