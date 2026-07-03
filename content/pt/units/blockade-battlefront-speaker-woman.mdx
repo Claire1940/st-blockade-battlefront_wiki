@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Speakerwoman de blockade battlefront: Guia de Habilidades e Vantagens de Maestria",
+  description: "Domine a Speakerwoman de blockade battlefront com nosso guia. Explore as habilidades básicas, o Modo Katana e dicas de progressão de maestria.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Speakerwoman+Guide",
+  date: "2026-07-03",
+  author: "Equipe da Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Unidade Primária**: A Speakerwoman de blockade battlefront é uma personagem híbrida altamente versátil.
+- **Marco de Maestria**: Alcançar a Maestria 80 desbloqueia a poderosa invocação Speaker Carrier.
+- **Sobrevivência Essencial**: Use a habilidade Musician para ganhar imortalidade temporária durante lutas intensas.
+- **Modo Katana**: Mude para o Modo Katana para utilizar ataques de investida de alta mobilidade.
+- **Cura em Equipe**: Apoie os Titans aliados posicionando o Speaker Carrier.
+</Callout>
+
+<Section icon={Shield} title="Visão Geral da Speakerwoman de blockade battlefront">
+
+A **Speakerwoman de blockade battlefront** destaca-se como uma das híbridas de suporte e dano mais versáteis do jogo. Ao contrário das unidades padrão que se concentram apenas em causar dano ou utilidade defensiva, esta personagem preenche a lacuna oferecendo dano em área de alto impacto, juntamente com uma cura crucial para toda a equipe. Os jogadores que a desbloquearem encontrarão um kit capaz de se adaptar a vários cenários de combate, seja navegando por multidões densas de inimigos ou fornecendo cura sustentada para enormes Titans aliados no campo de batalha.
+
+Entender seu posicionamento é fundamental para maximizar sua utilidade. Embora ela possua uma sobrevivência decente através de habilidades especiais, ela funciona melhor ao entrar e sair das linhas de frente. Seu conjunto de movimentos padrão permite um controle de grupo rápido, enquanto seu modo de combate alternativo oferece a mobilidade necessária para escapar de situações perigosas.
+
+Para ajudá-lo a entender como ela se compara a outras unidades femininas do jogo, veja o resumo abaixo:
+
+<CardGrid cols={3}>
+  <Card title="Speakerwoman">
+    - **Função**: Suporte & DPS em Área (AOE)
+    - **Característica Chave**: Buff de imortalidade
+    - **Invocação**: Speaker Carrier
+  </Card>
+  <Card title="Camerawoman">
+    - **Função**: DPS à Distância
+    - **Característica Chave**: Dano explosivo em alvo único
+    - **Invocação**: Nenhuma
+  </Card>
+  <Card title="TV Woman">
+    - **Função**: Controle de Grupo
+    - **Característica Chave**: Atordoamento em área
+    - **Invocação**: Nenhuma
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Resumo da Função">
+Priorize desbloquear sua maestria cedo. Seu kit base é decente, mas seu verdadeiro potencial está bloqueado atrás dos multiplicadores de dano e habilidades de invocação encontrados em sua trilha de progressão.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise das Habilidades Básicas e Conjunto de Movimentos">
+
+A base para jogar efetivamente com a Speakerwoman reside em dominar seu conjunto de movimentos básico. Seus ataques padrão oferecem uma mistura confiável de defesa de curto alcance e pressão à distância. Seu ataque principal, o LMB, causa dano confiável a todos os inimigos dentro de sua área de acerto (hitbox). Este ataque escala significativamente à medida que você progride nos níveis de maestria, tornando-o um elemento básico de sua rotação de combate.
+
+Suas habilidades secundárias, como Sound-wave e Knife-Shoot, oferecem um excelente potencial de dano explosivo (burst). O Sound-wave atua como um botão de pânico, eliminando ameaças imediatas ao redor do jogador, enquanto o Knife-Shoot permite um dano preciso e direcionado a uma distância segura. Para mobilidade, o Leap oferece um salto para frente que ajuda a desviar de projéteis ou se reposicionar durante escaramuças caóticas. Sua utilidade básica mais poderosa vem do Musician, que concede imortalidade temporária e aumenta o dano de suas outras habilidades, permitindo contra-ataques agressivos.
+
+| Habilidade | Dano | Descrição |
+| --- | --- | --- |
+| **LMB** | 15 / 30 | Golpe corpo a corpo básico atingindo todos os alvos na hitbox |
+| **E - Sound-wave** | 200 | Onda sonora em área causando dano explosivo |
+| **R - Knife-Shoot** | 300 total | Dispara 2 facas causando 150 de dano cada |
+| **T - Leap** | 0 | Salto utilitário para frente para mobilidade |
+| **Y - Musician** | 0 (Buff) | Concede imortalidade temporária e buffs de dano |
+| **U - Speaker Carrier** | Variável | Invoca transportador de cura (Maestria 80+ necessária) |
+
+<Callout type="tip" title="Dica Profissional">
+Ative o buff Musician logo antes de usar o Sound-wave ou o Knife-Shoot para maximizar seu dano explosivo durante a janela de imortalidade.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modo Katana e Conjunto de Movimentos Alternativo">
+
+Ao transitar para o Modo Katana, a Speakerwoman muda seu estilo de combate para confrontos corpo a corpo de alta velocidade. Este modo é projetado para jogadores que preferem um estilo de jogo agressivo e acelerado, que prioriza mobilidade e golpes rápidos em vez de suporte à distância sustentado.
+
+Neste modo, seu ataque LMB básico mantém sua escala de dano, mas é entregue através de golpes rápidos de espada. O núcleo do Modo Katana gira em torno do Domain-Breaker e do Heavenly-Slash. O Domain-Breaker libera um poderoso corte em área que pune inimigos agrupados, tornando-o ideal para limpar ondas. O Heavenly-Slash serve tanto como uma ferramenta ofensiva quanto como uma opção de mobilidade secundária, permitindo que você avance enquanto corta os alvos. Dominar a transição entre seu kit base e o Modo Katana é essencial para jogar em alto nível.
+
+| Movimento | Tipo de Dano | Uso Tático |
+| --- | --- | --- |
+| **LMB** | Corpo a Corpo | Golpes rápidos com escala de dano padrão |
+| **F - Domain-Breaker** | Área (AOE) | Elimina inimigos ao redor com dano explosivo |
+| **G - Heavenly-Slash** | Investida | Fecha distâncias enquanto causa dano menor |
+
+<Callout type="warning" title="Aviso">
+Embora o Modo Katana ofereça alta mobilidade, ele coloca você diretamente em perigo. Monitore o tempo de recarga do Musician antes de mergulhar em grandes grupos de inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vantagens de Maestria e Etapas de Progressão">
+
+A progressão é um aspecto crítico para desbloquear todo o potencial desta personagem. O sistema de maestria recompensa jogadores dedicados com aumentos maciços de estatísticas e mecânicas totalmente novas que redefinem seu desempenho em combate.
+
+Na Maestria 25, ela recebe um aumento de poder massivo com um multiplicador de dano duplo fixo em todos os ataques, tornando-a uma ameaça formidável. A Maestria 50 foca na defesa, estendendo a duração do buff de imortalidade do Musician. Finalmente, alcançar a Maestria 80 desbloqueia a invocação Speaker Carrier, que é sua ferramenta de suporte definitiva, permitindo cura passiva e dano contínuo em área.
+
+<Steps>
+  <Step num="1" title="Alcance a Maestria 25">
+    Desbloqueie o multiplicador de dano duplo para tornar o farm solo muito mais rápido.
+  </Step>
+  <Step num="2" title="Alcance a Maestria 50">
+    Estenda a duração do seu buff de imortalidade para sobreviver a encontros com chefes de alto nível.
+  </Step>
+  <Step num="3" title="Alcance a Maestria 80">
+    Desbloqueie a invocação Speaker Carrier para fornecer cura passiva aos seus aliados.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Marco Desbloqueado">
+Desbloquear o Speaker Carrier na Maestria 80 transforma você de um causador de dano egoísta em uma unidade de suporte de alto nível capaz de manter os Titans vivos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Checklist Tático e Sinergia de Equipe">
+
+Para se destacar em modos de jogo em equipe, os jogadores devem entender como criar sinergia com outras classes de unidades. Sua habilidade de curar Titans a torna um ativo inestimável em incursões de alto nível e cenários defensivos.
+
+Quando emparelhada com tanques de linha de frente ou causadores de alto dano, ela pode se concentrar em manter sua invocação Speaker Carrier para manter os aliados saudáveis, enquanto usa suas ondas sonoras em área para controlar as ondas de inimigos. A coordenação adequada garante que sua janela de imortalidade seja usada para bloquear ataques críticos destinados a companheiros de equipe mais frágeis.
+
+| Classe Parceira | Nível de Sinergia | Estratégia de Combate |
+| --- | --- | --- |
+| **Unidades Titan** | Excelente | Cure-os usando a invocação Speaker Carrier |
+| **Dark Speakerman** | Alto | Combine ondas sonoras em área para limpeza rápida de ondas |
+| **Plungerman** | Bom | Use o Leap para acompanhar sua alta mobilidade |
+
+<Checklist
+  id="speakerwoman-milestones"
+  title="Checklist de Progressão da Speakerwoman:"
+  items={[
+    "Desbloqueie a Speakerwoman na lista de personagens",
+    "Alcance o nível de Maestria 25 para a vantagem de dano duplo",
+    "Pratique a alternância entre o Kit Base e o Modo Katana",
+    "Alcance o nível de Maestria 80 para desbloquear a invocação Speaker Carrier"
+  ]}
+/>
+
+<Callout type="info" title="Dica de Posicionamento">
+Sempre posicione seu Speaker Carrier ligeiramente atrás da linha de frente para evitar que ele sofra danos desnecessários enquanto cura sua equipe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio a invocação Speaker Carrier para a Speakerwoman de blockade battlefront?",
+    answer: "Você deve alcançar o nível de Maestria 80 com a personagem para desbloquear a habilidade de invocação Speaker Carrier."
+  },
+  {
+    question: "A habilidade Musician torna você completamente imune a danos?",
+    answer: "Sim, a habilidade Musician concede imortalidade temporária, permitindo que você ignore todo o dano recebido durante sua duração."
+  },
+  {
+    question: "O que a vantagem da Maestria 25 faz pela Speakerwoman?",
+    answer: "A vantagem da Maestria 25 concede um multiplicador de dano fixo de 2x em todos os seus ataques, incluindo seu LMB básico e habilidades especiais."
+  },
+  {
+    question: "O Speaker Carrier pode curar unidades Titan?",
+    answer: "Sim, a invocação Speaker Carrier cura todos os aliados no campo de batalha, incluindo unidades Titan gigantes."
+  }
+]} />
+
+<Callout type="tip" title="Veredito Final">
+A Speakerwoman é um investimento de alto nível para qualquer composição de equipe. Concentre-se em aumentar sua maestria para desbloquear todas as suas capacidades de suporte.
+</Callout>
+
+</Section>

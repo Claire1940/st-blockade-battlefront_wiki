@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dimensión Oscura de blockade battlefront: Guía de Supervivencia y Recorrido de Oleadas",
+  description: "Domina la dimensión oscura de blockade battlefront con nuestra guía de 2026. Aprende mecánicas de oleadas, gestión de cordura y las mejores builds de personajes para sobrevivir.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dark+Dimension+Survival",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de blockade battlefront",
+  keywords: "blockade battlefront, dimensión oscura, guía de supervivencia, oleadas, gestión de cordura, mejores personajes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La dimensión oscura de blockade battlefront** es un modo de supervivencia de alta dificultad donde matar enemigos es secundario frente a mantenerse con vida.
+- **La Gestión de Cordura** es crítica; debes recolectar orbes púrpuras para evitar que el acechador, Jeffery, aumente su velocidad.
+- **Las Mecánicas de Oleada** introducen peligros ambientales letales como Zonas Rojas y picos de suelo que ignoran las fases de tienda.
+- **Personaje Meta**: El Double Plunger Potenciado con la skin Mini UTCM es actualmente la mejor opción debido a su alto HP y autocuración.
+- **Condición de Victoria**: Sobrevive a cuatro oleadas y llega hasta Astro Poly (Astro Large TV Man) para escapar y reclamar tu insignia.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las Mecánicas de la Dimensión Oscura">
+
+La **dimensión oscura de blockade battlefront** representa la prueba definitiva de movimiento y conciencia dentro del juego. A diferencia de los modos estándar donde el poder ofensivo determina el éxito, esta dimensión prioriza la evasión, la gestión de recursos y la adaptación ambiental. Los jugadores son lanzados a un entorno casi en penumbra donde los Titanes tradicionales y los Titanes Especiales están desactivados, forzando la dependencia de unidades más pequeñas y ágiles.
+
+La característica más distintiva de este modo es la **Barra de Cordura**. Representada como un medidor púrpura sobre la cabeza de tu personaje, esta barra se agota constantemente. Si la barra llega a cero, el antagonista principal del modo, Jeffery, obtiene un aumento significativo de velocidad, lo que lo hace casi imposible de dejar atrás. Para reponer esta barra, debes navegar por la oscuridad para encontrar y recolectar orbes púrpuras que aparecen aleatoriamente.
+
+| Mecánica | Función | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Barra de Cordura** | Rastrea la estabilidad mental | La barra vacía acelera a Jeffery significativamente |
+| **Orbes Púrpuras** | Recolección de recursos | Rellenan la Cordura; solo pueden existir 7 a la vez |
+| **Jeffery** | Acechador invencible | Persigue al jugador durante las cuatro oleadas |
+| **Oscuridad** | Modificador de visibilidad | Limita la vista, dificultando la localización de orbes |
+| **Bloqueo de Unidades** | Restricción de personajes | No se pueden desplegar Titanes ni Titanes Especiales |
+
+<Callout type="tip" title="Gestión de Orbes">
+No intentes guardar orbes para etapas posteriores. Dado que el mapa limita el número de orbes activos a siete, dejarlos en el suelo evita que aparezcan nuevos, lo que podría dejarte sin Cordura durante las oleadas finales más caóticas.
+</Callout>
+
+La supervivencia en la dimensión oscura requiere un cambio de mentalidad. Tú no eres el cazador; eres la presa. Cada segundo que pases quieto o enfocándote demasiado en el combate aumenta el riesgo de ser acorralado por Jeffery o atrapado en una trampa letal.
+
+</Section>
+
+<Section icon={Swords} title="Recorrido Oleada por Oleada">
+
+Navegar por la **dimensión oscura de blockade battlefront** requiere un conocimiento preciso de cuándo se introducen nuevas mecánicas. La curva de dificultad es pronunciada, y cada oleada añade una capa de complejidad que puede terminar una partida en segundos.
+
+### Oleada 1: El Descenso Inicial
+La primera oleada te presenta a Jeffery. Él es completamente invulnerable a todos los tipos de daño, así que no desperdicies tus habilidades ni tiempo intentando luchar contra él. Tu objetivo principal es mantener una distancia constante mientras escaneas el suelo en busca de orbes púrpuras. Aunque Jeffery es lento inicialmente, los inodoros que aparecen en esta oleada son engañosamente resistentes.
+
+### Oleada 2: Los Picos Emergentes
+En la Oleada 2, el entorno mismo se vuelve hostil. Comenzarán a brotar picos del suelo a intervalos regulares. Estos picos son particularmente peligrosos porque no se detienen durante los momentos de "tienda" o interacciones de la interfaz de usuario. Debes permanecer en constante movimiento para evitar ser empalado.
+
+| Oleada | Nueva Amenaza Principal | Ajuste de Estrategia |
+| :--- | :--- | :--- |
+| **Oleada 1** | Jeffery e Inodoros de Agarre | Enfoque en recolección de orbes y kiting |
+| **Oleada 2** | Picos del Suelo | Nunca dejes de moverte, incluso en las fases de tienda |
+| **Oleada 3** | Zonas Rojas y El Ojo | Vigila el suelo y quédate quieto para El Ojo |
+| **Oleada 4** | Velocidad Incrementada | Máximo enfoque en movimiento y cordura |
+
+### Oleada 3: La Zona Roja y El Ojo
+Aquí es donde la mayoría de los jugadores fallan. La Oleada 3 introduce la mecánica de la **Zona Roja**, donde grandes secciones del suelo brillan en rojo intenso. Permanecer en estas zonas inflige aproximadamente 1500 de daño por pulso, lo que puede matar a la mayoría de los personajes casi instantáneamente. Simultáneamente, aparecerá una entidad llamada "El Ojo". Cuando el Ojo se abre, debes detener todo movimiento de inmediato. Si te mueves mientras el Ojo está mirando, recibirás un daño masivo.
+
+### Oleada 4: El Esprint Final
+La Oleada 4 no introduce mecánicas nuevas, pero aumenta significativamente la velocidad y frecuencia de todos los peligros anteriores. Los picos se activan más rápido, las Zonas Rojas cambian con mayor rapidez y Jeffery se vuelve más agresivo. Sentirás que tu barra de Cordura se agota más rápido simplemente porque tienes menos tiempo para dirigirte de forma segura hacia los orbes.
+
+<Callout type="warning" title="Solapamiento de Peligros">
+Ten mucho cuidado cuando la mecánica del Ojo se solape con una Zona Roja. Si el Ojo se abre mientras estás en suelo rojo, te verás obligado a elegir entre recibir 1500 de daño del suelo o recibir daño del Ojo. Prioriza siempre permanecer en suelo neutral.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perfiles de Peligros y Enemigos">
+
+Para sobrevivir a la **dimensión oscura de blockade battlefront**, debes entender los comportamientos específicos de las entidades y trampas internas. El conocimiento de las cifras de daño y las condiciones de activación es la diferencia entre un escape exitoso y una partida fallida.
+
+<CardGrid cols={3}>
+  <Card title="Jeffery">
+    - **Estado**: Invulnerable
+    - **Comportamiento**: Acecho persistente
+    - **Peligro**: Alto (si la Cordura es baja)
+    - **Contramedida**: Mantener la Cordura con orbes
+  </Card>
+  <Card title="Inodoros de Agarre">
+    - **Estado**: Eliminable (~200 HP)
+    - **Comportamiento**: Agarra y sujeta al jugador
+    - **Peligro**: Moderado (evita el kiting)
+    - **Contramedida**: Daño de ráfaga rápida
+  </Card>
+  <Card title="Jefe de Ácido">
+    - **Estado**: Invencible
+    - **Comportamiento**: Se teletransporta y escupe ácido
+    - **Peligro**: Alto (denegación de área)
+    - **Contramedida**: Deslizarse lejos tras el teletransporte
+  </Card>
+</CardGrid>
+
+El Jefe de Ácido, que aparece en las oleadas posteriores, actúa como un segundo acechador. Se asemeja a una versión más grande de la calavera ácida y utiliza una mecánica de teletransportación para mantenerse sobre el jugador. Puede realizar un ataque de pisotón o escupir ácido, ambos infligen un daño significativo y pueden ralentizar tu movimiento, convirtiéndote en un objetivo fácil para Jeffery.
+
+| Peligro | Tipo de Daño | Cantidad de Daño | Método de Evasión |
+| :--- | :--- | :--- | :--- |
+| **Zona Roja** | Ambiental | ~1500 por pulso | Permanecer en suelo apagado |
+| **Picos del Suelo** | Físico | Moderado | Movimiento constante |
+| **El Ojo** | Mental/Mágico | Muy Alto | Quedarse completamente quieto |
+| **Escupitajo Ácido** | Veneno/DoT | Bajo-Moderado | Movimiento lateral/Deslizamiento |
+| **Toque de Jeffery**| Cuerpo a cuerpo | Letal | Kiting y mantenimiento de Cordura |
+
+<Callout type="info" title="Mecánica de Agarre">
+Si un inodoro se engancha a ti, tu velocidad de movimiento se reduce a cero. Debes infligir aproximadamente 200 de daño al inodoro específico que te sujeta para liberarte. En la Dimensión Oscura, estar inmóvil incluso tres segundos puede resultar en una Zona Roja apareciendo bajo tus pies o en que Jeffery te alcance.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Builds de Personajes para 2026">
+
+Debido a que los Titanes están desactivados, seleccionar la unidad de marco pequeño adecuada es la decisión previa al juego más importante que tomarás. El meta actual para la **dimensión oscura de blockade battlefront** se centra fuertemente en la supervivencia y el autosustento en lugar de la producción de daño puro.
+
+La elección indiscutible de nivel superior para este modo es el **Double Plunger Potenciado** equipado con la **Skin Legendaria Mini UTCM**. Esta configuración proporciona un conjunto único de estadísticas que contrarrestan directamente los peligros de la dimensión.
+
+| Personaje / Skin | Reserva de Salud | Habilidad Clave | Por qué es Meta |
+| :--- | :--- | :--- | :--- |
+| **Mini UTCM** | 5,000 HP | Autocuración | Alto margen de error en Zonas Rojas |
+| **Plunger Estándar** | 2,500 HP | Deslizamiento | Bueno para kiting pero frágil |
+| **Cameraman** | 1,500 HP | Fuego Rápido | Demasiado débil para sobrevivir a la Oleada 3 |
+| **Speaker Ninja** | 3,000 HP | Aumento de Velocidad | Excelente para recolectar orbes |
+
+**Por qué domina el Mini UTCM:**
+1.  **Enorme Reserva de Salud**: Con 5,000 HP, puedes sobrevivir al menos tres pulsos de daño de la Zona Roja, dándote tiempo para reaccionar si te pillan desprevenido.
+2.  **Autocuración**: La capacidad de regenerar salud sin depender de suministros externos es vital, ya que los kits de salud son raros en la Dimensión Oscura.
+3.  **Hitbox Compacta**: A pesar de su alto HP, el modelo sigue siendo lo suficientemente pequeño como para navegar por espacios estrechos entre picos de suelo y Zonas Rojas.
+
+<Callout type="success" title="El Autosustento es Clave">
+Prioriza siempre una unidad con curación o escudo. Dado que el objetivo principal es llegar al final de la Oleada 4, tu capacidad para recuperarte de un error es más valiosa que la rapidez con la que puedas limpiar los inodoros resistentes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Escapar y Reclamar la Insignia">
+
+Llegar al final de la **dimensión oscura de blockade battlefront** requiere más que solo sobrevivir al temporizador. Debes navegar con éxito la secuencia de extracción final para ganar la prestigiosa insignia y completar la partida.
+
+<Steps>
+  <Step num="1" title="Sobrevive a la Intensidad de la Oleada 4">
+    Mantén tu cordura y evita los peligros acelerados hasta que expire el temporizador de la oleada. Asegúrate de tener al menos un 50% de salud al entrar en la fase final.
+  </Step>
+  <Step num="2" title="Localiza a Astro Poly">
+    Una vez que las oleadas concluyan, el entorno cambiará ligeramente. Debes buscar a **Astro Poly** (también conocido como Astro Large TV Man). Él sirve como tu portal de salida.
+  </Step>
+  <Step num="3" title="La Aproximación Final">
+    Dirígete hacia Astro Poly de inmediato. Jeffery y otros peligros pueden seguir activos durante esta transición. No te detengas a celebrar hasta que hayas tocado físicamente al NPC.
+  </Step>
+  <Step num="4" title="Adquisición de la Insignia">
+    Al hacer contacto con Astro Poly, la partida terminará y se te otorgará la insignia de la Dimensión Oscura. Esto confirma tu escape exitoso de la dimensión.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Esprint Final">
+Durante la fase final, Jeffery puede realizar un último impulso de velocidad. Guarda tus habilidades de movimiento (deslizamientos o teletransportes) específicamente para los últimos 50 metros hasta Astro Poly para asegurar que no te atrapen en la línea de meta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Supervivencia en la Dimensión Oscura">
+
+Antes de dirigirte a tu próxima partida, asegúrate de estar completamente preparado siguiendo esta lista de verificación esencial. Omitir incluso uno de estos pasos puede reducir significativamente tus posibilidades de supervivencia.
+
+<Checklist
+  id="dark-dimension-prep"
+  title="Requisitos Previos a la Partida:"
+  items={[
+    "Equipar Double Plunger Potenciado con skin Mini UTCM",
+    "Verificar que las habilidades de regeneración de salud estén mapeadas en teclas de fácil acceso",
+    "Subir el brillo del juego para ayudar a localizar los orbes púrpuras",
+    "Comprobar que tu conexión a internet sea estable para evitar lag en las Zonas Rojas",
+    "Practicar quedarse completamente quieto para dominar la mecánica del Ojo"
+  ]}
+/>
+
+La supervivencia en este modo es un maratón, no un esprint. Al centrarte en las mecánicas descritas en esta guía, podrás completar consistentemente la **dimensión oscura de blockade battlefront** y ayudar a tu equipo a asegurar las recompensas más raras del juego.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar unidades Titán en la dimensión oscura de blockade battlefront?",
+    answer: "No, los Titanes y Titanes Especiales están estrictamente desactivados en este modo. Debes usar unidades de personajes más pequeñas como las variantes de Plunger o Cameraman."
+  },
+  {
+    question: "¿Qué pasa si mi barra de Cordura llega a cero?",
+    answer: "Si la barra de Cordura se vacía, Jeffery obtiene un aumento masivo de velocidad. Podrá alcanzar a casi cualquier personaje, haciendo que la supervivencia sea casi imposible a menos que encuentres un orbe de inmediato."
+  },
+  {
+    question: "¿Cuántos orbes púrpuras puede haber en el mapa a la vez?",
+    answer: "Hay un límite estricto de 7 orbes púrpuras. Debes recolectarlos tan pronto como los veas para permitir que aparezcan nuevos para su uso posterior."
+  },
+  {
+    question: "¿Es posible matar a Jeffery o al Jefe de Ácido?",
+    answer: "No, tanto Jeffery como el Jefe de Ácido son completamente invencibles. Tu única estrategia es evadir sus ataques y mantenerte fuera de su alcance."
+  }
+]} />
+
+</Section>

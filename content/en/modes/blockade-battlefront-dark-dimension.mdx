@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront dark dimension: Survival Guide & Wave Walkthrough",
+  description: "Master the blockade battlefront dark dimension with our 2026 guide. Learn wave mechanics, sanity management, and the best character builds for survival.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dark+Dimension+Survival",
+  date: "2026-07-03",
+  author: "blockade battlefront Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **blockade battlefront dark dimension** is a high-difficulty survival mode where killing enemies is secondary to staying alive.
+- **Sanity Management** is critical; you must collect purple orbs to prevent the stalker, Jeffery, from speeding up.
+- **Wave Mechanics** introduce lethal environmental hazards like Red Zones and ground spikes that ignore shop phases.
+- **Meta Character**: The Boosted Double Plunger with the Mini UTCM skin is currently the best choice due to high HP and self-healing.
+- **Victory Condition**: Survive four waves and reach Astro Poly (Astro Large TV Man) to escape and claim your badge.
+</Callout>
+
+<Section icon={Map} title="Understanding the Dark Dimension Mechanics">
+
+The **blockade battlefront dark dimension** represents the ultimate test of movement and awareness within the game. Unlike standard modes where offensive power determines success, this dimension prioritizes evasion, resource management, and environmental adaptation. Players are thrust into a near-pitch-black environment where traditional Titans and Special Titans are disabled, forcing a reliance on smaller, more agile units.
+
+The most distinctive feature of this mode is the **Sanity Bar**. Displayed as a purple meter above your character's head, this bar constantly depletes. If the bar reaches zero, the primary antagonist of the mode, Jeffery, gains a significant speed boost, making him nearly impossible to outrun. To replenish this bar, you must navigate the darkness to find and collect randomly spawning purple orbs.
+
+| Mechanic | Function | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Sanity Bar** | Tracks mental stability | Empty bar speeds up Jeffery significantly |
+| **Purple Orbs** | Resource collection | Refills Sanity; only 7 can exist at once |
+| **Jeffery** | Invincible stalker | Chases player throughout all four waves |
+| **Darkness** | Visibility modifier | Limits sight, making orb spotting difficult |
+| **Unit Lock** | Character restriction | Titans and Special Titans cannot be deployed |
+
+<Callout type="tip" title="Orb Management">
+Do not attempt to save orbs for later stages. Since the map caps the number of active orbs at seven, leaving them on the ground prevents new ones from spawning, potentially starving you of Sanity during the more chaotic final waves.
+</Callout>
+
+Survival in the dark dimension requires a shift in mindset. You are not the hunter; you are the prey. Every second spent standing still or focusing too heavily on combat increases the risk of being cornered by Jeffery or caught in a lethal trap.
+
+</Section>
+
+<Section icon={Swords} title="Wave-by-Wave Walkthrough">
+
+Navigating the **blockade battlefront dark dimension** requires precise knowledge of when new mechanics are introduced. The difficulty curve is steep, with each wave adding a layer of complexity that can end a run in seconds.
+
+### Wave 1: The Initial Descent
+The first wave introduces you to Jeffery. He is completely invulnerable to all damage types, so do not waste your abilities or time trying to fight him. Your primary goal is to maintain a constant distance while scanning the floor for purple orbs. While Jeffery is slow initially, the toilets that spawn in this wave are deceptively tanky.
+
+### Wave 2: The Rising Spikes
+In Wave 2, the environment itself becomes hostile. Spikes will begin to erupt from the ground at regular intervals. These spikes are particularly dangerous because they do not stop during "shop" moments or UI interactions. You must remain in constant motion to avoid being impaled.
+
+| Wave | Primary New Threat | Strategy Adjustment |
+| :--- | :--- | :--- |
+| **Wave 1** | Jeffery & Latching Toilets | Focus on orb collection and kiting |
+| **Wave 2** | Ground Spikes | Never stop moving, even during shop phases |
+| **Wave 3** | Red Zones & The Eye | Watch the ground and stop moving for the Eye |
+| **Wave 4** | Increased Speed | Maximum focus on movement and sanity |
+
+### Wave 3: The Red Zone and The Eye
+This is where most players fail. Wave 3 introduces the **Red Zone** mechanic, where large sections of the floor glow bright red. Standing in these zones deals approximately 1500 damage per tick, which can kill most characters almost instantly. Simultaneously, an "Eye" entity will appear. When the Eye opens, you must stop all movement immediately. If you move while the Eye is watching, you will take massive damage.
+
+### Wave 4: The Final Sprint
+Wave 4 does not introduce new mechanics but significantly increases the speed and frequency of all previous hazards. Spikes trigger faster, the Red Zones shift more rapidly, and Jeffery becomes more aggressive. Your Sanity bar will feel like it is draining faster simply because you have less time to safely path toward orbs.
+
+<Callout type="warning" title="Hazard Overlap">
+Be extremely careful when the Eye mechanic overlaps with a Red Zone. If the Eye opens while you are standing on red ground, you are forced to choose between taking 1500 damage from the ground or taking damage from the Eye. Always prioritize staying on neutral ground.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hazard and Enemy Profiles">
+
+To survive the **blockade battlefront dark dimension**, you must understand the specific behaviors of the entities and traps within. Knowledge of damage numbers and trigger conditions is the difference between a successful escape and a failed run.
+
+<CardGrid cols={3}>
+  <Card title="Jeffery">
+    - **Status**: Invulnerable
+    - **Behavior**: Persistent stalking
+    - **Danger**: High (if Sanity is low)
+    - **Counter**: Maintain Sanity with orbs
+  </Card>
+  <Card title="Latching Toilets">
+    - **Status**: Killable (~200 HP)
+    - **Behavior**: Grabs and holds player
+    - **Danger**: Moderate (prevents kiting)
+    - **Counter**: Quick burst damage
+  </Card>
+  <Card title="Acid Boss">
+    - **Status**: Invincible
+    - **Behavior**: Teleports and spits acid
+    - **Danger**: High (area denial)
+    - **Counter**: Dash away after teleport
+  </Card>
+</CardGrid>
+
+The Acid Boss, appearing in the later waves, acts as a secondary stalker. It resembles a larger version of the acid skull and utilizes a teleportation mechanic to stay on top of the player. It can perform a stomp attack or spit acid, both of which deal significant damage and can slow your movement, making you an easy target for Jeffery.
+
+| Hazard | Damage Type | Damage Amount | Avoidance Method |
+| :--- | :--- | :--- | :--- |
+| **Red Zone** | Environmental | ~1500 per tick | Stay on unlit ground |
+| **Ground Spikes** | Physical | Moderate | Constant movement |
+| **The Eye** | Mental/Magic | Very High | Stand completely still |
+| **Acid Spit** | Poison/DoT | Low-Moderate | Lateral movement/Dashing |
+| **Jeffery's Touch**| Melee | Lethal | Kiting and Sanity upkeep |
+
+<Callout type="info" title="Latching Mechanic">
+If a toilet latches onto you, your movement speed is reduced to zero. You must deal roughly 200 damage to the specific toilet holding you to break free. In the Dark Dimension, being stationary for even three seconds can result in a Red Zone spawning under your feet or Jeffery catching up.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Character Builds for 2026">
+
+Because Titans are disabled, selecting the right small-frame unit is the most important pre-game decision you will make. The current meta for the **blockade battlefront dark dimension** focuses heavily on survivability and self-sustain rather than raw damage output.
+
+The undisputed top-tier choice for this mode is the **Boosted Double Plunger** equipped with the **Legendary Mini UTCM Skin**. This configuration provides a unique set of stats that directly counter the hazards of the dimension.
+
+| Character / Skin | Health Pool | Key Ability | Why It's Meta |
+| :--- | :--- | :--- | :--- |
+| **Mini UTCM** | 5,000 HP | Self-Heal | High margin for error in Red Zones |
+| **Standard Plunger** | 2,500 HP | Dash | Good for kiting but fragile |
+| **Cameraman** | 1,500 HP | Rapid Fire | Too weak to survive Wave 3 hazards |
+| **Speaker Ninja** | 3,000 HP | Speed Boost | Excellent for orb collection |
+
+**Why the Mini UTCM dominates:**
+1.  **Massive Health Pool**: With 5,000 HP, you can survive at least three ticks of Red Zone damage, giving you time to react if you are caught off guard.
+2.  **Self-Healing**: The ability to regenerate health without relying on external drops is vital since health kits are rare in the Dark Dimension.
+3.  **Compact Hitbox**: Despite the high HP, the model remains small enough to navigate tight gaps between ground spikes and Red Zones.
+
+<Callout type="success" title="Self-Sustain is Key">
+Always prioritize a unit with a heal or a shield. Since the primary objective is to reach the end of Wave 4, your ability to recover from a mistake is more valuable than how fast you can clear the tanky toilets.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Escape and Claim the Badge">
+
+Reaching the end of the **blockade battlefront dark dimension** requires more than just surviving the timer. You must successfully navigate the final extraction sequence to earn the prestigious badge and complete the run.
+
+<Steps>
+  <Step num="1" title="Survive the Wave 4 Intensity">
+    Maintain your sanity and avoid the accelerated hazards until the wave timer expires. Ensure you have at least 50% health as you enter the final phase.
+  </Step>
+  <Step num="2" title="Locate Astro Poly">
+    Once the waves conclude, the environment will shift slightly. You must look for **Astro Poly** (also known as the Astro Large TV Man). He serves as your exit portal.
+  </Step>
+  <Step num="3" title="The Final Approach">
+    Move toward Astro Poly immediately. Jeffery and other hazards may still be active during this transition. Do not stop to celebrate until you have physically touched the NPC.
+  </Step>
+  <Step num="4" title="Badge Acquisition">
+    Upon making contact with Astro Poly, the run will end, and you will be awarded the Dark Dimension badge. This confirms your successful escape from the dimension.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Final Sprint">
+During the end phase, Jeffery may perform one last speed burst. Save your movement abilities (dashes or teleports) specifically for the final 50 meters to Astro Poly to ensure you aren't caught at the finish line.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dark Dimension Survival Checklist">
+
+Before heading into your next run, ensure you are fully prepared by following this essential checklist. Missing even one of these steps can significantly lower your chances of survival.
+
+<Checklist
+  id="dark-dimension-prep"
+  title="Pre-Run Requirements:"
+  items={[
+    "Equip Boosted Double Plunger with Mini UTCM skin",
+    "Verify health regen abilities are mapped to easy-access keys",
+    "Turn up in-game brightness to assist in spotting purple orbs",
+    "Check that your internet connection is stable to avoid lag in Red Zones",
+    "Practice standing perfectly still to master the Eye mechanic"
+  ]}
+/>
+
+Survival in this mode is a marathon, not a sprint. By focusing on the mechanics outlined in this guide, you can consistently clear the **blockade battlefront dark dimension** and help your team secure the rarest rewards in the game.
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I use Titan units in the blockade battlefront dark dimension?",
+    answer: "No, Titans and Special Titans are strictly disabled in this mode. You must use smaller character units like the Plunger or Cameraman variants."
+  },
+  {
+    question: "What happens if my Sanity bar reaches zero?",
+    answer: "If the Sanity bar empties, Jeffery gains a massive speed boost. He will be able to catch up to almost any character, making survival nearly impossible unless you find an orb immediately."
+  },
+  {
+    question: "How many purple orbs can be on the map at once?",
+    answer: "There is a hard cap of 7 purple orbs. You should collect them as soon as you see them to allow new ones to spawn for later use."
+  },
+  {
+    question: "Is it possible to kill Jeffery or the Acid Boss?",
+    answer: "No, both Jeffery and the Acid Boss are completely invincible. Your only strategy is to evade their attacks and stay out of their reach."
+  }
+]} />
+
+</Section>
