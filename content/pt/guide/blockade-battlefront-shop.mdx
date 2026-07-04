@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Loja de ST: Linha de Frente de Bloqueio: Guia de Rotação de Itens e Compras 2026",
+  description: "Domine as mecânicas da loja de ST: Linha de Frente de Bloqueio. Saiba mais sobre a rotação da Loja Horária, preços de itens, farm de moedas e os melhores itens para comprar.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Battlefront+Shop+Guide",
+  date: "2026-07-04",
+  author: "Equipe da Wiki de ST: Linha de Frente de Bloqueio"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Loja Principal**: A Loja Horária é o destino principal para adquirir unidades raras e itens utilitários.
+- **Ciclo de Rotação**: Os itens rotacionam a cada 60 minutos, tornando as visitas regulares altamente benéficas.
+- **Moedas Principais**: Moedas Padrão e Gemas servem como as principais moedas para comprar itens de alto nível.
+- **Economia Inteligente**: Mantenha uma reserva de pelo menos 5.000 Moedas para evitar perder unidades de alto nível quando elas aparecerem.
+- **Compras Prioritárias**: Foque em unidades utilitárias que oferecem controle de grupo ou alto dano em área de efeito.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas da Loja de ST: Linha de Frente de Bloqueio">
+
+A economia do jogo depende fortemente da **loja de ST: Linha de Frente de Bloqueio** para distribuir unidades poderosas, cosméticos e impulsos essenciais. Os jogadores devem entender como a interface da loja funciona para maximizar sua velocidade de progressão e construir esquadrões competitivos. A loja é dividida em diferentes abas, cada uma atendendo a necessidades específicas dos jogadores, variando de itens utilitários diários a melhorias premium.
+
+Navegar pela loja com eficiência permite que você planeje o uso de suas moedas. Em vez de gastar recursos imediatamente, jogadores experientes monitoram o inventário rotativo para garantir itens de alto valor que se alinhem com seus objetivos de jogo atuais.
+
+**Destaques do Vídeo:**
+- Passo a passo detalhado da interface principal da loja e abas de navegação.
+- Demonstração das mecânicas de compra usando as moedas do jogo.
+- Visão geral do temporizador de atualização horária e atualizações de estoque.
+
+<YouTubeEmbed videoId="g5EeLS_vaM0" title="Passo a passo da Loja de ST: Linha de Frente de Bloqueio" />
+
+| Categoria da Loja | Moeda Principal | Taxa de Atualização | Público-Alvo |
+| --- | --- | --- | --- |
+| Loja Horária | Moedas / Gemas | 60 Minutos | Progressão gratuita (F2P) |
+| Loja Premium | Robux | Permanente | Jogadores com atalhos pagos |
+| Loja de Evento | Tokens de Evento | Sazonal | Participantes ativos do evento |
+
+<Callout type="info" title="Aviso de Rotação">
+O inventário da loja horária é totalmente do lado do servidor. Se você vir uma unidade desejada, compre-a imediatamente, pois ela pode não retornar à rotação por vários dias.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rotação da Loja Horária e Pools de Itens">
+
+A Loja Horária é o coração da progressão do jogador. Ao contrário dos itens permanentes da loja, o inventário aqui muda dinamicamente, oferecendo uma seleção aleatória de unidades e boosters. Entender as faixas de probabilidade e os valores dos itens ajuda a evitar gastos desnecessários em inventários de nível baixo.
+
+Os itens são categorizados por raridade, o que influencia diretamente tanto a taxa de aparecimento na loja quanto o custo. Saber o que esperar em cada nível permite uma melhor gestão de orçamento.
+
+<Callout type="warning" title="Gerenciamento de Inventário">
+Certifique-se de ter espaço de inventário suficiente antes de comprar unidades da loja. Encher demais o seu inventário pode impedir transações bem-sucedidas.
+</Callout>
+
+| Nível de Raridade | Chance de Aparecimento | Custo Médio em Moedas | Custo Médio em Gemas |
+| --- | --- | --- | --- |
+| Comum | Alta | 500 - 1.000 | 50 - 100 |
+| Raro | Moderada | 1.500 - 3.000 | 150 - 300 |
+| Épico | Baixa | 5.000 - 8.000 | 500 - 800 |
+| Lendário | Muito Baixa | 12.000+ | 1.200+ |
+
+<CardGrid cols={3}>
+  <Card title="Opções Econômicas">
+    - **Baixo custo de recursos**
+    - Utilidade decente no início do jogo
+    - Fácil de atualizar rapidamente
+  </Card>
+  <Card title="Unidades Meta">
+    - **Alto dano causado**
+    - Essencial para fases de fim de jogo
+    - Aparições raras na loja
+  </Card>
+  <Card title="Impulsos Utilitários">
+    - **Multiplicadores de experiência**
+    - Taxas de drop de moedas duplicadas
+    - Ideal para sessões de farm
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Farm de Moedas Passo a Passo para a Loja">
+
+Para comprar consistentemente itens de alto nível na **loja de ST: Linha de Frente de Bloqueio**, você precisa de um método confiável para gerar Moedas e Gemas. Depender apenas de renda passiva limitará sua capacidade de comprar itens Lendários quando eles aparecerem.
+
+Siga estes passos estruturados para otimizar sua geração de recursos e construir uma reserva saudável de moedas.
+
+<Steps>
+  <Step num="1" title="Complete Missões Diárias">
+    Faça login diariamente para completar os desafios básicos. Eles oferecem uma fonte garantida de Gemas e Moedas com investimento mínimo de tempo.
+  </Step>
+  <Step num="2" title="Otimize as Partidas do Modo Infinito">
+    Entre no Modo Infinito com sua melhor configuração defensiva. Quanto mais você progredir pelas ondas, maior se tornará o multiplicador de moedas.
+  </Step>
+  <Step num="3" title="Utilize Impulsos Duplos">
+    Ative impulsos de Moeda ou Gema antes de iniciar longas sessões de jogo. Coordene esses impulsos com fins de semana de eventos da comunidade para obter o rendimento máximo.
+  </Step>
+  <Step num="4" title="Reinvista na Loja">
+    Use suas moedas farmadas para comprar unidades geradoras de moedas ou ferramentas de assistência de farm na loja, criando um ciclo sustentável.
+  </Step>
+</Steps>
+
+| Método de Farm | Moedas por Hora | Gemas por Hora | Nível de Dificuldade |
+| --- | --- | --- | --- |
+| Missões Diárias | 2.000 | 200 | Muito Fácil |
+| Modo Infinito | 5.000 | 150 | Médio |
+| Fases Pesadelo | 8.000 | 300 | Difícil |
+
+<Callout type="success" title="Dica de Eficiência">
+Jogar em lobbies multijogador concede um pequeno bônus cooperativo de moedas. Sempre tente farmar com um grupo para maximizar seus retornos por partida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégia de Compra e Checklist">
+
+Gastar com inteligência é tão importante quanto farmar com eficiência. Comprar todos os itens que aparecem na loja esgotará rapidamente suas reservas, deixando você incapaz de comprar unidades de alto nível quando elas entrarem na rotação.
+
+Desenvolva uma estratégia de compra rigorosa. Categorize as unidades em listas de "obrigatórias" e "ignorar" com base no meta atual do jogo.
+
+| Tipo de Unidade | Nível de Prioridade | Valor Estratégico | Ação Recomendada |
+| --- | --- | --- | --- |
+| Suporte / Buffers | Alta | Aumenta o DPS geral da equipe | Compre imediatamente |
+| DPS de Alvo Único | Média | Bom para chefes, fraco para ondas | Compre se faltar dano |
+| Skins Cosméticas | Baixa | Apenas melhorias visuais | Ignore, a menos que tenha moedas excedentes |
+
+<Callout type="tip" title="Estratégia Pro">
+Mantenha uma reserva básica de moedas da qual você nunca fique abaixo. Para a maioria dos jogadores, manter uma reserva de 10.000 Moedas garante preparação para rotações lendárias inesperadas.
+</Callout>
+
+<Checklist
+  id="shop-routine"
+  title="Checklist da Rotina Diária da Loja:"
+  items={[
+    "Verifique a rotação da loja horária pelo menos três vezes ao dia",
+    "Resgate a recompensa diária gratuita da loja na aba premium",
+    "Compare os preços atuais da loja com os valores de troca da comunidade",
+    "Converta moedas excedentes em gemas se a taxa de câmbio for favorável"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Com que frequência a loja de ST: Linha de Frente de Bloqueio é atualizada?",
+    answer: "A seção Loja Horária é atualizada exatamente a cada 60 minutos. As lojas premium e de evento são atualizadas de acordo com as atualizações do jogo e cronogramas sazonais."
+  },
+  {
+    question: "Posso bloquear um item na loja para que ele não saia da rotação?",
+    answer: "Atualmente, não há mecânica de bloqueio. Se o temporizador chegar a zero, o inventário atual será substituído, independentemente de você querer comprá-lo ou não."
+  },
+  {
+    question: "É melhor gastar Moedas ou Gemas na loja?",
+    answer: "As Moedas são mais fáceis de farmar, tornando-as ideais para unidades comuns e raras. Economize suas Gemas exclusivamente para unidades lendárias ou itens utilitários exclusivos."
+  },
+  {
+    question: "Os preços da loja aumentam com o nível do meu jogador?",
+    answer: "Não, os preços da loja permanecem estáticos para todos os jogadores. Isso permite que jogadores de nível baixo adquiram unidades poderosas cedo se farmarem moedas suficientes."
+  }
+]} />
+
+<Callout type="info" title="Suporte Adicional">
+Para as atualizações mais recentes sobre as pools da loja e taxas de drop, consulte os canais oficiais da comunidade ou as notas de atualização lançadas pela equipe de desenvolvimento.
+</Callout>
+
+</Section>
