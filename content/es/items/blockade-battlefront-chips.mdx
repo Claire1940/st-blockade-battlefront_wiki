@@ -1,0 +1,206 @@
+import { Shield, Sparkles, Target, Trophy, Swords, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Chips de Frente de Batalla de Bloqueo: rareza, pity y mejores opciones",
+  description: "Aprende cómo funcionan los chips de Frente de Batalla de Bloqueo, compara cada rareza, entiende el pity y elige la mejor ruta de mejora para tu estilo de juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/334155/fff?text=Blockade+Battlefront+Chips",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de Frente de Batalla de Bloqueo"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los chips de Frente de Batalla de Bloqueo** son mejoras opcionales que aplican potenciadores automáticamente después de aparecer con un chip equipado.
+- **La rareza importa** porque cada nivel cambia la HP, los potenciadores de daño y la reducción de daño o las penalizaciones.
+- **Vuelve a equiparlo después de cambiar de servidor** para que el bono de tu chip siga activo en la siguiente partida.
+- **El pity a las 200 tiradas** garantiza un chip Legendario, lo que hace que las sesiones largas sean más predecibles.
+- **Los chips secretos** son objetos solo para administradores con estadísticas fijas en lugar de tiradas aleatorias.
+</Callout>
+
+<Section icon={Map} title="Descripción general de los chips de Frente de Batalla de Bloqueo">
+
+Los chips de Frente de Batalla de Bloqueo son mejoras opcionales que compras en la tienda, equipas desde tu inventario y luego dejas que funcionen automáticamente una vez que tu personaje aparece. No se comportan como un sumidero pasivo de moneda ni como una recompensa única; son una elección de equipamiento que cambia qué tan resistente o agresivo se siente tu personaje seleccionado en una partida.
+
+<Callout type="tip" title="Cómo funciona el sistema">
+Una vez que un chip está equipado, su bono se aplica automáticamente al aparecer. Si te unes a un nuevo servidor, equípalo otra vez antes de esperar sacar valor de él.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Equípalo primero">
+    Selecciona un chip de tu inventario antes de aparecer en una partida.
+  </Card>
+  <Card title="Potenciadores automáticos">
+    Los potenciadores se aplican automáticamente, así que no necesitas activarlos manualmente.
+  </Card>
+  <Card title="Regla de reinicio por servidor">
+    Vuelve a equiparlo cada vez que te unas a un servidor nuevo para mantener el bono activo.
+  </Card>
+</CardGrid>
+
+| Regla básica | Qué significa |
+|---|---|
+| Mejora opcional | Los chips mejoran a un personaje, pero no son obligatorios para jugar. |
+| Efecto automático | Los beneficios se aplican al aparecer, según el chip que hayas equipado. |
+| Basado en inventario | Primero debes seleccionar un chip de tu inventario. |
+| Sensible al servidor | Vuelve a equiparlo cada vez que te unas a un servidor nuevo. |
+
+Para la entrada del objeto y las notas de rareza, mantén abierta la [página de referencia de Upgrader Chips](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Upgrader_Chips) mientras comparas las tiradas y los rangos de estadísticas.
+
+</Section>
+
+<Section icon={Sparkles} title="Desglose de rarezas y rangos de estadísticas">
+
+El conjunto de chips tiene seis niveles de rareza, y la mayor parte del valor proviene del reparto de estadísticas más que de un número fijo de poder. Los chips normales lanzan estadísticas aleatorias, mientras que los chips Secret usan valores fijos creados a través del panel de administración.
+
+<Callout type="warning" title="Nota importante sobre la rareza">
+Las estadísticas de los chips normales son aleatorias, así que dos chips de la misma rareza pueden sentirse diferentes. No juzgues un nivel solo por su tono.
+</Callout>
+
+| Rareza | Probabilidad de tirada | Tono visual | Patrón de estadísticas | Notas |
+|---|---:|---|---|---|
+| Común | 40% | Predeterminado | +10 a +500 HP | La tirada de supervivencia más básica |
+| Común 1 | 40% | Tono pastel | +1% a +20% de potenciador de daño | La tirada de daño más básica |
+| Raro | 15% | Azul | -1% a -20% de daño recibido de todas las fuentes | El segundo nivel más común |
+| Legendario | 5% | Naranja | +10 a +500 HP, +1% a +20% de potenciador de daño, +1% a +20% de reducción de daño | Chip sólido y completo |
+| Mítico | 0.5% | Rojo, oscurecido en la tienda | +500 a +1500 HP, +10% a +30% de potenciador de daño, -10% a -30% de daño recibido de todas las fuentes | El nivel obtenible más raro |
+| Secreto | Especial | Verde | Estadísticas fijas establecidas por un desarrollador | Solo para devs, testers, jugadores de confianza o ganadores de sorteos |
+
+<Callout type="info" title="Planificación de estadísticas">
+Como las tiradas son aleatorias, un chip de rareza baja con una buena tirada todavía puede servir al principio. Legendario sigue siendo el objetivo más limpio a largo plazo para la mayoría de los jugadores.
+</Callout>
+
+| Nivel | Mejor caso de uso | Valor práctico |
+|---|---|---|
+| Común | Durabilidad temprana | Fácil de obtener, mejora simple de HP |
+| Común 1 | Ofensiva temprana | Aumento de daño barato, flexible para configuraciones nuevas |
+| Raro | Utilidad situacional | Útil cuando quieres un perfil de estadísticas distinto |
+| Legendario | Configuración equilibrada | El mejor nivel general para la mayoría de los jugadores |
+| Mítico | Búsqueda de alto nivel | Techo excelente, probabilidad de tirada extremadamente baja |
+| Secreto | Acceso de administrador | Estadísticas especiales fijas, no forma parte de la progresión normal |
+
+</Section>
+
+<Section icon={Target} title="Cómo tirar, equipar y volver a equipar">
+
+La tienda es la ruta principal para la mayoría de los jugadores, y el Paquete de Valor destaca porque garantiza un chip Legendario más 5 Astro Tokens. Si quieres un progreso constante, el orden importa: tira con cabeza, equipa una vez que consigas un resultado útil y recuerda la regla de volver a equiparlo al cambiar de servidor.
+
+<Callout type="tip" title="Mejor flujo de trabajo">
+Trata la búsqueda de chips como un ciclo de progresión: consigue una tirada, guarda el nivel útil, equípalo antes del combate y vuelve a equiparlo después de cambiar de servidor.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abre la tienda">
+    Busca Upgrader Chips en la tienda y decide si quieres una tirada aleatoria o la ruta del Paquete de Valor.
+  </Step>
+  <Step num="2" title="Elige tu método de obtención">
+    Tira por un chip si estás buscando variedad, o usa el Paquete de Valor si quieres un resultado Legendario garantizado.
+  </Step>
+  <Step num="3" title="Equípalo desde el inventario">
+    Selecciona un chip en tu inventario y luego equípalo antes de entrar en una partida.
+  </Step>
+  <Step num="4" title="Aparece y pruébalo">
+    Entra en la partida y confirma que el potenciador se siente bien para la elección de tu personaje y tu rol.
+  </Step>
+  <Step num="5" title="Vuelve a equiparlo tras cambiar de servidor">
+    Si te unes a otro servidor, equipa el chip otra vez antes de asumir que el bono está activo.
+  </Step>
+</Steps>
+
+| Método de obtención | Resultado | Ideal para |
+|---|---|---|
+| Tirada en la tienda | Chip aleatorio | Jugadores que buscan suerte en la rareza |
+| Paquete de Valor | Chip Legendario + 5 Astro Tokens | Jugadores que quieren valor garantizado |
+| Recompensa del panel de administración | Chip Secreto con estadísticas fijas | Desarrolladores, testers, usuarios de confianza, ganadores de sorteos |
+
+</Section>
+
+<Section icon={Swords} title="Las mejores opciones de chip según el estilo de juego">
+
+No existe un único chip universalmente mejor, porque la opción correcta depende de si quieres dureza, daño o un punto medio flexible. La regla más segura es adaptar el chip a la función que cumple tu personaje en la partida.
+
+<Callout type="success" title="Lógica de configuración">
+Elige chips según lo que le falte a tu personaje. Los tanques quieren más durabilidad, mientras que las configuraciones agresivas quieren daño y un mayor retorno por cada aparición.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tanque / primera línea">
+    - **Mejor opción:** Legendario o Común con mucha HP
+    - **Objetivo:** Resistir más tiempo y удержener espacio
+    - **Por qué funciona:** La HP y la reducción de daño te mantienen activo en las peleas
+  </Card>
+  <Card title="Configuración equilibrada">
+    - **Mejor opción:** Legendario
+    - **Objetivo:** Mezclar ofensiva y defensa
+    - **Por qué funciona:** Un solo chip puede cubrir HP, potenciador de daño y reducción al mismo tiempo
+  </Card>
+  <Card title="Configuración agresiva">
+    - **Mejor opción:** Común 1, Legendario o Mítico
+    - **Objetivo:** Aumentar el daño
+    - **Por qué funciona:** Las tiradas centradas en daño hacen que cada aparición sea más amenazante
+  </Card>
+</CardGrid>
+
+| Estilo de juego | Nivel recomendado | Motivo |
+|---|---|---|
+| Tanque / primera línea | Legendario, Común con mucha HP | Más supervivencia por aparición |
+| Distribuidor de daño | Común 1, Legendario, Mítico | Mejor presión de daño |
+| Juego en solitario flexible | Legendario | La mejor opción mixta de estadísticas |
+| Configuración de búsqueda | Mítico | Techo más alto, pero muy raro |
+| Acceso especial | Secreto | Estadísticas fijas para pruebas controladas |
+
+Si no sabes por dónde empezar, usa Legendario como tu objetivo base y solo busca niveles más raros cuando el reparto de estadísticas apoye claramente tu configuración.
+
+</Section>
+
+<Section icon={Trophy} title="Plan de pity, lista de verificación y FAQ">
+
+El sistema de pity evita que el farmeo se vuelva interminable. Una vez que tu contador de tiradas llega a 200, el juego otorga automáticamente un chip Legendario. Eso hace que sea más fácil planificar la búsqueda de chips, especialmente si prefieres una progresión predecible en lugar de pura suerte.
+
+<Callout type="info" title="Recordatorio de pity">
+El sistema lleva un registro de tus tiradas durante todo el farmeo. Una vez que llegas a 200, la recompensa Legendaria aparece automáticamente.
+</Callout>
+
+| Contador de tiradas | Resultado | Nota de planificación |
+|---|---|---|
+| 0 a 199 | Tiradas normales | Sigue evaluando la calidad de las estadísticas y la rareza |
+| 200 | Legendario garantizado | Un buen colchón de seguridad para el progreso a largo plazo |
+| Acceso Secreto | Aparición solo para administradores | No forma parte de la progresión normal del pity |
+
+<Checklist
+  id="chip-priority"
+  title="Lista de verificación de progresión de chips:"
+  items={[
+    "Tira hasta conseguir un chip que coincida con tu rol",
+    "Equipa el chip antes de aparecer en una partida",
+    "Vuelve a equiparlo después de cada nuevo servidor",
+    "Controla tu contador de tiradas para no desperdiciar el pity de 200 tiradas",
+    "Usa el Paquete de Valor cuando quieras valor Legendario garantizado"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Los chips de Frente de Batalla de Bloqueo siguen activos después de entrar a un nuevo servidor?",
+    answer: "No. Vuelve a equipar el chip cada vez que te unas a un nuevo servidor si quieres que el bono se aplique otra vez."
+  },
+  {
+    question: "¿Cuál es el nivel de chip más raro?",
+    answer: "Mítico es el nivel obtenible más raro, con una probabilidad de tirada del 0.5%."
+  },
+  {
+    question: "¿Qué pasa a las 200 tiradas?",
+    answer: "El sistema de pity otorga un chip Legendario automáticamente una vez que tu contador de tiradas llega a 200."
+  },
+  {
+    question: "¿Todas las estadísticas de los chips son aleatorias?",
+    answer: "La mayoría de las estadísticas de los chips son aleatorias, pero los chips Secret usan estadísticas fijas establecidas por un desarrollador."
+  }
+]} />
+
+</Section>

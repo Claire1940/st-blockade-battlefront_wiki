@@ -1,0 +1,200 @@
+import { Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront dark speakerman: Guia de Build e Maestria",
+  description: "Aprenda o kit de faca, lança e som do Dark Speakerman e, em seguida, siga a árvore de habilidades e os marcos de maestria para causar dano mais consistente em Blockade Battlefront.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Dark+Speakerman+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **blockade battlefront dark speakerman** recompensa janelas curtas de explosão e um controle disciplinado dos tempos de recarga.
+- O **modo Faca** e o kit de lança cobrem a maioria das lutas, mas a maestria muda o ritmo.
+- **Sound Improvement** e **Multi-Task** são as primeiras melhorias a priorizar.
+- A **Maestria 80** é o principal ponto de virada para dano dobrado e acesso extra.
+</Callout>
+
+<Section icon={Map} title="Visão Geral de blockade battlefront dark speakerman">
+
+Dark Speakerman é um bruiser híbrido criado para entradas rápidas, rajadas corpo a corpo precisas e um pacote de lança no fim de jogo. O kit funciona melhor quando você se compromete com propósito, em vez de trocar golpes aleatoriamente. Se quiser a referência mais completa da lista de movimentos, comece pela página do personagem aqui: [Página wiki do Dark Speakerman](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Dark_Speakerman).
+
+<CardGrid cols={3}>
+  <Card title="Dano de Explosão">
+    - Sequências curtas e pesadas
+    - Forte escalonamento com maestria
+    - Melhor após uma entrada limpa
+  </Card>
+  <Card title="Mobilidade">
+    - Salto com jetpack
+    - Ferramentas de avanço rápido
+    - Reposicionamento fácil
+  </Card>
+  <Card title="Sobrevivência">
+    - Aura de redução de dano
+    - Melhorias no corpo ajudam
+    - Mais seguro no curto alcance
+  </Card>
+</CardGrid>
+
+| Aspecto | Resumo | Uso Prático |
+| --- | --- | --- |
+| Pressão inicial | O modo Faca pode acertar **4 golpes** para **800 de dano total**, ou **1600** na maestria 80 | Puna alvos isolados e finalize inimigos com pouca vida |
+| Ferramentas de entrada | O corte em salto e a estocada pesada em salto oferecem dois níveis diferentes de compromisso | Use a ferramenta de recarga curta para lutas comuns e guarde a estocada pesada para alvos valiosos |
+| Janela defensiva | A aura vermelha adiciona **50% de dano** e **60% de resistência** | Ative antes de se comprometer totalmente, não depois de já estar perdendo vida |
+
+<Callout type="tip" title="Regra de Posicionamento">
+Trate Dark Speakerman como um lutador de momentum. Ele parece mais forte quando você entra no seu ritmo, encadeia alguns golpes de alto valor e sai antes que o inimigo se recupere.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise das Habilidades e Janelas de Dano">
+
+O conjunto de movimentos mistura pressão de curto alcance, mobilidade e follow-ups com lança. O hábito mais forte é aprender quais movimentos são seguros para gastar cedo e quais devem ser reservados para uma janela de punição. Os valores de dano também escalam de forma diferente com Battlepride e maestria, então não leia cada número como uma base absoluta.
+
+| Movimento | Dano | Recarga | Melhor Uso |
+| --- | --- | --- | --- |
+| Modo Faca | **200 por golpe**, **800 no total**; **400 por golpe** na maestria 80 | Não listado | Combo principal de curta distância e sequência de punição |
+| Corte em salto | **155**, **225** com Battlepride, **300** na maestria 80 | **13s** | Aproximação, perseguição e entrada leve |
+| Estocada pesada em salto | **750**, **1125** com Battlepride, **1500-2250** na maestria 80 | **40s** | Grande explosão em alvo e ferramenta de comprometimento |
+| Buff de aura vermelha | **50% de aumento de dano**, **60% de resistência** | **54s** | Janela de poder antes da luta |
+| Cortes vermelhos | **261**, **587** com Battlepride, **522** na maestria 80 | **17s** | Dano em área e pressão em grupo |
+| Onda sonora | **120**, **180** com Battlepride, **240** na maestria 80 | **10s** | Poke seguro e valor no meio da luta |
+
+| Ferramenta de Lança | Dano | Recarga | Melhor Uso |
+| --- | --- | --- | --- |
+| Ataque de lança | **170** por golpe, **255** com Battlepride, **340** na maestria 80 | **6s** | Pressão frontal confiável |
+| Avanço com lança | **30**, **45** com Battlepride, **60** na maestria 80 | **20s** | Perseguição direcionada ou reposicionamento |
+| Arremesso de lança | **30**, **45** com Battlepride, **60** na maestria 80 | **6s** | Poke com cursor e pressão para finalizar |
+| Giro de lança | **180**, **270** com Battlepride, **360** na maestria 80 | **9s** | Limpeza de curta distância em área |
+
+<Callout type="warning" title="Tempo do Dano">
+A aura é o seu botão de comprometimento mais forte, mas ela brilha apenas quando você já tem um alvo ou uma luta que consiga encerrar rápido. Use primeiro as ferramentas de recarga curta e depois gaste as pesadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Caminho da Árvore de Habilidades e Ordem de Melhoria">
+
+A árvore de habilidades é direta, mas a ordem importa mais do que a maioria dos jogadores espera. Algumas melhorias desbloqueiam seu kit real, enquanto outras apenas deixam o personagem mais resistente. Se você priorizar defesa cedo demais, atrasará os movimentos que realmente definem sua pressão.
+
+<Steps>
+  <Step num="1" title="Comece com a Faca">
+    A Faca é comprada automaticamente por **0 MiS**, então você já começa com o kit base de curta distância disponível.
+  </Step>
+  <Step num="2" title="Desbloqueie Sound Improvement">
+    Gaste **300 MiS** para desbloquear o **movimento F**. Esta é uma das primeiras melhorias de qualidade de vida.
+  </Step>
+  <Step num="3" title="Adicione Multi-Task">
+    Gaste **200 MiS** para desbloquear o **movimento H**. Isso expande suas opções de combate e deixa o kit menos linear.
+  </Step>
+  <Step num="4" title="Finalize com Spear n' Knife">
+    Gaste **1200 MiS** para desbloquear o conjunto de movimentos de lança e faca, e depois volte para melhorias de resistência.
+  </Step>
+</Steps>
+
+| Melhoria | Custo | Desbloqueia | Valor |
+| --- | --- | --- | --- |
+| Faca | **0 MiS** | Kit base | Ponto de partida obrigatório |
+| Sound Improvement | **300 MiS** | **movimento F** | Utilidade inicial e jogabilidade mais fluida |
+| Multi-Task | **200 MiS** | **movimento H** | Mais flexibilidade em combate |
+| Spear n' Knife | **1200 MiS** | Conjunto de lança e faca | Principal expansão do kit |
+| Body Improvement | **500 MiS** | **-10% de dano recebido** | Melhor sobrevivência |
+| Body Improvement 2 | **1000 MiS** | **8 HP/s de regeneração** | Sustentação mais forte entre lutas |
+
+<Callout type="info" title="Prioridade de Melhoria">
+Se você já tiver acesso à progressão de maestria, planeje-se em torno do **Sound Improvement** gratuito na maestria 25. Esse marco muda o valor do MiS gasto no início.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Marcos de Maestria e Plano de Combate">
+
+É na maestria que Dark Speakerman começa a parecer muito mais completo. Os marcos não apenas aumentam números; eles mudam a velocidade com que você acessa o kit e o custo para continuar melhorando-o. Isso faz com que os marcos 25, 50 e 80 valham planejamento, em vez de serem tratados como bônus passivos.
+
+<CardGrid cols={3}>
+  <Card title="Maestria 25">
+    - **Sound Improvement** é desbloqueado automaticamente
+    - Acesso mais rápido ao kit inicial
+    - Menor pressão no gasto de MiS
+  </Card>
+  <Card title="Maestria 50">
+    - As melhorias custam **50% menos**
+    - Melhor eficiência no longo prazo
+    - Caminho mais fácil para o kit completo
+  </Card>
+  <Card title="Maestria 80">
+    - **Dano dobrado** em todas as habilidades
+    - Acesso ao **Speaker Carrier**
+    - Maior marco do fim de jogo
+  </Card>
+</CardGrid>
+
+| Fase da Luta | Prioridade | Resultado |
+| --- | --- | --- |
+| Início | Ative a aura antes de se comprometer | Mais dano e melhor sobrevivência |
+| Entrada | Use primeiro o corte em salto ou o ataque de lança | Garanta contato sem se estender demais |
+| Explosão | Gaste cortes vermelhos, onda sonora ou estocada pesada | Converta a abertura em dano real |
+| Recuo | Saia com dash ou reposicione com ferramentas de movimento | Evite ficar preso depois que as recargas acabarem |
+
+| Erro Comum | Melhor Escolha |
+| --- | --- |
+| Comprar resistência antes de desbloquear o kit principal | Desbloqueie os movimentos primeiro e só depois adicione defesa |
+| Usar arremesso de lança como abertura sempre | Guarde para pressão, finalização ou controle do cursor |
+| Spammar corpo a corpo sem a aura | Crie uma janela de dano antes do compromisso total |
+| Ignorar a maestria 50 | Planeje suas melhorias em torno do marco de custo menor |
+
+<Callout type="success" title="Loop Prático">
+Comece com mobilidade, gaste sua explosão dentro da aura e saia antes que o inimigo se recupere. Esse ciclo combina melhor com o ritmo do personagem do que lutas prolongadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ e Checklist Final">
+
+Antes de investir mais tempo em Dark Speakerman, confirme se o caminho da build combina com seus objetivos. Este personagem é mais forte quando a ordem de melhorias, os alvos de maestria e o momento da luta funcionam juntos.
+
+<Checklist
+  id="dark-speakerman-goals"
+  title="Objetivos de Maestria:"
+  items={[
+    "Desbloqueie Sound Improvement e Multi-Task cedo",
+    "Guarde MiS suficiente para Spear n' Knife",
+    "Alcance a maestria 25 para o desbloqueio automático",
+    "Avance em direção à maestria 50 para melhorias mais baratas",
+    "Mire a maestria 80 se quiser o pico do fim de jogo"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual é a principal força do Dark Speakerman em blockade battlefront?",
+    answer: "Ele combina dano explosivo, mobilidade e uma aura defensiva forte, então performa melhor como um bruiser de entrada rápida."
+  },
+  {
+    question: "Qual melhoria devo comprar primeiro?",
+    answer: "Sound Improvement é o alvo inicial mais limpo, seguido por Multi-Task e depois Spear n' Knife quando você puder pagar."
+  },
+  {
+    question: "Vale a pena planejar para a maestria 80?",
+    answer: "Sim. A maestria 80 dobra o dano de todas as habilidades e concede acesso ao Speaker Carrier, o que faz dela o maior pico de poder."
+  },
+  {
+    question: "Devo jogar agressivamente o tempo todo?",
+    answer: "Não exatamente. Dark Speakerman é mais forte quando você escolhe o momento da entrada, usa bem a janela da aura e recua antes de ficar preso."
+  }
+]} />
+
+<Callout type="tip" title="Conclusão Final">
+Use a página de origem como referência dos movimentos, mas construa em torno dos verdadeiros marcos: desbloqueios iniciais, eficiência na maestria 50 e escalonamento de explosão na maestria 80.
+</Callout>
+
+</Section>

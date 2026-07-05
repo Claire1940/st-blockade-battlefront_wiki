@@ -1,0 +1,206 @@
+import { Shield, Sparkles, Target, Trophy, Swords, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Chip blockade battlefront: Kelangkaan, Pity, dan Pilihan Terbaik",
+  description: "Pelajari cara kerja chip blockade battlefront, bandingkan setiap rarity, pahami pity, dan pilih jalur upgrade terbaik sesuai gaya bermainmu.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/334155/fff?text=Blockade+Battlefront+Chips",
+  date: "2026-07-05",
+  author: "Tim Wiki blockade battlefront"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **chip blockade battlefront** adalah upgrade opsional yang langsung menerapkan buff secara otomatis setelah kamu spawn dengan chip yang sudah dipasang.
+- **Rarity itu penting** karena setiap tier mengubah HP, buff damage, serta pengurangan atau penalti damage.
+- **Pasang ulang setelah pindah server** supaya bonus chip tetap aktif di match berikutnya.
+- **Pity di 200 kali roll** menjamin chip Legendary, sehingga sesi bermain panjang jadi lebih mudah diprediksi.
+- **Secret chips** adalah item khusus admin dengan stat tetap, bukan hasil roll acak.
+</Callout>
+
+<Section icon={Map} title="Gambaran Umum Chip blockade battlefront">
+
+chip blockade battlefront adalah upgrade opsional yang kamu beli dari shop, pasang dari inventori, lalu biarkan bekerja otomatis begitu karaktermu spawn. Item ini bukan seperti penguras mata uang pasif atau hadiah sekali pakai; ini adalah pilihan loadout yang mengubah seberapa tahan banting atau agresif karakter yang kamu pilih saat pertandingan.
+
+<Callout type="tip" title="Cara kerja sistem">
+Setelah chip dipasang, bonusnya akan aktif otomatis saat spawn. Kalau kamu masuk ke server baru, pasang lagi chip tersebut sebelum kamu mengandalkan efeknya.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Pasang Dulu">
+    Pilih chip dari inventori sebelum spawn ke dalam match.
+  </Card>
+  <Card title="Buff Otomatis">
+    Buff diterapkan otomatis, jadi kamu tidak perlu memicunya secara manual.
+  </Card>
+  <Card title="Aturan Reset Server">
+    Pasang ulang setiap kali masuk server baru agar bonus tetap aktif.
+  </Card>
+</CardGrid>
+
+| Aturan Inti | Artinya |
+|---|---|
+| Upgrade opsional | Chip meningkatkan karakter, tetapi tidak wajib untuk bermain. |
+| Efek otomatis | Manfaat diterapkan saat spawn, berdasarkan chip yang kamu pasang. |
+| Berbasis inventori | Kamu harus memilih chip dari inventori terlebih dahulu. |
+| Sensitif terhadap server | Pasang ulang setiap kali kamu masuk ke server baru. |
+
+Untuk entri item dan catatan rarity, buka terus [halaman referensi Upgrader Chips](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Upgrader_Chips) saat kamu membandingkan roll dan rentang stat.
+
+</Section>
+
+<Section icon={Sparkles} title="Rincian Rarity dan Rentang Stat">
+
+Pool chip memiliki enam tier rarity, dan sebagian besar nilainya berasal dari sebaran stat, bukan angka kekuatan tetap. Chip biasa me-roll stat secara acak, sedangkan Secret chips menggunakan nilai tetap yang dibuat melalui panel admin.
+
+<Callout type="warning" title="Catatan Penting Tentang Rarity">
+Stat chip biasa bersifat acak, jadi dua chip dengan rarity yang sama tetap bisa terasa berbeda. Jangan menilai tier hanya dari warnanya.
+</Callout>
+
+| Rarity | Peluang Roll | Warna Tampilan | Pola Stat | Catatan |
+|---|---:|---|---|---|
+| Common | 40% | Default | +10 hingga +500 HP | Roll survivability paling dasar |
+| Common 1 | 40% | Warna pastel | +1% hingga +20% buff damage | Roll damage paling dasar |
+| Rare | 15% | Biru | -1% hingga -20% damage yang diterima dari semua sumber | Tier umum kedua terbanyak |
+| Legendary | 5% | Oranye | +10 hingga +500 HP, +1% hingga +20% buff damage, +1% hingga +20% pengurangan damage | Chip serbaguna yang kuat |
+| Mythic | 0.5% | Merah, digelapkan di shop | +500 hingga +1500 HP, +10% hingga +30% buff damage, -10% hingga -30% damage yang diterima dari semua sumber | Tier yang paling langka dan bisa didapat |
+| Secret | Khusus | Hijau | Stat tetap yang ditetapkan oleh developer | Hanya untuk dev, tester, pemain tepercaya, atau pemenang giveaway |
+
+<Callout type="info" title="Perencanaan Stat">
+Karena roll bersifat acak, chip rarity lebih rendah dengan roll yang kuat tetap bisa berguna di awal. Legendary tetap menjadi target jangka panjang yang paling aman bagi kebanyakan pemain.
+</Callout>
+
+| Tier | Kegunaan Terbaik | Nilai Praktis |
+|---|---|---|
+| Common | Ketahanan awal | Mudah didapat, bonus HP sederhana |
+| Common 1 | Serangan awal | Tambahan damage murah, fleksibel untuk build baru |
+| Rare | Utilitas situasional | Berguna saat kamu ingin profil stat yang berbeda |
+| Legendary | Loadout seimbang | Tier serbaguna terbaik untuk sebagian besar pemain |
+| Mythic | Kejaran kelas atas | Potensi sangat tinggi, peluang roll sangat rendah |
+| Secret | Akses admin | Stat khusus tetap, bukan progres standar |
+
+</Section>
+
+<Section icon={Target} title="Cara Roll, Memasang, dan Memasang Ulang">
+
+Shop adalah jalur utama bagi sebagian besar pemain, dan Value Pack menonjol karena menjamin chip Legendary plus 5 Astro Tokens. Jika kamu ingin progres yang stabil, urutannya penting: roll dengan cerdas, pasang setelah mendapat hasil yang berguna, dan ingat aturan pasang ulang saat pindah server.
+
+<Callout type="tip" title="Alur Kerja Terbaik">
+Anggap perburuan chip seperti loop progres: dapatkan roll, simpan tier yang berguna, pasang sebelum bertarung, lalu pasang ulang setelah kamu pindah server.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Buka shop">
+    Cari Upgrader Chips di shop dan tentukan apakah kamu ingin roll acak atau jalur Value Pack.
+  </Step>
+  <Step num="2" title="Pilih metode perolehanmu">
+    Roll chip jika kamu mengejar variasi, atau gunakan Value Pack jika kamu ingin hasil Legendary yang dijamin.
+  </Step>
+  <Step num="3" title="Pasang dari inventori">
+    Pilih satu chip di inventori, lalu pasang sebelum masuk ke match.
+  </Step>
+  <Step num="4" title="Spawn dan uji">
+    Masuk ke match dan pastikan buff-nya terasa cocok untuk pilihan karakter dan peranmu.
+  </Step>
+  <Step num="5" title="Pasang ulang setelah pindah server">
+    Jika kamu masuk server lain, pasang lagi chip tersebut sebelum menganggap bonusnya aktif.
+  </Step>
+</Steps>
+
+| Metode Perolehan | Hasil | Cocok Untuk |
+|---|---|---|
+| Roll shop | Chip acak | Pemain yang mengejar keberuntungan rarity |
+| Value Pack | Chip Legendary + 5 Astro Tokens | Pemain yang ingin nilai pasti |
+| Pemberian panel admin | Secret chip dengan stat tetap | Developer, tester, pengguna tepercaya, pemenang giveaway |
+
+</Section>
+
+<Section icon={Swords} title="Pilihan Chip Terbaik Berdasarkan Gaya Bermain">
+
+Tidak ada satu chip terbaik yang universal, karena pilihan yang tepat bergantung pada apakah kamu ingin ketahanan, damage, atau jalan tengah yang fleksibel. Aturan paling aman adalah mencocokkan chip dengan tugas yang dijalankan karakter kamu di dalam match.
+
+<Callout type="success" title="Logika Build">
+Pilih chip berdasarkan apa yang kurang dari karakter kamu. Tank butuh ketahanan lebih tinggi, sedangkan build agresif butuh damage dan hasil yang lebih besar dari setiap spawn.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tank / Garis Depan">
+    - **Cocok terbaik:** Legendary atau Common dengan HP tinggi
+    - **Tujuan:** Bertahan lebih lama dan menahan area
+    - **Kenapa efektif:** HP dan pengurangan damage membuatmu tetap aktif dalam pertarungan
+  </Card>
+  <Card title="Loadout Seimbang">
+    - **Cocok terbaik:** Legendary
+    - **Tujuan:** Menggabungkan serangan dan pertahanan
+    - **Kenapa efektif:** Satu chip bisa mencakup HP, buff damage, dan pengurangan sekaligus
+  </Card>
+  <Card title="Build Agresif">
+    - **Cocok terbaik:** Common 1, Legendary, atau Mythic
+    - **Tujuan:** Meningkatkan damage
+    - **Kenapa efektif:** Roll yang berfokus pada damage membuat setiap spawn lebih mengancam
+  </Card>
+</CardGrid>
+
+| Gaya Bermain | Tier yang Direkomendasikan | Alasan |
+|---|---|---|
+| Tank / garis depan | Legendary, Common dengan fokus HP | Survivability lebih tinggi per spawn |
+| Dealer damage | Common 1, Legendary, Mythic | Tekanan damage lebih baik |
+| Solo play fleksibel | Legendary | Opsi stat campuran terkuat |
+| Build kejaran | Mythic | Potensi tertinggi, tetapi sangat langka |
+| Akses khusus | Secret | Stat tetap untuk pengujian terkontrol |
+
+Kalau kamu belum yakin harus mulai dari mana, gunakan Legendary sebagai target dasar dan hanya kejar tier yang lebih langka ketika sebaran statnya jelas mendukung build kamu.
+
+</Section>
+
+<Section icon={Trophy} title="Rencana Pity, Checklist, dan FAQ">
+
+Sistem pity mencegah grind terasa tanpa akhir. Begitu jumlah roll kamu mencapai 200, game akan otomatis memberikan chip Legendary. Itu membuat perburuan chip lebih mudah direncanakan, terutama jika kamu menginginkan progres yang bisa diprediksi alih-alih murni mengandalkan keberuntungan.
+
+<Callout type="info" title="Pengingat Pity">
+Sistem ini melacak roll kamu selama proses grind. Begitu mencapai 200, hadiah Legendary akan datang otomatis.
+</Callout>
+
+| Jumlah Roll | Hasil | Catatan Perencanaan |
+|---|---|---|
+| 0 hingga 199 | Roll normal | Terus evaluasi kualitas stat dan rarity |
+| 200 | Legendary dijamin | Jaring pengaman yang berguna untuk progres jangka panjang |
+| Akses Secret | Spawn khusus admin | Bukan bagian dari progres pity normal |
+
+<Checklist
+  id="chip-priority"
+  title="Checklist Progres Chip:"
+  items={[
+    "Roll sampai kamu mendapatkan chip yang sesuai dengan peranmu",
+    "Pasang chip sebelum spawn ke dalam match",
+    "Pasang ulang setelah setiap kali masuk server baru",
+    "Lacak jumlah roll agar pity 200 roll tidak terbuang",
+    "Gunakan Value Pack saat kamu ingin nilai Legendary yang dijamin"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Apakah blockade battlefront chips tetap aktif setelah saya masuk server baru?",
+    answer: "Tidak. Pasang ulang chip setiap kali kamu masuk server baru jika ingin bonusnya aktif lagi."
+  },
+  {
+    question: "Apa tier chip yang paling langka?",
+    answer: "Mythic adalah tier yang paling langka dan bisa didapat, dengan peluang roll 0.5%."
+  },
+  {
+    question: "Apa yang terjadi pada 200 roll?",
+    answer: "Sistem pity akan memberikan chip Legendary secara otomatis setelah jumlah roll kamu mencapai 200."
+  },
+  {
+    question: "Apakah semua stat chip acak?",
+    answer: "Sebagian besar stat chip memang acak, tetapi Secret chips menggunakan stat tetap yang ditetapkan oleh developer."
+  }
+]} />
+
+</Section>

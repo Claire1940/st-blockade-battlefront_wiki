@@ -1,0 +1,200 @@
+import { Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront dark speakerman: Panduan Build & Mastery",
+  description: "Pelajari kit pisau, tombak, dan suara milik Dark Speakerman, lalu ikuti skill tree dan breakpoint mastery untuk damage yang lebih stabil di Blockade Battlefront.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Dark+Speakerman+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki blockade battlefront"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **blockade battlefront dark speakerman** paling diuntungkan oleh jendela burst singkat dan pelacakan cooldown yang disiplin.
+- **Mode Knife** dan kit tombak mencakup sebagian besar pertarungan, tetapi mastery mengubah ritmenya.
+- **Sound Improvement** dan **Multi-Task** adalah upgrade pertama yang harus dituju.
+- **Mastery 80** adalah breakpoint utama untuk damage yang digandakan dan akses tambahan.
+</Callout>
+
+<Section icon={Map} title="Ikhtisar blockade battlefront dark speakerman">
+
+Dark Speakerman adalah bruiser hibrida yang dibuat untuk engage cepat, burst melee tajam, dan paket tombak di late game. Kit ini paling efektif saat kamu commit dengan tujuan jelas, bukan asal trading. Jika kamu ingin referensi daftar gerakan yang paling rapi, mulai dari halaman karakter di sini: [Halaman wiki Dark Speakerman](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Dark_Speakerman).
+
+<CardGrid cols={3}>
+  <Card title="Damage Burst">
+    - Rangkaian singkat yang berat
+    - Skalasi mastery yang kuat
+    - Paling baik setelah engage yang bersih
+  </Card>
+  <Card title="Mobilitas">
+    - Lompatan jetpack
+    - Alat dash cepat
+    - Mudah repositioning
+  </Card>
+  <Card title="Bertahan Hidup">
+    - Aura pengurang damage
+    - Upgrade tubuh membantu
+    - Lebih aman dalam jarak dekat
+  </Card>
+</CardGrid>
+
+| Aspek | Inti | Penggunaan Praktis |
+| --- | --- | --- |
+| Tekanan awal | Mode Knife bisa mendaratkan **4 hit** untuk **800 total** damage, atau **1600** pada mastery 80 | Menghukum target yang terpisah dan menghabisi musuh dengan HP rendah |
+| Alat engage | Leap slash dan heavy leap stab memberi dua tingkat commit yang berbeda | Gunakan alat cooldown singkat untuk pertarungan rutin dan simpan heavy stab untuk target bernilai tinggi |
+| Jendela pertahanan | Aura merah menambah **50% damage** dan **60% resistance** | Gunakan sebelum commit penuh, bukan setelah kamu sudah kehilangan HP |
+
+<Callout type="tip" title="Aturan Posisi">
+Perlakukan Dark Speakerman seperti petarung momentum. Dia terasa paling kuat saat kamu masuk dengan inisiatifmu sendiri, menyambung beberapa hit bernilai tinggi, lalu pergi sebelum musuh sempat reset.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rincian Kemampuan dan Jendela Damage">
+
+Rangkaian gerakannya menggabungkan tekanan jarak dekat, mobilitas, dan follow-up tombak. Kebiasaan terkuat adalah mempelajari gerakan mana yang aman dipakai lebih awal dan mana yang harus disimpan untuk jendela hukuman. Nilai damage juga menskalakan secara berbeda dengan Battlepride dan mastery, jadi jangan membaca setiap angka sebagai baseline langsung.
+
+| Gerakan | Damage | Cooldown | Penggunaan Terbaik |
+| --- | --- | --- | --- |
+| Mode Knife | **200 per slash**, **800 total**; **400 per slash** pada mastery 80 | Tidak tercantum | Kombo inti jarak dekat dan rangkaian hukuman |
+| Leap slash | **155**, **225** dengan Battlepride, **300** pada mastery 80 | **13d** | Menutup jarak, mengejar, dan engage ringan |
+| Heavy leap stab | **750**, **1125** dengan Battlepride, **1500-2250** pada mastery 80 | **40d** | Burst besar pada target dan alat commit |
+| Buff aura merah | **50% bonus damage**, **60% resistance** | **54d** | Jendela kekuatan sebelum pertarungan |
+| Red slashes | **261**, **587** dengan Battlepride, **522** pada mastery 80 | **17d** | Damage area dan tekanan ke banyak musuh |
+| Soundwave | **120**, **180** dengan Battlepride, **240** pada mastery 80 | **10d** | Poke aman dan nilai di tengah pertarungan |
+
+| Alat Tombak | Damage | Cooldown | Penggunaan Terbaik |
+| --- | --- | --- | --- |
+| Serangan tombak | **170** per hit, **255** dengan Battlepride, **340** pada mastery 80 | **6d** | Tekanan ke depan yang andal |
+| Spear dash | **30**, **45** dengan Battlepride, **60** pada mastery 80 | **20d** | Mengejar target atau mengatur jarak |
+| Lempar tombak | **30**, **45** dengan Battlepride, **60** pada mastery 80 | **6d** | Poke dengan kursor dan tekanan finishing |
+| Putaran tombak | **180**, **270** dengan Battlepride, **360** pada mastery 80 | **9d** | Bersih-bersih area jarak dekat |
+
+<Callout type="warning" title="Waktu Damage">
+Aura adalah tombol commit terkuatmu, tetapi ia bersinar hanya saat kamu sudah punya target atau pertarungan yang bisa segera kamu selesaikan. Gunakan alat cooldown rendah terlebih dahulu, lalu keluarkan yang berat.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Jalur Skill Tree dan Urutan Upgrade">
+
+Skill tree-nya sederhana, tetapi urutannya lebih penting daripada yang kebanyakan pemain duga. Beberapa upgrade membuka kit sesungguhnya, sementara yang lain hanya membuat karakter lebih tahan banting. Jika kamu terlalu cepat mengejar durability, kamu akan menunda gerakan yang benar-benar menentukan tekananmu.
+
+<Steps>
+  <Step num="1" title="Mulai dengan Knife">
+    Knife otomatis dibeli dengan **0 MiS**, jadi kamu memulai dengan kit jarak dekat dasar yang sudah aktif.
+  </Step>
+  <Step num="2" title="Buka Sound Improvement">
+    Keluarkan **300 MiS** untuk membuka **F move**. Ini adalah salah satu upgrade kualitas hidup paling awal.
+  </Step>
+  <Step num="3" title="Tambahkan Multi-Task">
+    Keluarkan **200 MiS** untuk membuka **H move**. Ini memperluas opsi bertarungmu dan membuat kit terasa kurang linear.
+  </Step>
+  <Step num="4" title="Selesaikan dengan Spear n' Knife">
+    Keluarkan **1200 MiS** untuk membuka set gerakan tombak dan knife, lalu kembali untuk upgrade durability.
+  </Step>
+</Steps>
+
+| Upgrade | Biaya | Membuka | Nilai |
+| --- | --- | --- | --- |
+| Knife | **0 MiS** | Kit dasar | Titik awal wajib |
+| Sound Improvement | **300 MiS** | **F move** | Utilitas awal dan permainan yang lebih mulus |
+| Multi-Task | **200 MiS** | **H move** | Lebih fleksibel dalam pertarungan |
+| Spear n' Knife | **1200 MiS** | Set tombak dan knife | Ekspansi utama kit |
+| Body Improvement | **500 MiS** | **-10% damage taken** | Survivability lebih baik |
+| Body Improvement 2 | **1000 MiS** | **8 HP/det regenerasi** | Sustain lebih kuat di antara pertarungan |
+
+<Callout type="info" title="Prioritas Upgrade">
+Jika kamu sudah memiliki akses ke progression mastery, rencanakan sekitar **Sound Improvement** gratis pada mastery 25. Breakpoint itu mengubah nilai pengeluaran MiS di awal permainan.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Breakpoint Mastery dan Rencana Pertarungan">
+
+Di mastery-lah Dark Speakerman mulai terasa jauh lebih lengkap. Breakpoint bukan hanya menaikkan angka; mereka juga mengubah seberapa cepat kamu bisa mengakses kit dan seberapa murah kamu bisa terus mengembangkannya. Itu membuat milestone 25, 50, dan 80 layak direncanakan, bukan sekadar dianggap bonus pasif.
+
+<CardGrid cols={3}>
+  <Card title="Mastery 25">
+    - **Sound Improvement** terbuka otomatis
+    - Akses awal ke kit lebih cepat
+    - Tekanan pada pengeluaran MiS berkurang
+  </Card>
+  <Card title="Mastery 50">
+    - Upgrade berbiaya **50% lebih murah**
+    - Efisiensi jangka panjang lebih baik
+    - Jalan menuju kit penuh lebih mudah
+  </Card>
+  <Card title="Mastery 80">
+    - **Damage digandakan** pada semua ability
+    - Akses ke **Speaker Carrier**
+    - Breakpoint late game terbesar
+  </Card>
+</CardGrid>
+
+| Fase Pertarungan | Prioritas | Hasil |
+| --- | --- | --- |
+| Pembukaan | Cast aura sebelum commit | Damage lebih tinggi dan survivability lebih baik |
+| Engage | Gunakan leap slash atau spear attack terlebih dahulu | Kontak tercapai tanpa overextend |
+| Burst | Keluarkan red slashes, soundwave, atau heavy stab | Ubah pembukaan menjadi damage nyata |
+| Reset | Dash keluar atau reposition dengan alat mobilitas | Hindari terjebak setelah cooldown habis |
+
+| Kesalahan Umum | Pilihan yang Lebih Baik |
+| --- | --- |
+| Membeli durability sebelum unlock inti | Ambil unlock gerakan dulu, lalu tambahkan pertahanan |
+| Selalu memakai spear throw sebagai pembuka | Simpan untuk pressure, finishing, atau kontrol kursor |
+| Spam melee tanpa aura | Bangun jendela damage sebelum commit penuh |
+| Mengabaikan mastery 50 | Rencanakan upgrade di sekitar breakpoint biaya lebih rendah |
+
+<Callout type="success" title="Siklus Praktis">
+Buka dengan mobilitas, keluarkan burst di dalam aura, lalu keluar sebelum musuh sempat reset. Siklus itu lebih cocok dengan ritme karakter ini daripada adu brawl yang berkepanjangan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ dan Daftar Periksa Akhir">
+
+Sebelum kamu menginvestasikan lebih banyak waktu ke Dark Speakerman, pastikan jalur build-nya sesuai dengan tujuanmu. Karakter ini paling kuat saat urutan upgrade, target mastery, dan timing pertarungan saling mendukung.
+
+<Checklist
+  id="dark-speakerman-goals"
+  title="Target Mastery:"
+  items={[
+    "Buka Sound Improvement dan Multi-Task lebih awal",
+    "Simpan MiS yang cukup untuk Spear n' Knife",
+    "Capai mastery 25 untuk unlock otomatis",
+    "Kejar mastery 50 untuk upgrade yang lebih murah",
+    "Bidik mastery 80 jika kamu menginginkan lonjakan late-game"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Apa kekuatan utama Dark Speakerman di blockade battlefront?",
+    answer: "Dia menggabungkan burst damage, mobilitas, dan aura defensif yang kuat, sehingga paling efektif sebagai bruiser dengan commit cepat."
+  },
+  {
+    question: "Upgrade mana yang harus saya beli pertama?",
+    answer: "Sound Improvement adalah target awal yang paling bersih, diikuti Multi-Task, lalu Spear n' Knife saat kamu mampu membelinya."
+  },
+  {
+    question: "Apakah mastery 80 layak direncanakan?",
+    answer: "Ya. Mastery 80 menggandakan damage pada semua ability dan memberi akses ke Speaker Carrier, sehingga menjadi lonjakan kekuatan terbesar."
+  },
+  {
+    question: "Haruskah saya bermain agresif setiap saat?",
+    answer: "Tidak juga. Dark Speakerman paling kuat saat kamu memilih timing engage, memanfaatkan jendela aura dengan baik, dan reset sebelum terjebak."
+  }
+]} />
+
+<Callout type="tip" title="Inti Akhir">
+Gunakan halaman sumber sebagai referensi gerakan, tetapi bangun di sekitar breakpoint yang nyata: unlock awal, efisiensi mastery 50, dan scaling burst mastery 80.
+</Callout>
+
+</Section>

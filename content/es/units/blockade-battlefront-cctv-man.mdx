@@ -1,0 +1,202 @@
+import { Target, Swords, Trophy, Map, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront cctv man: Habilidades, builds y tácticas",
+  description: "Aprende a usar blockade battlefront cctv man con un desglose claro de habilidades, prioridades de maestría, consejos de awakening y un flujo de combate que gana partidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Blockade+Battlefront+CCTV+Man+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guía rápida">
+- **blockade battlefront cctv man** destaca como un luchador móvil de corte y explosión con un fuerte control de masas.
+- **Q y E** te dan las herramientas de reposicionamiento más seguras para presionar, esquivar a tiempo y reiniciar oleadas.
+- **Awakening** es tu mayor ventana de cambio, así que guárdalo para jefes, oleadas densas o empujes clave.
+- **Maestría 50** reduce el coste de awakening, mientras que **Maestría 80** desbloquea una habilidad importante de final de partida.
+- La **presión de DOT** hace que cada intercambio cuente, así que mantén a los enemigos en rango después de tu primera entrada.
+</Callout>
+
+<Section icon={Target} title="Resumen de rol para blockade battlefront cctv man">
+
+blockade battlefront cctv man se juega como un asesino de primera línea de ritmo alto con la utilidad suficiente para castigar a los enemigos agrupados. El kit recompensa el timing, la distancia y el uso inteligente de los tiempos de reutilización más que el spam bruto. Si entras sin un plan, gastas demasiado pronto tus movimientos más fuertes. Si alternas tus cortes, ventanas de desaparición y perforaciones de seguimiento, obtienes mucho más valor de cada combate.
+
+<CardGrid cols={3}>
+  <Card title="Movilidad">
+    Gran reposicionamiento gracias a **Q**, además de presión hacia delante con cadenas de cortes y seguimientos de perforación.
+  </Card>
+  <Card title="Explosión">
+    Golpes pesados en **E**, **R**, **Y** y **G** te permiten convertir una apertura en una limpieza rápida.
+  </Card>
+  <Card title="Awakening">
+    Se usa mejor cuando los enemigos están agrupados, ralentizados o ya comprometidos en una pelea que controlas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Prioridad de rol">
+Trata a esta unidad como un rematador primero y un duelista después. Los mejores resultados vienen de elegir peleas que te permitan encadenar daño en lugar de intercambiar un movimiento a la vez.
+</Callout>
+
+| Categoría | Mejor uso | Notas |
+|---|---|---|
+| **Limpieza de oleadas** | Alta | Muy fuerte cuando los enemigos están apilados o pasan por puntos estrechos |
+| **Explosión a un solo objetivo** | Muy alta | Mejor después de abrir de forma segura o castigar un tiempo de reutilización |
+| **Movilidad** | Alta | **Q** ayuda con el timing de esquiva y los ángulos de reentrada |
+| **Presión sostenida** | Media | El DOT sigue aportando valor después del golpe inicial |
+
+</Section>
+
+<Section icon={Swords} title="Desglose de habilidades y sincronización del daño">
+
+El kit se basa en ráfagas cortas, cortes encadenados y golpes de seguimiento con retraso. Eso significa que tu mejor daño suele venir de leer el movimiento enemigo y comprometerte solo cuando tu siguiente acción ya está planeada. Varias habilidades también aplican DOT, así que incluso un intercambio rápido puede seguir rindiendo después de que te repliegues.
+
+<Callout type="warning" title="La sincronización del daño importa">
+No desperdicies tus tiempos de reutilización más fuertes en objetivos débiles si pronto aparecerá un jefe, una oleada de élite o una línea repleta. El kit obtiene mucho más valor cuando los enemigos se ven obligados a permanecer cerca de ti.
+</Callout>
+
+| Habilidad | Efecto | Enfriamiento | Mejor uso |
+|---|---|---:|---|
+| **M1** | Hasta 2 cortes encadenados, 550 de daño por golpe | No se muestra enfriamiento | Intercambios rápidos, remate, presión |
+| **Q** | Desaparece con mayor velocidad y luego vuelve a la velocidad normal | 3s | Esquivar, salir, reposicionarse |
+| **E** | Avanza rodando y luego corta al frente para 3000 de daño | 11s | Cerrar distancia, castigo de carril |
+| **R** | Dos cortes, invoca clones y luego se lanza al frente para 3480 de daño | 10s | Inicio de combo de explosión |
+| **Y** | Un corte y luego un gran corte retardado de largo alcance para 5660 de daño | 13.3s | Comprométete cuando el objetivo no pueda escapar |
+| **F** | Detecta enemigos cercanos, invoca aliados y luego corta y perfora | 28s | Control de masas y daño de respaldo |
+| **G** | Dos cortes, perfora al frente y luego clava la hoja en el suelo | 10s | Presión a media distancia y reinicio |
+| **H** | Cinemática de awakening, aura de fuego, música del servidor, presión de larga duración | 115s | Jefes, oleadas agrupadas, control |
+| **J** | Invoca enemigos derrotados como apoyo | 180s | Turnos de valor, peleas prolongadas |
+| **Z** | Corta y luego perfora para 3000 de daño | 15s | Seguimiento seguro tras una lectura |
+
+| Tipo de movimiento | Qué te aporta | Por qué importa |
+|---|---|---|
+| **Apertura rápida** | **M1, Z** | Formas sencillas de confirmar daño sin comprometerte demasiado |
+| **Cierre de distancia** | **E, R, G** | Te ayuda a forzar el contacto en tus propios términos |
+| **Herramienta de castigo** | **Y** | Recompensa por conectar un golpe limpio o atrapar una retirada |
+| **Herramienta de control** | **F, H** | Mejor cuando los enemigos ya están agrupados |
+
+<Callout type="info" title="Regla práctica">
+Si tu objetivo sigue siendo móvil, apóyate en **Q** y en secuencias de menor compromiso. Si el objetivo está atrapado o ralentizado, gasta los golpes grandes y termina la secuencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maestría, Awakening y objetivos de desbloqueo">
+
+La maestría cambia la eficiencia con la que el kit escala en partidas largas. El punto más importante es Maestría 50, porque reduce el coste de awakening y hace que tu gran ventana de poder sea mucho más fácil de alcanzar. Maestría 80 es el hito de final de partida porque desbloquea la habilidad de maestría más fuerte y le da al personaje una identidad más clara en sesiones prolongadas.
+
+<Callout type="success" title="Mejores objetivos de maestría">
+Apunta primero a **Maestría 50** y luego avanza hacia **Maestría 80** si piensas usar al personaje en contenido más largo o difícil. Ese orden ofrece el mejor retorno de tu tiempo.
+</Callout>
+
+| Nivel de maestría | Recompensa | Impacto |
+|---|---|---|
+| **25** | N/D | No se lista ninguna ventaja importante |
+| **50** | El coste de awakening baja de **10,000 MIS** a **4,000 MIS** | Mucho más fácil acceder al awakening de forma consistente |
+| **80** | Desbloquea **Great Burial Ranks of the Ten Trillion Dead** | Potente pico de poder de final de partida |
+
+| Estado | Qué cambia | Mejor momento para usar |
+|---|---|---|
+| **Modo normal** | Intercambio estándar de enfriamientos, poke más seguro, explosión más selectiva | Oleadas tempranas, exploración, peleas a distancia |
+| **Modo awakened** | Aura de fuego, daño pasivo a tu alrededor, perfil de amenaza mejorado | Jefes, líneas densas, puntos de control |
+| **Seguimiento de awakening** | Daño rematador de gran alcance después de la cinemática | Cuando los enemigos ya están comprometidos |
+
+<Callout type="tip" title="Mentalidad de awakening">
+No pienses en el awakening como un botón de pánico. Trátalo como una fase de poder planificada que debe comenzar cuando el campo de batalla ya te favorece.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rotación de combate: ejecución paso a paso">
+
+La forma más limpia de pilotar blockade battlefront cctv man es construir presión por capas. Empieza con el movimiento, confirma la distancia y luego gasta tus ataques más pesados solo después de que el enemigo ya haya reaccionado. Así evitas quedar vendido mientras el kit está en enfriamiento.
+
+<Steps>
+  <Step num="1" title="Abre con posicionamiento">
+    Usa **Q** para rodear amenazas, evitar castigo temprano y alinear un primer golpe mejor.
+  </Step>
+  <Step num="2" title="Confirma la entrada">
+    Elige **E**, **R** o **Z** cuando el objetivo esté expuesto y no pueda simplemente alejarse.
+  </Step>
+  <Step num="3" title="Convierte la explosión">
+    Si el oponente se mantiene en rango, sigue con **Y** o **G** para convertir la apertura en daño real.
+  </Step>
+  <Step num="4" title="Reinicia o extiende">
+    Reposiciona y vuelve a entrar con presión de **M1** o con **F** si más enemigos se han unido a la pelea.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de posicionamiento">
+Usa **Q** para esquivar transmisores y otras herramientas de presión, no solo para perseguir. Un buen ángulo de escape suele crear una mejor segunda entrada que una embestida temeraria.
+</Callout>
+
+| Situación | Movimiento recomendado | Motivo |
+|---|---|---|
+| **Grupo pequeño de enemigos** | **E** y luego **M1** | Cierre de distancia simple con seguimiento fiable |
+| **Jefe o élite** | **Y** después de una preparación | Mejor recompensa por daño alto retardado |
+| **Línea densa** | **F** o **H** | Fuerte presión de área y apoyo de aliados |
+| **Necesitas salir del combate** | **Q** | Herramienta de seguridad rápida con potencial de reentrada |
+| **Pelea prolongada** | **J** y luego rota habilidades | Añade valor cuando siguen quedando cuerpos en el campo |
+
+<Callout type="success" title="Mejor hábito de rotación">
+Mantén disponible al menos una herramienta de movimiento antes de gastar tu mayor explosión. Ese hábito protege tu tempo y te mantiene vivo el tiempo suficiente para conectar el siguiente ciclo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist y preguntas frecuentes">
+
+Antes de llevar a blockade battlefront cctv man a una partida seria, asegúrate de que el kit, los objetivos de maestría y los hábitos de enfriamiento estén alineados. Este personaje rinde mejor cuando preparas la pelea en lugar de improvisar cada intercambio.
+
+<Callout type="info" title="Comprobación de preparación">
+Si puedes describir tu apertura, tu escape y tu condición para activar awakening antes de que empiece la partida, ya estás usando el kit mejor que la mayoría de los jugadores.
+</Callout>
+
+<Checklist
+  id="cctv-man-readiness"
+  title="Checklist de preparación para la partida:"
+  items={[
+    "Saber qué movimiento inicia tu entrada",
+    "Guardar Q para esquivar o reposicionarte",
+    "Usar H solo cuando la pelea merezca el enfriamiento",
+    "Avanzar primero hacia Maestría 50",
+    "Practicar una ruta de explosión para enemigos agrupados"
+  ]}
+/>
+
+| Error común | Mejor enfoque |
+|---|---|
+| **Gastar H demasiado pronto** | Guarda awakening para una oleada, un jefe o una pelea de control |
+| **Perseguir sin Q** | Usa primero la movilidad y luego comprométete |
+| **Desperdiciar Y en un objetivo en movimiento** | Espera hasta que el enemigo esté atrapado o distraído |
+| **Ignorar los puntos de quiebre de maestría** | Alcanza **50** antes de perseguir el desbloqueo caro de final de partida |
+
+<FAQ items={[
+  {
+    question: "¿En qué destaca más blockade battlefront cctv man?",
+    answer: "El personaje es más fuerte cuando puede encadenar movilidad, explosión y presión de DOT en una sola entrada limpia. Sobresale en peleas agrupadas y al castigar objetivos expuestos."
+  },
+  {
+    question: "¿Cuándo debería usar awakening?",
+    answer: "Usa awakening cuando los enemigos estén agrupados, haya un jefe activo o puedas mantener una línea el tiempo suficiente para aprovechar el aura y la presión de seguimiento."
+  },
+  {
+    question: "¿Vale la pena correr a por Maestría 50?",
+    answer: "Sí. La reducción del coste de awakening es una de las mejoras más importantes para tener impacto constante en la partida, especialmente en combates largos."
+  },
+  {
+    question: "¿Qué debería practicar primero?",
+    answer: "Practica el reposicionamiento con Q hacia el seguimiento con E o R, y luego añade Y para la explosión retardada. Esa secuencia enseña el ritmo central del kit."
+  }
+]} />
+
+<Callout type="tip" title="Conclusión final">
+Esta unidad recompensa la paciencia, la distancia y el uso disciplinado de los tiempos de reutilización. Construye tu apertura, mantén listo tu escape y gasta awakening cuando el campo de batalla ya te favorezca.
+</Callout>
+
+</Section>

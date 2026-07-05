@@ -1,0 +1,206 @@
+import { Shield, Sparkles, Target, Trophy, Swords, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront chips: Raridade, Pity e Melhores Escolhas",
+  description: "Aprenda como funcionam os blockade battlefront chips, compare cada raridade, entenda o pity e escolha a melhor rota de melhoria para o seu estilo de jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/334155/fff?text=Blockade+Battlefront+Chips",
+  date: "2026-07-05",
+  author: "Equipe do Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **blockade battlefront chips** são melhorias opcionais que aplicam buffs automaticamente depois que você surge com um chip equipado.
+- **A raridade importa** porque cada tier altera HP, buffs de dano e redução ou penalidades de dano.
+- **Equipe novamente após trocar de servidor** para que o bônus do chip continue ativo na próxima partida.
+- **Pity em 200 rolls** garante um chip Legendary, o que deixa sessões longas mais previsíveis.
+- **Secret chips** são itens exclusivos de administrador com atributos fixos em vez de rolls aleatórios.
+</Callout>
+
+<Section icon={Map} title="Visão geral dos blockade battlefront chips">
+
+blockade battlefront chips são melhorias opcionais que você compra na loja, equipa do seu inventário e depois deixa funcionando automaticamente assim que seu personagem surge. Eles não funcionam como um gasto passivo de moeda nem como uma recompensa única; são uma escolha de loadout que muda o quanto o seu personagem selecionado parece resistente ou agressivo em uma partida.
+
+<Callout type="tip" title="Como o sistema funciona">
+Depois que um chip é equipado, seu bônus é aplicado automaticamente ao surgir. Se você entrar em um novo servidor, equipe-o novamente antes de esperar que ele entregue valor.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Equipe primeiro">
+    Selecione um chip no seu inventário antes de surgir em uma partida.
+  </Card>
+  <Card title="Buffs automáticos">
+    Os buffs são aplicados automaticamente, então você não precisa ativá-los manualmente.
+  </Card>
+  <Card title="Regra de reset do servidor">
+    Reequipe após cada entrada em um novo servidor para manter o bônus ativo.
+  </Card>
+</CardGrid>
+
+| Regra principal | O que isso significa |
+|---|---|
+| Melhoria opcional | Os chips melhoram um personagem, mas não são obrigatórios para jogar. |
+| Efeito automático | Os benefícios são aplicados ao surgir, com base no chip que você equipou. |
+| Baseado no inventário | Você precisa selecionar um chip do seu inventário primeiro. |
+| Dependente do servidor | Requipe toda vez que entrar em um novo servidor. |
+
+Para a entrada do item e as notas de raridade, deixe a [página de referência de Upgrader Chips](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Upgrader_Chips) aberta enquanto compara rolls e intervalos de atributos.
+
+</Section>
+
+<Section icon={Sparkles} title="Detalhamento das raridades e intervalos de atributos">
+
+O conjunto de chips tem seis tiers de raridade, e a maior parte do valor vem da distribuição dos atributos, e não de um número fixo de poder. Chips normais rolam atributos aleatórios, enquanto Secret chips usam valores definidos criados pelo painel de administração.
+
+<Callout type="warning" title="Observação importante sobre raridade">
+Os atributos de chips normais são aleatórios, então dois chips da mesma raridade ainda podem parecer diferentes. Não julgue um tier apenas pela cor.
+</Callout>
+
+| Raridade | Chance de roll | Tom visual | Padrão de atributos | Observações |
+|---|---:|---|---|---|
+| Comum | 40% | Padrão | +10 a +500 HP | Roll básico de sobrevivência |
+| Comum 1 | 40% | Tom pastel | +1% a +20% de buff de dano | Roll básico de dano |
+| Raro | 15% | Azul | -1% a -20% de dano recebido de todas as fontes | Segundo tier mais comum |
+| Lendário | 5% | Laranja | +10 a +500 HP, +1% a +20% de buff de dano, +1% a +20% de redução de dano | Chip forte e completo |
+| Mítico | 0,5% | Vermelho, escurecido na loja | +500 a +1500 HP, +10% a +30% de buff de dano, -10% a -30% de dano recebido de todas as fontes | Tier obtível mais raro |
+| Secreto | Especial | Verde | Atributos fixos definidos por um desenvolvedor | Apenas para devs, testers, jogadores confiáveis ou vencedores de sorteios |
+
+<Callout type="info" title="Planejamento de atributos">
+Como os rolls são aleatórios, um chip de raridade menor com um roll forte ainda pode ser útil no começo. O Lendário continua sendo o alvo mais limpo no longo prazo para a maioria dos jogadores.
+</Callout>
+
+| Tier | Melhor uso | Valor prático |
+|---|---|---|
+| Comum | Durabilidade inicial | Fácil de obter, aumento simples de HP |
+| Comum 1 | Ataque inicial | Ganho barato de dano, flexível para builds mais novas |
+| Raro | Utilidade situacional | Útil quando você quer um perfil de atributos diferente |
+| Lendário | Loadout equilibrado | Melhor tier geral para a maioria dos jogadores |
+| Mítico | Caça de alto nível | Teto excelente, chance de roll extremamente baixa |
+| Secreto | Acesso de administrador | Atributos especiais fixos, não faz parte da progressão padrão |
+
+</Section>
+
+<Section icon={Target} title="Como rolar, equipar e reequipar">
+
+A loja é a principal rota para a maioria dos jogadores, e o Value Pack se destaca porque garante um chip Lendário mais 5 Astro Tokens. Se você quer progresso constante, a ordem importa: role com inteligência, equipe assim que conseguir um resultado útil e lembre-se da regra de reequipar ao trocar de servidor.
+
+<Callout type="tip" title="Melhor fluxo de trabalho">
+Trate a busca por chips como um ciclo de progressão: consiga um roll, guarde o tier útil, equipe antes do combate e reequipe depois que trocar de servidor.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abra a loja">
+    Procure por Upgrader Chips na loja e decida se quer um roll aleatório ou seguir pela rota do Value Pack.
+  </Step>
+  <Step num="2" title="Escolha seu método de obtenção">
+    Role por um chip se estiver buscando variedade, ou use o Value Pack se quiser um resultado Lendário garantido.
+  </Step>
+  <Step num="3" title="Equipe pelo inventário">
+    Selecione um chip no seu inventário e então equipe-o antes de entrar em uma partida.
+  </Step>
+  <Step num="4" title="Surja e teste">
+    Entre na partida e confirme se o buff parece adequado para a escolha e a função do seu personagem.
+  </Step>
+  <Step num="5" title="Requipe após mudar de servidor">
+    Se você entrar em outro servidor, equipe o chip novamente antes de presumir que o bônus está ativo.
+  </Step>
+</Steps>
+
+| Método de obtenção | Resultado | Melhor para |
+|---|---|---|
+| Roll na loja | Chip aleatório | Jogadores que buscam sorte na raridade |
+| Value Pack | Chip Lendário + 5 Astro Tokens | Jogadores que querem valor garantido |
+| Concessão pelo painel de administração | Chip Secreto com atributos fixos | Desenvolvedores, testers, usuários confiáveis, vencedores de sorteios |
+
+</Section>
+
+<Section icon={Swords} title="Melhores escolhas de chip por estilo de jogo">
+
+Não existe um único melhor chip universal, porque a escolha certa depende de você querer resistência, dano ou um meio-termo flexível. A regra mais segura é combinar o chip com a função que seu personagem está desempenhando na partida.
+
+<Callout type="success" title="Lógica de build">
+Escolha chips com base no que falta ao seu personagem. Tanks querem mais durabilidade, enquanto builds agressivas querem dano e um retorno maior a cada surgimento.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tank / Linha de frente">
+    - **Melhor encaixe:** Lendário ou Comum com HP alto
+    - **Objetivo:** Sobreviver mais tempo e segurar espaço
+    - **Por que funciona:** HP e redução de dano mantêm você ativo nas lutas
+  </Card>
+  <Card title="Loadout equilibrado">
+    - **Melhor encaixe:** Lendário
+    - **Objetivo:** Misturar ataque e defesa
+    - **Por que funciona:** Um chip pode cobrir HP, buff de dano e redução ao mesmo tempo
+  </Card>
+  <Card title="Build agressiva">
+    - **Melhor encaixe:** Comum 1, Lendário ou Mítico
+    - **Objetivo:** Aumentar o dano
+    - **Por que funciona:** Rolls focados em dano tornam cada surgimento mais ameaçador
+  </Card>
+</CardGrid>
+
+| Estilo de jogo | Tier recomendado | Motivo |
+|---|---|---|
+| Tank / linha de frente | Lendário, Comum com muito HP | Mais sobrevivência por surgimento |
+| Dealer de dano | Comum 1, Lendário, Mítico | Melhor pressão de dano |
+| Jogo solo flexível | Lendário | Melhor opção de atributos mistos |
+| Build de caça | Mítico | Maior teto, mas muito raro |
+| Acesso especial | Secreto | Atributos fixos para testes controlados |
+
+Se você não tiver certeza de por onde começar, use Lendário como alvo base e só busque tiers mais raros quando a distribuição de atributos claramente favorecer sua build.
+
+</Section>
+
+<Section icon={Trophy} title="Plano de pity, checklist e FAQ">
+
+O sistema de pity impede que a grind se torne infinita. Quando sua contagem de rolls chega a 200, o jogo concede automaticamente um chip Lendário. Isso facilita planejar a busca por chips, especialmente se você quer uma progressão previsível em vez de pura sorte.
+
+<Callout type="info" title="Lembrete de pity">
+O sistema acompanha seus rolls ao longo da grind. Quando você chega a 200, a recompensa Lendária vem automaticamente.
+</Callout>
+
+| Contagem de rolls | Resultado | Observação de planejamento |
+|---|---|---|
+| 0 a 199 | Rolls normais | Continue avaliando a qualidade dos atributos e a raridade |
+| 200 | Lendário garantido | Rede de segurança útil para progresso de longo prazo |
+| Acesso secreto | Surgimento exclusivo de administrador | Não faz parte da progressão normal de pity |
+
+<Checklist
+  id="chip-priority"
+  title="Checklist de progressão de chips:"
+  items={[
+    "Role até conseguir um chip que combine com sua função",
+    "Equipe o chip antes de surgir em uma partida",
+    "Requipe após cada entrada em um novo servidor",
+    "Acompanhe sua contagem de rolls para não desperdiçar o pity de 200 rolls",
+    "Use o Value Pack quando quiser valor Lendário garantido"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Os blockade battlefront chips continuam ativos depois que entro em um novo servidor?",
+    answer: "Não. Requipe o chip toda vez que entrar em um novo servidor se quiser que o bônus seja aplicado novamente."
+  },
+  {
+    question: "Qual é o tier de chip mais raro?",
+    answer: "Mítico é o tier obtível mais raro, com chance de roll de 0,5%."
+  },
+  {
+    question: "O que acontece em 200 rolls?",
+    answer: "O sistema de pity concede automaticamente um chip Lendário quando sua contagem de rolls chega a 200."
+  },
+  {
+    question: "Todos os atributos dos chips são aleatórios?",
+    answer: "A maioria dos atributos dos chips é aleatória, mas os Secret chips usam atributos fixos definidos por um desenvolvedor."
+  }
+]} />
+
+</Section>

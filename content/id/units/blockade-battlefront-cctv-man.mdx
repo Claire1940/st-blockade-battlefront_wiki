@@ -1,0 +1,202 @@
+import { Target, Swords, Trophy, Map, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront cctv man: Keterampilan, Build & Taktik",
+  description: "Pelajari cara menggunakan blockade battlefront cctv man dengan rincian kemampuan yang rapi, prioritas mastery, tips awakening, dan alur tempur yang bisa memenangkan pertandingan.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Blockade+Battlefront+CCTV+Man+Guide",
+  date: "2026-07-05",
+  author: "Tim Wiki blockade battlefront"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **blockade battlefront cctv man** bersinar sebagai petarung slash-and-burst yang lincah dengan crowd control yang kuat.
+- **Q dan E** memberi kamu alat reposisi paling aman untuk tekanan, timing menghindar, dan reset gelombang.
+- **Awakening** adalah jendela paling besar untuk membalik keadaan, jadi simpan untuk bos, gelombang padat, atau dorongan penting.
+- **Mastery 50** mengurangi biaya awakening, sementara **Mastery 80** membuka kemampuan besar di late game.
+- **Tekanan DOT** membuat setiap trade berarti, jadi tetap jaga musuh dalam jangkauan setelah engage pertama.
+</Callout>
+
+<Section icon={Target} title="Gambaran Peran untuk blockade battlefront cctv man">
+
+blockade battlefront cctv man bermain seperti assassin garis depan bertempo tinggi dengan utilitas yang cukup untuk menghukum musuh yang berkumpul. Kit ini memberi hadiah pada timing, jarak, dan penggunaan cooldown yang cerdas, bukan spam mentah. Jika kamu menerjang tanpa rencana, kamu akan membuang skill terkuat terlalu cepat. Jika kamu menyusun slash, jendela menghilang, dan tusukan lanjutan dengan tepat, kamu akan mendapat nilai jauh lebih besar dari setiap pertempuran.
+
+<CardGrid cols={3}>
+  <Card title="Mobilitas">
+    Reposisi yang kuat lewat **Q**, ditambah tekanan maju dari rangkaian slash dan follow-up tusukan.
+  </Card>
+  <Card title="Burst">
+    Pukulan berat pada **E**, **R**, **Y**, dan **G** memungkinkan kamu mengubah satu celah menjadi wipe cepat.
+  </Card>
+  <Card title="Awakening">
+    Paling baik digunakan saat musuh berkumpul, melambat, atau sudah terikat dalam pertarungan yang kamu kendalikan.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Prioritas Peran">
+Anggap unit ini sebagai finisher terlebih dahulu dan duelist kedua. Hasil terbaik datang dari memilih pertarungan yang memungkinkan kamu merangkai damage, bukan bertukar satu skill demi satu skill.
+</Callout>
+
+| Kategori | Penggunaan Terbaik | Catatan |
+|---|---|---|
+| **Wave clear** | Tinggi | Kuat saat musuh menumpuk atau melewati titik sempit |
+| **Burst target tunggal** | Sangat Tinggi | Paling baik setelah kamu membuka dengan aman atau menghukum cooldown |
+| **Mobilitas** | Tinggi | **Q** membantu timing menghindar dan sudut re-engage |
+| **Tekanan berkelanjutan** | Sedang | DOT terus memberi nilai setelah hit awal |
+
+</Section>
+
+<Section icon={Swords} title="Rincian Ability dan Timing Damage">
+
+Kit ini dibangun di atas burst singkat, slash berantai, dan hit lanjutan yang tertunda. Artinya, damage terbaikmu sering datang dari membaca gerakan musuh dan baru commit saat aksi berikutnya sudah direncanakan. Beberapa ability juga memberi DOT, jadi bahkan pertukaran singkat pun bisa terus memberi nilai setelah kamu mundur.
+
+<Callout type="warning" title="Timing Damage Itu Penting">
+Jangan buang cooldown terberatmu ke target lemah jika bos, gelombang elite, atau lane padat akan segera datang. Kit ini mendapat nilai jauh lebih besar ketika musuh dipaksa berdiri dekat denganmu.
+</Callout>
+
+| Ability | Efek | Cooldown | Penggunaan Terbaik |
+|---|---|---:|---|
+| **M1** | Hingga 2 slash berantai, 550 damage tiap hit | Tidak ada cooldown yang ditampilkan | Trade cepat, finishing, tekanan |
+| **Q** | Menghilang dengan kecepatan meningkat, lalu kembali ke kecepatan normal | 3d | Menghindar, keluar dari fight, reposisi |
+| **E** | Berguling ke depan, lalu slash di depan untuk 3000 damage | 11d | Menutup jarak, menghukum lane |
+| **R** | Dua slash, memanggil klon, lalu tusuk ke depan untuk 3480 damage | 10d | Pembuka kombo burst |
+| **Y** | Satu slash, lalu slash jarak jauh tertunda untuk 5660 damage | 13.3d | Commit saat target tidak bisa kabur |
+| **F** | Mendeteksi musuh terdekat, memanggil sekutu, lalu slash dan tusuk | 28d | Crowd control dan damage cadangan |
+| **G** | Dua slash, tusuk ke depan, lalu menancapkan bilah ke tanah | 10d | Tekanan jarak menengah dan reset |
+| **H** | Cutscene awakening, aura api, musik server, tekanan durasi panjang | 115d | Bos, gelombang berkumpul, kontrol |
+| **J** | Memanggil musuh yang sudah terbunuh untuk dukungan | 180d | Value turn, pertarungan panjang |
+| **Z** | Slash, lalu tusuk untuk 3000 damage | 15d | Follow-up aman setelah membaca lawan |
+
+| Tipe Gerakan | Apa yang Diberikan | Mengapa Penting |
+|---|---|---|
+| **Pembuka cepat** | **M1, Z** | Cara mudah memastikan damage tanpa overcommit |
+| **Penutup jarak** | **E, R, G** | Membantu kamu memaksa kontak dengan cara sendiri |
+| **Alat menghukum** | **Y** | Hadiah saat berhasil mendaratkan hit bersih atau menangkap lawan yang mundur |
+| **Alat kontrol** | **F, H** | Paling baik saat musuh sudah berkumpul |
+
+<Callout type="info" title="Aturan Praktis">
+Jika targetmu masih lincah, andalkan **Q** dan rangkaian dengan komitmen rendah. Jika target terperangkap atau melambat, keluarkan hit besar dan akhiri rangkaiannya.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mastery, Awakening, dan Target Unlock">
+
+Mastery mengubah seberapa efisien kit ini berkembang dalam pertandingan yang lebih panjang. Titik paling penting adalah Mastery 50, karena itu menurunkan biaya awakening dan membuat jendela besarmu jauh lebih mudah diakses. Mastery 80 adalah milestone late game karena membuka kemampuan mastery yang lebih kuat dan memberi karakter identitas yang lebih jelas dalam sesi panjang.
+
+<Callout type="success" title="Target Mastery Terbaik">
+Kejar **Mastery 50** terlebih dahulu, lalu dorong ke **Mastery 80** jika kamu berencana memakai karakter ini di konten yang lebih panjang atau lebih sulit. Urutan itu memberi hasil terbaik untuk waktumu.
+</Callout>
+
+| Level Mastery | Hadiah | Dampak |
+|---|---|---|
+| **25** | N/A | Tidak ada perk besar yang tercantum |
+| **50** | Biaya awakening turun dari **10.000 MIS** menjadi **4.000 MIS** | Jauh lebih mudah mengakses awakening secara konsisten |
+| **80** | Membuka **Great Burial Ranks of the Ten Trillion Dead** | Lonjakan power besar di late game |
+
+| State | Apa yang Berubah | Waktu Terbaik untuk Dipakai |
+|---|---|---|
+| **Mode normal** | Trade cooldown standar, poke lebih aman, burst lebih selektif | Gelombang awal, scouting, pertarungan jarak |
+| **Mode awakened** | Aura api, damage pasif di sekitarmu, profil ancaman meningkat | Bos, lane padat, titik kontrol |
+| **Follow-up awakening** | Damage penutup jarak besar setelah cutscene | Saat musuh sudah terlanjur commit |
+
+<Callout type="tip" title="Mindset Awakening">
+Jangan anggap awakening sebagai tombol panik. Perlakukan itu sebagai fase power yang direncanakan dan harus dimulai saat medan pertempuran sudah menguntungkan.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rotasi Pertempuran: Eksekusi Langkah demi Langkah">
+
+Cara paling rapi untuk memainkan blockade battlefront cctv man adalah membangun tekanan secara bertahap. Mulailah dengan gerakan, pastikan jarak, lalu keluarkan serangan berat hanya setelah musuh bereaksi. Ini mencegahmu tertinggal saat kit sedang cooldown.
+
+<Steps>
+  <Step num="1" title="Buka dengan positioning">
+    Gunakan **Q** untuk mengitari ancaman, menghindari hukuman awal, dan menyusun hit pertama yang lebih baik.
+  </Step>
+  <Step num="2" title="Konfirmasi engage">
+    Pilih **E**, **R**, atau **Z** saat target terbuka dan tidak bisa begitu saja berjalan pergi.
+  </Step>
+  <Step num="3" title="Cairkan burst">
+    Jika lawan tetap dalam jangkauan, lanjutkan dengan **Y** atau **G** untuk mengubah celah menjadi damage nyata.
+  </Step>
+  <Step num="4" title="Reset atau perpanjang">
+    Reposisi, lalu masuk lagi dengan tekanan **M1** atau **F** jika lebih banyak musuh ikut bertarung.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Peringatan Posisi">
+Gunakan **Q** untuk menghindari transmitter dan alat tekanan lain, bukan hanya untuk mengejar. Sudut keluar yang baik sering menciptakan engage kedua yang lebih baik daripada dive sembrono.
+</Callout>
+
+| Situasi | Gerakan yang Disarankan | Alasan |
+|---|---|---|
+| **Kelompok musuh kecil** | **E** lalu **M1** | Menutup jarak sederhana dengan follow-up yang andal |
+| **Bos atau elite** | **Y** setelah setup | Nilai terbaik dari damage tinggi yang tertunda |
+| **Lane padat** | **F** atau **H** | Tekanan area kuat dan dukungan sekutu |
+| **Perlu keluar dari fight** | **Q** | Alat keamanan cepat dengan potensi masuk kembali |
+| **Pertarungan panjang** | **J** lalu rotasi skill | Menambah value saat tubuh tetap berada di medan |
+
+<Callout type="success" title="Kebiasaan Rotasi Terbaik">
+Simpan setidaknya satu alat gerak sebelum menghabiskan burst terbesarmu. Kebiasaan itu menjaga tempo dan membuatmu tetap hidup cukup lama untuk mendaratkan siklus berikutnya.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist dan FAQ">
+
+Sebelum membawa blockade battlefront cctv man ke pertandingan serius, pastikan kit, target mastery, dan kebiasaan cooldown semuanya selaras. Karakter ini tampil terbaik saat kamu menyiapkan pertarungan, bukan mengimprovisasi setiap exchange.
+
+<Callout type="info" title="Pengecekan Kesiapan">
+Jika kamu bisa menjelaskan pembuka, jalan keluar, dan pemicu awakening sebelum pertandingan dimulai, kamu sudah menggunakan kit ini lebih efektif daripada kebanyakan pemain.
+</Callout>
+
+<Checklist
+  id="cctv-man-readiness"
+  title="Checklist Persiapan Match:"
+  items={[
+    "Ketahui gerakan mana yang memulai engage-mu",
+    "Simpan Q untuk menghindar atau reposisi",
+    "Gunakan H hanya saat pertarungan layak untuk cooldown-nya",
+    "Kejar Mastery 50 terlebih dahulu",
+    "Latih satu rute burst untuk musuh yang berkumpul"
+  ]}
+/>
+
+| Kesalahan Umum | Pendekatan yang Lebih Baik |
+|---|---|
+| **Menghabiskan H terlalu cepat** | Simpan awakening untuk gelombang, bos, atau pertarungan kontrol |
+| **Mengejar tanpa Q** | Gunakan mobilitas dulu, lalu commit |
+| **Membuang Y ke target yang bergerak** | Tunda sampai musuh terperangkap atau terdistraksi |
+| **Mengabaikan breakpoint mastery** | Capai **50** sebelum mengejar unlock late game yang mahal |
+
+<FAQ items={[
+  {
+    question: "Apa yang paling bagus dari blockade battlefront cctv man?",
+    answer: "Karakter ini paling kuat saat bisa merangkai mobilitas, burst, dan tekanan DOT menjadi satu engage yang bersih. Ia unggul dalam pertarungan kelompok dan menghukum target yang terbuka."
+  },
+  {
+    question: "Kapan saya harus memakai awakening?",
+    answer: "Gunakan awakening saat musuh berkumpul, bos aktif, atau kamu bisa menahan lane cukup lama untuk memanfaatkan aura dan tekanan lanjutan."
+  },
+  {
+    question: "Apakah Mastery 50 layak dikejar cepat?",
+    answer: "Ya. Pengurangan biaya awakening adalah salah satu peningkatan terpenting untuk dampak pertandingan yang konsisten, terutama dalam pertarungan yang lebih panjang."
+  },
+  {
+    question: "Apa yang harus saya latih terlebih dahulu?",
+    answer: "Latih reposisi Q ke follow-up E atau R, lalu tambahkan Y untuk burst tertunda. Rangkaian itu mengajarkan ritme inti kit."
+  }
+]} />
+
+<Callout type="tip" title="Kesimpulan Akhir">
+Unit ini memberi hadiah pada kesabaran, jarak, dan penggunaan cooldown yang disiplin. Bangun pembukamu, siapkan jalan keluar, dan gunakan awakening saat medan pertempuran sudah berpihak padamu.
+</Callout>
+
+</Section>

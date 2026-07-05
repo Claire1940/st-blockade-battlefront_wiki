@@ -1,0 +1,206 @@
+import { Shield, Sparkles, Target, Trophy, Swords, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront chips: Rarity, Pity, and Best Picks",
+  description: "Learn how blockade battlefront chips work, compare every rarity, understand pity, and choose the best upgrade path for your playstyle.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/334155/fff?text=Blockade+Battlefront+Chips",
+  date: "2026-07-05",
+  author: "blockade battlefront Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **blockade battlefront chips** are optional upgrades that auto-apply buffs after you spawn with an equipped chip.
+- **Rarity matters** because each tier changes HP, damage buffs, and damage reduction or penalties.
+- **Re-equip after server changes** so your chip bonus stays active in the next match.
+- **Pity at 200 rolls** guarantees a Legendary chip, which makes long sessions more predictable.
+- **Secret chips** are admin-only items with fixed stats instead of random rolls.
+</Callout>
+
+<Section icon={Map} title="blockade battlefront chips Overview">
+
+blockade battlefront chips are optional upgrades that you buy from the shop, equip from your inventory, and then let work automatically once your character spawns. They do not behave like a passive currency sink or a one-time reward; they are a loadout choice that changes how durable or aggressive your selected character feels in a match.
+
+<Callout type="tip" title="How the system behaves">
+Once a chip is equipped, its bonus applies automatically on spawn. If you join a new server, equip it again before you expect value from it.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Equip First">
+    Select a chip from your inventory before spawning into a match.
+  </Card>
+  <Card title="Auto Buffs">
+    Buffs apply automatically, so you do not need to trigger them manually.
+  </Card>
+  <Card title="Server Reset Rule">
+    Re-equip after every new server join to keep the bonus active.
+  </Card>
+</CardGrid>
+
+| Core Rule | What It Means |
+|---|---|
+| Optional upgrade | Chips improve a character, but they are not mandatory to play. |
+| Automatic effect | Benefits apply on spawn, based on the chip you equipped. |
+| Inventory-based | You must select a chip from your inventory first. |
+| Server-sensitive | Re-equip every time you join a new server. |
+
+For the item entry and rarity notes, keep the [Upgrader Chips reference page](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Upgrader_Chips) open while you compare rolls and stat ranges.
+
+</Section>
+
+<Section icon={Sparkles} title="Rarity Breakdown and Stat Ranges">
+
+The chip pool has six rarity tiers, and most of the value comes from the stat spread rather than a fixed power number. Regular chips roll random stats, while Secret chips use set values created through the admin panel.
+
+<Callout type="warning" title="Important Rarity Note">
+Regular chip stats are randomized, so two chips from the same rarity can still feel different. Do not judge a tier by tint alone.
+</Callout>
+
+| Rarity | Roll Chance | Visual Tint | Stat Pattern | Notes |
+|---|---:|---|---|---|
+| Common | 40% | Default | +10 to +500 HP | Most basic survivability roll |
+| Common 1 | 40% | Pastel tint | +1% to +20% damage buff | Most basic damage roll |
+| Rare | 15% | Blue | -1% to -20% damage income from all sources | Second-most common tier |
+| Legendary | 5% | Orange | +10 to +500 HP, +1% to +20% damage buff, +1% to +20% damage reduction | Strong all-around chip |
+| Mythic | 0.5% | Red, blacked out in shop | +500 to +1500 HP, +10% to +30% damage buff, -10% to -30% damage income from all sources | Rarest obtainable tier |
+| Secret | Special | Green | Fixed stats set by a developer | Dev-only, tester-only, trusted players, or giveaway winners |
+
+<Callout type="info" title="Stat Planning">
+Because the rolls are randomized, a lower rarity chip with a strong roll can still be useful early. Legendary remains the cleanest long-term target for most players.
+</Callout>
+
+| Tier | Best Use Case | Practical Value |
+|---|---|---|
+| Common | Early durability | Easy to obtain, simple HP boost |
+| Common 1 | Early offense | Cheap damage gain, flexible for newer builds |
+| Rare | Situational utility | Useful when you want a different stat profile |
+| Legendary | Balanced loadout | Best all-around tier for most players |
+| Mythic | High-end chase | Excellent ceiling, extremely low roll chance |
+| Secret | Admin access | Fixed specialty stats, not standard progression |
+
+</Section>
+
+<Section icon={Target} title="How to Roll, Equip, and Re-equip">
+
+The shop is the main route for most players, and the Value Pack stands out because it guarantees a Legendary chip plus 5 Astro Tokens. If you want steady progress, the order matters: roll smart, equip once you get a useful result, and remember the server re-equip rule.
+
+<Callout type="tip" title="Best Workflow">
+Treat chip hunting like a progression loop: get a roll, save the useful tier, equip it before combat, and re-equip after you switch servers.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Open the shop">
+    Look for Upgrader Chips in the shop and decide whether you want a random roll or the Value Pack route.
+  </Step>
+  <Step num="2" title="Pick your acquisition method">
+    Roll for a chip if you are chasing variety, or use the Value Pack if you want a guaranteed Legendary result.
+  </Step>
+  <Step num="3" title="Equip from inventory">
+    Select one chip in your inventory, then equip it before entering a match.
+  </Step>
+  <Step num="4" title="Spawn and test it">
+    Enter the match and confirm the buff feels right for your character choice and role.
+  </Step>
+  <Step num="5" title="Re-equip after server changes">
+    If you join another server, equip the chip again before you assume the bonus is active.
+  </Step>
+</Steps>
+
+| Acquisition Method | Outcome | Best For |
+|---|---|---|
+| Shop roll | Random chip | Players chasing rarity luck |
+| Value Pack | Legendary chip + 5 Astro Tokens | Players who want guaranteed value |
+| Admin panel grant | Secret chip with fixed stats | Developers, testers, trusted users, giveaway winners |
+
+</Section>
+
+<Section icon={Swords} title="Best Chip Choices by Playstyle">
+
+There is no single universal best chip, because the right pick depends on whether you want toughness, damage, or a flexible middle ground. The safest rule is to match the chip to the job your character is doing in the match.
+
+<Callout type="success" title="Build Logic">
+Choose chips based on what your character lacks. Tanks want more durability, while aggressive builds want damage and a stronger payoff from each spawn.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tank / Frontline">
+    - **Best fit:** Legendary or high-HP Common
+    - **Goal:** Survive longer and hold space
+    - **Why it works:** HP and damage reduction keep you active in fights
+  </Card>
+  <Card title="Balanced Loadout">
+    - **Best fit:** Legendary
+    - **Goal:** Mix offense and defense
+    - **Why it works:** One chip can cover HP, damage buff, and reduction together
+  </Card>
+  <Card title="Aggressive Build">
+    - **Best fit:** Common 1, Legendary, or Mythic
+    - **Goal:** Push damage higher
+    - **Why it works:** Damage-focused rolls make each spawn more threatening
+  </Card>
+</CardGrid>
+
+| Playstyle | Recommended Tier | Reason |
+|---|---|---|
+| Tank / frontline | Legendary, HP-heavy Common | More survivability per spawn |
+| Damage dealer | Common 1, Legendary, Mythic | Better damage pressure |
+| Flexible solo play | Legendary | Strongest mixed-stat option |
+| Chase build | Mythic | Highest ceiling, but very rare |
+| Special access | Secret | Fixed stats for controlled testing |
+
+If you are not sure where to start, use Legendary as your baseline target and only chase rarer tiers when the stat spread clearly supports your build.
+
+</Section>
+
+<Section icon={Trophy} title="Pity Plan, Checklist, and FAQ">
+
+The pity system keeps the grind from becoming endless. Once your roll count reaches 200, the game automatically awards a Legendary chip. That makes chip hunting easier to plan around, especially if you want predictable progression instead of pure luck.
+
+<Callout type="info" title="Pity Reminder">
+The system tracks your rolls across the grind. Once you hit 200, the Legendary award arrives automatically.
+</Callout>
+
+| Roll Count | Result | Planning Note |
+|---|---|---|
+| 0 to 199 | Normal rolls | Keep evaluating stat quality and rarity |
+| 200 | Guaranteed Legendary | Useful safety net for long-term progress |
+| Secret access | Admin-only spawn | Not part of normal pity progression |
+
+<Checklist
+  id="chip-priority"
+  title="Chip Progression Checklist:"
+  items={[
+    "Roll until you land a chip that matches your role",
+    "Equip the chip before spawning into a match",
+    "Re-equip after every new server join",
+    "Track your roll count so the 200-roll pity is not wasted",
+    "Use the Value Pack when you want guaranteed Legendary value"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Do blockade battlefront chips stay active after I join a new server?",
+    answer: "No. Re-equip the chip every time you join a new server if you want the bonus to apply again."
+  },
+  {
+    question: "What is the rarest chip tier?",
+    answer: "Mythic is the rarest obtainable tier, with a 0.5% roll chance."
+  },
+  {
+    question: "What happens at 200 rolls?",
+    answer: "The pity system awards a Legendary chip automatically once your roll count reaches 200."
+  },
+  {
+    question: "Are all chip stats random?",
+    answer: "Most chip stats are randomized, but Secret chips use fixed stats set by a developer."
+  }
+]} />
+
+</Section>
