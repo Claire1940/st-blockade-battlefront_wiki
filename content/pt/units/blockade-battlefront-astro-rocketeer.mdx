@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Astro Rocketeer em ST: Linha de Frente de Bloqueio: Guia de Chefe e Táticas",
+  description: "Domine a luta contra o chefe Astro Rocketeer em ST: Linha de Frente de Bloqueio. Aprenda padrões de ataque, estratégias para a onda 45 e loadouts para sobreviver ao modo Endless.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Rocketeer+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki de ST: Linha de Frente de Bloqueio",
+  keywords: "blockade battlefront, astro rocketeer, guia de chefe, onda 45, modo endless, táticas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Alvo principal**: O **Astro Rocketeer de ST: Linha de Frente de Bloqueio** é um chefe mortal que aparece na onda 45 do modo Endless.
+- **Padrões de ataque**: Cuidado com os foguetes aéreos de 150 de dano e um ataque de repulsão terrestre de alto impacto com 400 de dano.
+- **Mecânica de esquiva**: O chefe frequentemente avança lateralmente para evitar projéteis dos jogadores, exigindo ajustes precisos de mira.
+- **Melhor posicionamento**: Mantenha uma distância de médio alcance para evitar ativar a devastadora repulsão corpo a corpo terrestre.
+- **Estratégia principal**: Coorde o aggro da equipe para distrair o chefe enquanto os causadores de dano pesado focam o fogo de uma distância segura.
+</Callout>
+
+<Section icon={Shield} title="Astro Rocketeer: Visão Geral do Chefe">
+
+O **Astro Rocketeer de ST: Linha de Frente de Bloqueio** representa um dos desafios mais formidáveis que os jogadores encontram durante as partidas avançadas no Modo Endless. Surgindo especificamente durante o ambiente caótico da Onda 45, este chefe combina alta mobilidade, bombardeio de longo alcance e uma defesa punitiva em combates de curta distância. Entender como lidar com este chefe é fundamental para superar a Onda 45 e garantir recompensas de alto nível.
+
+Ao contrário das unidades terrestres padrão, este chefe utiliza mecânicas de voo avançadas para pairar sobre o campo de batalha, tornando-se um alvo difícil para configurações focadas em corpo a corpo ou projéteis lentos. Os jogadores devem adaptar seu posicionamento e a implantação de unidades para combater seu pathfinding de IA altamente dinâmico. De acordo com a [entrada oficial na Fandom Wiki](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Rocketeer_Astro_Toilet), o chefe prioriza o jogador mais próximo, o que significa que a coordenação da equipe é vital para a sobrevivência.
+
+| Métrica | Valor | Detalhe |
+| --- | --- | --- |
+| Onda de Surgimento | Onda 45 | Aparece durante partidas no Modo Endless |
+| Ameaça Principal | Foguetes de alto dano | Dispara projéteis contínuos no alvo |
+| Defesa Corpo a Corpo | Explosão terrestre | Causa alto dano e repulsão |
+| Mobilidade | Alta | Capacidade de avanço aéreo para esquiva |
+
+<Callout type="tip" title="Dica de Prioridade de Alvo">
+Como o chefe foca no jogador mais próximo, jogadores designados como tanques devem atrair o aggro intencionalmente, permitindo que aliados com alto DPS estabeleçam zonas de dano sem medo de retaliação direta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Combate e Padrões de Ataque">
+
+Derrotar o chefe requer uma compreensão profunda de suas duas fases distintas de combate: a Fase Aérea e a Fase Terrestre. O chefe transita dinamicamente entre esses comportamentos dependendo da distância do jogador e das ameaças de projéteis recebidas.
+
+Durante a Fase Aérea, o chefe paira a uma altura média e lança foguetes. Cada foguete causa substanciais 150 de dano ao impacto. Se os jogadores tentarem contra-atacar com projéteis lentos de alto dano, o chefe realizará um avanço rápido para a esquerda ou direita, esquivando-se facilmente dos ataques. Quando os jogadores se aproximam demais, o chefe transita para sua Fase Terrestre, executando um ataque de onda de choque massivo que causa 400 de dano e empurra os jogadores de volta, resetando a distância.
+
+| Nome do Ataque | Alcance | Dano | Efeito |
+| --- | --- | --- | --- |
+| Foguetes Aéreos | Longo | 150 | Bombardeio contínuo |
+| Esquiva Evasiva | Médio | 0 | Manobra de avanço lateral |
+| Explosão Terrestre | Curto | 400 | Dano pesado e repulsão |
+
+<CardGrid cols={3}>
+  <Card title="Fase Aérea">
+    - **Fogo de Foguete Contínuo**: Dispara vários foguetes visando o jogador mais próximo.
+    - **150 de Dano por Foguete**: Pode esgotar rapidamente a vida do jogador se for pego na explosão.
+    - **Alta Altitude de Voo**: Evita perigos terrestres padrão e ataques de curto alcance.
+  </Card>
+  <Card title="Manobras Evasivas">
+    - **Avanço Lateral**: Ativado quando projéteis são detectados.
+    - **Esquiva Esquerda/Direita**: Pode facilmente desperdiçar cooldowns e habilidades de alto dano dos jogadores.
+    - **Reset de Posicionamento**: Permite que o chefe mantenha a distância ideal de disparo.
+  </Card>
+  <Card title="Defesa Terrestre">
+    - **Gatilho de Curto Alcance**: Ativa quando os jogadores entram no limiar de corpo a corpo.
+    - **400 de Dano Base**: Extremamente letal para unidades de suporte com pouca vida.
+    - **Repulsão Pesada**: Empurra os jogadores de volta para restabelecer o combate à distância.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso: Evite o Alcance Corpo a Corpo">
+Não tente avançar contra o chefe com armas corpo a corpo, a menos que tenha escudos ativos. A Explosão Terrestre de 400 de dano pode eliminar instantaneamente jogadores enfraquecidos e interromper a formação defensiva do seu esquadrão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Derrota Passo a Passo">
+
+Para neutralizar o chefe com sucesso, os jogadores devem executar uma estratégia estruturada que minimize o dano recebido enquanto maximiza a eficiência do DPS durante as janelas evasivas do chefe. Siga esta sequência tática para garantir a vitória.
+
+<Steps>
+  <Step num="1" title="Estabelecer Controle de Aggro">
+    Faça com que um jogador com muita vida, como um loadout de tanque, mova-se para frente para se tornar o alvo mais próximo. Isso trava a IA de mira do chefe em um caminho previsível, mantendo as unidades de suporte seguras.
+  </Step>
+  <Step num="2" title="Criar um Perímetro de Médio Alcance">
+    Posicione os causadores de dano logo fora do raio da Explosão Terrestre. Isso evita que o chefe ative sua repulsão de 400 de dano enquanto o mantém dentro do alcance de suas armas primárias.
+  </Step>
+  <Step num="3" title="Atrair e Punir a Esquiva">
+    Dispare tiros únicos de isca para ativar o avanço lateral do chefe. Assim que a animação do avanço terminar e o chefe ficar brevemente estacionário, libere suas habilidades de alto dano e armas de disparo rápido.
+  </Step>
+  <Step num="4" title="Rotacionar Cooldowns e Curar">
+    Utilize estruturas de suporte e unidades de cura para mitigar o dano residual dos foguetes aéreos de 150 de dano. Mantenha os escudos ativos no detentor do aggro durante toda a luta.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso da Estratégia">
+Ao atrair o avanço lateral antes de usar cooldowns principais, as equipes podem aumentar sua produção total de dano em até 50%, evitando tiros desperdiçados e encurtando a duração da luta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Loadouts e Configurações Recomendados">
+
+Escolher as unidades e loadouts certos é crítico para sobreviver à Onda 45 do Modo Endless. Os jogadores devem trazer uma mistura equilibrada de suporte defensivo, DPS de disparo rápido e controle de grupo para lidar tanto com o chefe quanto com os inimigos de suporte que surgem ao lado dele.
+
+O Engineer Cameraman é altamente recomendado para construir fortificações defensivas para absorver o dano dos foguetes, enquanto o Polycephaly oferece excelente controle sobre ameaças auxiliares. Os Speakermen padrão oferecem um DPS confiável de médio alcance para desgastar a vida do chefe entre as esquivas.
+
+| Tipo de Unidade | Função | Eficácia | Estratégia |
+| --- | --- | --- | --- |
+| Engineer Cameraman | Suporte | ★★★★☆ | Constrói defesas para absorver o fogo de foguetes |
+| Normal Speakerman | DPS | ★★★☆☆ | Fornece dano constante de médio alcance |
+| Polycephaly | Controle de Grupo | ★★★★☆ | Interrompe inimigos de suporte ao redor do chefe |
+| Normal Cameraman | Buffer | ★★☆☆☆ | Fornece suporte básico e distração menor |
+
+<Callout type="info" title="Sinergia de Loadout">
+Combinar as barreiras defensivas do Engineer Cameraman com as capacidades de controle de grupo do Polycephaly permite que seus causadores de dano primários foquem inteiramente em atingir o chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist da Onda 45 do Modo Endless">
+
+Para garantir que seu esquadrão esteja preparado para a chegada do chefe, revise este checklist de preparação antes de iniciar sua partida no Modo Endless. Ter esses marcos concluídos aumentará significativamente suas chances de sobrevivência.
+
+| Fase | Objetivo | Prioridade |
+| --- | --- | --- |
+| Preparação | Maximizar melhorias das unidades primárias | Crítica |
+| Posicionamento | Implantar unidades no alcance ideal | Alta |
+| Execução | Focar fogo no chefe primeiro | Crítica |
+
+<Checklist
+  id="wave-45-prep"
+  title="Metas de Prontidão para a Onda 45:"
+  items={[
+    "Melhore todas as unidades de DPS primárias para o nível máximo antes da Onda 40",
+    "Estabeleça um jogador dedicado ao aggro com equipamentos de alta vida",
+    "Implante pelo menos duas estruturas de suporte defensivas para bloquear o fogo de foguetes",
+    "Coordene os cooldowns de habilidades ultimate para disparar após o chefe esquivar"
+  ]}
+/>
+
+<Callout type="warning" title="Aviso de Preparação">
+Não entre na Onda 45 com unidades sem melhorias. A escala de dano do chefe exige defesas de alto nível para evitar que seu esquadrão seja eliminado nos primeiros segundos da onda.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+Revise estas perguntas e respostas comuns sobre as mecânicas e estratégias da luta contra o chefe.
+
+<FAQ items={[
+  {
+    question: "Onde o Astro Rocketeer de ST: Linha de Frente de Bloqueio aparece?",
+    answer: "Este chefe aparece especificamente durante a Onda 45 do Modo Endless, servindo como um grande obstáculo para os jogadores que tentam alcançar ondas mais altas."
+  },
+  {
+    question: "Como desviar dos ataques de foguetes aéreos?",
+    answer: "Mantenha-se movendo perpendicularmente à linha de tiro do chefe. Usar barreiras defensivas construídas por unidades de suporte como o Engineer Cameraman também pode bloquear os foguetes."
+  },
+  {
+    question: "Por que o chefe continua se esquivando dos meus ataques?",
+    answer: "O chefe está programado para realizar um avanço lateral para a esquerda ou direita sempre que detecta projéteis vindo em sua direção. Você deve atrair essa esquiva primeiro antes de usar seus ataques mais fortes."
+  },
+  {
+    question: "Qual é a melhor maneira de evitar a explosão terrestre de 400 de dano?",
+    answer: "Mantenha uma distância segura de médio alcance. O chefe só ativa este ataque de repulsão de alto dano se um jogador chegar muito perto de seu modelo físico."
+  }
+]} />
+
+<Callout type="tip" title="Dica Final">
+Tenha paciência durante a luta. Foque na sobrevivência e no posicionamento primeiro, e só se comprometa com janelas de dano pesado quando a habilidade de esquiva do chefe estiver em cooldown.
+</Callout>
+
+</Section>

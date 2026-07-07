@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront astro rocketeer: Guía del Jefe y Tácticas",
+  description: "Domina la batalla contra el jefe blockade battlefront astro rocketeer. Aprende patrones de ataque, estrategias para la oleada 45 y equipamientos para sobrevivir al modo Infinito.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Rocketeer+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: El **blockade battlefront astro rocketeer** es un jefe mortal que aparece en la oleada 45 del modo Infinito.
+- **Patrones de ataque**: Cuidado con los cohetes aéreos de 150 de daño y el ataque de empuje terrestre de alto impacto de 400 de daño.
+- **Mecánica de esquiva**: El jefe se desliza frecuentemente hacia los lados para evadir los proyectiles del jugador, lo que requiere ajustes de puntería precisos.
+- **Mejor posicionamiento**: Mantén una distancia media para evitar activar el devastador empuje cuerpo a cuerpo terrestre.
+- **Estrategia clave**: Coordina la atracción del enemigo (aggro) del equipo para distraer al jefe mientras los atacantes pesados concentran su fuego desde una posición segura.
+</Callout>
+
+<Section icon={Shield} title="blockade battlefront astro rocketeer: Descripción General del Jefe">
+
+El **blockade battlefront astro rocketeer** representa uno de los desafíos más formidables que los jugadores encuentran durante las partidas avanzadas en el Modo Infinito. Spawneando específicamente durante el caótico entorno de la Oleada 45, este jefe enemigo combina una alta movilidad, bombardeo de largo alcance y una castigadora defensa a corta distancia. Entender cómo lidiar con este jefe es clave para superar la Oleada 45 y asegurar recompensas de alto nivel.
+
+A diferencia de las unidades terrestres estándar, este jefe utiliza mecánicas de vuelo avanzadas para flotar sobre el campo de batalla, lo que lo convierte en un objetivo difícil para configuraciones cuerpo a cuerpo o proyectiles lentos. Los jugadores deben adaptar su posicionamiento y el despliegue de unidades para contrarrestar su ruta de IA altamente dinámica. Según la [entrada oficial de la Wiki de Fandom](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Rocketeer_Astro_Toilet), el jefe prioriza al jugador más cercano, lo que significa que la coordinación del equipo es vital para la supervivencia.
+
+| Métrica | Valor | Detalle |
+| --- | --- | --- |
+| Oleada de aparición | Oleada 45 | Aparece durante las partidas del Modo Infinito |
+| Amenaza principal | Cohetes de alto daño | Dispara proyectiles continuos al objetivo |
+| Defensa cuerpo a cuerpo | Explosión terrestre | Inflige gran daño y empuje |
+| Movilidad | Alta | Capacidad de deslizamiento aéreo para esquivar |
+
+<Callout type="tip" title="Consejo de Prioridad de Objetivo">
+Debido a que el jefe prioriza al jugador más cercano, los jugadores designados como tanques deben atraer el aggro intencionalmente, permitiendo que los compañeros con alto DPS establezcan zonas de daño sin temor a una represalia directa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Patrones de Ataque">
+
+Derrotar al jefe requiere una comprensión profunda de sus dos fases de combate distintas: la Fase Aérea y la Fase Terrestre. El jefe cambia dinámicamente entre estos comportamientos según la distancia del jugador y las amenazas de proyectiles entrantes.
+
+Durante la Fase Aérea, el jefe flota a una altura media y hace llover cohetes. Cada cohete inflige un daño sustancial de 150 al impactar. Si los jugadores intentan contraatacar con proyectiles lentos de alto daño, el jefe realizará un deslizamiento rápido hacia la izquierda o hacia la derecha, evadiendo fácilmente los ataques entrantes. Cuando los jugadores se acercan demasiado, el jefe pasa a su Fase Terrestre, ejecutando un ataque de onda de choque masivo que inflige 400 de daño y empuja a los jugadores hacia atrás, restableciendo la distancia.
+
+| Nombre del Ataque | Rango | Daño | Efecto |
+| --- | --- | --- | --- |
+| Cohetes Aéreos | Largo | 150 | Bombardeo continuo |
+| Deslizamiento Evasivo | Medio | 0 | Maniobra de esquiva lateral |
+| Explosión Terrestre | Corto | 400 | Gran daño y empuje |
+
+<CardGrid cols={3}>
+  <Card title="Fase Aérea">
+    - **Fuego de cohetes continuo**: Dispara múltiples cohetes apuntando al jugador más cercano.
+    - **150 de daño por cohete**: Puede agotar rápidamente la salud del jugador si es alcanzado por la explosión.
+    - **Alta altitud de vuelo**: Evita los peligros terrestres estándar y los ataques de corto alcance.
+  </Card>
+  <Card title="Maniobras Evasivas">
+    - **Deslizamiento lateral**: Se activa cuando se detectan proyectiles.
+    - **Esquiva izquierda/derecha**: Puede desperdiciar fácilmente los tiempos de reutilización y habilidades de alto daño del jugador.
+    - **Restablecimiento de posición**: Permite al jefe mantener una distancia de disparo óptima.
+  </Card>
+  <Card title="Defensa Terrestre">
+    - **Activación a corta distancia**: Se activa cuando los jugadores entran en el rango de cuerpo a cuerpo.
+    - **400 de daño base**: Extremadamente letal para unidades de soporte de baja salud.
+    - **Fuerte empuje**: Empuja a los jugadores hacia atrás para restablecer el combate a distancia.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia: Evita el Rango Cuerpo a Cuerpo">
+No intentes arremeter contra el jefe con armas cuerpo a cuerpo a menos que tengas escudos activos. La Explosión Terrestre de 400 de daño puede eliminar instantáneamente a los jugadores debilitados y desorganizar la formación defensiva de tu escuadrón.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Derrota Paso a Paso">
+
+Para neutralizar con éxito al jefe, los jugadores deben ejecutar una estrategia estructurada que minimice el daño recibido mientras maximiza la eficiencia del DPS durante las ventanas evasivas del jefe. Sigue esta secuencia táctica para asegurar la victoria.
+
+<Steps>
+  <Step num="1" title="Establecer el Control del Aggro">
+    Haz que un jugador con mucha salud, como uno con equipamiento de tanque, avance para convertirse en el objetivo más cercano. Esto bloquea la IA de apuntado del jefe en una única ruta predecible, manteniendo a salvo a las unidades de soporte.
+  </Step>
+  <Step num="2" title="Crear un Perímetro de Rango Medio">
+    Posiciona a los atacantes justo fuera del radio de la Explosión Terrestre. Esto evita que el jefe active su empuje de 400 de daño mientras lo mantiene al alcance de tus armas principales.
+  </Step>
+  <Step num="3" title="Provocar y Castigar el Deslizamiento">
+    Realiza disparos individuales de carnada para provocar el deslizamiento lateral del jefe. Una vez que termine la animación del deslizamiento y el jefe quede brevemente estacionario, desata tus habilidades de alto daño y armas de fuego rápido.
+  </Step>
+  <Step num="4" title="Rotar Tiempos de Reutilización y Curar">
+    Utiliza estructuras de soporte y unidades de curación para mitigar el daño residual de los cohetes aéreos de 150 de daño. Mantén los escudos activos en el portador del aggro durante toda la batalla.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito de la Estrategia">
+Al provocar el deslizamiento lateral antes de usar los principales tiempos de reutilización, los equipos pueden aumentar su daño total hasta en un 50%, evitando disparos fallidos y acortando la duración del combate.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipamientos y Configuración Recomendados">
+
+Elegir las unidades y equipamientos adecuados es fundamental para sobrevivir a la Oleada 45 del Modo Infinito. Los jugadores deben llevar una mezcla equilibrada de soporte defensivo, DPS de fuego rápido y control de masas para lidiar tanto con el jefe como con los enemigos de apoyo que aparecen junto a él.
+
+El Engineer Cameraman es muy recomendable para construir fortificaciones defensivas que absorban el daño de los cohetes, mientras que Polycephaly proporciona un excelente control sobre las amenazas auxiliares. Los Speakermen estándar ofrecen un DPS de rango medio confiable para desgastar la salud del jefe entre deslizamientos.
+
+| Tipo de Unidad | Rol | Efectividad | Estrategia |
+| --- | --- | --- | --- |
+| Engineer Cameraman | Soporte | ★★★★☆ | Construir defensas para absorber el fuego de cohetes |
+| Normal Speakerman | DPS | ★★★☆☆ | Proporcionar un daño constante a rango medio |
+| Polycephaly | Control de Masas | ★★★★☆ | Interrumpir a los enemigos de apoyo que rodean al jefe |
+| Normal Cameraman | Potenciador | ★★☆☆☆ | Proporcionar soporte básico y una distracción menor |
+
+<Callout type="info" title="Sinergia de Equipamiento">
+Combinar las barreras defensivas del Engineer Cameraman con las capacidades de control de masas de Polycephaly permite que tus atacantes principales se concentren por completo en apuntar al jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de la Oleada 45 del Modo Infinito">
+
+Para asegurarte de que tu escuadrón esté preparado para la llegada del jefe, revisa esta lista de preparación antes de comenzar tu partida en el Modo Infinito. Completar estos objetivos aumentará significativamente tus posibilidades de supervivencia.
+
+| Fase | Objetivo | Prioridad |
+| --- | --- | --- |
+| Preparación | Maximizar las mejoras de las unidades principales | Crítica |
+| Posicionamiento | Desplegar unidades a un rango óptimo | Alta |
+| Ejecución | Concentrar el fuego en el jefe primero | Crítica |
+
+<Checklist
+  id="wave-45-prep"
+  title="Objetivos de Preparación para la Oleada 45:"
+  items={[
+    "Mejorar todas las unidades principales de DPS al nivel máximo antes de la Oleada 40",
+    "Establecer un jugador dedicado al aggro con equipamiento de alta salud",
+    "Desplegar al menos dos estructuras de soporte defensivo para bloquear el fuego de cohetes",
+    "Coordinar los tiempos de reutilización de las habilidades definitivas para disparar después de que el jefe se deslice"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de Preparación">
+No entres a la Oleada 45 con unidades sin mejorar. La escala de daño del jefe requiere defensas de alto nivel para evitar que tu escuadrón sea eliminado en los primeros segundos de la oleada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+Revisa estas preguntas y respuestas comunes sobre las mecánicas y estrategias de la batalla contra el jefe.
+
+<FAQ items={[
+  {
+    question: "¿Dónde aparece el blockade battlefront astro rocketeer?",
+    answer: "Este jefe enemigo aparece específicamente durante la Oleada 45 del Modo Infinito, sirviendo como un gran obstáculo para los jugadores que intentan alcanzar oleadas más altas."
+  },
+  {
+    question: "¿Cómo se esquivan los ataques de cohetes aéreos?",
+    answer: "Mantente en constante movimiento perpendicular a la línea de fuego del jefe. El uso de barreras defensivas construidas por unidades de soporte como el Engineer Cameraman también puede bloquear los cohetes entrantes."
+  },
+  {
+    question: "¿Por qué el jefe sigue esquivando mis ataques?",
+    answer: "El jefe está programado para realizar un deslizamiento lateral a la izquierda o derecha cada vez que detecta proyectiles entrantes. Debes provocar este deslizamiento primero antes de usar tus ataques más fuertes."
+  },
+  {
+    question: "¿Cuál es la mejor manera de evitar la explosión terrestre de 400 de daño?",
+    answer: "Mantén una distancia media segura. El jefe solo activa este ataque de empuje de alto daño si un jugador se acerca demasiado a su modelo físico."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Ten paciencia durante la pelea. Concéntrate primero en la supervivencia y el posicionamiento, y solo comprométete con ventanas de daño pesado cuando la habilidad de deslizamiento del jefe esté en tiempo de reutilización.
+</Callout>
+
+</Section>

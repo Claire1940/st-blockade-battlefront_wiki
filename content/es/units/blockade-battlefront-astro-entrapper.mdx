@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Astro Entrapper de Frente de Batalla de Bloqueo: Guía y Estrategias del Jefe de Incursión",
+  description: "Domina al jefe de incursión Astro Entrapper de Frente de Batalla de Bloqueo con nuestra guía completa sobre habilidades, estadísticas, botín y estrategias de combate.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Entrapper+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Frente de Batalla de Bloqueo",
+  keywords: "Astro Entrapper, Frente de Batalla de Bloqueo, jefe de incursión, guía, estrategias, botín"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jefe Principal**: El **Astro Entrapper de Frente de Batalla de Bloqueo** (también conocido como Detainer Astro Toilet 2.0) es un Jefe de Incursión de alto nivel.
+- **Estadísticas Clave**: Cuenta con **85,000 HP** y aparece en las oleadas avanzadas de los modos Endless y Boss Rush.
+- **Mecánica Peligrosa**: Presenta una habilidad de **Absorción de Láser** que cura al jefe cuando es golpeado por ataques basados en láser.
+- **Mejor Estrategia**: Utiliza **personajes de clase Titán** para evitar la mecánica de muerte instantánea "Catch" (Atrapar) y enfócate en daño físico o basado en orbes.
+- **Mejor Botín**: Los drops de alto valor incluyen el **Flash Drive #E** (10% de probabilidad) y el **Astro Arm** (al 15% de HP).
+</Callout>
+
+<Section icon={Map} title="Descripción General del Astro Entrapper de Frente de Batalla de Bloqueo">
+
+El **Astro Entrapper de Frente de Batalla de Bloqueo**, ampliamente reconocido por la comunidad como el Detainer Astro Toilet 2.0, representa uno de los desafíos más formidables en el meta actual. Como Jefe de Incursión, sirve como un muro masivo para los jugadores que progresan a través del contenido más difícil que ofrece el juego. Aunque no alcanza los niveles de poder abrumadores del G-Toilet 4.0, sigue siendo significativamente más peligroso que el Professor Skibidi Toilet Mech, requiriendo una sincronización precisa y composiciones de unidades específicas para ser derrotado.
+
+Cuando este jefe aparece, los jugadores son recibidos por el inquietante tema "Melancholy" de SCP: Secret Laboratory, lo que señala un cambio en la intensidad del campo de batalla. Comprender sus ubicaciones de aparición y estadísticas base es el primer paso hacia la victoria.
+
+| Atributo | Detalle de Datos |
+| :--- | :--- |
+| **Nombre Completo** | Detainer Astro Toilet 2.0 / Astro Entrapper |
+| **Salud Total** | **85,000 HP** |
+| **Aparición en Modo Endless** | Oleada 80 |
+| **Aparición en Boss Rush** | Oleada 30 |
+| **Peligro Principal** | Alta movilidad y curación anti-láser |
+| **Nivel de Dificultad** | Jefe de Incursión Extremo |
+
+<Callout type="warning" title="Información Crítica de Aparición">
+Asegúrate de que tu defensa esté completamente mejorada antes de la Oleada 80 en el modo Endless. La llegada del Astro Entrapper a menudo coincide con apariciones de mobs de alta densidad, lo que facilita perder el enfoque en los ataques warp del jefe.
+</Callout>
+
+El Astro Entrapper no es solo una esponja de balas; es un combatiente altamente móvil que utiliza tecnología Astro avanzada para desbaratar las formaciones de los jugadores. Su presencia requiere un cambio de defensa estática a una gestión activa de unidades, especialmente al considerar su capacidad para devolver orbes de energía y absorber el fuego láser.
+
+</Section>
+
+<Section icon={Swords} title="Desglose Exhaustivo de Habilidades">
+
+Para conquistar al **Astro Entrapper de Frente de Batalla de Bloqueo**, los jugadores deben memorizar su diverso conjunto de movimientos. El jefe utiliza tres garras de detención que actúan tanto como armas ofensivas como escudos defensivos. A diferencia de los toilets estándar, el Astro Entrapper es proactivo, esquivando y contraatacando con frecuencia.
+
+| Nombre de Habilidad | Descripción del Efecto | Daño / Valor |
+| :--- | :--- | :--- |
+| **Pasiva: Esquivar** | Evade automáticamente proyectiles entrantes y ataques cuerpo a cuerpo | N/A |
+| **Catch (Atrapar)** | Atrae a unidades que no sean Titanes para una **muerte instantánea** | Muerte Instantánea |
+| **Captura de Orbe** | Atrapa orbes de energía y los refleja al emisor | Variable |
+| **Absorción de Láser** | Absorbe ataques láser para **recuperar salud** | Curación |
+| **Ataques Warp** | 6-8 embestidas rápidas contra el objetivo | 200 por golpe |
+| **Puñetazo de Garra** | Un fuerte golpe físico usando las garras | 500 de daño |
+| **Ataque de Cuchilla** | Movimiento de apuñalamiento con dos cuchillas masivas | 300 por golpe |
+| **Fuego Láser** | Triple ráfaga láser desde las garras de detención | 1800 - 3600 |
+
+<Callout type="warning" title="Advertencia Anti-Láser">
+**NO** utilices unidades como el Camera Attack Helicopter u otros Titanes con mucho láser durante la fase de Absorción de Láser. Curarás al jefe inadvertidamente, pudiendo reiniciar minutos de progreso.
+</Callout>
+
+La mecánica más peligrosa para los principiantes es la habilidad **Catch**. Si estás usando unidades más pequeñas como el Normal Cameraman o el Engineer Cameraman, el Astro Entrapper simplemente los atraerá y los eliminará al instante. Esto hace que el uso de personajes de clase Titán o Large Speakermen sea obligatorio para el tanqueo en primera línea. Además, los **Ataques Warp** pueden saltarse tu primera línea por completo, golpeando a tus unidades de soporte en la retaguardia si no están protegidas por aturdimientos de área (AOE) o barreras de alta durabilidad.
+
+### Mecánicas de Combate Avanzadas
+El jefe entra en diferentes fases a medida que su salud disminuye. En la Fase 3, la habilidad **Lanzamiento de Orbe** se vuelve significativamente más letal. Mientras que normalmente inflige 600 de daño a personajes pequeños, esto aumenta a 1200 de daño en la fase final. Para los personajes Titán, el daño aumenta de 300 a 600 por golpe. Este escalado significa que un enfoque "lento y seguro" se vuelve cada vez más arriesgado a medida que avanza la pelea.
+
+</Section>
+
+<Section icon={Target} title="Estrategia Paso a Paso para Derrotar al Jefe">
+
+Derrotar al **Astro Entrapper de Frente de Batalla de Bloqueo** requiere un esfuerzo coordinado entre los atacantes y las unidades de soporte. Sigue estos pasos para asegurar una incursión exitosa.
+
+<Steps>
+  <Step num="1" title="Fase 1: Preparación y Posicionamiento">
+    Antes de la Oleada 80, elimina a todos los toilets menores para asegurar que tus Titanes puedan enfocarse exclusivamente en el Astro Entrapper. Coloca a tus Titanes de mucha vida en el centro del camino para atraer la habilidad "Catch", a la cual pueden resistirse.
+  </Step>
+  <Step num="2" title="Fase 2: Manejo de los Ataques Warp">
+    Cuando el jefe comience su secuencia de 6-8 warps, no entres en pánico. Los golpes infligen 200 de daño cada uno. Asegúrate de que tus Engineer Cameramen estén reparando activamente a tus Titanes o que tengas a Polycephaly proporcionando interrupción basada en pantalla para ralentizar al jefe.
+  </Step>
+  <Step num="3" title="Fase 3: Salida de Daño Controlada">
+    Vigila las garras del jefe. Cuando brillen con un aura azul, se está preparando para la **Absorción de Láser**. Detén inmediatamente todo el fuego láser. Cambia a atacantes físicos como Large Speakermen o unidades con cuchillas para continuar con el daño constante sin curar al jefe.
+  </Step>
+  <Step num="4" title="Fase 4: El Umbral del 15% de HP">
+    Una vez que el jefe llegue al 15% de HP, soltará el **Astro Arm**. Este es un momento crítico. Debes asegurarte de tener una unidad Sci-TV o una versión Poly lista para recuperar este objeto y obtener la Medalla Técnica del Astro Arm.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estrategia Pro">
+Usa la música "Melancholy" como temporizador. Los patrones de ataque del jefe a menudo se sincronizan con la intensidad de la pista. Si la música alcanza un crescendo, espera un Ataque Warp o una ráfaga de Triple Láser en breve.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Composiciones de Unidades Recomendadas">
+
+Elegir el equipo adecuado es vital al enfrentarse al **Astro Entrapper de Frente de Batalla de Bloqueo**. Debido a la captura de muerte instantánea y la curación por láser, tus unidades "mejores" estándar podrían ser en realidad un inconveniente.
+
+<CardGrid cols={3}>
+  <Card title="El Muro de Titanes">
+    - **Titan Speakerman**: Alto daño físico.
+    - **Titan TV Man**: Excelente para aturdimiento y AOE.
+    - **Enfoque**: Resistir la mecánica Catch.
+  </Card>
+  <Card title="El Contraataque Tecnológico">
+    - **Sci-TV Man**: Esencial para recuperar drops.
+    - **Engineer Cameraman**: Reparaciones constantes.
+    - **Enfoque**: Sostenibilidad y maximización de botín.
+  </Card>
+  <Card title="El Especialista">
+    - **Polycephaly**: Interrumpe los movimientos del Astro.
+    - **Large Speakerman**: Enfoque en combate físico cuerpo a cuerpo.
+    - **Enfoque**: Evadir la Absorción de Láser.
+  </Card>
+</CardGrid>
+
+Al comparar unidades, busca aquellas que proporcionen un alto daño de ráfaga que no dependa del fuego láser continuo. La siguiente tabla compara cómo les va a diferentes tipos de unidades contra las mecánicas específicas del Astro Entrapper.
+
+| Tipo de Unidad | Resistencia a Catch | Riesgo de Curación por Láser | Eficiencia de Daño |
+| :--- | :--- | :--- | :--- |
+| **Unidades Pequeñas** | **Ninguna (Muerte Inst.)** | Bajo | Bajo |
+| **Unidades Grandes** | Alta | Medio | Medio |
+| **Unidades Titán** | **Inmune** | Alto | **Muy Alta** |
+| **Unidades de Soporte** | Bajo | Bajo | N/A |
+
+<Callout type="success" title="Equipamiento Ideal">
+Una mezcla de 2 Titanes (para tanquear), 1 Sci-TV (para el botín) y 3 Large Speakermen (para daño físico por segundo) es actualmente la forma más eficiente de farmear a este jefe sin activar sus mecánicas de curación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, Drops de Botín y Curiosidades">
+
+La razón principal por la que los jugadores farmean al **Astro Entrapper de Frente de Batalla de Bloqueo** es por sus raros drops tecnológicos. Estos objetos son esenciales para completar misiones de alto nivel y desbloquear medallas poderosas.
+
+<Checklist
+  id="astro-loot"
+  title="Posibles Recompensas y Objetivos:"
+  items={[
+    "Flash Drive #E (10% de Probabilidad) - Requerido para la Misión UTTV",
+    "Astro Arm (Cae al 15% de HP) - Usado para la Medalla Técnica Astro Arm",
+    "Ganancias masivas de XP para el progreso del Modo Endless",
+    "Medalla: Conquistador del Astro Entrapper",
+    "Materiales de desguace para mejoras de Sci-TV"
+  ]}
+/>
+
+### Tasas de Drop y Requisitos
+El Flash Drive #E es un cuello de botella notorio para los jugadores que intentan la misión UTTV. Dado que solo tiene una tasa de drop del 10%, es posible que necesites enfrentarte al Astro Entrapper varias veces en Boss Rush o en el modo Endless.
+
+| Nombre del Objeto | Probabilidad de Drop | Requisito | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Flash Drive #E** | 10% | Matar al Jefe | **Misión UTTV** |
+| **Astro Arm** | **Garantizado** | Llegar al 15% de HP | Medalla Técnica |
+| **XP de Endless** | 100% | Sobrevivir Oleada 80 | Subir Nivel de Cuenta |
+
+**Curiosidades y Datos Fun:**
+- El jefe se conoce oficialmente como Astro Entrapper en los archivos del juego, pero la comunidad prefiere "Detainer 2.0".
+- A pesar de su tamaño masivo, su pasiva **Esquivar** lo convierte en uno de los objetivos más difíciles de golpear con proyectiles lentos.
+- Es uno de los pocos jefes que puede "curarse" hasta recuperar toda su salud si un jugador deja activa una unidad láser automatizada durante la fase de absorción.
+- El Astro Arm solo puede ser recuperado por Sci-TV o ambas versiones Poly del TV Man, lo que los hace obligatorios para los cazadores de medallas.
+
+<Callout type="info" title="Consejo Final">
+Si tienes problemas con la tasa de drop del 10% para el Flash Drive, intenta completar repetidamente la Oleada 30 de Boss Rush. Generalmente es más rápido que llegar a la Oleada 80 en el modo Endless.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo evito que el Astro Entrapper de Frente de Batalla de Bloqueo se cure?",
+    answer: "Debes detener todos los ataques basados en láser inmediatamente cuando el jefe active su habilidad de Absorción de Láser. Usa atacantes físicos o unidades basadas en orbes durante esta ventana de tiempo."
+  },
+  {
+    question: "¿Qué unidades pueden recuperar el Astro Arm?",
+    answer: "Solo el Sci-TV Man y ambas versiones Poly del TV Man pueden recuperar el Astro Arm cuando cae al llegar el jefe al 15% de salud."
+  },
+  {
+    question: "¿Es el Astro Entrapper más fuerte que el G-Toilet 4.0?",
+    answer: "No, aunque el Astro Entrapper es un poderoso Jefe de Incursión con 85,000 HP, el G-Toilet 4.0 sigue siendo la amenaza superior en la jerarquía actual de Frente de Batalla de Bloqueo."
+  },
+  {
+    question: "¿Cuál es la mejor manera de farmear el Flash Drive #E?",
+    answer: "El Flash Drive #E tiene un 10% de probabilidad de drop. El método más eficiente es farmear la Oleada 30 de Boss Rush, ya que es más rápido llegar allí que a la Oleada 80 del modo Endless."
+  }
+]} />
+
+</Section>

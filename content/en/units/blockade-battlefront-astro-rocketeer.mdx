@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront astro rocketeer: Boss Guide & Tactics",
+  description: "Master the blockade battlefront astro rocketeer boss fight. Learn attack patterns, wave 45 strategies, and loadouts to survive Endless mode.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Rocketeer+Guide",
+  date: "2026-07-07",
+  author: "blockade battlefront Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary target**: The **blockade battlefront astro rocketeer** is a deadly boss appearing in wave 45 of Endless mode.
+- **Attack patterns**: Watch out for 150-damage aerial rockets and a high-impact 400-damage grounded pushback attack.
+- **Dodge mechanic**: The boss frequently dashes sideways to evade player projectiles, requiring precise aim adjustments.
+- **Best positioning**: Maintain mid-range distance to prevent triggering the devastating grounded melee pushback.
+- **Key strategy**: Coordinate team aggro to distract the boss while heavy damage dealers focus fire from safety.
+</Callout>
+
+<Section icon={Shield} title="blockade battlefront astro rocketeer: Boss Overview">
+
+The **blockade battlefront astro rocketeer** represents one of the most formidable challenges players encounter during late-game runs in Endless Mode. Specifically spawning during the chaotic environment of Wave 45, this boss enemy combines high mobility, long-range bombardment, and punishing close-quarters defense. Understanding how to manage this boss is key to pushing past Wave 45 and securing high-tier rewards.
+
+Unlike standard ground units, this boss utilizes advanced flight mechanics to hover above the battlefield, making it a difficult target for melee-focused setups or slow-moving projectiles. Players must adapt their positioning and unit deployment to counter its highly dynamic AI pathfinding. According to the [official Fandom Wiki entry](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Rocketeer_Astro_Toilet), the boss prioritizes the closest player, meaning team coordination is vital for survival.
+
+| Metric | Value | Detail |
+| --- | --- | --- |
+| Spawn Wave | Wave 45 | Appears during Endless Mode runs |
+| Primary Threat | High-damage rockets | Fires continuous projectiles at target |
+| Melee Defense | Grounded blast | Deals high damage and knockback |
+| Mobility | High | Air-dashing capability to dodge |
+
+<Callout type="tip" title="Target Priority Tip">
+Because the boss targets the closest player, designated tank players should intentionally draw aggro, allowing high-DPS teammates to set up damage zones without fear of direct retaliation.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics & Attack Patterns">
+
+Defeating the boss requires a deep understanding of its two distinct combat phases: the Aerial Phase and the Grounded Phase. The boss dynamically transitions between these behaviors depending on player distance and incoming projectile threats.
+
+During the Aerial Phase, the boss hovers at medium height and rains down rockets. Each rocket deals a substantial 150 damage upon impact. If players attempt to counter with slow, high-damage projectiles, the boss will perform a quick dash to the left or right, easily evading the incoming attacks. When players get too close, the boss transitions to its Grounded Phase, executing a massive shockwave attack that deals 400 damage and pushes players back, resetting the distance.
+
+| Attack Name | Range | Damage | Effect |
+| --- | --- | --- | --- |
+| Aerial Rockets | Long | 150 | Continuous bombardment |
+| Evasive Dash | Medium | 0 | Sideways dodge maneuver |
+| Grounded Blast | Short | 400 | Heavy damage and knockback |
+
+<CardGrid cols={3}>
+  <Card title="Aerial Phase">
+    - **Continuous Rocket Fire**: Fires multiple rockets targeting the nearest player.
+    - **150 Damage Per Rocket**: Can quickly deplete player health pools if caught in the blast.
+    - **High Flight Altitude**: Avoids standard ground hazards and low-reaching attacks.
+  </Card>
+  <Card title="Evasive Maneuvers">
+    - **Sideways Dash**: Triggered when projectiles are detected.
+    - **Dodge Left/Right**: Can easily waste player cooldowns and high-damage abilities.
+    - **Position Reset**: Allows the boss to maintain optimal firing distance.
+  </Card>
+  <Card title="Grounded Defense">
+    - **Close-Range Trigger**: Activates when players enter melee threshold.
+    - **400 Base Damage**: Extremely lethal to low-health support units.
+    - **Heavy Pushback**: Knocks players back to re-establish ranged combat.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warning: Avoid Melee Range">
+Do not attempt to rush the boss with melee weapons unless you have active shields. The 400-damage Grounded Blast can instantly eliminate weakened players and disrupt your squad's defensive formation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Defeat Strategy">
+
+To successfully neutralize the boss, players must execute a structured strategy that minimizes damage intake while maximizing DPS efficiency during the boss's evasive windows. Follow this tactical sequence to secure victory.
+
+<Steps>
+  <Step num="1" title="Establish Aggro Control">
+    Have a high-health player, such as a tank loadout, move forward to become the closest target. This locks the boss's targeting AI onto a single predictable path, keeping support units safe.
+  </Step>
+  <Step num="2" title="Create a Mid-Range Perimeter">
+    Position damage dealers just outside the Grounded Blast radius. This prevents the boss from triggering its 400-damage knockback while keeping it within range of your primary weapons.
+  </Step>
+  <Step num="3" title="Bait and Punish the Dash">
+    Fire single bait shots to trigger the boss's sideways dash. Once the dash animation finishes and the boss is briefly stationary, unleash your high-damage abilities and rapid-fire weapons.
+  </Step>
+  <Step num="4" title="Rotate Cooldowns and Heal">
+    Utilize support structures and healing units to mitigate the chip damage from the 150-damage aerial rockets. Keep shields active on the aggro holder throughout the fight.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategy Success">
+By baiting the sideways dash before using major cooldowns, teams can increase their overall damage output by up to 50%, preventing wasted shots and shortening the fight duration.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recommended Loadouts & Setup">
+
+Choosing the right units and loadouts is critical for surviving Wave 45 of Endless Mode. Players should bring a balanced mix of defensive support, rapid-fire DPS, and crowd control to handle both the boss and the supporting enemies that spawn alongside it.
+
+The Engineer Cameraman is highly recommended for building defensive fortifications to absorb rocket damage, while Polycephaly provides excellent control over auxiliary threats. Standard Speakermen offer reliable mid-range DPS to chip away at the boss's health pool between dashes.
+
+| Unit Type | Role | Effectiveness | Strategy |
+| --- | --- | --- | --- |
+| Engineer Cameraman | Support | ★★★★☆ | Build defenses to absorb rocket fire |
+| Normal Speakerman | DPS | ★★★☆☆ | Provide steady mid-range damage output |
+| Polycephaly | Crowd Control | ★★★★☆ | Disrupt support enemies surrounding boss |
+| Normal Cameraman | Buffer | ★★☆☆☆ | Provide basic support and minor distraction |
+
+<Callout type="info" title="Loadout Synergy">
+Combining the defensive barriers of the Engineer Cameraman with the crowd control capabilities of Polycephaly allows your primary damage dealers to focus entirely on targeting the boss.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endless Mode Wave 45 Checklist">
+
+To ensure your squad is prepared for the arrival of the boss, review this preparation checklist before starting your Endless Mode run. Having these milestones completed will significantly increase your chances of survival.
+
+| Phase | Objective | Priority |
+| --- | --- | --- |
+| Preparation | Max out primary unit upgrades | Critical |
+| Positioning | Deploy units at optimal range | High |
+| Execution | Focus fire on the boss first | Critical |
+
+<Checklist
+  id="wave-45-prep"
+  title="Wave 45 Readiness Goals:"
+  items={[
+    "Upgrade all primary DPS units to maximum level before Wave 40",
+    "Establish a dedicated aggro player with high-health gear",
+    "Deploy at least two defensive support structures to block rocket fire",
+    "Coordinate ultimate ability cooldowns to fire after the boss dashes"
+  ]}
+/>
+
+<Callout type="warning" title="Preparation Warning">
+Do not enter Wave 45 with unupgraded units. The damage scaling of the boss requires high-tier defenses to prevent your squad from being wiped out in the opening seconds of the wave.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+Review these common questions and answers regarding the boss fight mechanics and strategies.
+
+<FAQ items={[
+  {
+    question: "Where does the blockade battlefront astro rocketeer spawn?",
+    answer: "This boss enemy specifically spawns during Wave 45 of Endless Mode, serving as a major gatekeeper for players attempting to reach higher waves."
+  },
+  {
+    question: "How do you dodge the aerial rocket attacks?",
+    answer: "Keep moving perpendicular to the boss's firing line. Using defensive barriers built by support units like the Engineer Cameraman can also block the incoming rockets."
+  },
+  {
+    question: "Why does the boss keep dodging my attacks?",
+    answer: "The boss is programmed to perform a sideways dash to the left or right whenever it detects incoming projectiles. You must bait this dash first before using your strongest attacks."
+  },
+  {
+    question: "What is the best way to avoid the 400-damage grounded blast?",
+    answer: "Maintain a safe mid-range distance. The boss only triggers this high-damage pushback attack if a player gets too close to its physical model."
+  }
+]} />
+
+<Callout type="tip" title="Final Tip">
+Stay patient during the fight. Focus on survival and positioning first, and only commit to heavy damage windows when the boss's dash ability is on cooldown.
+</Callout>
+
+</Section>

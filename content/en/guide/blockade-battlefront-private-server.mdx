@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "blockade battlefront private server: Sandbox Mode & PS Commands Guide",
+  description: "Master the blockade battlefront private server with our guide on Sandbox mode, admin commands, BTools, and exclusive gamepass features for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Guide",
+  date: "2026-07-07",
+  author: "blockade battlefront Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Private Server Access**: Requires the specific Private Server Gamepass to unlock the full **blockade battlefront private server** experience.
+- **Sandbox Mode**: A specialized environment for spawning NPCs, testing Titans, and manipulating map geometry.
+- **Admin Commands**: Use prefix commands like `!sandbox` and `!OC` to trigger server-wide changes or character buffs.
+- **Creative Tools**: Utilize the Tool Gun and BTools to build or destroy elements within the game world.
+- **Server Control**: Owners have the exclusive ability to kick or ban users to maintain order during testing sessions.
+</Callout>
+
+<Section icon={Shield} title="Accessing the blockade battlefront private server">
+
+The **blockade battlefront private server** serves as a controlled environment where players can experiment with game mechanics without the interference of public lobby chaos. Unlike public servers, these instances are dedicated to the owner and their invited guests, providing a lag-free space for high-tier testing and cinematic recording.
+
+To fully utilize these features, players must possess the Private Server Gamepass. This pass is the gateway to the Sandbox menu, which fundamentally changes how the game is played. In a private setting, the standard progression-based gameplay is replaced by a creative suite that allows for immediate access to all entities and environmental controls.
+
+| Feature | Public Server | Private Server |
+| :--- | :--- | :--- |
+| **Sandbox Menu** | Not Available | **Full Access** |
+| **Admin Commands** | Restricted | **Owner Exclusive** |
+| **NPC Spawning** | Automatic Waves | **Manual Control** |
+| **Map Editing** | Impossible | **Enabled (BTools)** |
+| **Player Moderation** | System Auto-Mod | **Manual Kick/Ban** |
+
+<Callout type="warning" title="Gamepass Requirement">
+The Sandbox mode and advanced administrative tools are strictly locked behind the Private Server Gamepass. Purchasing a private server alone without the pass may limit your ability to use the `!sandbox` command.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Sandbox Mode Gameplay and Mechanics">
+
+Once inside a **blockade battlefront private server**, the primary attraction is Sandbox Mode. This mode transforms the classic map into a laboratory. Upon activation, a specialized menu appears at the bottom left of the screen, granting the player god-like powers over the game environment.
+
+This menu is the hub for all creative actions. From here, you can toggle invincibility, ignore enemy detection, and access the shop without needing the Helicopter NPC to arrive. It is the definitive way to test new units or practice against specific boss toilets without the risk of losing progress or currency.
+
+| Tool/Toggle | Primary Function | Best Use Case |
+| :--- | :--- | :--- |
+| **God Mode** | Grants Infinite HP | Testing high-damage boss attacks |
+| **AI Ignore** | Enemies will not target you | Recording cinematics or close-ups |
+| **Friendly AI** | Spawns NPCs as allies | Creating massive NPC vs NPC battles |
+| **Freeze Entities** | Stops all NPC movement | Precise positioning for screenshots |
+| **Clear Entities** | Deletes every NPC on map | Resetting the server after a heavy test |
+| **Infinite Cash** | Maxes out MiS currency | Fast-tracking shop purchases |
+
+<CardGrid cols={3}>
+  <Card title="Combat Testing">
+    - **God Mode** for safety
+    - Spawn specific enemies
+    - Test Titan DPS output
+  </Card>
+  <Card title="Content Creation">
+    - **Free Camera** for shots
+    - **Time** change (Day/Night)
+    - **Theme** music selection
+  </Card>
+  <Card title="Map Building">
+    - **BTools** for structures
+    - **Remover Gun** for cleanup
+    - **Tool Gun** for placement
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Testing Tip">
+Use the **Friendly AI** toggle before spawning a large group of Speakermen. This allows you to watch how different units interact with enemy toilets in a controlled skirmish, helping you determine the most efficient defensive layouts.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essential Tool Gun and BTools Guide">
+
+The core of the creative experience in a **blockade battlefront private server** lies in the physical tools provided to the player. These are not standard weapons but utility items that interact with the game's code to alter the physical world or NPC behavior.
+
+<Steps>
+  <Step num="1" title="Equip the Tool Gun">
+    The Tool Gun is your primary interaction device. It allows you to spawn any NPC (except Glitch Toilet) exactly where your crosshair is pointing. You can use the "Copy to Tool Gun" function to quickly replicate an existing enemy on the field.
+  </Step>
+  <Step num="2" title="Manipulate with BTools">
+    BTools (Building Tools) allow you to select, move, and alter the properties of map geometry and character models. This is essential for creating custom arenas or removing obstacles that block your line of sight during testing.
+  </Step>
+  <Step num="3" title="Cleanup with Remover Gun">
+    If the server becomes cluttered with too many entities, the Remover Gun acts as a targeted deletion tool. Simply shoot any NPC or object spawned via the Sandbox menu to remove it instantly from the game world.
+  </Step>
+</Steps>
+
+| Tool Name | Action | Target Type |
+| :--- | :--- | :--- |
+| **Tool Gun** | Spawn / Copy | NPCs / Enemies |
+| **Remover Gun** | Delete / Remove | Any spawned entity |
+| **BTools** | Move / Edit / Delete | Map parts / Models |
+| **Tool Gun (Auto)** | Continuous Copy | Multiple NPC batches |
+
+<Callout type="info" title="Titan Overcharging">
+While not a physical tool, the `!OC` command acts as a functional tool for Titans. It overcharges your equipped Titan, significantly boosting its stats. Note that this currently does not work for UTTV, DJ Titan, or Watch Titan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Private Server Admin Commands">
+
+Managing a **blockade battlefront private server** requires knowledge of the text-based command system. These commands are typed directly into the chat and are usually restricted to the server owner. They provide a quick way to moderate the server or reset your character's state without navigating through multiple menus.
+
+The command prefix is the exclamation mark `!`. Commands are case-sensitive in some versions, so it is best to type them exactly as shown in the documentation.
+
+| Command | Effect | Restriction |
+| :--- | :--- | :--- |
+| **!sandbox** | Activates Sandbox Menu | Gamepass Required |
+| **!banserver [user]** | Permanently bans a player | Owner Only |
+| **!kick [user]** | Removes a player from session | Owner Only |
+| **!OC** | Overcharges equipped Titan | Titan specific |
+| **!re** | Resets character to HQ | All Players |
+
+<Checklist
+  id="server-management"
+  title="Server Owner Responsibilities:"
+  items={[
+    "Enable !sandbox immediately upon joining to access tools",
+    "Monitor player behavior and use !kick for disruptive users",
+    "Use !re to fix character glitches or stuck states",
+    "Test Titan builds using the !OC command for max performance",
+    "Clear entities regularly to prevent server-side lag"
+  ]}
+/>
+
+<Callout type="success" title="Command Efficiency">
+The `!re` command is the fastest way to return to the headquarters if you fall off the map or get stuck in the geometry while using BTools. It is a universal command that helps maintain the flow of your testing session.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Environmental and Audio Controls">
+
+Beyond combat and building, the **blockade battlefront private server** offers deep customization for the atmosphere of the game. This is particularly useful for players who enjoy roleplaying or those looking to create high-quality video content for the community.
+
+You can adjust the time of day to create specific lighting conditions. Options include standard Day and Night cycles, as well as the specialized "Hell Wave" lighting, which gives the environment a dark, intense red glow. Additionally, the Theme menu allows you to cycle through seven different background music tracks to set the mood for your session.
+
+| Setting | Options | Result |
+| :--- | :--- | :--- |
+| **Time** | Day, Night, Hell Wave | Changes lighting and skybox |
+| **Theme** | Tracks 1 through 7 | Changes background music |
+| **Free Camera** | Toggle On/Off | Removes UI for cinematic shots |
+| **Shop** | Instant UI Access | Buy items without Helicopter |
+
+<Callout type="tip" title="Cinematic Mode">
+When using **Free Camera**, all UI elements including the settings menu are hidden. This is perfect for recording, but remember that you may need to use a hotkey or reset to regain control of your standard character interface.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I activate the Sandbox menu in a blockade battlefront private server?",
+    answer: "You must first own the Private Server Gamepass. Once in your server, type '!sandbox' in the chat. A menu will appear in the bottom-left corner of your screen."
+  },
+  {
+    question: "Can I spawn the Glitch Toilet in Sandbox mode?",
+    answer: "Currently, the Glitch Toilet is one of the few enemies that cannot be spawned via the Tool Gun or Sandbox menu."
+  },
+  {
+    question: "Does the !OC command work for every Titan?",
+    answer: "No, the !OC (Overcharge) command currently does not function for UTTV, DJ Titan, or Watch Titan. It works for most other Titans in the game."
+  },
+  {
+    question: "What happens if I turn off God Mode while I have low health?",
+    answer: "If you turn off God Mode, your HP will return to whatever value it was at before you activated the toggle. You do not stay at infinite HP."
+  }
+]} />
+
+</Section>

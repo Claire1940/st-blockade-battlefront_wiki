@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "server privat blockade battlefront: Panduan Mode Sandbox & Perintah PS",
+  description: "Kuasai server privat blockade battlefront dengan panduan kami tentang mode Sandbox, perintah admin, BTools, dan fitur gamepass eksklusif untuk tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Guide",
+  date: "2026-07-07",
+  author: "Tim Wiki blockade battlefront",
+  keywords: "mode sandbox, perintah server privat, BTools, blockade battlefront"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Akses Server Privat**: Memerlukan Gamepass Server Privat khusus untuk membuka pengalaman penuh **server privat blockade battlefront**.
+- **Mode Sandbox**: Lingkungan khusus untuk memunculkan NPC, menguji Titan, dan memanipulasi geometri peta.
+- **Perintah Admin**: Gunakan perintah awalan seperti `!sandbox` dan `!OC` untuk memicu perubahan di seluruh server atau buff karakter.
+- **Alat Kreatif**: Gunakan Tool Gun dan BTools untuk membangun atau menghancurkan elemen di dalam dunia game.
+- **Kontrol Server**: Pemilik memiliki kemampuan eksklusif untuk mengeluarkan (kick) atau memblokir (ban) pengguna untuk menjaga ketertiban selama sesi pengujian.
+</Callout>
+
+<Section icon={Shield} title="Mengakses server privat blockade battlefront">
+
+**Server privat blockade battlefront** berfungsi sebagai lingkungan terkendali di mana pemain dapat bereksperimen dengan mekanik game tanpa gangguan kekacauan lobi publik. Berbeda dengan server publik, instansi ini didedikasikan untuk pemilik dan tamu undangan mereka, menyediakan ruang bebas lag untuk pengujian tingkat tinggi dan perekaman sinematik.
+
+Untuk menggunakan fitur-fitur ini sepenuhnya, pemain harus memiliki Gamepass Server Privat. Pass ini adalah pintu gerbang menuju menu Sandbox, yang secara mendasar mengubah cara permainan dimainkan. Dalam pengaturan privat, gameplay berbasis progresi standar digantikan oleh rangkaian kreatif yang memungkinkan akses instan ke semua entitas dan kontrol lingkungan.
+
+| Fitur | Server Publik | Server Privat |
+| :--- | :--- | :--- |
+| **Menu Sandbox** | Tidak Tersedia | **Akses Penuh** |
+| **Perintah Admin** | Terbatas | **Eksklusif Pemilik** |
+| **Pemunculan NPC** | Gelombang Otomatis | **Kontrol Manual** |
+| **Pengeditan Peta** | Mustahil | **Diaktifkan (BTools)** |
+| **Moderasi Pemain** | Auto-Mod Sistem | **Kick/Ban Manual** |
+
+<Callout type="warning" title="Persyaratan Gamepass">
+Mode Sandbox dan alat administratif lanjutan terkunci secara ketat di balik Gamepass Server Privat. Membeli server privat saja tanpa pass tersebut mungkin membatasi kemampuan Anda untuk menggunakan perintah `!sandbox`.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Gameplay dan Mekanik Mode Sandbox">
+
+Begitu berada di dalam **server privat blockade battlefront**, daya tarik utamanya adalah Mode Sandbox. Mode ini mengubah peta klasik menjadi laboratorium. Setelah diaktifkan, menu khusus akan muncul di kiri bawah layar, memberikan pemain kekuatan seperti dewa atas lingkungan game.
+
+Menu ini adalah pusat untuk semua tindakan kreatif. Dari sini, Anda dapat mengaktifkan kebal (invincibility), mengabaikan deteksi musuh, dan mengakses toko tanpa perlu menunggu NPC Helikopter tiba. Ini adalah cara definitif untuk menguji unit baru atau berlatih melawan bos toilet tertentu tanpa risiko kehilangan progres atau mata uang.
+
+| Alat/Toggle | Fungsi Utama | Kasus Penggunaan Terbaik |
+| :--- | :--- | :--- |
+| **God Mode** | Memberikan HP Tak Terbatas | Menguji serangan bos dengan damage tinggi |
+| **AI Ignore** | Musuh tidak akan menargetkan Anda | Merekam sinematik atau close-up |
+| **Friendly AI** | Memunculkan NPC sebagai sekutu | Membuat pertempuran besar NPC vs NPC |
+| **Freeze Entities** | Menghentikan semua gerakan NPC | Pemosisian tepat untuk tangkapan layar |
+| **Clear Entities** | Menghapus setiap NPC di peta | Mereset server setelah pengujian berat |
+| **Infinite Cash** | Memaksimalkan mata uang MiS | Mempercepat pembelian toko |
+
+<CardGrid cols={3}>
+  <Card title="Pengujian Pertempuran">
+    - **God Mode** untuk keamanan
+    - Munculkan musuh tertentu
+    - Uji output DPS Titan
+  </Card>
+  <Card title="Pembuatan Konten">
+    - **Kamera Bebas** untuk pengambilan gambar
+    - Perubahan **Waktu** (Siang/Malam)
+    - Pemilihan musik **Tema**
+  </Card>
+  <Card title="Pembangunan Peta">
+    - **BTools** untuk struktur
+    - **Remover Gun** untuk pembersihan
+    - **Tool Gun** untuk penempatan
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tip Pengujian Pro">
+Gunakan toggle **Friendly AI** sebelum memunculkan sekelompok besar Speakerman. Ini memungkinkan Anda melihat bagaimana unit yang berbeda berinteraksi dengan toilet musuh dalam pertempuran terkendali, membantu Anda menentukan tata letak pertahanan yang paling efisien.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Panduan Utama Tool Gun dan BTools">
+
+Inti dari pengalaman kreatif di **server privat blockade battlefront** terletak pada alat fisik yang disediakan bagi pemain. Ini bukan senjata standar melainkan item utilitas yang berinteraksi dengan kode game untuk mengubah dunia fisik atau perilaku NPC.
+
+<Steps>
+  <Step num="1" title="Lengkapi Tool Gun">
+    Tool Gun adalah perangkat interaksi utama Anda. Ini memungkinkan Anda memunculkan NPC apa pun (kecuali Glitch Toilet) tepat di tempat bidikan Anda menunjuk. Anda dapat menggunakan fungsi "Copy to Tool Gun" untuk mereplikasi musuh yang ada di lapangan dengan cepat.
+  </Step>
+  <Step num="2" title="Manipulasi dengan BTools">
+    BTools (Building Tools) memungkinkan Anda memilih, memindahkan, dan mengubah properti geometri peta dan model karakter. Ini sangat penting untuk membuat arena khusus atau menghilangkan rintangan yang menghalangi pandangan Anda selama pengujian.
+  </Step>
+  <Step num="3" title="Pembersihan dengan Remover Gun">
+    Jika server menjadi berantakan dengan terlalu banyak entitas, Remover Gun bertindak sebagai alat penghapusan yang ditargetkan. Cukup tembak NPC atau objek apa pun yang dimunculkan melalui menu Sandbox untuk menghapusnya secara instan dari dunia game.
+  </Step>
+</Steps>
+
+| Nama Alat | Tindakan | Tipe Target |
+| :--- | :--- | :--- |
+| **Tool Gun** | Munculkan / Salin | NPC / Musuh |
+| **Remover Gun** | Hapus / Singkirkan | Entitas apa pun yang dimunculkan |
+| **BTools** | Pindahkan / Edit / Hapus | Bagian peta / Model |
+| **Tool Gun (Auto)** | Salin Berkelanjutan | Beberapa batch NPC |
+
+<Callout type="info" title="Overcharging Titan">
+Meskipun bukan alat fisik, perintah `!OC` bertindak sebagai alat fungsional untuk Titan. Ini mengisi daya Titan yang Anda lengkapi secara berlebihan, meningkatkan statistiknya secara signifikan. Perhatikan bahwa saat ini ini tidak berfungsi untuk UTTV, DJ Titan, atau Watch Titan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perintah Admin Server Privat">
+
+Mengelola **server privat blockade battlefront** memerlukan pengetahuan tentang sistem perintah berbasis teks. Perintah-perintah ini diketik langsung ke dalam chat dan biasanya dibatasi hanya untuk pemilik server. Mereka menyediakan cara cepat untuk memoderasi server atau mereset status karakter Anda tanpa menavigasi melalui banyak menu.
+
+Awalan perintah adalah tanda seru `!`. Perintah peka terhadap huruf besar-kecil pada beberapa versi, jadi sebaiknya ketikkan persis seperti yang ditunjukkan dalam dokumentasi.
+
+| Perintah | Efek | Batasan |
+| :--- | :--- | :--- |
+| **!sandbox** | Mengaktifkan Menu Sandbox | Perlu Gamepass |
+| **!banserver [user]** | Memblokir pemain secara permanen | Hanya Pemilik |
+| **!kick [user]** | Mengeluarkan pemain dari sesi | Hanya Pemilik |
+| **!OC** | Mengisi daya Titan yang dilengkapi | Spesifik Titan |
+| **!re** | Mereset karakter ke HQ | Semua Pemain |
+
+<Checklist
+  id="server-management"
+  title="Tanggung Jawab Pemilik Server:"
+  items={[
+    "Aktifkan !sandbox segera setelah bergabung untuk mengakses alat",
+    "Pantau perilaku pemain dan gunakan !kick untuk pengguna yang mengganggu",
+    "Gunakan !re untuk memperbaiki glitch karakter atau kondisi tersangkut",
+    "Uji build Titan menggunakan perintah !OC untuk performa maksimal",
+    "Bersihkan entitas secara teratur untuk mencegah lag di sisi server"
+  ]}
+/>
+
+<Callout type="success" title="Efisiensi Perintah">
+Perintah `!re` adalah cara tercepat untuk kembali ke markas jika Anda jatuh dari peta atau tersangkut di geometri saat menggunakan BTools. Ini adalah perintah universal yang membantu menjaga kelancaran sesi pengujian Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kontrol Lingkungan dan Audio">
+
+Selain pertempuran dan pembangunan, **server privat blockade battlefront** menawarkan kustomisasi mendalam untuk atmosfer game. Ini sangat berguna bagi pemain yang menikmati roleplay atau mereka yang ingin membuat konten video berkualitas tinggi untuk komunitas.
+
+Anda dapat menyesuaikan waktu untuk menciptakan kondisi pencahayaan tertentu. Opsi yang tersedia mencakup siklus Siang (Day) dan Malam (Night) standar, serta pencahayaan khusus "Hell Wave", yang memberikan lingkungan cahaya merah yang gelap dan intens. Selain itu, menu Tema memungkinkan Anda untuk beralih di antara tujuh trek musik latar yang berbeda untuk mengatur suasana sesi Anda.
+
+| Pengaturan | Opsi | Hasil |
+| :--- | :--- | :--- |
+| **Waktu** | Day, Night, Hell Wave | Mengubah pencahayaan dan skybox |
+| **Tema** | Track 1 hingga 7 | Mengubah musik latar |
+| **Kamera Bebas** | Toggle On/Off | Menghapus UI untuk pengambilan gambar sinematik |
+| **Toko** | Akses UI Instan | Beli item tanpa Helikopter |
+
+<Callout type="tip" title="Mode Sinematik">
+Saat menggunakan **Kamera Bebas**, semua elemen UI termasuk menu pengaturan disembunyikan. Ini sempurna untuk merekam, tetapi ingat bahwa Anda mungkin perlu menggunakan hotkey atau reset untuk mendapatkan kembali kontrol antarmuka karakter standar Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mengaktifkan menu Sandbox di server privat blockade battlefront?",
+    answer: "Anda harus terlebih dahulu memiliki Gamepass Server Privat. Setelah berada di server Anda, ketik '!sandbox' di chat. Menu akan muncul di pojok kiri bawah layar Anda."
+  },
+  {
+    question: "Bisakah saya memunculkan Glitch Toilet di mode Sandbox?",
+    answer: "Saat ini, Glitch Toilet adalah salah satu dari sedikit musuh yang tidak dapat dimunculkan melalui Tool Gun atau menu Sandbox."
+  },
+  {
+    question: "Apakah perintah !OC berfungsi untuk setiap Titan?",
+    answer: "Tidak, perintah !OC (Overcharge) saat ini tidak berfungsi untuk UTTV, DJ Titan, atau Watch Titan. Perintah ini berfungsi untuk sebagian besar Titan lainnya di dalam game."
+  },
+  {
+    question: "Apa yang terjadi jika saya mematikan Mode Dewa saat saya memiliki HP rendah?",
+    answer: "Jika Anda mematikan Mode Dewa, HP Anda akan kembali ke nilai apa pun sebelum Anda mengaktifkan toggle tersebut. Anda tidak tetap berada pada HP tak terbatas."
+  }
+]} />
+
+</Section>

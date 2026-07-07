@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "blockade battlefront astro rocketeer: Panduan Boss & Taktik",
+  description: "Kuasai pertarungan boss blockade battlefront astro rocketeer. Pelajari pola serangan, strategi wave 45, dan loadout untuk bertahan di mode Endless.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Rocketeer+Guide",
+  date: "2026-07-07",
+  author: "Tim Wiki blockade battlefront",
+  keywords: "blockade battlefront, astro rocketeer, panduan boss, strategi wave 45, mode endless"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Target utama**: **blockade battlefront astro rocketeer** adalah boss mematikan yang muncul di wave 45 mode Endless.
+- **Pola serangan**: Waspadai roket udara ber-damage 150 dan serangan dorongan darat (grounded pushback) ber-damage 400 dengan dampak tinggi.
+- **Mekanisme menghindar**: Boss sering melakukan dash ke samping untuk menghindari proyektil pemain, sehingga memerlukan penyesuaian bidikan yang presisi.
+- **Posisi terbaik**: Pertahankan jarak menengah untuk mencegah pemicuan dorongan jarak dekat darat yang menghancurkan.
+- **Strategi kunci**: Koordinasikan aggro tim untuk mengalihkan perhatian boss sementara pemberi damage tinggi fokus menembak dari tempat aman.
+</Callout>
+
+<Section icon={Shield} title="blockade battlefront astro rocketeer: Tinjauan Boss">
+
+**blockade battlefront astro rocketeer** merupakan salah satu tantangan paling tangguh yang dihadapi pemain selama sesi akhir permainan di Mode Endless. Muncul secara khusus dalam lingkungan kacau di Wave 45, musuh boss ini menggabungkan mobilitas tinggi, pemboman jarak jauh, dan pertahanan jarak dekat yang menghukum. Memahami cara menangani boss ini adalah kunci untuk melewati Wave 45 dan mengamankan hadiah tingkat tinggi.
+
+Berbeda dengan unit darat standar, boss ini menggunakan mekanik terbang canggih untuk melayang di atas medan perang, menjadikannya target yang sulit bagi setup fokus jarak dekat atau proyektil yang bergerak lambat. Pemain harus menyesuaikan posisi dan penempatan unit mereka untuk melawan pencarian jalur AI-nya yang sangat dinamis. Menurut [entri Wiki Fandom resmi](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Rocketeer_Astro_Toilet), boss ini memprioritaskan pemain terdekat, yang berarti koordinasi tim sangat penting untuk kelangsungan hidup.
+
+| Metrik | Nilai | Detail |
+| --- | --- | --- |
+| Wave Muncul | Wave 45 | Muncul selama sesi Mode Endless |
+| Ancaman Utama | Roket damage tinggi | Menembakkan proyektil terus-menerus ke target |
+| Pertahanan Jarak Dekat | Ledakan darat | Memberikan damage tinggi dan knockback |
+| Mobilitas | Tinggi | Kemampuan dash udara untuk menghindar |
+
+<Callout type="tip" title="Tip Prioritas Target">
+Karena boss menargetkan pemain terdekat, pemain yang ditunjuk sebagai tank harus sengaja menarik aggro, membiarkan rekan tim dengan DPS tinggi untuk menyiapkan zona damage tanpa takut akan pembalasan langsung.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mekanisme Pertempuran & Pola Serangan">
+
+Mengalahkan boss ini memerlukan pemahaman mendalam tentang dua fase pertempuran yang berbeda: Fase Udara dan Fase Darat. Boss bertransisi secara dinamis di antara perilaku ini tergantung pada jarak pemain dan ancaman proyektil yang datang.
+
+Selama Fase Udara, boss melayang di ketinggian sedang dan menghujani roket. Setiap roket memberikan damage sebesar 150 saat terjadi benturan. Jika pemain mencoba membalas dengan proyektil lambat namun ber-damage tinggi, boss akan melakukan dash cepat ke kiri atau kanan, dengan mudah menghindari serangan tersebut. Saat pemain terlalu dekat, boss bertransisi ke Fase Darat, mengeksekusi serangan gelombang kejut masif yang memberikan 400 damage dan mendorong pemain mundur, mengatur ulang jarak.
+
+| Nama Serangan | Jarak | Damage | Efek |
+| --- | --- | --- | --- |
+| Roket Udara | Jauh | 150 | Pemboman terus-menerus |
+| Dash Menghindar | Menengah | 0 | Manuver menghindar ke samping |
+| Ledakan Darat | Dekat | 400 | Damage berat dan knockback |
+
+<CardGrid cols={3}>
+  <Card title="Fase Udara">
+    - **Tembakan Roket Terus-menerus**: Menembakkan banyak roket yang menargetkan pemain terdekat.
+    - **150 Damage Per Roket**: Dapat dengan cepat menghabiskan HP pemain jika terkena ledakan.
+    - **Ketinggian Terbang Tinggi**: Menghindari bahaya darat standar dan serangan dengan jangkauan rendah.
+  </Card>
+  <Card title="Manuver Menghindar">
+    - **Dash ke Samping**: Dipicu saat proyektil terdeteksi.
+    - **Menghindar Kiri/Kanan**: Dapat dengan mudah membuang cooldown pemain dan kemampuan ber-damage tinggi.
+    - **Reset Posisi**: Memungkinkan boss untuk mempertahankan jarak tembak optimal.
+  </Card>
+  <Card title="Pertahanan Darat">
+    - **Pemicu Jarak Dekat**: Aktif saat pemain memasuki ambang batas jarak dekat.
+    - **400 Base Damage**: Sangat mematikan bagi unit pendukung berdarah rendah.
+    - **Knockback Berat**: Mendorong pemain mundur untuk membangun kembali pertempuran jarak jauh.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Peringatan: Hindari Jarak Melee">
+Jangan mencoba menyerbu boss dengan senjata jarak dekat kecuali Anda memiliki perisai aktif. Ledakan Darat ber-damage 400 dapat secara instan mengeliminasi pemain yang lemah dan mengacaukan formasi pertahanan skuad Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strategi Kalahkan Langkah demi Langkah">
+
+Untuk berhasil menetralisir boss, pemain harus mengeksekusi strategi terstruktur yang meminimalkan asupan damage sambil memaksimalkan efisiensi DPS selama jendela menghindar boss. Ikuti urutan taktis ini untuk mengamankan kemenangan.
+
+<Steps>
+  <Step num="1" title="Tetapkan Kontrol Aggro">
+    Minta pemain dengan HP tinggi, seperti loadout tank, bergerak maju untuk menjadi target terdekat. Ini akan mengunci AI penargetan boss pada satu jalur yang dapat diprediksi, menjaga unit pendukung tetap aman.
+  </Step>
+  <Step num="2" title="Buat Perimeter Jarak Menengah">
+    Posisikan pemberi damage tepat di luar radius Ledakan Darat. Ini mencegah boss memicu knockback 400 damage-nya sambil tetap menjaga boss dalam jangkauan senjata utama Anda.
+  </Step>
+  <Step num="3" title="Umpan dan Hukum Dash">
+    Tembakkan satu tembakan umpan untuk memicu dash samping boss. Setelah animasi dash selesai dan boss diam sejenak, lepaskan kemampuan damage tinggi dan senjata tembakan cepat Anda.
+  </Step>
+  <Step num="4" title="Rotasi Cooldown dan Heal">
+    Gunakan struktur pendukung dan unit penyembuh untuk memitigasi damage kecil dari roket udara 150 damage. Pastikan perisai tetap aktif pada pemegang aggro sepanjang pertarungan.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Keberhasilan Strategi">
+Dengan memancing dash samping sebelum menggunakan cooldown besar, tim dapat meningkatkan output damage keseluruhan hingga 50%, mencegah tembakan yang terbuang dan memperpendek durasi pertarungan.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Loadout & Persiapan yang Direkomendasikan">
+
+Memilih unit dan loadout yang tepat sangat penting untuk bertahan di Wave 45 Mode Endless. Pemain harus membawa campuran seimbang antara dukungan pertahanan, DPS tembakan cepat, dan kontrol kerumunan (crowd control) untuk menangani boss dan musuh pendukung yang muncul bersamanya.
+
+Engineer Cameraman sangat direkomendasikan untuk membangun benteng pertahanan guna menyerap damage roket, sementara Polycephaly memberikan kontrol luar biasa terhadap ancaman tambahan. Speakerman standar menawarkan DPS jarak menengah yang andal untuk menguras HP boss di antara jeda dash.
+
+| Tipe Unit | Peran | Efektivitas | Strategi |
+| --- | --- | --- | --- |
+| Engineer Cameraman | Support | ★★★★☆ | Bangun pertahanan untuk menyerap tembakan roket |
+| Normal Speakerman | DPS | ★★★☆☆ | Berikan output damage jarak menengah yang stabil |
+| Polycephaly | Crowd Control | ★★★★☆ | Ganggu musuh pendukung di sekitar boss |
+| Normal Cameraman | Buffer | ★★☆☆☆ | Berikan dukungan dasar dan gangguan kecil |
+
+<Callout type="info" title="Sinergi Loadout">
+Menggabungkan penghalang pertahanan dari Engineer Cameraman dengan kemampuan crowd control dari Polycephaly memungkinkan pemberi damage utama Anda untuk fokus sepenuhnya pada penargetan boss.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Wave 45 Mode Endless">
+
+Untuk memastikan skuad Anda siap menghadapi kedatangan boss, tinjau checklist persiapan ini sebelum memulai sesi Mode Endless Anda. Menyelesaikan pencapaian ini akan secara signifikan meningkatkan peluang kelangsungan hidup Anda.
+
+| Fase | Objektif | Prioritas |
+| --- | --- | --- |
+| Persiapan | Maksimalkan upgrade unit utama | Kritis |
+| Penempatan | Sebarkan unit pada jarak optimal | Tinggi |
+| Eksekusi | Fokus tembak pada boss terlebih dahulu | Kritis |
+
+<Checklist
+  id="wave-45-prep"
+  title="Target Kesiapan Wave 45:"
+  items={[
+    "Upgrade semua unit DPS utama ke level maksimum sebelum Wave 40",
+    "Tentukan pemain aggro khusus dengan perlengkapan HP tinggi",
+    "Pasang setidaknya dua struktur pertahanan untuk memblokir tembakan roket",
+    "Koordinasikan cooldown kemampuan ultimate untuk ditembakkan setelah boss melakukan dash"
+  ]}
+/>
+
+<Callout type="warning" title="Peringatan Persiapan">
+Jangan memasuki Wave 45 dengan unit yang belum di-upgrade. Penskalaan damage boss memerlukan pertahanan tingkat tinggi untuk mencegah skuad Anda tersapu bersih dalam hitungan detik awal wave.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Pertanyaan yang Sering Diajukan">
+
+Tinjau pertanyaan dan jawaban umum berikut mengenai mekanik dan strategi pertarungan boss.
+
+<FAQ items={[
+  {
+    question: "Di mana blockade battlefront astro rocketeer muncul?",
+    answer: "Musuh boss ini muncul secara khusus selama Wave 45 di Mode Endless, berfungsi sebagai penjaga gerbang utama bagi pemain yang mencoba mencapai wave yang lebih tinggi."
+  },
+  {
+    question: "Bagaimana cara menghindari serangan roket udara?",
+    answer: "Teruslah bergerak tegak lurus dengan garis tembak boss. Menggunakan penghalang pertahanan yang dibangun oleh unit pendukung seperti Engineer Cameraman juga dapat memblokir roket yang datang."
+  },
+  {
+    question: "Mengapa boss terus menghindari serangan saya?",
+    answer: "Boss diprogram untuk melakukan dash ke samping ke kiri atau kanan setiap kali mendeteksi proyektil yang datang. Anda harus memancing dash ini terlebih dahulu sebelum menggunakan serangan terkuat Anda."
+  },
+  {
+    question: "Apa cara terbaik untuk menghindari ledakan darat 400-damage?",
+    answer: "Pertahankan jarak menengah yang aman. Boss hanya memicu serangan dorongan ber-damage tinggi ini jika ada pemain yang terlalu dekat dengan model fisiknya."
+  }
+]} />
+
+<Callout type="tip" title="Tip Terakhir">
+Tetaplah sabar selama pertarungan. Fokus pada kelangsungan hidup dan posisi terlebih dahulu, dan hanya berkomitmen pada jendela damage besar saat kemampuan dash boss sedang cooldown.
+</Callout>
+
+</Section>

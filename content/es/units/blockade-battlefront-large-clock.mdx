@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gran Reloj de Frente de Batalla de Bloqueo: Guía de Maestría y Análisis de Habilidades",
+  description: "Domina la unidad del gran reloj de Frente de Batalla de Bloqueo con nuestra guía de 2026. Aprende combos de habilidades, ventajas de maestría y estrategias de detención del tiempo para dominar el campo de batalla.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Large+Clockman+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Frente de Batalla de Bloqueo",
+  keywords: "reloj grande, frente de batalla de bloqueo, guía, maestría, habilidades"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Gran reloj de Frente de Batalla de Bloqueo**: Una unidad de gran impacto y poder especializada en la manipulación del tiempo y el daño explosivo en área de efecto.
+- **Mecánica Central**: La habilidad **Detención del Tiempo** (Time-Stop) permite colocar bombas sin tiempo de recarga, creando un enorme potencial de daño de ráfaga.
+- **Prioridad de Maestría**: Alcanzar el Nivel de Maestría 50 es fundamental para desbloquear la mejora de **40% de resistencia al daño** para sobrevivir.
+- **Rol de Combate**: Se utiliza mejor como un perturbador de primera línea capaz de congelar oleadas enteras de enemigos en su lugar.
+- **Mejor Sinergia**: Combina excepcionalmente bien con unidades que pueden agrupar a los enemigos antes de una secuencia de Detención del Tiempo.
+</Callout>
+
+<Section icon={Shield} title="Descripción General de la Unidad Gran Reloj de Frente de Batalla de Bloqueo">
+
+La unidad del **gran reloj de Frente de Batalla de Bloqueo**, comúnmente conocida como el Large Clockman, representa a uno de los combatientes más versátiles y temidos en el meta actual. A diferencia de las unidades estándar que dependen de un DPS constante, el Large Clockman se centra en ciclos de habilidades de alto riesgo y posicionamiento táctico. Con una reserva de salud y capacidades defensivas que escalan significativamente a través de la maestría, esta unidad sirve tanto de tanque como de principal distribuidor de daño durante las fases críticas de las misiones.
+
+En el meta de 2026, entender los matices de su conjunto de habilidades es la diferencia entre una misión fallida y una victoria absoluta. Su fuerza principal no radica en sus golpes físicos, sino en su capacidad para dictar el flujo del tiempo, pausando eficazmente el campo de batalla para colocar devastadoras trampas explosivas.
+
+| Atributo | Valor Base | Potencial de Escalado |
+| --- | --- | --- |
+| **Daño Primario** | 50 por golpe | Combo cuerpo a cuerpo constante |
+| **Daño de Ráfaga** | 300 por bomba | Daño en área masivo durante Detención del Tiempo |
+| **Duración de Detención** | 11 Segundos | Congelación global del campo de batalla |
+| **Resistencia al Daño** | 0% Base | Hasta un 40% mediante Maestría |
+| **Control de Masas** | Alto | Orbes de energía temporal y congelación |
+
+<Callout type="tip" title="Perspectiva Táctica">
+Vigila siempre el Tiempo de Recarga Global de la Detención del Tiempo (1 minuto y 10 segundos). Usarlo demasiado pronto con enemigos menores puede dejarte vulnerable durante la aparición de jefes o en misiones de Oleada del Infierno (Hell Wave).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose Detallado de Habilidades y Mecánicas de Combate">
+
+La efectividad del **gran reloj de Frente de Batalla de Bloqueo** depende de la habilidad del jugador para encadenar destrezas durante la ventana de 11 segundos de control absoluto. Aunque sus ataques cuerpo a cuerpo proporcionan daño de relleno, sus habilidades secundarias y especiales definen su posición en la lista de niveles.
+
+**Combo Cuerpo a Cuerpo (Melee Combo)**
+El Large Clockman utiliza un combo de puños de dos golpes. Cada golpe inflige 50 de daño. Aunque esta es su fuente de daño más baja, es esencial para acabar con los enemigos rezagados que tienen poca salud sin desperdiciar los tiempos de recarga de las habilidades.
+
+**Plantar Bomba (Bomb-Plant - DPS Principal)**
+Esta es la herramienta ofensiva principal de la unidad. En condiciones normales, tiene un tiempo de recarga de 4 segundos e inflige 300 de daño. Sin embargo, su verdadero poder se desbloquea durante el estado de Detención del Tiempo, donde el tiempo de recarga se elimina por completo.
+
+**Deformación (Warp - Movilidad)**
+Con un tiempo de recarga de 11 segundos, Warp permite al Large Clockman teletransportarse una corta distancia hacia adelante. Esto es vital para reposicionarse antes de iniciar una Detención del Tiempo o para escapar de zonas de daño en área (AOE) masivo de los jefes enemigos.
+
+**Lanzamiento de Detención del Tiempo (Time-Stop-Throw - Control de Masas)**
+Al lanzar un orbe de energía temporal pura, el Large Clockman inflige 200 de daño y congela a los enemigos en su lugar. Esta es una habilidad con 25 segundos de tiempo de recarga que actúa como un mini-control de masas entre las rotaciones principales de Detención del Tiempo.
+
+| Nombre de la Habilidad | Daño | Tiempo de Recarga | Efecto Especial |
+| --- | --- | --- | --- |
+| **Combo de Puños** | 50 x 2 | N/A | Combate cuerpo a cuerpo básico |
+| **Plantar Bomba** | 300 | 4 Segundos | Sin tiempo de recarga durante Detención del Tiempo |
+| **Deformación (Warp)** | N/A | 11 Segundos | Teletransporte táctico de corto alcance |
+| **Detención del Tiempo** | N/A | 55 Segundos | Congelación de 11s, 1m 10s de Recarga Global |
+| **Lanzamiento de Detención** | 200 | 25 Segundos | Congela a los enemigos golpeados en su lugar |
+
+<Callout type="warning" title="Gestión de Tiempos de Recarga">
+La habilidad Detención del Tiempo tiene dos temporizadores separados: un tiempo de recarga individual de 55 segundos y un tiempo de recarga global de 1 minuto y 10 segundos. No puedes usar esta habilidad de forma consecutiva con múltiples unidades Clockman simultáneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de Maestría y Recompensas de Nivel">
+
+Para maximizar verdaderamente el **gran reloj de Frente de Batalla de Bloqueo**, los jugadores deben invertir en el sistema de Maestría. Subir de nivel a esta unidad proporciona mejoras pasivas que alteran significativamente su supervivencia y utilidad en modos de alta dificultad como el Modo Infinito (Endless) o la Oleada del Infierno (Hell Wave).
+
+<Steps>
+  <Step num="1" title="Nivel de Maestría 25: Impulso de Utilidad">
+    En esta etapa, se reduce el tiempo de recarga de **Lanzamiento de Detención del Tiempo**. Esto permite congelar con mayor frecuencia a los enemigos de élite, proporcionando un mejor control del carril.
+  </Step>
+  <Step num="2" title="Nivel de Maestría 50: Cúspide Defensiva">
+    Este es el hito más importante. El Large Clockman obtiene una mejora del **40% de resistencia al daño**. Esto transforma a la unidad de un luchador estilo mago de cristal a un auténtico combatiente de primera línea.
+  </Step>
+  <Step num="3" title="Nivel de Maestría 80+: Estado Élite">
+    Aunque los datos actuales muestran N/A para las descripciones de ventajas específicas en el nivel 80, alcanzar este nivel garantiza que tu unidad tenga el escalado de estadísticas base requerido para el contenido avanzado de finales de 2026.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Enfoque en el Juego Temprano">
+    Prioriza el uso de Warp para mantenerte con vida. Tu resistencia al daño es baja, por lo que debes jugar como un especialista de atacar y huir hasta alcanzar la Maestría 50.
+  </Card>
+  <Card title="Estrategia para el Juego Tardío">
+    Con un 40% de resistencia al daño, puedes pararte en medio de las oleadas enemigas. Usa la Detención del Tiempo de manera agresiva para limpiar pantallas enteras de monstruos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Maestría">
+Concentra todos tus puntos de experiencia en alcanzar el Nivel 50 lo más rápido posible. La reducción de daño del 40% cambia las reglas del juego para completar misiones difíciles en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategia Óptima de Ejecución de Detención del Tiempo">
+
+La técnica de \"Lluvia de Bombas\" es la forma definitiva de jugar con el **gran reloj de Frente de Batalla de Bloqueo**. Ejecutar esto correctamente puede infligir miles de puntos de daño en una sola ventana de 11 segundos.
+
+1.  **Preparación**: Asegúrate de que tu Warp no esté en tiempo de recarga.
+2.  **Combate**: Usa Warp para teletransportarte al centro del grupo de enemigos más grande.
+3.  **Activación**: Activa la **Detención del Tiempo**.
+4.  **La Lluvia**: Presiona el botón de **Plantar Bomba** lo más rápido posible. Dado que no hay tiempo de recarga, deberías poder plantar entre 10 y 15 bombas en la ventana de 11 segundos.
+5.  **Detonación**: Una vez que termina la Detención del Tiempo, todas las bombas explotan simultáneamente.
+6.  **Retirada**: Usa el Lanzamiento de Detención del Tiempo para congelar a los supervivientes y usa Warp para regresar a un lugar seguro.
+
+| Fase de la Estrategia | Acción | Objetivo |
+| --- | --- | --- |
+| **Pre-congelación** | Warp / Posicionamiento | Maximizar la cobertura del daño en área |
+| **Durante la Congelación** | Plantado Infinito de Bombas | Acumular más de 3000 de daño de ráfaga |
+| **Post-congelación** | Lanzamiento de Detención | Controlar a los supervivientes para la limpieza |
+
+<Callout type="tip" title="Combo Pro">
+Combina al Large Clockman con una unidad que tenga una habilidad de \"Atracción\" o \"Vórtice\". Reunir a los enemigos en un círculo estrecho antes de la Detención del Tiempo asegura que cada bomba golpee al máximo número de objetivos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rol en Diferentes Modos de Juego">
+
+El **gran reloj de Frente de Batalla de Bloqueo** se comporta de manera diferente según el tipo de misión. Aunque destaca en la defensa basada en oleadas, su utilidad en encuentros que son exclusivamente contra jefes requiere una sincronización más precisa.
+
+**Modo Infinito (Endless Mode)**
+In Endless, la resistencia al daño del 40% de la Maestría 50 es tu mejor aliada. A medida que el daño de los enemigos escala, el Clockman sigue siendo una de las pocas unidades capaces de recibir golpes mientras proporciona el control de masas esencial para mantener segura la base.
+
+**Modo de Dificultad / Misiones**
+Para misiones específicas como Oleada del Infierno (Hell Wave), usa el Lanzamiento de Detención del Tiempo para aislar objetivos de alta amenaza como el Helicóptero de Ataque de Cámara o las variantes élite de Skibidi. Mantenerlos congelados permite que tus unidades de alto DPS de un solo objetivo los eliminen de forma segura.
+
+**Tabla de Comparación de Unidades**
+| Tipo de Unidad | Daño de Ráfaga | Supervivencia | Control de Masas |
+| --- | --- | --- | --- |
+| **Large Clockman** | Excelente | Muy Alta | Élite |
+| **Large Speakerman** | Alto | Moderada | Bajo |
+| **Normal TV Man** | Moderado | Baja | Alto |
+| **Polycephaly** | Alto | Moderada | Moderado |
+
+<Callout type="info" title="Consejo de Experto">
+En el modo Infinito, intenta escalonar tu Detención del Tiempo con otros jugadores que usen Clockman. Dado que el Tiempo de Recarga Global es de 1m 10s, rotar vuestras congelaciones puede mantener a los enemigos permanentemente ralentizados o detenidos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión">
+
+Utiliza esta lista de verificación para seguir tu desarrollo con la unidad del **gran reloj de Frente de Batalla de Bloqueo** y asegurarte de estar listo para la misión.
+
+<Checklist
+  id="clockman-progression"
+  title="Hitos del Large Clockman:"
+  items={[
+    "Desbloquear al Large Clockman a través de la tienda de personajes o invocaciones",
+    "Alcanzar el Nivel de Maestría 25 para reducir el tiempo de recarga de Lanzamiento de Detención del Tiempo",
+    "Alcanzar el Nivel de Maestría 50 para desbloquear el 40% de Resistencia al Daño",
+    "Practicar la técnica de 'Lluvia de Bombas' en una misión de baja dificultad",
+    "Completar con éxito una misión de Oleada del Infierno utilizando rotaciones de Detención del Tiempo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo maximizo el daño durante la Detención del Tiempo del gran reloj de Frente de Batalla de Bloqueo?",
+    answer: "La clave es spamear la habilidad de Plantar Bomba. Durante los 11 segundos de Detención del Tiempo se elimina el tiempo de recarga, lo que te permite acumular múltiples bombas de 300 de daño que explotan todas a la vez cuando se reanuda el tiempo."
+  },
+  {
+    question: "¿Es el Large Clockman mejor que el Large Speakerman?",
+    answer: "Aunque el Large Speakerman tiene un DPS constante, el Large Clockman ofrece un control de masas y una supervivencia superiores. En el meta de 2026, el Clockman suele ser el preferido para el juego en equipo de alta dificultad."
+  },
+  {
+    question: "¿Qué significa el Tiempo de Recarga Global en la Detención del Tiempo?",
+    answer: "Significa que una vez que cualquier jugador utiliza una habilidad de Detención del Tiempo, ningún otro jugador puede usarla durante 1 minuto y 10 segundos. Esto evita que los equipos mantengan el juego permanentemente congelado."
+  },
+  {
+    question: "¿La resistencia al daño del 40% se aplica a todos los ataques?",
+    answer: "Sí, una vez que alcanzas el Nivel de Maestría 50, el Large Clockman recibe un 40% menos de daño de todas las fuentes, incluidos los golpes cuerpo a cuerpo y los proyectiles a distancia de los enemigos."
+  }
+]} />
+
+</Section>

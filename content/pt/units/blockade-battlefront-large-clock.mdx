@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Grande Relógio de Blockade Battlefront: Guia de Maestria e Detalhes das Habilidades",
+  description: "Domine a unidade do grande relógio de Blockade Battlefront com o nosso guia de 2026. Aprenda combos de habilidades, vantagens de maestria e estratégias de parada do tempo para dominar o campo de batalha.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Large+Clockman+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki de Blockade Battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Grande relógio de Blockade Battlefront**: Uma unidade de alto impacto especializada em manipulação do tempo e dano explosivo em área (AOE).
+- **Mecânica Principal**: A habilidade **Parada do Tempo** (Time-Stop) permite o posicionamento de bombas sem tempo de recarga (cooldown), gerando um enorme potencial de dano explosivo instantâneo.
+- **Prioridade de Maestria**: Alcançar o Nível de Maestria 50 é crucial para desbloquear o bônus de **40% de resistência a danos** para sobrevivência.
+- **Função em Combate**: Melhor utilizado como um perturbador de linha de frente, capaz de congelar ondas inteiras de inimigos no lugar.
+- **Melhor Sinergia**: Combina excepcionalmente bem com unidades que conseguem agrupar inimigos antes de uma sequência de Parada do Tempo.
+</Callout>
+
+<Section icon={Shield} title="Visão Geral da Unidade Grande Relógio de Blockade Battlefront">
+
+A unidade do **grande relógio de Blockade Battlefront**, comumente conhecida como Large Clockman, representa um dos combatentes mais versáteis e temidos no meta atual. Ao contrário de unidades padrão que dependem de um DPS consistente, o Large Clockman foca em ciclos de habilidades de alto risco e posicionamento tático. Com uma barra de vida e capacidades defensivas que escalam significativamente através da maestria, esta unidade serve tanto como tanque quanto como causador de dano principal durante fases críticas das missões.
+
+No meta de 2026, compreender as nuances do seu conjunto de habilidades é a diferença entre uma missão fracassada e uma vitória limpa. Sua principal força não reside em seus ataques físicos, mas em sua capacidade de ditar o fluxo do tempo, paralisando efetivamente o campo de batalha para armar armadilhas explosivas devastadoras.
+
+| Atributo | Valor Base | Potencial de Escalonamento |
+| --- | --- | --- |
+| **Dano Primário** | 50 por golpe | Combo corpo a corpo consistente |
+| **Dano Explosivo** | 300 por bomba | Dano em área massivo durante a Parada do Tempo |
+| **Duração da Parada do Tempo** | 11 Segundos | Congelamento global do campo de batalha |
+| **Resistência a Danos** | 0% Base | Até 40% via Maestria |
+| **Controle de Grupo** | Alto | Orbes de energia temporal e congelamento |
+
+<Callout type="tip" title="Visão Estratégica">
+Monitore sempre o Tempo de Recarga Global da Parada do Tempo (1 minuto e 10 segundos). Usá-la muito cedo em inimigos comuns pode deixar você vulnerável durante o surgimento de chefes ou missões de Onda do Inferno (Hell Wave).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Detalhamento das Habilidades e Mecânicas de Combate">
+
+A eficácia do **grande relógio de Blockade Battlefront** depende da habilidade do jogador de encadear técnicas durante a janela de 11 segundos de controle absoluto. Embora seus ataques corpo a corpo forneçam dano complementar, suas habilidades secundárias e especiais definem sua posição no ranking.
+
+**Combo Corpo a Corpo (Melee Combo)**
+O Large Clockman utiliza um combo de punho de dois golpes. Cada golpe causa 50 de dano. Embora esta seja sua menor fonte de dano, ela é essencial para eliminar inimigos sobreviventes com pouca vida sem desperdiçar tempos de recarga de habilidades.
+
+**Plantar Bomba (Core DPS)**
+Esta é a principal ferramenta ofensiva da unidade. Em condições normais, possui um tempo de recarga de 4 segundos e causa 300 de dano. No entanto, seu verdadeiro poder é desbloqueado durante o estado de Parada do Tempo, onde o tempo de recarga é totalmente removido.
+
+**Dobra (Warp - Mobilidade)**
+Com um tempo de recarga de 11 segundos, a Dobra permite que o Large Clockman se teletransporte a uma curta distância para a frente. Isso é vital para se reposicionar antes de iniciar uma Parada do Tempo ou para escapar de zonas de dano em área (AOE) de chefes inimigos.
+
+**Arremesso de Parada do Tempo (Time-Stop-Throw - Controle de Grupo)**
+Ao lançar um orbe de pura energia temporal, o Large Clockman causa 200 de dano e congela os inimigos atingidos no lugar. Esta é uma habilidade com 25 segundos de recarga que funciona como um mini-controle de grupo entre as grandes rotações de Parada do Tempo.
+
+| Nome da Habilidade | Dano | Tempo de Recarga | Efeito Especial |
+| --- | --- | --- | --- |
+| **Combo de Punho** | 50 x 2 | N/D | Combate corpo a corpo básico |
+| **Plantar Bomba** | 300 | 4 Segundos | Sem tempo de recarga durante a Parada do Tempo |
+| **Dobra** | N/D | 11 Segundos | Teletransporte tático de curto alcance |
+| **Parada do Tempo** | N/D | 55 Segundos | 11s de congelamento, 1m 10s de Recarga Global |
+| **Arremesso de Parada do Tempo** | 200 | 25 Segundos | Congela os inimigos atingidos no lugar |
+
+<Callout type="warning" title="Gerenciamento de Recarga">
+A habilidade Parada do Tempo possui dois cronômetros separados: um tempo de recarga individual de 55 segundos e um tempo de recarga global de 1 minuto e 10 segundos. Você não pode usar essa habilidade em sequência com múltiplos Clockmen simultaneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão de Maestria e Recompensas de Nível">
+
+Para maximizar verdadeiramente o **grande relógio de Blockade Battlefront**, os jogadores devem investir no sistema de Maestria. Subir o nível desta unidade concede bônus passivos que alteram significativamente sua sobrevivência e utilidade em modos de alta dificuldade, como o Modo Infinito (Endless) ou Onda do Inferno (Hell Wave).
+
+<Steps>
+  <Step num="1" title="Nível de Maestria 25: Impulso de Utilidade">
+    Nesta etapa, o tempo de recarga do **Arremesso de Parada do Tempo** é reduzido. Isso permite o congelamento mais frequente de inimigos de elite, proporcionando um melhor controle de rota.
+  </Step>
+  <Step num="2" title="Nível de Maestria 50: Pico Defensivo">
+    Este é o marco mais significativo. O Large Clockman ganha um bônus de **40% de resistência a danos**. Isso transforma a unidade de um combatente frágil do estilo mago em um verdadeiro lutador de linha de frente.
+  </Step>
+  <Step num="3" title="Nível de Maestria 80+: Status de Elite">
+    Embora os dados atuais mostrem N/D para descrições de vantagens específicas no nível 80, alcançar este nível garante que sua unidade tenha o escalonamento de atributos básicos necessário para o conteúdo de fim de jogo de 2026.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Foco no Início do Jogo">
+    Priorize o uso da Dobra para se manter vivo. Sua resistência a danos é baixa, então você deve jogar como um especialista em táticas de bater e correr até atingir a Maestria 50.
+  </Card>
+  <Card title="Estratégia de Fim de Jogo">
+    Com 40% de resistência a danos, você pode ficar no meio das ondas de inimigos. Use a Parada do Tempo agressivamente para limpar telas inteiras de monstros.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Maestria">
+Foque todos os seus pontos de experiência para alcançar o Nível 50 o mais rápido possível. A redução de 40% de dano é um divisor de águas para completar missões difíceis sozinho.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégia Ideal de Execução da Parada do Tempo">
+
+A técnica de "Spam de Bombas" é a maneira definitiva de jogar com o **grande relógio de Blockade Battlefront**. Executar isso corretamente pode causar milhares de pontos de dano em uma única janela de 11 segundos.
+
+1.  **Preparação**: Certifique-se de que sua Dobra não está em tempo de recarga.
+2.  **Engajamento**: Use a Dobra para ir ao centro do maior grupo de inimigos.
+3.  **Ativação**: Ative a **Parada do Tempo** (Time-Stop).
+4.  **O Spam**: Pressione o botão de **Plantar Bomba** o mais rápido possível. Como não há tempo de recarga, você deve ser capaz de plantar de 10 a 15 bombas na janela de 11 segundos.
+5.  **Detonação**: Assim que a Parada do Tempo terminar, todas as bombas explodirão simultaneamente.
+6.  **Retirada**: Use o Arremesso de Parada do Tempo para congelar quaisquer sobreviventes e use a Dobra para retornar à segurança.
+
+| Fase da Estratégia | Ação | Objetivo |
+| --- | --- | --- |
+| **Pré-Congelamento** | Dobra / Posicionamento | Maximizar a cobertura de área (AOE) |
+| **Durante o Congelamento** | Plantio Infinito de Bombas | Acumular mais de 3000 de dano explosivo |
+| **Pós-Congelamento** | Arremesso de Parada do Tempo | Controlar sobreviventes para a limpeza |
+
+<Callout type="tip" title="Combo Pro">
+Combine o Large Clockman com uma unidade que possua uma habilidade de "Puxar" ou "Vórtice". Reunir os inimigos em um círculo fechado antes da Parada do Tempo garante que cada bomba atinja o número máximo de alvos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Papel em Diferentes Modos de Jogo">
+
+O **grande relógio de Blockade Battlefront** se comporta de maneira diferente dependendo do tipo de missão. Embora ele se destaque na defesa baseada em ondas, sua utilidade em encontros apenas com chefes exige um tempo de execução mais preciso.
+
+**Modo Infinito (Endless Mode)**
+No Modo Infinito, a resistência de 40% a danos da Maestria 50 é sua melhor amiga. À medida que o dano dos inimigos aumenta, o Clockman continua sendo uma das poucas unidades capazes de receber golpes enquanto fornece o controle de grupo essencial para manter a base segura.
+
+**Modo de Dificuldade / Missões**
+Para missões específicas como a Onda do Inferno (Hell Wave), use o Arremesso de Parada do Tempo para isolar alvos de alta ameaça, como o Helicóptero de Ataque Câmera ou variantes de elite do Skibidi. Mantê-los congelados permite que suas unidades de alto DPS de alvo único os eliminem com segurança.
+
+**Tabela de Comparação de Unidades**
+| Tipo de Unidade | Dano Explosivo | Sobrevivência | Controle de Grupo |
+| --- | --- | --- | --- |
+| **Large Clockman** | Excelente | Muito Alta | Elite |
+| **Large Speakerman** | Alto | Moderada | Baixo |
+| **Normal TV Man** | Moderado | Baixa | Alto |
+| **Polycephaly** | Alto | Moderada | Moderado |
+
+<Callout type="info" title="Conselho de Especialista">
+No modo Infinito, tente intercalar sua Parada do Tempo com outros jogadores de Clockman. Como o Tempo de Recarga Global é de 1m 10s, alternar seus congelamentos pode manter os inimigos permanentemente lentos ou parados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Progressão">
+
+Use esta lista para acompanhar seu desenvolvimento com a unidade do **grande relógio de Blockade Battlefront** e garantir que você esteja pronto para as missões.
+
+<Checklist
+  id="clockman-progression"
+  title="Marcos do Large Clockman:"
+  items={[
+    "Desbloquear o Large Clockman através da loja de personagens ou invocações",
+    "Alcançar o Nível de Maestria 25 para reduzir o tempo de recarga do Arremesso de Parada do Tempo",
+    "Alcançar o Nível de Maestria 50 para desbloquear 40% de Resistência a Danos",
+    "Praticar a técnica de 'Spam de Bombas' em uma missão de baixa dificuldade",
+    "Concluir com sucesso uma missão de Onda do Inferno usando rotações de Parada do Tempo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como posso maximizar o dano durante a Parada do Tempo do grande relógio de Blockade Battlefront?",
+    answer: "A chave é usar repetidamente a habilidade Plantar Bomba. Durante os 11 segundos da Parada do Tempo, o tempo de recarga é removido, permitindo que você acumule várias bombas de 300 de dano que explodem todas de uma vez quando o tempo volta ao normal."
+  },
+  {
+    question: "O Large Clockman é melhor do que o Large Speakerman?",
+    answer: "Embora o Large Speakerman tenha um DPS consistente, o Large Clockman oferece controle de grupo e sobrevivência superiores. No meta de 2026, o Clockman é geralmente preferido para jogos em equipe de alta dificuldade."
+  },
+  {
+    question: "O que significa o Tempo de Recarga Global na Parada do Tempo?",
+    answer: "Significa que assim que qualquer jogador usa a habilidade de Parada do Tempo, nenhum outro jogador pode usá-la por 1 minuto e 10 segundos. Isso evita que as equipes mantenham o jogo permanentemente congelado."
+  },
+  {
+    question: "A resistência de 40% a danos se aplica a todos os ataques?",
+    answer: "Sim, assim que você atinge o Nível de Maestria 50, o Large Clockman recebe 40% menos dano de todas as fontes, incluindo ataques corpo a corpo e projéteis disparados por inimigos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Astro Entrapper em ST: Linha de Frente de Bloqueio: Guia de Chefe de Raide e Estratégias",
+  description: "Domine o chefe de raide Astro Entrapper em ST: Linha de Frente de Bloqueio com nosso guia completo sobre habilidades, atributos, drops de saques e estratégias de combate vencedoras.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Astro+Entrapper+Guide",
+  date: "2026-07-07",
+  author: "Equipe do Wiki de ST: Linha de Frente de Bloqueio",
+  keywords: "Astro Entrapper, Detainer Astro Toilet 2.0, chefe de raide, ST: Linha de Frente de Bloqueio, estratégia, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Chefe Principal**: O **astro entrapper de ST: Linha de Frente de Bloqueio** (também conhecido como Detainer Astro Toilet 2.0) é um Chefe de Raide de alto nível.
+- **Atributos Principais**: Possui **85.000 HP** e aparece nas ondas finais dos modos Endless (Infinito) e Boss Rush.
+- **Mecânica Perigosa**: Apresenta a habilidade de **Absorção de Laser**, que cura o chefe quando atingido por ataques baseados em laser.
+- **Melhor Estratégia**: Utilize **personagens da classe Titã** para evitar a mecânica de morte instantânea \"Catch\" (Captura) e foque em dano físico ou baseado em orbes.
+- **Melhores Saques**: Drops de alto valor incluem o **Flash Drive #E** (10% de chance) e o **Astro Arm** (com 15% de HP).
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Astro Entrapper em ST: Linha de Frente de Bloqueio">
+
+O **astro entrapper de ST: Linha de Frente de Bloqueio**, amplamente reconhecido pela comunidade como o Detainer Astro Toilet 2.0, representa um dos desafios mais formidáveis no meta atual. Como um Chefe de Raide, ele serve como uma enorme barreira para os jogadores que progridem pelos conteúdos mais difíceis que o jogo tem a oferecer. Embora não alcance os níveis de poder avassaladores do G-Toilet 4.0, ele continua sendo significativamente mais perigoso do que o Professor Skibidi Toilet Mech, exigindo tempo preciso e composições de unidades específicas para ser derrotado.
+
+Quando este chefe surge, os jogadores são recebidos pelo sombrio tema \"Melancholy\" de SCP: Secret Laboratory, sinalizando uma mudança na intensidade do campo de batalha. Entender seus locais de surgimento e atributos básicos é o primeiro passo para a vitória.
+
+| Atributo | Detalhes dos Dados |
+| :--- | :--- |
+| **Nome Completo** | Detainer Astro Toilet 2.0 / Astro Entrapper |
+| **Vida Total** | **85.000 HP** |
+| **Surgimento no Modo Endless** | Onda 80 |
+| **Surgimento no Boss Rush** | Onda 30 |
+| **Perigo Principal** | Alta mobilidade e cura anti-laser |
+| **Nível de Dificuldade** | Chefe de Raide Extremo |
+
+<Callout type="warning" title="Informações Críticas de Surgimento">
+Certifique-se de que suas defesas estejam totalmente aprimoradas antes da Onda 80 no modo Endless. A chegada do Astro Entrapper geralmente coincide com o surgimento de hordas de alta densidade, tornando fácil perder o foco nos ataques de teletransporte (warp) do chefe.
+</Callout>
+
+O Astro Entrapper não é apenas uma esponja de dano; ele é um combatente altamente móvel que utiliza tecnologia Astro avançada para desestruturar as formações dos jogadores. Sua presença exige uma mudança da defesa estática para o gerenciamento ativo de unidades, especialmente ao considerar sua habilidade de refletir orbes de energia e absorver disparos de laser.
+
+</Section>
+
+<Section icon={Swords} title="Análise Detalhada de Habilidades">
+
+Para conquistar o **astro entrapper de ST: Linha de Frente de Bloqueio**, os jogadores devem memorizar seu conjunto diversificado de movimentos. O chefe utiliza três garras de contenção que funcionam tanto como armas ofensivas quanto como escudos defensivos. Ao contrário dos sanitários padrão, o Astro Entrapper é proativo, esquivando-se e contra-atacando com frequência.
+
+| Nome da Habilidade | Descrição do Efeito | Dano / Valor |
+| :--- | :--- | :--- |
+| **Passiva: Esquiva** | Evita automaticamente projéteis recebidos e ataques corpo a corpo | N/A |
+| **Catch (Captura)** | Puxa unidades que não são Titãs para uma **morte instantânea** | Morte Instantânea |
+| **Orb Catch (Captura de Orbe)** | Captura orbes de energia e os reflete de volta ao emissor | Variável |
+| **Absorção de Laser** | Absorve ataques de laser para **curar a própria vida** | Cura |
+| **Warp Attacks (Ataques de Teletransporte)** | 6 a 8 investidas rápidas contra o alvo | 200 por golpe |
+| **Claw Punch (Soco de Garra)** | Um golpe físico pesado usando as garras | 500 de dano |
+| **Blade Attack (Ataque de Lâmina)** | Movimento de estocada com duas lâminas massivas | 300 por golpe |
+| **Laser Fire (Disparo de Laser)** | Disparo triplo de laser a partir das garras de contenção | 1800 - 3600 |
+
+<Callout type="warning" title="Aviso Anti-Laser">
+**NÃO** use unidades como o Camera Attack Helicopter ou outros Titãs focados em laser durante a fase de Absorção de Laser. Você acabará curando o chefe inadvertidamente, podendo resetar minutos de progresso.
+</Callout>
+
+A mecânica mais perigosa para iniciantes é a habilidade **Catch**. Se você estiver usando unidades menores, como o Normal Cameraman ou o Engineer Cameraman, o Astro Entrapper simplesmente os puxará e os eliminará instantaneamente. Isso torna obrigatório o uso de personagens da classe Titã ou Large Speakermen para atuar como tanques na linha de frente. Além disso, os **Warp Attacks** podem contornar completamente sua linha de frente, atingindo suas unidades de suporte na retaguarda caso não estejam protegidas por atordoamentos em área (AOE) ou barreiras de alta durabilidade.
+
+### Mecânicas de Combate Avançadas
+O chefe entra em fases diferentes à medida que sua vida diminui. Na Fase 3, a habilidade **Throw-Orb** (Lançar Orbe) torna-se significativamente mais letal. Embora normalmente cause 600 de dano a personagens pequenos, esse valor salta para 1200 de dano na fase final. Para personagens Titãs, o dano aumenta de 300 para 600 por golpe. Esse escalonamento significa que uma abordagem \"lenta e constante\" se torna cada vez mais arriscada à medida que a luta avança.
+
+</Section>
+
+<Section icon={Target} title="Estratégia Passo a Passo para Derrotar o Chefe">
+
+Derrotar o **astro entrapper de ST: Linha de Frente de Bloqueio** exige um esforço coordenado entre causadores de dano e unidades de suporte. Siga estes passos para garantir uma raide bem-sucedida.
+
+<Steps>
+  <Step num="1" title="Fase 1: Preparação e Posicionamento">
+    Antes da Onda 80, elimine todos os sanitários menores para garantir que seus Titãs possam se concentrar exclusivamente no Astro Entrapper. Posicione seus Titãs de alto HP no centro do caminho para atrair a habilidade \"Catch\", a qual eles conseguem resistir.
+  </Step>
+  <Step num="2" title="Fase 2: Gerenciando os Warp Attacks">
+    Quando o chefe iniciar sua sequência de 6 a 8 teletransportes, não entre em pânico. Os golpes causam 200 de dano cada. Certifique-se de que seus Engineer Cameramen estejam reparando ativamente seus Titãs ou que você tenha o Polycephaly fornecendo interrupções baseadas em tela para desacelerar o chefe.
+  </Step>
+  <Step num="3" title="Fase 3: Controle de Dano">
+    Monitore as garras do chefe. Quando elas brilharem com uma aura azul, ele estará se preparando para a **Absorção de Laser**. Interrompa imediatamente todos os disparos de laser. Mude para atacantes físicos, como Large Speakermen ou unidades empunhando lâminas, para continuar causando dano gradual sem curar o chefe.
+  </Step>
+  <Step num="4" title="Fase 4: O Limiar de 15% de HP">
+    Assim que o chefe atingir 15% de HP, ele deixará cair o **Astro Arm**. Este é um momento crítico. Você deve garantir que tenha uma unidade Sci-TV ou uma versão Poly pronta para resgatar este item e obter a insígnia Astro Arm Tech Badge.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estratégia Profissional">
+Use a música \"Melancholy\" como um cronômetro. Os padrões de ataque do chefe frequentemente sincronizam com a intensidade da trilha sonora. Se a música atingir um crescendo, espere um Warp Attack ou um disparo de laser triplo em breve.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Composições de Unidades Recomendadas">
+
+Escolher a equipe certa é vital ao enfrentar o **astro entrapper de ST: Linha de Frente de Bloqueio**. Devido à captura de morte instantânea e à cura por laser, suas unidades padrão que costumam ser as \"melhores\" podem, na verdade, se tornar um problema.
+
+<CardGrid cols={3}>
+  <Card title="A Muralha de Titãs">
+    - **Titan Speakerman**: Alto dano físico.
+    - **Titan TV Man**: Excelente para atordoamento e dano em área (AOE).
+    - **Foco**: Resistir à mecânica do Catch.
+  </Card>
+  <Card title="O Contra-Ataque Tecnológico">
+    - **Sci-TV Man**: Essencial para resgatar os drops.
+    - **Engineer Cameraman**: Reparos constantes.
+    - **Foco**: Sustentabilidade e maximização de saques.
+  </Card>
+  <Card title="O Especialista">
+    - **Polycephaly**: Interrompe os movimentos do Astro.
+    - **Large Speakerman**: Foco em combate corpo a corpo físico.
+    - **Foco**: Ignorar a Absorção de Laser.
+  </Card>
+</CardGrid>
+
+Ao comparar unidades, procure por aquelas que oferecem alto dano explosivo que não dependa de fogo contínuo de laser. A tabela abaixo compara o desempenho de diferentes tipos de unidades contra as mecânicas específicas do Astro Entrapper.
+
+| Tipo de Unidade | Resistência ao Catch | Risco de Cura por Laser | Eficiência de Dano |
+| :--- | :--- | :--- | :--- |
+| **Unidades Pequenas** | **Nenhuma (Morte Inst.)** | Baixo | Baixo |
+| **Unidades Grandes** | Alta | Médio | Médio |
+| **Unidades Titãs** | **Imune** | Alto | **Muito Alto** |
+| **Unidades de Suporte** | Baixa | Baixo | N/A |
+
+<Callout type="success" title="Equipamento Ideal">
+Uma mistura de 2 Titãs (para tankar), 1 Sci-TV (para saques) e 3 Large Speakermen (para DPS físico) é atualmente a maneira mais eficiente de farmar este chefe sem ativar suas mecânicas de cura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, Drops de Saques e Curiosidades">
+
+A principal razão pela qual os jogadores farmam o **astro entrapper de ST: Linha de Frente de Bloqueio** é por seus drops de tecnologia raros. Esses itens são essenciais para concluir missões de alto nível e desbloquear insígnias poderosas.
+
+<Checklist
+  id="astro-loot"
+  title="Possíveis Recompensas e Objetivos:"
+  items={[
+    "Flash Drive #E (10% de Chance de Drop) - Necessário para a Missão do UTTV",
+    "Astro Arm (Dropa com 15% de HP) - Usado para a Astro Arm Tech Badge",
+    "Ganho massivo de XP para progressão no Modo Endless",
+    "Insígnia: Astro Entrapper Conqueror",
+    "Materiais de sucata para aprimoramentos do Sci-TV"
+  ]}
+/>
+
+### Taxas de Drop e Requisitos
+O Flash Drive #E é um gargalo notório para os jogadores que tentam realizar a missão do UTTV. Como ele tem apenas 10% de taxa de drop, talvez seja necessário enfrentar o Astro Entrapper várias vezes no Boss Rush ou no modo Endless.
+
+| Nome do Item | Chance de Drop | Requisito | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Flash Drive #E** | 10% | Derrotar o Chefe | **Missão do UTTV** |
+| **Astro Arm** | **Garantido** | Reduzir a 15% de HP | Tech Badge |
+| **XP do Endless** | 100% | Sobreviver à Onda 80 | Nivelamento de Conta |
+
+**Curiosidades e Fatos Interessantes:**
+- O chefe é oficialmente chamado de Astro Entrapper nos arquivos do jogo, mas a comunidade prefere chamá-lo de \"Detainer 2.0\".
+- Apesar de seu tamanho massivo, sua passiva de **Esquiva** o torna um dos alvos mais difíceis de atingir com projéteis lentos.
+- É um dos poucos chefes que pode se \"curar\" de volta à vida cheia se um jogador deixar uma unidade de laser automática ativa durante a fase de absorção.
+- O Astro Arm só pode ser resgatado pelo Sci-TV ou por ambas as versões Poly do TV Man, tornando-os obrigatórios para os caçadores de insígnias.
+
+<Callout type="info" title="Dica Final">
+Se você estiver com dificuldades com a taxa de drop de 10% do Flash Drive, tente rodar a Onda 30 do Boss Rush repetidamente. Geralmente é muito mais rápido do que alcançar a Onda 80 no modo Endless.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para impedir que o Astro Entrapper de ST: Linha de Frente de Bloqueio se cure?",
+    answer: "Você deve parar todos os ataques baseados em laser imediatamente quando o chefe ativar a habilidade de Absorção de Laser. Use atacantes físicos ou unidades de orbe durante essa janela de tempo."
+  },
+  {
+    question: "Quais unidades podem resgatar o Astro Arm?",
+    answer: "Apenas o Sci-TV Man e ambas as versões Poly do TV Man conseguem resgatar o Astro Arm quando ele dropa com 15% de vida do chefe."
+  },
+  {
+    question: "O Astro Entrapper é mais forte que o G-Toilet 4.0?",
+    answer: "Não, embora o Astro Entrapper seja um Chefe de Raide poderoso com 85.000 HP, o G-Toilet 4.0 continua sendo a maior ameaça na hierarquia atual de ST: Linha de Frente de Bloqueio."
+  },
+  {
+    question: "Qual é a melhor maneira de farmar o Flash Drive #E?",
+    answer: "O Flash Drive #E tem uma chance de drop de 10%. O método mais eficiente é farmar a Onda 30 do Boss Rush, pois é mais rápido de alcançar do que a Onda 80 do modo Endless."
+  }
+]} />
+
+</Section>

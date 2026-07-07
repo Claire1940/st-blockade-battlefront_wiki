@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Servidor privado de blockade battlefront: Guía del Modo Sandbox y Comandos de PS",
+  description: "Domina el servidor privado de blockade battlefront con nuestra guía sobre el modo Sandbox, comandos de administrador, BTools y funciones exclusivas de gamepass para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de blockade battlefront",
+  keywords: "blockade battlefront, servidor privado, comandos, sandbox, btools"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Acceso al Servidor Privado**: Requiere el Gamepass de Servidor Privado específico para desbloquear la experiencia completa del **servidor privado de blockade battlefront**.
+- **Modo Sandbox**: Un entorno especializado para generar NPC, probar Titanes y manipular la geometría del mapa.
+- **Comandos de Administrador**: Usa comandos con prefijo como `!sandbox` y `!OC` para activar cambios en todo el servidor o mejoras de personajes.
+- **Herramientas Creativas**: Utiliza la Tool Gun y las BTools para construir o destruir elementos dentro del mundo del juego.
+- **Control del Servidor**: Los propietarios tienen la capacidad exclusiva de expulsar o banear usuarios para mantener el orden durante las sesiones de prueba.
+</Callout>
+
+<Section icon={Shield} title="Acceder al servidor privado de blockade battlefront">
+
+El **servidor privado de blockade battlefront** sirve como un entorno controlado donde los jugadores pueden experimentar con las mecánicas del juego sin la interferencia del caos de las salas públicas. A diferencia de los servidores públicos, estas instancias están dedicadas al propietario y a sus invitados, proporcionando un espacio libre de lag para pruebas de alto nivel y grabaciones cinematográficas.
+
+Para utilizar plenamente estas funciones, los jugadores deben poseer el Gamepass de Servidor Privado. Este pase es la puerta de entrada al menú de Sandbox, que cambia fundamentalmente la forma de jugar. En un entorno privado, el modo de juego estándar basado en el progreso se sustituye por una suite creativa que permite el acceso inmediato a todas las entidades y controles ambientales.
+
+| Función | Servidor Público | Servidor Privado |
+| :--- | :--- | :--- |
+| **Menú de Sandbox** | No disponible | **Acceso Total** |
+| **Comandos de Administrador** | Restringidos | **Exclusivo del Propietario** |
+| **Generación de NPC** | Oleadas Automáticas | **Control Manual** |
+| **Edición del Mapa** | Imposible | **Habilitado (BTools)** |
+| **Moderación de Jugadores** | Auto-Mod del Sistema | **Expulsión/Baneo Manual** |
+
+<Callout type="warning" title="Requisito de Gamepass">
+El modo Sandbox y las herramientas administrativas avanzadas están estrictamente bloqueados detrás del Gamepass de Servidor Privado. Comprar un servidor privado por sí solo sin el pase puede limitar tu capacidad para usar el comando `!sandbox`.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Jugabilidad y Mecánicas del Modo Sandbox">
+
+Una vez dentro de un **servidor privado de blockade battlefront**, la atracción principal es el Modo Sandbox. Este modo transforma el mapa clásico en un laboratorio. Al activarse, aparece un menú especializado en la parte inferior izquierda de la pantalla, otorgando al jugador poderes divinos sobre el entorno del juego.
+
+Este menú es el centro de todas las acciones creativas. Desde aquí, puedes activar la invencibilidad, ignorar la detección de enemigos y acceder a la tienda sin necesidad de que llegue el NPC del Helicóptero. Es la forma definitiva de probar nuevas unidades o practicar contra inodoros jefe específicos sin el riesgo de perder progreso o dinero.
+
+| Herramienta/Interruptor | Función Principal | Mejor Caso de Uso |
+| :--- | :--- | :--- |
+| **God Mode** | Otorga HP Infinito | Probar ataques de jefes de alto daño |
+| **AI Ignore** | Los enemigos no te atacarán | Grabar escenas cinematográficas o primeros planos |
+| **Friendly AI** | Genera NPC como aliados | Crear batallas masivas de NPC contra NPC |
+| **Freeze Entities** | Detiene todo el movimiento de NPC | Posicionamiento preciso para capturas de pantalla |
+| **Clear Entities** | Elimina todos los NPC del mapa | Reiniciar el servidor después de una prueba intensa |
+| **Infinite Cash** | Maximiza la moneda MiS | Acelerar las compras en la tienda |
+
+<CardGrid cols={3}>
+  <Card title="Pruebas de Combate">
+    - **God Mode** para seguridad
+    - Generar enemigos específicos
+    - Probar el DPS del Titán
+  </Card>
+  <Card title="Creación de Contenido">
+    - **Cámara Libre** para tomas
+    - Cambio de **Hora** (Día/Noche)
+    - Selección de música de **Tema**
+  </Card>
+  <Card title="Construcción de Mapas">
+    - **BTools** para estructuras
+    - **Remover Gun** para limpieza
+    - **Tool Gun** para colocación
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Prueba Profesional">
+Activa el interruptor de **Friendly AI** antes de generar un grupo grande de Speakermen. Esto te permite observar cómo interactúan las diferentes unidades con los inodoros enemigos en una escaramuza controlada, ayudándote a determinar los diseños defensivos más eficientes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía Esencial de Tool Gun y BTools">
+
+El núcleo de la experiencia creativa en un **servidor privado de blockade battlefront** reside en las herramientas físicas que se proporcionan al jugador. No se trata de armas estándar, sino de objetos de utilidad que interactúan con el código del juego para alterar el mundo físico o el comportamiento de los NPC.
+
+<Steps>
+  <Step num="1" title="Equipa la Tool Gun">
+    La Tool Gun es tu dispositivo de interacción principal. Te permite generar cualquier NPC (excepto Glitch Toilet) exactamente donde apunta tu retícula. Puedes usar la función \"Copy to Tool Gun\" para replicar rápidamente un enemigo existente en el campo.
+  </Step>
+  <Step num="2" title="Manipula con BTools">
+    Las BTools (Herramientas de Construcción) te permiten seleccionar, mover y alterar las propiedades de la geometría del mapa y los modelos de los personajes. Esto es esencial para crear arenas personalizadas o eliminar obstáculos que bloqueen tu línea de visión durante las pruebas.
+  </Step>
+  <Step num="3" title="Limpia con la Remover Gun">
+    Si el servidor se satura con demasiadas entidades, la Remover Gun actúa como una herramienta de eliminación selectiva. Simplemente dispara a cualquier NPC u objeto generado a través del menú Sandbox para eliminarlo instantáneamente del mundo del juego.
+  </Step>
+</Steps>
+
+| Nombre de la Herramienta | Acción | Tipo de Objetivo |
+| :--- | :--- | :--- |
+| **Tool Gun** | Generar / Copiar | NPC / Enemigos |
+| **Remover Gun** | Eliminar / Quitar | Cualquier entidad generada |
+| **BTools** | Mover / Editar / Eliminar | Partes del mapa / Modelos |
+| **Tool Gun (Auto)** | Copia Continua | Múltiples lotes de NPC |
+
+<Callout type="info" title="Sobrecarga de Titán">
+Aunque no es una herramienta física, el comando `!OC` actúa como una herramienta funcional para los Titanes. Sobrecarga a tu Titán equipado, aumentando significativamente sus estadísticas. Ten en cuenta que actualmente esto no funciona para UTTV, DJ Titan o Watch Titan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comandos de Administrador del Servidor Privado">
+
+Administrar un **servidor privado de blockade battlefront** requiere conocer el sistema de comandos basado en texto. Estos comandos se escriben directamente en el chat y normalmente están restringidos al propietario del servidor. Proporcionan una forma rápida de moderar el servidor o restablecer el estado de tu personaje sin tener que navegar por múltiples menús.
+
+El prefijo del comando es el signo de exclamación `!`. Los comandos distinguen entre mayúsculas y minúsculas en algunas versiones, por lo que es mejor escribirlos exactamente como se muestran en la documentación.
+
+| Comando | Efecto | Restricción |
+| :--- | :--- | :--- |
+| **!sandbox** | Activa el menú de Sandbox | Requiere Gamepass |
+| **!banserver [usuario]** | Baneas permanentemente a un jugador | Solo Propietario |
+| **!kick [usuario]** | Elimina a un jugador de la sesión | Solo Propietario |
+| **!OC** | Sobrecarga al Titán equipado | Específico de Titán |
+| **!re** | Restablece el personaje al cuartel general | Todos los jugadores |
+
+<Checklist
+  id="server-management"
+  title="Responsabilidades del Propietario del Servidor:"
+  items={[
+    "Habilitar !sandbox inmediatamente al unirse para acceder a las herramientas",
+    "Monitorear el comportamiento de los jugadores y usar !kick para usuarios disruptivos",
+    "Usar !re para solucionar errores de personajes o estados atascados",
+    "Probar builds de Titán usando el comando !OC para obtener el máximo rendimiento",
+    "Limpiar entidades regularmente para evitar el lag en el servidor"
+  ]}
+/>
+
+<Callout type="success" title="Eficiencia de Comandos">
+El comando `!re` es la forma más rápida de regresar al cuartel general si te caes del mapa o te quedas atascado en la geometría mientras usas las BTools. Es un comando universal que ayuda a mantener la fluidez de tu sesión de pruebas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Controles Ambientales y de Audio">
+
+Más allá del combate y la construcción, el **servidor privado de blockade battlefront** ofrece una profunda personalización para la atmósfera del juego. Esto es particularmente útil para los jugadores que disfrutan del juego de rol o para aquellos que buscan crear contenido de video de alta calidad para la comunidad.
+
+Puedes ajustar la hora del día para crear condiciones de iluminación específicas. Las opciones incluyen los ciclos estándar de Día y Noche, así como la iluminación especializada de \"Hell Wave\", que le da al entorno un brillo rojo oscuro e intenso. Además, el menú de Temas te permite alternar entre siete pistas de música de fondo diferentes para ambientar tu sesión.
+
+| Ajuste | Opciones | Resultado |
+| :--- | :--- | :--- |
+| **Hora** | Day, Night, Hell Wave | Cambia la iluminación y el cielo |
+| **Tema** | Pistas de la 1 a la 7 | Cambia la música de fondo |
+| **Cámara Libre** | Activar/Desactivar | Elimina la interfaz de usuario para tomas cinematográficas |
+| **Tienda** | Acceso instantáneo a la interfaz | Compra artículos sin el Helicóptero |
+
+<Callout type="tip" title="Modo Cinematográfico">
+Al usar la **Cámara Libre**, todos los elementos de la interfaz de usuario, incluido el menú de ajustes, se ocultan. Esto es perfecto para grabar, pero recuerda que es posible que necesites usar una tecla de acceso rápido o reiniciar para recuperar el control de la interfaz estándar de tu personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo activo el menú Sandbox en un servidor privado de blockade battlefront?",
+    answer: "Primero debes poseer el Gamepass de Servidor Privado. Una vez en tu servidor, escribe '!sandbox' en el chat. Aparecerá un menú en la esquina inferior izquierda de tu pantalla."
+  },
+  {
+    question: "¿Puedo generar al Glitch Toilet en el modo Sandbox?",
+    answer: "Actualmente, el Glitch Toilet es uno de los pocos enemigos que no se pueden generar a través de la Tool Gun o el menú Sandbox."
+  },
+  {
+    question: "¿Funciona el comando !OC para todos los Titanes?",
+    answer: "No, el comando !OC (Overcharge) actualmente no funciona para UTTV, DJ Titan o Watch Titan. Funciona para la mayoría de los demás Titanes del juego."
+  },
+  {
+    question: "¿Qué pasa si desactivo el God Mode mientras tengo poca salud?",
+    answer: "Si desactivas el God Mode, tu HP volverá al valor que tenía antes de activar el interruptor. No te quedas con HP infinito."
+  }
+]} />
+
+</Section>
