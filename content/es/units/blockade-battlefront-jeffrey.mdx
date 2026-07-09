@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jeffrey en ST: Frente de Batalla de Bloqueo: Mecánicas de Formas y Guía de Supervivencia",
+  description: "Domina las mecánicas de Jeffrey en ST: Frente de Batalla de Bloqueo. Aprende a sobrevivir a sus formas Pequeña y Colosal con estrategias y contraestrategias de expertos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Jeffrey+Survival+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de ST: Frente de Batalla de Bloqueo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enemigo Principal**: **jeffrey de ST: Frente de Batalla de Bloqueo** es una amenaza indestructible que modifica el escenario y actúa como un peligro ambiental letal.
+- **Formas Dobles**: Transiciona entre una sigilosa **Forma Pequeña** y una **Forma Colosal** que abarca todo el mapa.
+- **Chillido Letal**: Mirar la pantalla brillante de Jeffrey Colosal durante su aviso sonoro resulta en muerte instantánea.
+- **Medidor de Cordura**: Mantén tu cordura alta en la Dimensión Oscura para evitar que Jeffrey Pequeño gane velocidad.
+- **Estrategia de Movimiento**: Mantente siempre en movimiento y escucha atentamente los gemidos agonizantes o chillidos para anticipar sus ataques.
+</Callout>
+
+<Section icon={Map} title="Introducción a Jeffrey en ST: Frente de Batalla de Bloqueo">
+
+En el intenso entorno de defensa de oleadas y juego de disparos de supervivencia de *ST: Frente de Batalla de Bloqueo* en Roblox, **jeffrey de ST: Frente de Batalla de Bloqueo** destaca como una de las entidades más terroríficas. A diferencia de las unidades estándar o los jefes a los que puedes desgastar con acumulaciones de alto daño, Jeffrey está clasificado como un **modificador de escenario indestructible**. Actúa como un peligro ambiental activo diseñado para castigar a los jugadores que pierden la conciencia situacional o no gestionan sus recursos.
+
+Derivado de la misteriosa historia de la facción de los TV Men, la mente de Jeffrey se ha corrompido por completo al pasar demasiado tiempo dentro del vacío del reino de la puerta. En *Frente de Batalla de Bloqueo*, esta locura se manifiesta en dos fases distintas y altamente letales que obligan a los jugadores a alterar por completo su estilo de juego según la dimensión activa o la fase de la misión.
+
+<Callout type="warning" title="Advertencia de Peligro">
+No intentes atacar a Jeffrey. No tiene barra de vida y no puede ser dañado por ninguna arma, titán o efecto de estado. Tu único objetivo cuando Jeffrey está activo es la pura supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Formas de Jeffrey y Tipos de Ataques">
+
+Para sobrevivir a un encuentro con **jeffrey de ST: Frente de Batalla de Bloqueo**, debes entender sus dos formas distintas: la **Forma Pequeña** y la **Forma Colosal**. Cada forma tiene activadores, comportamientos y vectores de ataque únicos.
+
+### Comparación de Formas
+
+| Característica | Forma Pequeña | Forma Colosal |
+| :--- | :--- | :--- |
+| **Ubicación Principal** | Vacío de la Dimensión Oscura | Modo Memoria Vaga (Fase 2) |
+| **Escala de Tamaño** | Tamaño normal de TV Man | Monumental / Abarca todo el mapa |
+| **Movimiento** | Flota y rastrea a los jugadores | Entidad estática en el fondo |
+| **Amenaza Fatal** | Contacto físico (Muerte instantánea) | Chillido de Pantalla y Golpe de Mano |
+| **Advertencia de Audio** | Gemidos y chillidos agonizantes | Chillido agudo de pantalla |
+
+<CardGrid cols={2}>
+  <Card title="Mecánicas de la Forma Pequeña">
+    - **Escala de Cordura**: Su velocidad de movimiento está inversamente ligada a tu barra de cordura. Una cordura más baja hace que se mueva significativamente más rápido.
+    - **Ajuste de Altura**: Si estás usando una unidad voladora o un titán, Jeffrey igualará tu altitud exacta para asegurarse de que no puedas escapar fácilmente de él.
+    - **Toque Letal**: El contacto con Jeffrey significa la muerte instantánea, ignorando por completo la barra de salud y los escudos de tu unidad.
+  </Card>
+  <Card title="Mecánicas de la Forma Colosal">
+    - **Golpe de Mapa**: Jeffrey apuntará a un lado del mapa y golpeará con su enorme puño, aplastando todo lo que esté debajo.
+    - **Orbes de Energía**: Dispara 4 orbes púrpuras de seguimiento desde sus tentáculos traseros, infligiendo 1,000 puntos de daño neto por impacto.
+    - **Destello de Pantalla**: Su pantalla se ilumina para cegar a los jugadores, infligiendo daño fatal si lo miras directamente.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Pro de Supervivencia">
+Cuando Jeffrey esté en su Forma Pequeña, recoge los orbes púrpuras brillantes esparcidos por el vacío para mantener llena tu barra de cordura. Esta es la forma más efectiva de mantenerlo lento y controlable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo Sobrevivir a Jeffrey Colosal en Memoria Vaga">
+
+Jeffrey Colosal aparece durante la Fase 2 (Noche) de la misión infinita **Memoria Vaga** (Vague Memory), poco después de que despegue la segunda Tienda de Helicópteros. Sobrevivir a esta fase requiere una ejecución precisa de maniobras defensivas.
+
+<Steps>
+  <Step num="1" title="Monitorea la Transición de Fase">
+    A medida que comienza la Fase 2, prepara a tu escuadrón para peligros ambientales masivos. Asegúrate de que todas las unidades defensivas principales estén colocadas lejos de los bordes del mapa, donde es más probable que golpeen los manotazos de Jeffrey.
+  </Step>
+  <Step num="2" title="Escucha las Señales de Audio">
+    Antes de cualquier ataque importante, Jeffrey emitirá chillidos fuertes y agonizantes. Cuando escuches estos efectos de sonido, deja de concentrarte inmediatamente en los enemigos de la oleada estándar y prepárate para reaccionar.
+  </Step>
+  <Step num="3" title="Desvía la Pantalla de tu Cámara">
+    Cuando la pantalla de Jeffrey comience a brillar, **gira inmediatamente tu cámara hacia otro lado**. No permitas que ninguna parte de Jeffrey sea visible en la pantalla de tu juego. Mirarlo durante este destello resulta en una eliminación instantánea que ignora lentes y escudos.
+  </Step>
+  <Step num="4" title="Esquiva los Orbes de Seguimiento">
+    Cuando Jeffrey dispare sus 4 orbes púrpuras, usa unidades de alta movilidad o mecánicas de esquive (dash) para evadirlos. Cada orbe inflige 1,000 puntos de daño, lo que puede destrozar fácilmente a tus unidades de apoyo más frágiles si se quedan quietas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Estrategia y Equipamientos para el Modo Memoria Vaga">
+
+Dado que Jeffrey no puede ser eliminado, tu equipamiento durante Memoria Vaga debe centrarse en sobrevivir a sus ataques mientras eliminas rápidamente a los enemigos de la oleada sumamente potenciados (que reciben hasta un multiplicador de 15x de vida y daño en la Fase 2).
+
+### Unidades Recomendadas para Memoria Vaga
+
+| Nombre de la Unidad | Rol | Por qué es Esencial |
+| :--- | :--- | :--- |
+| **Polycephaly 2.0** | DPS Principal | Inflige un daño de ráfaga masivo para limpiar rápidamente a los jefes de oleada con mucha vida. |
+| **Energized TV Man** | Control de Masas | Excelente para frenar a los enemigos rápidos mientras esquivas los ataques de Jeffrey. |
+| **Villain Arc (Maestría 80+)** | Cazador de Élites | Proporciona el daño sostenido y elevado necesario para sobrevivir al escalado de vida de 15x. |
+| **Aspectos de Titán de 100MVisit** | Mejora de Estadísticas | Equipar estos aspectos de evento proporciona multiplicadores de estadísticas cruciales para tus Titanes. |
+
+<Checklist
+  id="vague-memory-checklist"
+  title="Lista de Verificación para Sobrevivir en Memoria Vaga:"
+  items={[
+    "Equipa Chips de estadísticas de alto nivel en tus atacantes principales antes de comenzar [1.3.2].",
+    "Identifica y mantente completamente alejado del Sujeto 0 para evitar recibir más de 10,000 puntos de daño instantáneo.",
+    "Prioriza eliminar al Zombie Detainer Astro Toilet en el momento en que aparezca.",
+    "Mantén tu cámara inclinada hacia abajo o en dirección opuesta al fondo durante las fases nocturnas para evitar el Destello de Pantalla."
+  ]}
+/>
+
+<Callout type="success" title="Rendimiento de Recompensas">
+Sobrevivir al caos de Memoria Vaga es muy gratificante. Los enemigos tienen un 33% de probabilidad de soltar entre 4 y 12 Fragmentos Extraños durante la Fase 2, junto con una probabilidad elevada de 1 en 75,000 de obtener el ultra raro Prisma Extraño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Se puede matar a Jeffrey en Frente de Batalla de Bloqueo?",
+    answer: "No. Jeffrey es un enemigo indestructible que funciona como modificador de escenario. No tiene barra de vida y tu único objetivo es esquivar sus ataques y sobrevivir a sus mecánicas."
+  },
+  {
+    question: "¿Cómo evito que Jeffrey Pequeño me alcance en el vacío?",
+    answer: "Debes recolectar los orbes púrpuras brillantes esparcidos por el vacío. Esto mantiene alta tu barra de cordura, lo que evita directamente que Jeffrey Pequeño gane velocidad de movimiento."
+  },
+  {
+    question: "¿Funciona el truco de bloquear la cámara contra el ataque de pantalla de Jeffrey Colosal?",
+    answer: "Sí, pero debes rotar físicamente tu cámara de juego por completo hacia el lado opuesto de Jeffrey para que no sea visible en tu pantalla. Este ataque ignora las lentes protectoras y daña a todos los que lo estén mirando."
+  },
+  {
+    question: "¿Cuál es la mejor estrategia para sobrevivir a la Fase 2 de Memoria Vaga?",
+    answer: "Concéntrate en unidades de alto DPS como Polycephaly 2.0 para limpiar a los enemigos de oleada con mucha vida, usa la movilidad para esquivar los orbes púrpuras de 1,000 de daño de Jeffrey, y gira tu cámara hacia otro lado cada vez que su pantalla se ilumine."
+  }
+]} />
+
+</Section>

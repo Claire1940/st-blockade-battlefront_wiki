@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Vague Memory em Blockade Battlefront: Guia Completo do Evento e de Farm",
+  description: "Domine a missão de evento Vague Memory em Blockade Battlefront. Aprenda estratégias de fase, mecânicas de chefes, taxas de drop e loadouts ideais de unidades.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vague+Memory+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Blockade Battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Missão do Evento**: Vague Memory é uma missão de evento de alta dificuldade que celebra a marca de 100 milhões de visitas [1].
+- **Mecânica Principal**: Formato de sobrevivência infinita com multiplicadores massivos de 10x a 15x de HP e dano dos inimigos [1].
+- **Melhor Estratégia**: Implante unidades de alto dano como Polycephaly 2.0 e Villain Arc com nível de maestria 80 [1].
+- **Dica Crítica**: Colete Weird Shards e Weird Prisms dos drops de inimigos para garantir itens de progressão exclusivos [1].
+- **Melhor Escolha**: Use skins de Titã de 100MVisit para maximizar o desempenho em combate [1].
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Evento Vague Memory">
+
+A missão **vague memory** de **blockade battlefront** é um modo de evento especial lançado na Versão 9.0.3 para celebrar a marca de 100 milhões de visitas no jogo [1]. Ocorrendo na icônica antiga arena de ST:BB, este desafio de sobrevivência infinita testa a resistência dos jogadores contra inimigos fortemente fortalecidos [1]. 
+
+Ao contrário das fases padrão, os inimigos neste modo recebem aumentos massivos de atributos, tornando até mesmo as criaturas básicas letais [1]. No entanto, a alta dificuldade é acompanhada por recompensas incrivelmente lucrativas, incluindo chances exclusivas de drop de materiais raros de criação [1].
+
+| Recurso | Detalhes da Fase do Dia | Detalhes da Fase da Noite |
+| :--- | :--- | :--- |
+| **Buff de HP/Dano** | Multiplicador base de 10x | Multiplicador base de 15x (excluindo chefes) |
+| **Chance de Drop de Weird Shard** | 33% de chance para 1-3 shards | 33% de chance para 4-12 shards |
+| **Taxa de Drop de Weird Prism** | 1 em 75.000 | 1 em 75.000 |
+| **Suprimento Inicial** | 3.500 MiS | Acumulado |
+
+<Callout type="warning" title="Nível de Ameaça Extremo">
+Não subestime os inimigos de nível baixo neste modo. Um único grupo de toilets básicos pode esvaziar sua barra de vida em segundos devido aos multiplicadores fixos de dano de 10x/15x [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progressão de Fase e Mecânicas de Chefes">
+
+A sobrevivência nesta missão é dividida em duas fases ambientais distintas [1]. Gerenciar seus recursos e a preparação durante a transição é fundamental para sobreviver à escalada de dificuldade [1].
+
+### Fase 1: Fase do Dia
+A missão começa durante o dia. Você inicia com 3.500 MiS para comprar melhorias iniciais e estabelecer sua defesa [1]. As ondas são substituídas por um cronômetro de sobrevivência progressivo [1]. Durante esta fase, você deve se preparar para quatro possíveis surgimentos de chefes [1].
+
+### Fase 2: Fase da Noite
+Após aproximadamente 5 a 8 minutos de sobrevivência, sua tela ficará preta [1]. Quando a visão retornar, a arena terá transicionado para a noite [1]. A dificuldade aumenta drasticamente à medida que os multiplicadores de vida e dano dos inimigos sobem para 15x [1]. Para compensar, os drops de Weird Shards são multiplicados por quatro [1].
+
+| Nome do Chefe | Fase de Surgimento | Chance de Surgimento | Mecânicas Principais e Nível de Perigo |
+| :--- | :--- | :--- | :--- |
+| **Flying Skibidi Toilet** | Dia (Fase 1) | 25% | Velocidade moderada, evita obstáculos terrestres |
+| **Militant Skibidi Toilet** | Dia (Fase 1) | 25% | Alta cadência de tiro, foca em unidades defensivas |
+| **Triplet Skibidi Toilet** | Dia (Fase 1) | 25% | Barras de vida divididas, requer ataques de área (AoE) |
+| **G-Toilet 1.0** | Dia (Fase 1) | 25% | Grande quantidade de vida, ataques de laser devastadores |
+| **Subject 0** | Noite (Fase 2) | 50% | 750.000 de HP, causa mais de 10.000 de dano por golpe |
+| **Zombie Detainer Astro Toilet** | Noite (Fase 2) | 50% | Extremamente rápido, deve ser focado e eliminado instantaneamente |
+| **Colossal Jeffrey** | Noite (Fase 2) | Garantido | Surge após a saída da segunda Loja do Helicóptero da Fase 2 |
+
+<Callout type="success" title="Estratégia da Loja do Helicóptero">
+A Loja do Helicóptero chega em intervalos aleatórios [1]. Quando ela pousa, o surgimento de todos os inimigos é pausado [1]. Não force a loja a sair imediatamente. Use esse tempo de inatividade para deixar suas recargas (cooldowns) se recuperarem e planejar seu próximo caminho de melhorias [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Sobrevivência Passo a Passo">
+
+Para sobreviver de forma consistente após a transição para a noite e farmar os drops raros com eficiência, siga esta estratégia estruturada de implantação [1].
+
+<Steps>
+  <Step num="1" title="Configuração Inicial e Economia">
+    Gaste seus 3.500 MiS iniciais imediatamente em unidades defensivas de alta eficiência e causadores de dano [1]. Priorize unidades que consigam segurar pontos de afunilamento sem exigir muita manutenção.
+  </Step>
+  <Step num="2" title="Equipar Chips de Buff">
+    Antes de iniciar a partida, certifique-se de que seu loadout esteja otimizado com Chips de Atributos (Stat Chips) [1]. Foque em chips que aumentem o dano bruto, redução de tempo de recarga e vida da unidade para neutralizar os buffs dos inimigos.
+  </Step>
+  <Step num="3" title="Gerenciamento da Fase do Dia">
+    Mantenha distância dos pontos de surgimento. Elimine os chefes da Fase do Dia rapidamente usando unidades de dano explosivo de alvo único, enquanto economiza suas habilidades de área pesadas para ondas cheias [1].
+  </Step>
+  <Step num="4" title="Transição para a Fase da Noite">
+    Quando a tela ficar preta, prepare-se para o pico do multiplicador de 15x [1]. Recue imediatamente e agrupe suas unidades. Quando o Subject 0 ou o Zombie Detainer Astro Toilet surgir, direcione todo o fogo primário para eliminá-los antes que rompam suas linhas [1].
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Use Skins Especiais">
+Se você possui alguma skin promocional de 100MVisit para seus Titãs, equipe-a antes de entrar no lobby [1]. Essas skins oferecem um desempenho de combate otimizado, projetado especificamente para desafios de alta dificuldade [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparação de Loadout Ideal de Unidades">
+
+Escolher as unidades certas determina se você sobreviverá aos primeiros cinco minutos ou se farmará a fase da noite com sucesso [1]. Unidades de alto dano e controle de grupo são obrigatórias [1].
+
+<CardGrid cols={3}>
+  <Card title="Polycephaly 2.0">
+    - **Função**: Controle de Grupo Principal e AoE
+    - **Força**: Alto dano base
+    - **Aplicação**: Ideal para limpar grupos densos durante a fase da noite [1]
+  </Card>
+  <Card title="Energized TV Man">
+    - **Função**: Defesa de Rota e Suporte
+    - **Força**: Dano de energia consistente
+    - **Aplicação**: Derrete alvos com muito HP de uma distância segura [1]
+  </Card>
+  <Card title="Villain Arc (Maestria 80)">
+    - **Função**: Caçador de Chefes e Alvo Único
+    - **Força**: Escalamento máximo de dano explosivo
+    - **Aplicação**: Essencial para derrotar rapidamente o Subject 0 e o Colossal Jeffrey [1]
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Aviso sobre o Subject 0">
+O Subject 0 possui 750.000 de HP e pode causar mais de 10.000 de dano por golpe [1]. Não tente bloqueá-lo com unidades corpo a corpo; use efeitos de lentidão e dano à distância para caitá-lo [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Eficiência de Farm">
+
+Use esta lista de verificação para acompanhar sua eficiência de farm e garantir que está maximizando seus ganhos de Weird Shards por partida [1].
+
+<Checklist
+  id="vague-memory-farming"
+  title="Marcos de Farm:"
+  items={[
+    "Alcançar a transição para a Fase da Noite de forma consistente (5 a 8 minutos de sobrevivência)",
+    "Derrotar pelo menos um chefe da Fase da Noite (Subject 0 ou Zombie Detainer Astro)",
+    "Sobreviver até o Colossal Jeffrey surgir após a segunda Loja do Helicóptero",
+    "Equipar unidades com Maestria 80 para maximizar o dano",
+    "Coletar pelo menos 50 Weird Shards por partida de alta eficiência"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de conseguir Weird Shards em Blockade Battlefront?",
+    answer: "A missão de evento Vague Memory é a única forma de obter Weird Shards no jogo. Os inimigos têm 33% de chance de dropar de 1 a 3 shards durante a Fase do Dia, o que aumenta para 4 a 12 shards durante a Fase da Noite."
+  },
+  {
+    question: "Como ativo a Fase da Noite em Vague Memory?",
+    answer: "A Fase da Noite é ativada automaticamente após sobreviver por aproximadamente 5 a 8 minutos na arena. Sua tela ficará preta brevemente antes da transição do ambiente."
+  },
+  {
+    question: "Qual é a taxa de drop do Weird Prism neste modo?",
+    answer: "O Weird Prism tem uma taxa de drop aumentada de 1 em 75.000 de inimigos na missão Vague Memory, em comparação com sua taxa de drop padrão de 1 em 100.000 em outros modos de jogo."
+  },
+  {
+    question: "Como devo lidar com o Colossal Jeffrey?",
+    answer: "O Colossal Jeffrey surge logo após a partida da segunda Loja do Helicóptero da Fase 2. Você deve guardar suas habilidades ativas de maior dano e usar unidades de alcance máximo para reduzir a enorme barra de vida dele com segurança."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Blockade Battlefront Jeffrey: Mekanisme Wujud & Panduan Bertahan Hidup",
+  description: "Kuasai mekanisme Jeffrey di ST: Blockade Battlefront. Pelajari cara bertahan hidup dari wujud Kecil dan Raksasa dengan strategi dan counter ahli.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Jeffrey+Survival+Guide",
+  date: "2026-07-09",
+  author: "Tim Wiki blockade battlefront"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Musuh Utama**: **blockade battlefront jeffrey** adalah ancaman pengubah tahap (stage-modifier) yang tidak bisa dibunuh, bertindak sebagai bahaya lingkungan yang mematikan.
+- **Dua Wujud**: Dia bertransisi antara **Wujud Kecil (Small Form)** yang tersembunyi dan **Wujud Raksasa (Colossal Form)** yang memenuhi peta.
+- **Pekikan Mematikan**: Melihat ke arah layar bercahaya Colossal Jeffrey saat isyarat suaranya berbunyi akan mengakibatkan kematian instan.
+- **Meteran Kewarasan (Sanity Meter)**: Jaga kewarasan Anda tetap tinggi di Dimensi Gelap (Dark Dimension) untuk mencegah Small Jeffrey menambah kecepatan.
+- **Strategi Pergerakan**: Selalu terus bergerak dan dengarkan baik-baik erangan kesakitan atau pekikan untuk mengantisipasi serangannya.
+</Callout>
+
+<Section icon={Map} title="Pengenalan tentang Blockade Battlefront Jeffrey">
+
+Dalam lingkungan wave-defense dan survival-shooter yang intens di Roblox *ST: Blockade Battlefront*, **blockade battlefront jeffrey** menonjol sebagai salah satu entitas yang paling mengerikan. Berbeda dengan unit standar atau bos yang dapat Anda kalahkan dengan build damage tinggi, Jeffrey diklasifikasikan sebagai **pengubah tahap yang tidak bisa dibunuh (unkillable stage modifier)**. Dia bertindak sebagai bahaya lingkungan aktif yang dirancang untuk menghukum pemain yang kehilangan kesadaran situasi atau gagal mengelola sumber daya mereka.
+
+Berasal dari kisah misterius faksi TV Men, pikiran Jeffrey telah sepenuhnya rusak karena menghabiskan terlalu banyak waktu di dalam kehampaan alam gerbang (gate's realm). Di *Blockade Battlefront*, kegilaan ini terwujud dalam dua fase berbeda yang sangat mematikan, memaksa pemain untuk sepenuhnya mengubah gaya bermain mereka tergantung pada dimensi aktif atau fase misi.
+
+<Callout type="warning" title="Peringatan Bahaya">
+Jangan mencoba menyerang Jeffrey. Dia tidak memiliki bar kesehatan (HP) dan tidak dapat dirusak oleh senjata, titan, atau efek status apa pun. Satu-satunya tujuan Anda saat Jeffrey aktif adalah bertahan hidup.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mekanisme Wujud Jeffrey dan Jenis Serangan">
+
+Untuk bertahan hidup dari pertemuan dengan **blockade battlefront jeffrey**, Anda harus memahami dua wujudnya yang berbeda: **Wujud Kecil (Small Form)** dan **Wujud Raksasa (Colossal Form)**. Setiap wujud memiliki pemicu, perilaku, dan vektor serangan yang unik.
+
+### Perbandingan Wujud
+
+| Fitur | Wujud Kecil | Wujud Raksasa |
+| :--- | :--- | :--- |
+| **Lokasi Utama** | Kehampaan Dimensi Gelap | Mode Vague Memory (Fase 2) |
+| **Skala Ukuran** | Ukuran normal TV Man | Monumental / Memenuhi peta |
+| **Pergerakan** | Melayang dan melacak pemain | Entitas latar belakang yang diam |
+| **Ancaman Fatal** | Kontak fisik (Instakill) | Pekikan Layar & Hantaman Tangan |
+| **Peringatan Suara** | Erangan dan pekikan kesakitan | Pekikan layar bernada tinggi |
+
+<CardGrid cols={2}>
+  <Card title="Mekanisme Wujud Kecil">
+    - **Penskalaan Kewarasan (Sanity)**: Kecepatan geraknya berbanding terbalik dengan bar kewarasan Anda. Kewarasan yang lebih rendah membuatnya bergerak jauh lebih cepat.
+    - **Penyelarasan Ketinggian**: Jika Anda menggunakan unit terbang atau titan, Jeffrey akan menyamakan ketinggian Anda untuk memastikan Anda tidak dapat melarikan diri darinya dengan mudah.
+    - **Sentuhan Mematikan**: Kontak dengan Jeffrey berarti kematian instan, sepenuhnya mengabaikan bar kesehatan dan perisai unit Anda.
+  </Card>
+  <Card title="Mekanisme Wujud Raksasa">
+    - **Hantaman Peta (Map Slam)**: Jeffrey akan menargetkan satu sisi peta dan menghantamkan tinju besarnya ke bawah, menghancurkan apa pun di bawahnya.
+    - **Orb Energi**: Menembakkan 4 orb pelacak berwarna ungu dari tentakel punggungnya, memberikan 1.000 damage tetap per hit.
+    - **Kilatan Layar**: Layarnya bersinar terang untuk membutakan pemain, memberikan damage fatal jika Anda melihat langsung ke arahnya.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tip Bertahan Hidup Pro">
+Saat Jeffrey berada dalam Wujud Kecilnya, kumpulkan orb ungu bercahaya yang tersebar di seluruh kehampaan untuk menjaga bar kewarasan Anda tetap penuh. Ini adalah satu-satunya cara paling efektif untuk membuatnya tetap lambat dan mudah dikendalikan.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cara Bertahan Hidup dari Colossal Jeffrey di Vague Memory">
+
+Colossal Jeffrey muncul selama Fase 2 (Malam) dari misi tanpa akhir **Vague Memory**, sesaat setelah Toko Helikopter (Helicopter Shop) kedua lepas landas. Bertahan hidup di fase ini membutuhkan eksekusi manuver defensif yang tepat.
+
+<Steps>
+  <Step num="1" title="Pantau Transisi Fase">
+    Saat Fase 2 dimulai, persiapkan skuad Anda untuk menghadapi bahaya lingkungan yang masif. Pastikan semua unit pertahanan utama ditempatkan jauh dari tepi peta di mana hantaman Jeffrey kemungkinan besar akan mendarat.
+  </Step>
+  <Step num="2" title="Dengarkan Isyarat Suara">
+    Sebelum serangan besar apa pun, Jeffrey akan mengeluarkan pekikan keras yang menyakitkan. Saat Anda mendengar efek suara ini, segera hentikan fokus pada musuh gelombang standar dan bersiaplah untuk bereaksi.
+  </Step>
+  <Step num="3" title="Palingkan Layar Kamera Anda">
+    Saat layar Jeffrey mulai bersinar terang, **segera palingkan kamera Anda**. Jangan biarkan bagian mana pun dari Jeffrey terlihat di layar game Anda. Melihatnya selama kilatan ini akan mengakibatkan kematian instan (wipe) yang mengabaikan lensa pelindung dan perisai.
+  </Step>
+  <Step num="4" title="Hindari Orb Pelacak">
+    Saat Jeffrey menembakkan 4 orb ungunya, gunakan unit dengan mobilitas tinggi atau mekanisme dash untuk menghindar. Setiap orb memberikan 1.000 damage, yang dapat dengan mudah menghancurkan unit pendukung Anda yang lebih rapuh jika mereka diam di tempat.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Strategi dan Loadout Mode Vague Memory">
+
+Karena Jeffrey tidak bisa dibunuh, loadout Anda selama Vague Memory harus fokus pada bertahan hidup dari serangannya sambil dengan cepat membersihkan musuh gelombang yang mendapatkan buff luar biasa (yang menerima hingga 15x HP dan pengganda damage di Fase 2).
+
+### Unit yang Direkomendasikan untuk Vague Memory
+
+| Nama Unit | Peran | Mengapa Ini Penting |
+| :--- | :--- | :--- |
+| **Polycephaly 2.0** | DPS Utama | Memberikan burst damage masif untuk membersihkan bos gelombang ber-HP tinggi dengan cepat. |
+| **Energized TV Man** | Crowd Control | Sangat baik untuk menahan musuh yang bergerak cepat saat Anda menghindari serangan Jeffrey. |
+| **Villain Arc (Mastery 80+)** | Pembasmi Elit | Menyediakan output damage tinggi yang konsisten yang dibutuhkan untuk bertahan dari penskalaan 15x HP. |
+| **100MVisit Titan Skins** | Peningkatan Stat | Melengkapi skin event ini memberikan pengganda stat krusial untuk Titan Anda. |
+
+<Checklist
+  id="vague-memory-checklist"
+  title="Daftar Periksa Kelangsungan Hidup Vague Memory:"
+  items={[
+    "Lengkapi Chip stat tingkat tinggi pada dealer damage utama Anda sebelum memulai [1.3.2].",
+    "Identifikasi dan menjauhlah sepenuhnya dari Subject 0 untuk menghindari menerima 10.000+ damage instan.",
+    "Prioritaskan membunuh Zombie Detainer Astro Toilet segera setelah ia muncul.",
+    "Jaga agar kamera Anda miring ke bawah atau menjauh dari latar belakang selama fase malam untuk menghindari Kilatan Layar (Screen Flash)."
+  ]}
+/>
+
+<Callout type="success" title="Hasil Hadiah">
+Bertahan dari kekacauan Vague Memory sangatlah bermanfaat. Musuh memiliki peluang 33% untuk menjatuhkan 4-12 Weird Shard selama Fase 2, di samping peluang tinggi 1 banding 75.000 untuk menjatuhkan Weird Prism yang sangat langka.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Apakah Anda bisa membunuh Jeffrey di Blockade Battlefront?",
+    answer: "Tidak. Jeffrey adalah musuh pengubah tahap yang tidak bisa dibunuh. Dia tidak memiliki bar kesehatan, dan satu-satunya tujuan Anda adalah menghindari serangannya dan bertahan dari mekanismenya."
+  },
+  {
+    question: "Bagaimana cara menghentikan Small Jeffrey agar tidak mengejar saya di kehampaan?",
+    answer: "Anda harus mengumpulkan orb ungu bercahaya yang tersebar di seluruh kehampaan. Ini menjaga bar kewarasan Anda tetap tinggi, yang secara langsung mencegah Small Jeffrey mendapatkan kecepatan bergerak."
+  },
+  {
+    question: "Apakah trik memblokir kamera melindungi dari serangan layar Colossal Jeffrey?",
+    answer: "Ya, tetapi Anda harus memutar kamera dalam game Anda secara fisik sepenuhnya menjauh dari Jeffrey sehingga dia tidak terlihat di layar Anda. Serangan ini mengabaikan lensa pelindung dan memberikan damage pada semua orang yang melihat ke arahnya."
+  },
+  {
+    question: "Apa strategi terbaik untuk bertahan hidup di Fase 2 Vague Memory?",
+    answer: "Fokus pada unit ber-DPS tinggi seperti Polycephaly 2.0 untuk membersihkan musuh gelombang ber-HP tinggi, gunakan mobilitas untuk menghindari orb ungu ber-damage 1.000 milik Jeffrey, dan palingkan kamera Anda setiap kali layarnya bersinar terang."
+  }
+]} />
+
+</Section>

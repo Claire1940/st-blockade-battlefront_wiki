@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gacha de Blockade Battlefront: Guia de Taxas de Queda e Custos",
+  description: "Domine o sistema de gacha de blockade battlefront. Aprenda as taxas de queda de fragmentos de personagens, custos de giros em Cens, regras de skins duplicadas e estratégias de rolagens.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gacha+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de blockade battlefront"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica principal**: O **gacha de blockade battlefront** é um sistema baseado em sorte usado para desbloquear personagens e skins.
+- **Custo da moeda**: Giros individuais custam 10 Cens, enquanto giros múltiplos escalam até 1000 Cens.
+- **Desbloqueio de personagens**: Os personagens exigem a coleta de 100 fragmentos, com uma chance de queda de 10% por giro.
+- **Regras de duplicatas**: Obter skins duplicadas concede imediatamente 2 Cens como compensação.
+- **Melhor estratégia**: Economize Cens para Giros de Sorte (Lucky Spins) para otimizar as taxas de aquisição de fragmentos de personagens de alto nível.
+</Callout>
+
+<Section icon={Sparkles} title="Entendendo a Interface do Gacha de Blockade Battlefront">
+
+Navegar pelo sistema de **gacha de blockade battlefront** é essencial para os jogadores que desejam expandir sua lista de personagens e personalizar suas unidades. A interface do gacha é projetada em torno de um sistema baseado em sorte que permite aos jogadores gastarem seus suados Cens em troca de fragmentos de personagens e skins cosméticas exclusivas. Quando os jogadores abrem o menu do gacha, eles se deparam com um layout limpo contendo duas opções principais, cada uma exibindo três gachas distintos. 
+
+Abaixo dessas opções, três botões de ação principais ditam como você realiza as rolagens: "Open 1", "Lucky Open" e "Open 10". Entender como essas opções escalam em custo é o primeiro passo para otimizar o gerenciamento de seus recursos. Gastar Cens de forma ineficiente pode travar sua progressão, especialmente ao buscar personagens de alto nível que exigem investimento a longo prazo.
+
+| Tipo de Giro | Custo em Cens | Público-Alvo |
+| :--- | :--- | :--- |
+| Giro 1 | 10 Cens | Jogadores casuais testando a sorte |
+| Giro 10 | 100 Cens | Jogadores em progressão padrão |
+| Giro 100 | 1000 Cens | Jogadores que realizam rolagens em massa para economizar tempo |
+| Giro de Sorte | 100 Cens | Caçadores de fragmentos específicos |
+| Giro de Sorte 10X | 1000 Cens | Otimização de alto nível |
+
+<Callout type="tip" title="Dica de Gerenciamento de Recursos">
+Sempre calcule suas reservas de Cens antes de se comprometer com rolagens em massa. Embora o Giro 100 economize tempo, ele não oferece um desconto embutido em comparação com a realização de dez Giros 10. Planeje seu orçamento de acordo com as necessidades atuais de sua lista de personagens.
+</Callout>
+
+A economia do jogo gira fortemente em torno dos Cens. Como cada puxada exige uma quantidade específica desta moeda, os jogadores devem equilibrar seus gastos entre a aquisição de personagens e outros sistemas de progressão. Giros padrão são excelentes para acumular uma grande variedade de itens, mas giros especializados são necessários ao focar em unidades específicas de alto valor.
+
+</Section>
+
+<Section icon={Swords} title="Personagens Obtíveis e Taxas de Queda de Fragmentos">
+
+Desbloquear novas unidades através do **gacha de blockade battlefront** exige paciência e a compreensão da mecânica de fragmentos. Ao contrário de muitos jogos de gacha tradicionais onde você obtém personagens completos diretamente, este sistema exige que você colete fragmentos. Especificamente, você deve acumular 100 fragmentos de um personagem específico para desbloqueá-lo para a batalha.
+
+A taxa de queda para qualquer fragmento de personagem é de aproximadamente 1/10 (10%) por giro. Isso significa que, em média, um jogador precisará realizar 1.000 giros padrão para coletar os 100 fragmentos necessários para desbloquear um único personagem. Essa média estatística torna o planejamento de longo prazo e o cultivo de Cens cruciais.
+
+| Personagem | Nome do Gacha | Fragmentos Necessários | Status de Disponibilidade |
+| :--- | :--- | :--- | :--- |
+| Brown Cameraman | Villain Arc | 100 Fragmentos | Disponível |
+| Artemis | Tri-Soldiers | 100 Fragmentos | Disponível |
+| Athena | Tri-Soldiers | 100 Fragmentos | Disponível |
+| Espada TV Man | Espada #1 | 100 Fragmentos | Disponível |
+| Old Tri-Soldier | Tri-Soldiers | 100 Fragmentos | Indisponível |
+
+<Callout type="warning" title="Aviso de Disponibilidade">
+O Old Tri-Soldier está atualmente marcado como indisponível nos conjuntos de gacha ativos. Não gaste Cens tentando focar nesta unidade até que uma atualização futura ou rotação reintroduza oficialmente o personagem nas tabelas de drop ativas.
+</Callout>
+
+Ao realizar rolagens no gacha Tri-Soldiers, os jogadores têm a chance de obter fragmentos de Artemis ou Athena. Como o conjunto de drops é dividido entre essas duas unidades, completar uma unidade específica pode demorar mais do que focar em um gacha de personagem único como o Espada #1. Tenha essa variação em mente ao planejar as composições do seu grupo e ao decidir onde alocar seus Cens. Consulte a [Wiki oficial de Blockade Battlefront](https://skibidi-toilet-blockade-battlefront.fandom.com/wiki/Gacha) para atualizações em tempo real sobre as rotações de personagens ativos.
+
+</Section>
+
+<Section icon={Shield} title="Mecânica de Rolagem de Skins e Conversão de Duplicatas">
+
+As skins oferecem uma maneira de personalizar suas unidades no campo de batalha. O método de aquisição para skins no **gacha de blockade battlefront** difere significativamente dos personagens. Em vez de coletar fragmentos ao longo do tempo, obter uma skin no gacha concede a você o item cosmético completo imediatamente.
+
+Existem dezenas de skins exclusivas disponíveis no conjunto ativo e, felizmente, nenhuma delas está atualmente bloqueada ou indisponível. No entanto, como o conjunto é muito grande, obter a skin exata que você deseja pode ser desafiador. Além disso, o sistema permite que você obtenha skins duplicadas que já possui.
+
+<CardGrid cols={3}>
+  <Card title="Giros Padrão">
+    - **Custo**: 10 Cens por puxada
+    - **Melhor Para**: Acumular skins aleatórias
+    - **Eficiência**: Baixa taxa de alvo específico
+  </Card>
+  <Card title="Giros de Sorte">
+    - **Custo**: 100 Cens por puxada
+    - **Melhor Para**: Aquisição de fragmentos específicos
+    - **Eficiência**: Alto valor para personagens
+  </Card>
+  <Card title="Sistema de Duplicatas">
+    - **Reembolso**: Concede 2 Cens
+    - **Melhor Para**: Pequena recuperação de custos
+    - **Eficiência**: Compensa perdas de rolagens em massa
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Valor de Conversão de Duplicatas">
+Quando você obtém uma skin duplicada, o jogo a converte automaticamente e concede 2 Cens a você. Embora isso seja uma fração do custo de 10 Cens do giro, ajuda a compensar a despesa geral de sessões massivas de abertura.
+</Callout>
+
+Como as duplicatas retornam apenas 2 Cens, depender de rolagens de skin para financiar suas sessões de gacha não é viável. Em vez disso, encare o reembolso de duplicatas como um pequeno bônus enquanto você caça fragmentos raros de personagens. 
+
+| Recurso | Fragmentos de Personagem | Skins Cosméticas |
+| :--- | :--- | :--- |
+| Requisito de Desbloqueio | 100 Fragmentos | Desbloqueio imediato |
+| Chance Base de Queda | Aproximadamente 10% | Variável com base no tamanho do conjunto |
+| Recompensa por Duplicata | Fragmentos adicionais | Compensação de 2 Cens |
+| Disponibilidade | Algumas unidades aposentadas | Todas as skins atualmente ativas |
+
+</Section>
+
+<Section icon={Target} title="Plano de Progressão do Gacha Passo a Passo">
+
+Para maximizar sua eficiência ao interagir com o **gacha de blockade battlefront**, você deve seguir um plano de progressão estruturado. Realizar puxadas aleatórias sempre que adquirir 10 Cens diminuirá sua capacidade de desbloquear unidades de alto nível.
+
+<Steps>
+  <Step num="1" title="Acumule uma Reserva de Cens">
+    Evite gastar Cens imediatamente. Jogue nos modos de jogo até ter pelo menos 1.000 Cens. Isso garante que você possa realizar rolagens em massa ou Giros de Sorte focados sem ficar sem recursos no meio da sessão.
+  </Step>
+  <Step num="2" title="Identifique sua Unidade Alvo">
+    Decida se precisa de um personagem específico como o Espada TV Man ou se está caçando cosméticos. Se precisar de personagens, prepare-se para a busca pelos 100 fragmentos.
+  </Step>
+  <Step num="3" title="Utilize Giros de Sorte para Fragmentos">
+    Use as opções de Giro de Sorte ao focar em fragmentos de personagens. Embora custem 100 Cens, eles oferecem caminhos otimizados para garantir os fragmentos necessários para desbloquear unidades.
+  </Step>
+  <Step num="4" title="Gerencie os Retornos de Duplicatas">
+    Acompanhe suas conversões de skins duplicadas. Use os Cens retornados para realizar giros individuais finais se você estiver a apenas alguns fragmentos de concluir o desbloqueio de um personagem.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Marco de Progressão">
+Assim que conseguir desbloquear seu primeiro grande personagem de gacha, como o Espada TV Man, mude seu foco para otimizar o equipamento dele antes de gastar mais Cens em outro conjunto de personagens.
+</Callout>
+
+Seguir este método passo a passo evita o esgotamento de recursos e garante que cada Cen gasto contribua diretamente para uma melhoria tangível em sua conta.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação do Gacha para Colecionadores">
+
+Para jogadores que buscam desbloquear todas as unidades e skins disponíveis no jogo, acompanhar o progresso é fundamental. Use esta lista de verificação para monitorar seus marcos de coleção conforme você gasta Cens no sistema de gacha.
+
+<Checklist
+  id="gacha-completion"
+  title="Marcos de Conclusão do Gacha:"
+  items={[
+    "Acumular 1.000 Cens para uma grande sessão de rolagens",
+    "Coletar 100 fragmentos para desbloquear o Brown Cameraman",
+    "Coletar 100 fragmentos para desbloquear Artemis ou Athena do conjunto Tri-Soldiers",
+    "Coletar 100 fragmentos para desbloquear o Espada TV Man",
+    "Obter pelo menos 10 skins de personagens exclusivas do conjunto de cosméticos"
+  ]}
+/>
+
+<Callout type="warning" title="Eficiência de Cultivo">
+Não negligencie as missões diárias e os modos de dificuldade enquanto busca esses marcos. O gacha é um complemento ao jogo ativo, não um substituto para o cultivo de recompensas padrão.
+</Callout>
+
+| Alvo do Marco | Custo Médio em Cens | Compromisso de Tempo |
+| :--- | :--- | :--- |
+| Primeiro Desbloqueio de Personagem | 1.000 Cens | Cultivo moderado |
+| Lista Completa de Personagens | 3.000+ Cens | Alto tempo de jogo ativo |
+| Coleção de Skins (10+) | 500-1.000 Cens | Sorte baixa a moderada |
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+Aqui estão as respostas para as perguntas mais comuns sobre as mecânicas de gacha e aquisição de personagens.
+
+<FAQ items={[
+  {
+    question: "Qual é a taxa de queda para fragmentos de personagens no gacha de blockade battlefront?",
+    answer: "A taxa de queda para um fragmento de personagem é de aproximadamente 1/10 (10%) por giro. Você deve coletar 100 fragmentos para desbloquear totalmente um personagem."
+  },
+  {
+    question: "O que acontece quando eu obtenho uma skin duplicada?",
+    answer: "Se você obtiver uma skin cosmética que já possui, a duplicata é convertida automaticamente e você recebe 2 Cens."
+  },
+  {
+    question: "Ainda posso obter o Old Tri-Soldier no gacha?",
+    answer: "Não, o Old Tri-Soldier está atualmente indisponível nos conjuntos de gacha ativos. Você só pode obter Artemis e Athena no gacha Tri-Soldiers."
+  },
+  {
+    question: "É melhor fazer giros individuais ou Giros de Sorte?",
+    answer: "Giros de Sorte (custando 100 Cens) são altamente recomendados ao focar em fragmentos de personagens específicos, enquanto os giros padrão de 10 Cens são melhores para construir uma coleção geral de skins."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Os conjuntos de gacha e os status de disponibilidade estão sujeitos a alterações em futuras atualizações sazonais. Sempre verifique os conjuntos ativos no cliente do jogo antes de gastar grandes quantidades de Cens.
+</Callout>
+
+</Section>

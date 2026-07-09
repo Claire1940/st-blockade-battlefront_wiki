@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Vague Memory Blockade Battlefront: Panduan Lengkap Event & Farming",
+  description: "Kuasai misi event Vague Memory di Blockade Battlefront. Pelajari strategi fase, mekanik bos, tingkat drop, dan loadout unit optimal.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vague+Memory+Guide",
+  date: "2026-07-09",
+  author: "Tim Wiki Blockade Battlefront"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Misi Event**: Vague Memory adalah misi event dengan kesulitan tinggi untuk merayakan pencapaian 100 juta kunjungan [1].
+- **Mekanik Utama**: Format bertahan hidup tanpa akhir (endless survival) dengan pengganda HP dan damage musuh yang sangat besar hingga 10x sampai 15x [1].
+- **Strategi Terbaik**: Kerahkan unit dengan damage tinggi seperti Polycephaly 2.0 dan Villain Arc tingkat kemahiran (mastery) 80 [1].
+- **Tips Penting**: Kumpulkan Weird Shards dan Weird Prisms dari drop musuh untuk mengamankan item progres eksklusif [1].
+- **Pilihan Utama**: Gunakan skin Titan 100MVisit untuk memaksimalkan performa pertempuran [1].
+</Callout>
+
+<Section icon={Map} title="Ikhtisar Event Vague Memory">
+
+Misi **blockade battlefront vague memory** adalah mode event khusus yang dirilis pada Versi 9.0.3 untuk merayakan pencapaian game yang mencapai 100 juta kunjungan [1]. Berlangsung di arena klasik ST:BB yang ikonik, tantangan bertahan hidup tanpa akhir ini menguji ketahanan pemain melawan musuh yang mendapatkan buff besar [1]. 
+
+Berbeda dengan tahap standar, musuh dalam mode ini menerima peningkatan stat yang sangat besar, membuat monster biasa sekalipun menjadi mematikan [1]. Namun, tingkat kesulitan yang tinggi ini sebanding dengan hadiah yang sangat menguntungkan, termasuk peluang drop eksklusif untuk bahan crafting langka [1].
+
+| Fitur | Detail Fase Siang | Detail Fase Malam |
+| :--- | :--- | :--- |
+| **Buff HP/Damage** | Pengganda dasar 10x | Pengganda dasar 15x (tidak termasuk bos) |
+| **Peluang Drop Weird Shard** | Peluang 33% untuk 1-3 shard | Peluang 33% untuk 4-12 shard |
+| **Tingkat Drop Weird Prism** | 1 banding 75.000 | 1 banding 75.000 |
+| **Suplai Awal** | 3.500 MiS | Diteruskan |
+
+<Callout type="warning" title="Tingkat Ancaman Ekstrem">
+Jangan remehkan musuh tingkat rendah dalam mode ini. Satu kelompok toilet dasar dapat menghabiskan bar kesehatan Anda dalam hitungan detik karena pengganda damage flat 10x/15x [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progres Fase dan Mekanik Bos">
+
+Bertahan hidup dalam misi ini dibagi menjadi dua fase lingkungan yang berbeda [1]. Mengelola sumber daya dan persiapan Anda selama transisi sangat penting untuk bertahan dari eskalasi ini [1].
+
+### Fase 1: Fase Siang
+Misi dimulai di siang hari. Anda memulai dengan 3.500 MiS untuk membeli peningkatan awal dan membangun pertahanan Anda [1]. Gelombang musuh digantikan oleh penghitung waktu bertahan hidup yang terus bertambah [1]. Selama fase ini, Anda harus bersiap untuk empat kemungkinan spawn bos [1].
+
+### Fase 2: Fase Malam
+Setelah bertahan sekitar 5 hingga 8 menit, layar Anda akan memudar menjadi hitam [1]. Saat penglihatan kembali, arena bertransisi ke malam hari [1]. Kesulitan melonjak drastis karena pengganda kesehatan dan damage musuh meningkat menjadi 15x [1]. Sebagai kompensasi, drop Weird Shard dikalikan empat [1].
+
+| Nama Bos | Fase Spawn | Peluang Spawn | Mekanik Utama & Tingkat Bahaya |
+| :--- | :--- | :--- | :--- |
+| **Flying Skibidi Toilet** | Siang (Fase 1) | 25% | Kecepatan sedang, menghindari rintangan darat |
+| **Militant Skibidi Toilet** | Siang (Fase 1) | 25% | Laju tembakan tinggi, menargetkan unit pertahanan |
+| **Triplet Skibidi Toilet** | Siang (Fase 1) | 25% | Kolam damage terpisah, membutuhkan serangan area (AoE) |
+| **G-Toilet 1.0** | Siang (Fase 1) | 25% | HP besar, serangan laser yang menghancurkan |
+| **Subject 0** | Malam (Fase 2) | 50% | 750.000 HP, menghasilkan lebih dari 10.000 damage per serangan |
+| **Zombie Detainer Astro Toilet** | Malam (Fase 2) | 50% | Sangat cepat, harus segera difokuskan dan dieliminasi |
+| **Colossal Jeffrey** | Malam (Fase 2) | Dijamin | Muncul setelah Toko Helikopter Fase 2 kedua pergi |
+
+<Callout type="success" title="Strategi Toko Helikopter">
+Toko Helikopter tiba pada interval acak [1]. Saat mendarat, semua pemunculan musuh akan dijeda [1]. Jangan memaksa toko untuk segera pergi. Gunakan waktu jeda ini untuk memulihkan cooldown Anda dan merencanakan jalur peningkatan berikutnya [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strategi Bertahan Hidup Langkah demi Langkah">
+
+Untuk secara konsisten bertahan melewati transisi malam dan melakukan farming drop langka secara efisien, ikuti strategi pengerahan terstruktur ini [1].
+
+<Steps>
+  <Step num="1" title="Pengaturan Awal dan Ekonomi">
+    Segera belanjakan 3.500 MiS awal Anda untuk unit pertahanan dan penghasil damage berefisiensi tinggi [1]. Prioritaskan unit yang dapat menahan choke point tanpa memerlukan perawatan intensif.
+  </Step>
+  <Step num="2" title="Lengkapi Buff Chip">
+    Sebelum memulai pertandingan, pastikan loadout Anda dioptimalkan dengan Stat Chip [1]. Fokus pada chip yang meningkatkan output damage mentah, pengurangan cooldown, dan kesehatan unit untuk menangkal buff musuh.
+  </Step>
+  <Step num="3" title="Manajemen Fase Siang">
+    Jaga jarak Anda dari titik spawn. Kalahkan bos Fase Siang dengan cepat menggunakan unit burst target tunggal sambil menyimpan kemampuan area (AoE) berat Anda untuk gelombang yang ramai [1].
+  </Step>
+  <Step num="4" title="Transisi Fase Malam">
+    Saat layar memudar menjadi hitam, bersiaplah untuk lonjakan pengganda 15x [1]. Segera mundur dan kelompokkan unit Anda. Saat Subject 0 atau Zombie Detainer Astro Toilet muncul, arahkan semua tembakan utama untuk melenyapkan mereka sebelum mereka menembus barisan Anda [1].
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gunakan Skin Spesial">
+Jika Anda memiliki skin promosi 100MVisit untuk Titan Anda, lengkapi sebelum memasuki lobi [1]. Skin ini memberikan performa pertempuran optimal yang disesuaikan khusus untuk tantangan dengan kesulitan tinggi [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perbandingan Loadout Unit Optimal">
+
+Memilih unit yang tepat menentukan apakah Anda akan bertahan di lima menit pertama atau berhasil melakukan farming di fase malam [1]. Unit dengan damage tinggi dan kontrol kerumunan (crowd control) adalah wajib [1].
+
+<CardGrid cols={3}>
+  <Card title="Polycephaly 2.0">
+    - **Peran**: Kontrol Kerumunan Utama & AoE
+    - **Kekuatan**: Output damage dasar yang tinggi
+    - **Penerapan**: Sangat ideal untuk membersihkan kelompok padat selama fase malam [1]
+  </Card>
+  <Card title="Energized TV Man">
+    - **Peran**: Pertahanan Lane & Dukungan
+    - **Kekuatan**: Damage energi yang konsisten
+    - **Penerapan**: Melelehkan target HP tinggi dari jarak aman [1]
+  </Card>
+  <Card title="Villain Arc (Mastery 80)">
+    - **Peran**: Pembunuh Bos & Target Tunggal
+    - **Kekuatan**: Skala burst maksimum
+    - **Penerapan**: Sangat penting untuk menghabisi Subject 0 dan Colossal Jeffrey [1]
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Peringatan Subject 0">
+Subject 0 memiliki 750.000 HP dan dapat menghasilkan lebih dari 10.000 damage per serangan [1]. Jangan mencoba menghadangnya dengan unit jarak dekat; gunakan efek perlambatan (slow) dan damage burst jarak jauh untuk melakukan kiting [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Efisiensi Farming">
+
+Gunakan checklist ini untuk melacak efisiensi farming Anda dan memastikan Anda memaksimalkan perolehan Weird Shard per sesi [1].
+
+<Checklist
+  id="vague-memory-farming"
+  title="Pencapaian Farming:"
+  items={[
+    "Mencapai transisi Fase Malam secara konsisten (bertahan 5-8 menit)",
+    "Mengalahkan setidaknya satu bos Fase Malam (Subject 0 atau Zombie Detainer Astro)",
+    "Bertahan hingga Colossal Jeffrey muncul setelah Toko Helikopter kedua",
+    "Melengkapi unit Mastery 80 untuk memaksimalkan output damage",
+    "Mengumpulkan setidaknya 50 Weird Shard per sesi efisiensi tinggi"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara terbaik untuk mendapatkan Weird Shard di Blockade Battlefront?",
+    answer: "Misi event Vague Memory adalah satu-satunya cara untuk mendapatkan Weird Shard dalam game. Musuh memiliki peluang 33% untuk menjatuhkan 1-3 shard selama Fase Siang, yang meningkat menjadi 4-12 shard selama Fase Malam."
+  },
+  {
+    question: "Bagaimana cara memicu Fase Malam di Vague Memory?",
+    answer: "Fase Malam terpicu secara otomatis setelah bertahan selama sekitar 5 hingga 8 menit di arena. Penglihatan Anda akan memudar menjadi hitam sejenak sebelum lingkungan bertransisi."
+  },
+  {
+    question: "Berapa tingkat drop Weird Prism dalam mode ini?",
+    answer: "Weird Prism memiliki peningkatan tingkat drop sebesar 1 banding 75.000 dari musuh di misi Vague Memory, dibandingkan dengan tingkat drop standarnya sebesar 1 banding 100.000 di mode game lainnya."
+  },
+  {
+    question: "Bagaimana cara menghadapi Colossal Jeffrey?",
+    answer: "Colossal Jeffrey muncul sesaat setelah Toko Helikopter kedua di Fase 2 pergi. Anda harus menyimpan kemampuan aktif dengan damage tertinggi Anda dan menggunakan unit dengan jangkauan maksimum untuk mencicil HP besarnya dengan aman."
+  }
+]} />
+
+</Section>

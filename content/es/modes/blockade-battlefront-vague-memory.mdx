@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Memoria Vaga de Frente de Batalla de Bloqueo: Guía Completa del Evento y de Farmeo",
+  description: "Domina la misión del evento Memoria Vaga en Frente de Batalla de Bloqueo. Aprende estrategias de fase, mecánicas de jefes, tasas de aparición y equipamientos óptimos de unidades.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vague+Memory+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Frente de Batalla de Bloqueo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Misión del Evento**: Memoria Vaga es una misión de evento de alta dificultad que celebra el hito de los 100 millones de visitas [1].
+- **Mecánica Clave**: Formato de supervivencia infinita con multiplicadores masivos de 10x a 15x de vida y daño para los enemigos [1].
+- **Mejor Estrategia**: Despliega unidades de alto daño como Polycephaly 2.0 y Villain Arc con nivel de maestría 80 [1].
+- **Consejo Crítico**: Recolecta Fragmentos Extraños (Weird Shards) y Prismas Extraños (Weird Prisms) de los botines de enemigos para asegurar objetos de progresión exclusivos [1].
+- **Mejor Opción**: Usa aspectos de Titán de 100MVisit para maximizar el rendimiento en combate [1].
+</Callout>
+
+<Section icon={Map} title="Descripción General del Evento Memoria Vaga">
+
+La misión **Memoria Vaga de Frente de Batalla de Bloqueo** (blockade battlefront vague memory) es un modo de evento especial lanzado en la Versión 9.0.3 para celebrar que el juego ha alcanzado el hito de 100 millones de visitas [1]. Desarrollándose en la icónica antigua arena de ST:BB, este desafío de supervivencia infinita pone a prueba la resistencia del jugador contra enemigos fuertemente potenciados [1]. 
+
+A diferencia de los escenarios estándar, los enemigos en este modo reciben aumentos masivos de estadísticas, lo que hace que incluso los enemigos básicos sean letales [1]. Sin embargo, la alta dificultad se corresponde con recompensas increíblemente lucrativas, que incluyen probabilidades de obtención exclusivas de materiales de artesanía raros [1].
+
+| Característica | Detalles de la Fase de Día | Detalles de la Fase de Noche |
+| :--- | :--- | :--- |
+| **Mejora de Vida/Daño** | Multiplicador base de 10x | Multiplicador base de 15x (excluyendo jefes) |
+| **Probabilidad de Fragmentos Extraños** | 33% de probabilidad de 1-3 fragmentos | 33% de probabilidad de 4-12 fragmentos |
+| **Tasa de Prisma Extraño** | 1 en 75.000 | 1 en 75.000 |
+| **Suministro Inicial** | 3.500 MiS | Se transfiere |
+
+<Callout type="warning" title="Nivel de Amenaza Extremo">
+No subestimes a los enemigos de bajo nivel en este modo. Un solo grupo de inodoros básicos puede agotar tu barra de salud en segundos debido a los multiplicadores de daño planos de 10x/15x [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión de la Fase y Mecánicas de Jefes">
+
+La supervivencia en esta misión se divide en dos fases ambientales distintas [1]. Administrar tus recursos y la preparación durante la transición es fundamental para sobrevivir a la escalada [1].
+
+### Fase 1: Fase de Día
+La misión comienza durante el día. Empiezas con 3.500 MiS para comprar mejoras iniciales y establecer tu defensa [1]. Las oleadas se reemplazan por un temporizador de supervivencia ascendente [1]. Durante esta fase, debes prepararte para la aparición de cuatro posibles jefes [1].
+
+### Fase 2: Fase de Noche
+Después de aproximadamente 5 a 8 minutos de supervivencia, la pantalla se desvanecerá a negro [1]. Cuando vuelva la visión, la arena pasará a la noche [1]. La dificultad aumenta drásticamente a medida que los multiplicadores de salud y daño de los enemigos aumentan a 15x [1]. Para compensar, la obtención de Fragmentos Extraños (Weird Shards) se multiplica por cuatro [1].
+
+| Nombre del Jefe | Fase de Aparición | Probabilidad de Aparición | Mecánicas Clave y Nivel de Peligro |
+| :--- | :--- | :--- | :--- |
+| **Flying Skibidi Toilet** | Día (Fase 1) | 25% | Velocidad moderada, evita obstáculos terrestres |
+| **Militant Skibidi Toilet** | Día (Fase 1) | 25% | Alta cadencia de fuego, prioriza unidades defensivas |
+| **Triplet Skibidi Toilet** | Día (Fase 1) | 25% | Puntos de daño divididos, requiere ataques de área de efecto |
+| **G-Toilet 1.0** | Día (Fase 1) | 25% | Gran cantidad de vida, ataques láser devastadores |
+| **Subject 0** | Noche (Fase 2) | 50% | 750.000 HP, inflige más de 10.000 puntos de daño por golpe |
+| **Zombie Detainer Astro Toilet** | Noche (Fase 2) | 50% | Extremadamente rápido, debe ser eliminado al instante |
+| **Colossal Jeffrey** | Noche (Fase 2) | Garantizado | Aparece después de que se retire la segunda Tienda de Helicópteros de la Fase 2 |
+
+<Callout type="success" title="Estrategia de la Tienda de Helicópteros">
+La Tienda de Helicópteros llega a intervalos aleatorios [1]. Cuando aterriza, toda la aparición de enemigos se detiene [1]. No obligues a la tienda a irse de inmediato. Aprovecha este tiempo de inactividad para permitir que tus tiempos de reutilización se recuperen y planificar tu próxima ruta de mejoras [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Supervivencia Paso a Paso">
+
+Para sobrevivir de manera constante después de la transición a la noche y farmear los botines raros de manera eficiente, sigue esta estrategia de despliegue estructurada [1].
+
+<Steps>
+  <Step num="1" title="Configuración Inicial y Economía">
+    Gasta tus 3.500 MiS iniciales de inmediato en unidades defensivas de alta eficiencia y causantes de daño [1]. Prioriza las unidades que puedan mantener puntos de estrangulamiento sin requerir un mantenimiento pesado.
+  </Step>
+  <Step num="2" title="Equipar Chips de Mejora">
+    Antes de comenzar la partida, asegúrate de que tu equipamiento esté optimizado con Stat Chips (Chips de Estadísticas) [1]. Concéntrate en los chips que aumentan el daño bruto, la reducción de enfriamiento y la salud de las unidades para contrarrestar las mejoras de los enemigos.
+  </Step>
+  <Step num="3" title="Gestión de la Fase de Día">
+    Mantén la distancia de los puntos de aparición. Elimina rápidamente a los jefes de la Fase de Día utilizando unidades de ráfaga de un solo objetivo mientras guardas tus habilidades de área de efecto pesado para las oleadas concurridas [1].
+  </Step>
+  <Step num="4" title="Transición a la Fase de Noche">
+    Cuando la pantalla se desvanezca a negro, prepárate para el aumento del multiplicador de 15x [1]. Retrocede inmediatamente y agrupa tus unidades. Cuando aparezca el Subject 0 o el Zombie Detainer Astro Toilet, dirige todo el fuego principal para eliminarlos antes de que rompan tus líneas [1].
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Usa Aspectos Especiales">
+Si posees algún aspecto promocional de 100MVisit para tus Titanes, equípalos antes de entrar a la sala [1]. Estos aspectos proporcionan un rendimiento de combate optimizado, diseñado específicamente para desafíos de alta dificultad [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparación de Equipamiento Óptimo de Unidades">
+
+Elegir las unidades adecuadas determina si sobrevives los primeros cinco minutos o si logras farmear con éxito la fase de noche [1]. Las unidades de alto daño y control de masas son obligatorias [1].
+
+<CardGrid cols={3}>
+  <Card title="Polycephaly 2.0">
+    - **Rol**: Control de Masas Principal y Daño de Área (AoE)
+    - **Fuerza**: Alto daño base
+    - **Aplicación**: Ideal para limpiar grupos densos durante la fase de noche [1]
+  </Card>
+  <Card title="Energized TV Man">
+    - **Rol**: Defensa de Carril y Soporte
+    - **Fuerza**: Daño de energía constante
+    - **Aplicación**: Derrite objetivos de gran cantidad de vida desde una distancia segura [1]
+  </Card>
+  <Card title="Villain Arc (Maestría 80)">
+    - **Rol**: Cazador de Jefes y Daño a un Solo Objetivo
+    - **Fuerza**: Escalado máximo de ráfaga
+    - **Aplicación**: Esencial para acabar rápidamente con Subject 0 y Colossal Jeffrey [1]
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Advertencia sobre Subject 0">
+Subject 0 posee 750.000 HP y puede infligir más de 10.000 puntos de daño por golpe [1]. No intentes bloquearlo con unidades cuerpo a cuerpo; usa efectos de ralentización y daño de ráfaga a distancia para mantenerlo a raya [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Eficiencia de Farmeo">
+
+Usa esta lista de verificación para realizar un seguimiento de tu eficiencia de farmeo y asegurarte de maximizar tus ganancias de Fragmentos Extraños por partida [1].
+
+<Checklist
+  id="vague-memory-farming"
+  title="Hitos de Farmeo:"
+  items={[
+    "Alcanzar la transición a la Fase de Noche de manera constante (supervivencia de 5 a 8 minutos)",
+    "Derrotar al menos a un jefe de la Fase de Noche (Subject 0 o Zombie Detainer Astro)",
+    "Sobrevivir hasta que aparezca Colossal Jeffrey después de la segunda Tienda de Helicópteros",
+    "Equipar unidades con Maestría 80 para maximizar el daño",
+    "Recolectar al menos 50 Fragmentos Extraños (Weird Shards) por partida de alta eficiencia"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de obtener Fragmentos Extraños (Weird Shards) en Frente de Batalla de Bloqueo?",
+    answer: "La misión del evento Memoria Vaga es la única forma de obtener Fragmentos Extraños en el juego. Los enemigos tienen un 33% de probabilidad de soltar 1-3 fragmentos durante la Fase de Día, lo que aumenta a 4-12 fragmentos durante la Fase de Noche."
+  },
+  {
+    question: "¿Cómo activo la Fase de Noche en Memoria Vaga?",
+    answer: "La Fase de Noche se activa automáticamente tras sobrevivir aproximadamente entre 5 y 8 minutos en la arena. Tu visión se desvanecerá brevemente a negro antes de la transición del entorno."
+  },
+  {
+    question: "¿Cuál es la tasa de aparición del Prisma Extraño (Weird Prism) en este modo?",
+    answer: "El Prisma Extraño tiene una tasa de aparición incrementada de 1 en 75.000 de los enemigos en la misión Memoria Vaga, en comparación con su tasa estándar de 1 en 100.000 en otros modos de juego."
+  },
+  {
+    question: "¿Cómo debo enfrentarme a Colossal Jeffrey?",
+    answer: "Colossal Jeffrey aparece poco después de que se retire la segunda Tienda de Helicópteros de la Fase 2. Debes guardar tus habilidades activas de mayor daño y usar unidades de rango máximo para reducir su enorme barra de salud de forma segura."
+  }
+]} />
+
+</Section>
